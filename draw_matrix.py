@@ -1,5 +1,7 @@
 import pygame
 from matrix_manager import Simulation
+print()
+
 class DrawMatrix:
     def __init__(self,screen, width=200, height=200, padding=20, amount=20):
         self.amount = amount
