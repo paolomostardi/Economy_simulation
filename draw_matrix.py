@@ -111,6 +111,10 @@ class DrawMatrix:
         text_surface = self.font.render(str_to_render, True, self.white)
         self.screen.blit(text_surface, (x, y ))
 
+        str_to_render = 'tick so far ' + str(self.matrix.tick_counter)
+        text_surface = self.font.render(str_to_render, True, self.red)
+        self.screen.blit(text_surface, (x + self.infos_width - self.padding * 4, y ))
+
     def render(self):
         self.render_board()
         self.render_infos()
