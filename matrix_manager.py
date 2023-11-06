@@ -95,17 +95,25 @@ class Simulation:
         for excavator in self.excavator_array:
             if excavator.current_action == 0:
                 best_resource = self.find_best_resource(excavator)
-                direction = self.find_directions_given_two_coordinates(excavator.coordinates, best_resource)
-                if direction == 0:
+                if best_resource is None:
+                    continue
+                direction = self.find_directions_given_two_coordinates(excavator.coordinates, best_resource.coordinates)
+                if direction == 0: # excavator is on the resource 
+                    best_resource.amount -= 1
+                    if best_resource.amount == 0:
+                        self.resource_array.remove(best_resource)
+                        self.matrix[best_resource.coordinates[0]][best_resource.coordinates[1]] = 0
                     excavator.next_action()
                     continue
                 self.move_excavator(direction, excavator)   
 
             if excavator.current_action == 1:
-                coordinate_best_buyer = self.find_best_buyer(excavator)
-                direction = self.find_directions_given_two_coordinates(excavator.coordinates, coordinate_best_buyer)
+                best_buyer = self.find_best_buyer(excavator)
+                if best_buyer is None:
+                    continue
+                direction = self.find_directions_given_two_coordinates(excavator.coordinates, best_buyer.coordinates)
                 if direction == 0:
-                    self.excavator_buyer_transaction(excavator,coordinate_best_buyer)
+                    self.excavator_buyer_transaction(excavator,best_buyer)
                     excavator.next_action()
                     continue
                 self.move_excavator(direction, excavator)             
@@ -157,14 +165,14 @@ class Simulation:
 
         return best_buyer
     
-    def excavator_buyer_transaction(self,excavator, buyer_coordinates):
-        buyer = self.find_buyer_given_coordinates(buyer_coordinates)
+    def excavator_buyer_transaction(self,excavator, buyer):
         if buyer:
-            buyer.reset_ticks_from_selling()
+            buyer.ticks_from_selling = 0 
             excavator.money += buyer.price
 
     def find_buyer_given_coordinates(self,buyer_coordinates):
         for buyer in self.buyer_array:
+            print(buyer_coordinates, buyer.coordinates)
             if buyer_coordinates == buyer.coordinates:
                 return buyer
         return None
@@ -187,7 +195,9 @@ class Simulation:
         excavator.coordinates = [x_new, y_new]
         self.matrix[x_new][y_new] += 3
         excavator.money -= 1
-
+        if excavator.money < 0:
+            self.excavator_array.remove(excavator)
+            self.matrix[x_new][y_new] -= 3
     def buyer_action(self):
 
         for buyer in self.buyer_array:
@@ -199,6 +209,8 @@ class Simulation:
         self.excavator_action()
         self.buyer_action()
         self.tick_counter += 1
+        if self.tick_counter % 100 == 0:
+            self.generate_resources(2)
 
 def distance_between_points(point1, point2):
     return abs(point1[0] - point2[0]) + abs(point1[1] - point2[1])
