@@ -1,4 +1,5 @@
 import random
+import statistics
 
 """
 1 - natural resource 
@@ -10,8 +11,7 @@ class Resource:
     def __init__(self, coordinates) -> None:
         self.coordinates = coordinates
         self.amount = random.randint(2,20)
-        self.price = random.randint(2,20)
-
+        self.value = random.uniform(0.7, 2.0)
 class Excavator:
     def __init__(self, coordinates) -> None:
         self.coordinates = coordinates
@@ -19,6 +19,7 @@ class Excavator:
         self.current_action = 0
         self.resource_amount = 0
         self.money = 300
+        self.current_resource_value = 0
 
     def next_action(self):
         if self.current_action == 0:
@@ -100,6 +101,7 @@ class Simulation:
                 direction = self.find_directions_given_two_coordinates(excavator.coordinates, best_resource.coordinates)
                 if direction == 0: # excavator is on the resource 
                     best_resource.amount -= 1
+                    excavator.current_resource_value = best_resource.value
                     if best_resource.amount == 0:
                         self.resource_array.remove(best_resource)
                         self.matrix[best_resource.coordinates[0]][best_resource.coordinates[1]] = 0
@@ -145,7 +147,7 @@ class Simulation:
             for buyer in self.buyer_array:
                 distance_excavator_resource = distance_between_points(excavator.coordinates,resource.coordinates)
                 distance_resuorce_buyer = distance_between_points(resource.coordinates,buyer.coordinates)
-                value = buyer.price - (distance_excavator_resource + distance_resuorce_buyer * self.fuel_cost) 
+                value = (buyer.price * resource.value) - (distance_excavator_resource + distance_resuorce_buyer * self.fuel_cost) 
                 if value > best_value:
                     best_value = value
                     best_resource = resource
@@ -158,18 +160,18 @@ class Simulation:
         buyer = None
         for buyer in self.buyer_array:
             distance_excavator_buyer = distance_between_points(excavator.coordinates,buyer.coordinates)
-            value = buyer.price - (distance_excavator_buyer * self.fuel_cost)
+            value = (buyer.price * excavator.current_resource_value) - (distance_excavator_buyer * self.fuel_cost)
             if value > best_value:
                 best_value = value
                 best_buyer = buyer
-
-        return best_buyer
+        if best_value != 0:        
+            return best_buyer
     
     def excavator_buyer_transaction(self,excavator, buyer):
         if buyer:
             buyer.ticks_from_selling = 0 
-            excavator.money += buyer.price
-
+            excavator.money += int(buyer.price * excavator.current_resource_value
+)
     def find_buyer_given_coordinates(self,buyer_coordinates):
         for buyer in self.buyer_array:
             print(buyer_coordinates, buyer.coordinates)
@@ -211,6 +213,9 @@ class Simulation:
         self.tick_counter += 1
         if self.tick_counter % 100 == 0:
             self.generate_resources(2)
+        if self.tick_counter % 30 == 0:
+            self.fuel_cost = statistics.mean(buyer.price for buyer in self.buyer_array) // self.size
+
 
 def distance_between_points(point1, point2):
     return abs(point1[0] - point2[0]) + abs(point1[1] - point2[1])
