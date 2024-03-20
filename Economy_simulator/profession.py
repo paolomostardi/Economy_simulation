@@ -2,7 +2,7 @@ from society import Society
 
 
 class Profession():
-    def __init__(self, salary):
+    def __init__(self, salary = 0):
         self.salary = salary
     
     def work(self, society : Society):
