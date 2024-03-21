@@ -1,31 +1,34 @@
-from society import Society
+from market import Market
 
 
 class Profession():
     def __init__(self, salary = 0):
         self.salary = salary
     
-    def work(self, society : Society):
+    def work(self, market : Market) -> int:
         return self.salary
 
 class Student(Profession):
-    def __init__(self):
-        salary = 0
-        super().__init__(salary)
-    pass
-    
+    def work(self, market : Market) -> int:
+        return market.food_cost
+
+
 class Farmer(Profession):
     
-    def tick(self, society : Society):       
-
-        society.total_food += 5
-        return society.market.price_of_food 
+    def work(self, market : Market):       
+        return market.sell_food(5)
     
-class Plumber(Profession, society : Society):
-    pass
+class Plumber(Profession):
+
+    def work(self, market: Market) -> int:
+        return 0
+    
+
 
 class Pharmacist(Profession):
-    pass
+
+    def work(self, market : Market):       
+        return market.sell_medicine(1)
 
 class Unempolyed(Profession):
     pass

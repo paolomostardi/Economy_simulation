@@ -1,7 +1,7 @@
-from society import Society
+from Economy_simulator.market import Market
 
 
 
-simul = Society()
+simul = Market()
 
 simul.tick()

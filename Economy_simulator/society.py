@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from person import Person
 from market import Market
 
-class Society: 
+class Market: 
     def __init__(self, avarage_age = 40, total_population = 1000, birth_rate = 10):
         
         self.market = Market()
@@ -19,9 +19,9 @@ class Society:
     def tick(self):
         for human in self.population:
             human.tick() 
- 
-def generate_human_population(self):
-    pass
+    
+    def generate_human_population(self):
+        pass
 
 
 def generate_age_array(amount, avarage_age):
