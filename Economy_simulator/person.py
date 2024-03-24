@@ -1,7 +1,10 @@
+import random
 from profession import Profession, Unempolyed
 from Economy_simulator.market import Market
 
 from dataclasses import dataclass
+
+
 
 @dataclass
 class Person:
@@ -26,7 +29,9 @@ class Person:
         # work        
         else:  
             self.money += self.profession.work(market)
-        
+            if random.choice(range(20)) == 1:
+                self.sick
+
         # eat
         if self.food > 0:
             self.food -= 1

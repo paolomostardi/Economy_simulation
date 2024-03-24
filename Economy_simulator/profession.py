@@ -8,9 +8,9 @@ class Profession():
     def work(self, market : Market) -> int:
         return self.salary
 
-class Student(Profession):
+class Student(Profession): # should take money from the taxes 
     def work(self, market : Market) -> int:
-        return market.food_cost
+        return market.food_cost * 2
 
 
 class Farmer(Profession):
