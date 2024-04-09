@@ -1,11 +1,13 @@
 from enum import Enum
 import random
 import numpy as np
-import matplotlib.pyplot as plt
 from person import Person
 from market import Market
 
-class Market: 
+from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed
+
+
+class Society: 
     def __init__(self, avarage_age = 40, total_population = 1000, birth_rate = 10):
         
         self.market = Market()
@@ -18,11 +20,18 @@ class Market:
 
     def tick(self):
         for human in self.population:
-            human.tick() 
+            human.tick(self.market) 
     
     def generate_human_population(self):
-        pass
+        self.population = []
+        for i in generate_age_array(self.total_population, self.avarage_age):
+            self.population.append(generate_human(i))
 
+def generate_human(age) -> Person:
+    professions = [Student,Farmer,Pharmacist,Plumber,Unempolyed]
+
+    profession = random.choice(professions)
+    return Person(age,profession())
 
 def generate_age_array(amount, avarage_age):
     mean = avarage_age

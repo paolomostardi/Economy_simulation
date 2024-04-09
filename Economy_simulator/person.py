@@ -1,6 +1,6 @@
 import random
 from profession import Profession, Unempolyed
-from Economy_simulator.market import Market
+
 
 from dataclasses import dataclass
 
@@ -10,7 +10,7 @@ from dataclasses import dataclass
 class Person:
     age: int
     profession: Profession = Unempolyed()  
-    salary: float
+    salary: float = 0
     hunger: int = 0
     food: int = 5
     medicine: int = 0
@@ -19,7 +19,7 @@ class Person:
     sick: bool = False
     money: float = 500
 
-    def tick(self, market: Market) ->  bool:
+    def tick(self, market) ->  bool:
         
         # medicine 
         if self.sick:
@@ -30,7 +30,7 @@ class Person:
         else:  
             self.money += self.profession.work(market)
             if random.choice(range(20)) == 1:
-                self.sick
+                self.sick = True
 
         # eat
         if self.food > 0:
@@ -45,6 +45,8 @@ class Person:
         # drink        
         if self.working_sink:
             self.thirst = 0
+            if random.choice(range(20)) == 1:
+                self.working_sink = False
             
         elif self.money > 0:
             market.hire_plumber(self)

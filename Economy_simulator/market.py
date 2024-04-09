@@ -1,17 +1,19 @@
-from dataclasses import dataclass
-from person import Person
-
+from dataclasses import dataclass, field
 # class that keeps track of all the changes in the market
+# a society could have more markets 
 
 @dataclass
 class Market:
     total_food: int = 100
     total_medicine: int = 20
-    available_plumbers: list[Person] = []
+    plumbers: list = field(default_factory=list)
+
     food_produced : int = 0
     medicine_produced: int = 0
+
     food_consumed : int = 0
     medicine_consumed : int = 0
+    
     food_cost: int = 1
     medicine_cost : int = 10
     plumbing_cost : int = 20
@@ -21,7 +23,7 @@ class Market:
         self.total_food += amount
         return amount * self.food_cost
 
-    def buy_food(self, person : Person):
+    def buy_food(self, person ):
         
         if person.money > self.food_cost * 5:
             person.money -= self.food_cost * 5
@@ -33,21 +35,27 @@ class Market:
             person.food += affordable_food
             self.total_food -= affordable_food
         
-    def hire_plumber(self, person : Person):
-        if person
-
+    def hire_plumber(self, person ):
+        if person.money > self.plumbing_cost:
+            plumber = self.plumbers.pop(0)
+            plumber.money += self.plumbing_cost
+            person.money -= self.plumbing_cost
+            self.plumbers.append(plumber)
 
     def sell_medicine(self, amount : int) -> int: 
         self.medicine_produced += amount
         self.total_medicine += amount
         return amount * self.medicine_cost
 
-
-
-    def buy_medicine(self, person : Person):
-        self.
-        pass
+    def buy_medicine(self, person ):
+        if self.total_medicine < 1:
+            return
+        if person.money > self.medicine_cost:
+            person.money -= self.medicine_cost
+            person.sick = False
+            self.total_medicine -= 1
 
 
     def update_prices(self):
         return 
+    

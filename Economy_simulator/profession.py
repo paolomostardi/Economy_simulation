@@ -23,8 +23,6 @@ class Plumber(Profession):
     def work(self, market: Market) -> int:
         return 0
     
-
-
 class Pharmacist(Profession):
 
     def work(self, market : Market):       
