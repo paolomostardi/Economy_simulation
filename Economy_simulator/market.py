@@ -55,6 +55,23 @@ class Market:
             person.sick = False
             self.total_medicine -= 1
 
+    # tf fix boiler plate
+
+    def print_infos(self):
+
+        print( 'total_food: ', self.total_food) 
+        print('total_medicine', self.total_medicine)
+        print('total plumbers', len(self.plumbers))
+
+        print('food_produced ', self.food_produced)
+        print('medicine produced', self.medicine_produced)
+
+        print('food_consumed', self.food_consumed)
+        print('medicine_consumed', self.medicine_consumed)
+        
+        print('food_cost', self.food_cost)
+        print('medicine_cost', self.medicine_cost)
+        print('plumbing_cost', self.plumbing_cost)
 
     def update_prices(self):
         return 

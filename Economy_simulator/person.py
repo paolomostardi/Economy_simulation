@@ -5,7 +5,6 @@ from profession import Profession, Unempolyed
 from dataclasses import dataclass
 
 
-
 @dataclass
 class Person:
     age: int

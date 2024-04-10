@@ -6,6 +6,11 @@ from market import Market
 
 from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed
 
+# farmers one every four 1 / 4 25 % 
+# pharmacist one every 15 1 / 15 * 100 ~ 6 %
+# Plumber one every 15 ~ 7 %
+# Unemployed rest of them = 100 - 25 - 6 - 7 - 5 
+# Student 1 every 20 ~ 5%
 
 class Society: 
     def __init__(self, avarage_age = 40, total_population = 1000, birth_rate = 10):
@@ -25,13 +30,17 @@ class Society:
     def generate_human_population(self):
         self.population = []
         for i in generate_age_array(self.total_population, self.avarage_age):
-            self.population.append(generate_human(i))
+            self.population.append(generate_human(i, self.market))
 
-def generate_human(age) -> Person:
+def generate_human(age, market : Market) -> Person:
     professions = [Student,Farmer,Pharmacist,Plumber,Unempolyed]
 
     profession = random.choice(professions)
-    return Person(age,profession())
+    human = Person(age,profession())
+    if profession is Plumber:
+        market.plumbers.append(human)
+    return human
+
 
 def generate_age_array(amount, avarage_age):
     mean = avarage_age
