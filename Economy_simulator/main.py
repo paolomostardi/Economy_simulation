@@ -1,7 +1,9 @@
+
 from society import Society
 
 main = Society()
 
-main.tick()
 
-main.market.print_infos()
+while main.count_hungry() < 1:
+    main.tick() 
+    main.market.print_infos()

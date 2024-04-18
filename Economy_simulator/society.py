@@ -32,6 +32,13 @@ class Society:
         for i in generate_age_array(self.total_population, self.avarage_age):
             self.population.append(generate_human(i, self.market))
 
+    def count_hungry(self):
+        counter = 0 
+        for i in self.population:
+            if i.hunger > 0:
+                counter += 1 
+        return counter
+
 def generate_human(age, market : Market) -> Person:
     professions = [Student,Farmer,Pharmacist,Plumber,Unempolyed]
 
