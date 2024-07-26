@@ -4,6 +4,8 @@ import numpy as np
 from person import Person
 from market import Market
 
+import pprint
+
 from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed
 
 # farmers one every four 1 / 4 25 % 
@@ -24,8 +26,10 @@ class Society:
         self.generate_human_population()
 
     def tick(self):
+        self.market.reset_production()
         for human in self.population:
-            human.tick(self.market) 
+            human.tick(market=self.market) 
+        
     
     def generate_human_population(self):
         self.population = []
@@ -35,9 +39,23 @@ class Society:
     def count_hungry(self):
         counter = 0 
         for i in self.population:
-            if i.hunger > 0:
+            if i.hunger > 1 :
                 counter += 1 
         return counter
+
+    def count_professions(self):
+
+        professions = {"Student": 0, "Farmer": 0, "Pharmacist": 0, "Plumber": 0, "Unempolyed": 0}
+
+        for person in self.population:
+            profession_name = person.profession.__class__.__name__
+            professions[profession_name] += 1
+
+        pprint.pprint(professions)
+        return professions
+    
+    def average_age(self):
+        return 15
 
 def generate_human(age, market : Market) -> Person:
     professions = [Student,Farmer,Pharmacist,Plumber,Unempolyed]
@@ -47,7 +65,6 @@ def generate_human(age, market : Market) -> Person:
     if profession is Plumber:
         market.plumbers.append(human)
     return human
-
 
 def generate_age_array(amount, avarage_age):
     mean = avarage_age

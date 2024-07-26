@@ -25,6 +25,9 @@ class Market:
 
     def buy_food(self, person ):
         
+        if self.total_food <= 0:
+            return
+
         if person.money > self.food_cost * 5:
             person.money -= self.food_cost * 5
             self.total_food -= 5
@@ -59,6 +62,8 @@ class Market:
 
     def print_infos(self):
 
+        print('--------------------------------')
+
         print( 'total_food: ', self.total_food) 
         print('total_medicine', self.total_medicine)
         print('total plumbers', len(self.plumbers))
@@ -74,5 +79,20 @@ class Market:
         print('plumbing_cost', self.plumbing_cost)
 
     def update_prices(self):
-        return 
+
+        if self.food_consumed > self.food_produced:
+            self.food_cost += 1
+        elif self.food_consumed < self.food_produced * 2:
+            self.food_cost -=1
+        if self.medicine_consumed > self.medicine_produced:
+            self.medicine_produced += 1 
+        return True
+    
+    # resets counters of production 
+    def reset_production(self):
+        self.food_consumed = 0
+        self.food_produced = 0
+        self.medicine_consumed = 0
+        self.medicine_produced = 0
+        
     

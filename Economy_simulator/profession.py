@@ -1,5 +1,5 @@
 from market import Market
-
+import random
 
 class Profession():
     def __init__(self, salary = 0):
@@ -29,4 +29,29 @@ class Pharmacist(Profession):
         return market.sell_medicine(1)
 
 class Unempolyed(Profession):
-    pass
+
+    def work(self, market: Market):
+
+        farmer_pay = market.food_cost * 5
+        pharmacist_pay = market.medicine_cost
+        plumber_pay = market.plumbing_cost
+
+        job_cance = 7
+
+        if farmer_pay > pharmacist_pay and farmer_pay > plumber_pay:
+            r = random.randrange(0, 9)
+            if r > job_cance:
+                return Farmer
+            
+        elif pharmacist_pay > plumber_pay:
+            r = random.randrange(0, 9)
+            if r > job_cance:    
+                return Pharmacist
+            
+        else:
+            r = random.randrange(0, 9)
+            if r > job_cance:    
+                return Plumber
+
+        return Unempolyed
+        
