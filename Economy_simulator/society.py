@@ -23,18 +23,20 @@ class Society:
         self.avarage_age = avarage_age
         self.birth_rate = birth_rate
 
-        self.generate_human_population()
+        self.population = self.generate_human_population()
 
     def tick(self):
+        self.market.food_cost += 0.1
         self.market.reset_production()
         for human in self.population:
             human.tick(market=self.market) 
         
     
     def generate_human_population(self):
-        self.population = []
+        population = []
         for i in generate_age_array(self.total_population, self.avarage_age):
-            self.population.append(generate_human(i, self.market))
+            population.append(generate_human(i, self.market))
+        return population
 
     def count_hungry(self):
         counter = 0 

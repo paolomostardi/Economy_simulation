@@ -1,21 +1,15 @@
-
 from society import Society
-from interface import GraphicInterface
-
+from interface import MainWindow
+from PyQt5.QtWidgets import QApplication
+import sys
+from tick_manager import TickManager
 
 main = Society()
-GUI = GraphicInterface(main)
+app = QApplication(sys.argv)
+window = MainWindow(main)
+window.show()
 
-c = 0
 
-while main.count_hungry() < 1:
-    print('----------------')
-    print('tick number ', c)
-    print(main.count_hungry()) 
-    main.tick() 
-    main.market.print_infos()
-    c += 1
 
-main.count_professions()
 
-GUI.main()
+sys.exit(app.exec_())
