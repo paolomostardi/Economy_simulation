@@ -43,6 +43,7 @@ class Market:
             plumber = self.plumbers.pop(0)
             plumber.money += self.plumbing_cost
             person.money -= self.plumbing_cost
+            person.working_sink = True
             self.plumbers.append(plumber)
 
     def sell_medicine(self, amount : int) -> int: 

@@ -15,7 +15,7 @@ from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed
 # Student 1 every 20 ~ 5%
 
 class Society: 
-    def __init__(self, avarage_age = 40, total_population = 1000, birth_rate = 10):
+    def __init__(self, avarage_age = 40, total_population = 1200, birth_rate = 10):
         
         self.market = Market()
 
@@ -23,13 +23,26 @@ class Society:
         self.avarage_age = avarage_age
         self.birth_rate = birth_rate
 
+        self.population_history = []
+        self.hunger_history = []
+        self.sickness_history = []
+        self.thirst_history = []
+
         self.population = self.generate_human_population()
 
     def tick(self):
-        self.market.food_cost += 0.1
+        self.market.food_cost += 0.01
         self.market.reset_production()
+
+        self.population_history.append(len(self.population))
+        self.hunger_history.append(self.count_hungry())
+        self.sickness_history.append(self.count_sick())
+        self.thirst_history.append(self.count_thirst())
+
+
         for human in self.population:
-            human.tick(market=self.market) 
+            if human.tick(market=self.market):
+                self.population.remove(human)
         
     
     def generate_human_population(self):
@@ -44,6 +57,21 @@ class Society:
             if i.hunger > 1 :
                 counter += 1 
         return counter
+    
+    def count_sick(self):
+        counter = 0 
+        for i in self.population:
+            if i.sick > 1 :
+                counter += 1 
+        return counter    
+    
+    def count_thirst(self):
+        counter = 0 
+        for i in self.population:
+            if i.thirst > 1 :
+                counter += 1 
+        return counter    
+
 
     def count_professions(self):
 

@@ -54,13 +54,36 @@ class MainWindow(QMainWindow):
     def plot(self):
         self.fig.clear()
         print('plotting ')
-        ax = self.fig.add_subplot(2,1,1)
-        x = np.linspace(0, 2 * np.pi, 100)
-        y = np.sin(x)
+        ax = self.fig.add_subplot(221)
+
         ax.bar(['Medicine Price', 'Food Price'] , [self.society.market.medicine_cost, self.society.market.food_cost] )
-        ax.set_xlabel('x')
-        ax.set_ylabel('sin(x)')
-        ax.set_title('Simple Sine Wave')
+        ax.set_title('Market Prices')
+
+
+        ax = self.fig.add_subplot(223)
+
+        ax.bar(self.society.count_professions().keys(),  self.society.count_professions().values())
+  
+        
+
+        ax = self.fig.add_subplot(222)
+
+        ax.plot(range(len(self.society.population_history)) ,self.society.sickness_history)
+        ax.plot(range(len(self.society.population_history)) , self.society.hunger_history)
+        ax.plot(range(len(self.society.population_history)) , self.society.thirst_history)
+
+        ax.set_title('Population stats')
+
+        ax = self.fig.add_subplot(224)
+
+        ax.plot(range(len(self.society.population_history)) ,self.society.population_history )
+
+        ax.set_title('Population history')
+
+
+        print(len(self.society.population))
+
+
         self.canvas.draw()
 
     def on_button_click(self):
