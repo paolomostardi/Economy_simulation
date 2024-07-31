@@ -9,7 +9,4 @@ app = QApplication(sys.argv)
 window = MainWindow(main)
 window.show()
 
-
-
-
 sys.exit(app.exec_())

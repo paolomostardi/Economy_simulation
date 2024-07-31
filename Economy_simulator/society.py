@@ -26,7 +26,7 @@ class Society:
         self.population = self.generate_human_population()
 
     def tick(self):
-        self.market.food_cost += 0.01
+        self.market.update_prices()
         self.market.reset_production()
 
         self.population_history.append(len(self.population))
@@ -104,7 +104,7 @@ def generate_human(age, market : Market,id : int) -> Person:
 
 
     human = Person(age=age,profession=profession[0](),id=id)
-    if profession is Plumber:
+    if human.is_plumber():
         market.plumbers.append(human)
     return human
 

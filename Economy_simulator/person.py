@@ -1,5 +1,5 @@
 import random
-from profession import Profession, Unempolyed
+from profession import Profession, Unempolyed, Plumber
 
 
 from dataclasses import dataclass
@@ -69,6 +69,10 @@ class Person:
 
         return False
 
+    def is_plumber(self) -> bool:
+        if self.profession.__class__ == Plumber:
+           return True
+        return False        
 
 
 

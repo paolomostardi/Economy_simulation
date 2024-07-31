@@ -14,10 +14,15 @@ class Market:
 
     food_consumed : int = 0
     medicine_consumed : int = 0
+    plumbing_provided : int = 0
+
+    medicine_history = [20]
+    food_history = [20]
+    plumbing_history = [20]
     
     food_cost: int = 1
     medicine_cost : int = 10
-    plumbing_cost : int = 20
+    plumbing_cost : int = 15
 
     def sell_food(self, amount : int):
         self.food_produced += amount
@@ -33,22 +38,32 @@ class Market:
             person.money -= self.food_cost * 5
             self.total_food -= 5
             person.food += 5
+            self.food_consumed += 5
         else:
             affordable_food = person.money // self.food_cost
             person.money -= affordable_food * self.food_cost
             person.food += affordable_food
             self.total_food -= affordable_food
+            self.food_consumed += affordable_food
         
     def hire_plumber(self, person ):
-        if person.money > self.plumbing_cost:
+        if person.is_plumber():
+            person.working_sink = True
+            return
+        
+        if person.money > 0:
+
             try:
                 plumber = self.plumbers.pop(0)
                 plumber.money += self.plumbing_cost
                 person.money -= self.plumbing_cost
                 person.working_sink = True
                 self.plumbers.append(plumber)
+                self.plumbing_provided += 1
+                print('plumbing provided')
                 
             except IndexError:
+                print('plumbing error')
                 print(self.plumbers)
 
     def sell_medicine(self, amount : int) -> int: 
@@ -63,6 +78,7 @@ class Market:
             person.money -= self.medicine_cost
             person.sick = False
             self.total_medicine -= 1
+            self.medicine_consumed += 1
 
     def remove_plumber(self, id: int):
         for i in self.plumbers:
@@ -71,7 +87,11 @@ class Market:
                 return
 
     def plumber_pay(self):
-        pass
+        if self.plumbing_provided == 0:
+            return 0
+        pay = (self.plumbing_provided / len(self.plumbers)) * self.plumbing_cost
+        print(pay)
+        return pay        
 
 
     # tf fix boiler plate
@@ -98,17 +118,36 @@ class Market:
 
         if self.food_consumed > self.food_produced:
             self.food_cost += 1
-        elif self.food_consumed < self.food_produced * 2:
-            self.food_cost -=1
+        elif self.food_consumed < self.food_produced:
+            if self.food_cost > 1:
+                self.food_cost -=1
         if self.medicine_consumed > self.medicine_produced:
-            self.medicine_produced += 1 
+            self.medicine_cost += 1 
+        elif self.medicine_consumed < self.medicine_produced:
+            if self.medicine_cost > 1:
+                self.medicine_cost -=1
+
+        if self.plumbing_provided < len(self.plumbers):
+            if self.plumbing_cost > 1:
+                self.plumbing_cost -= 1
+        elif self.plumbing_provided > len(self.plumbers):   
+            self.plumbing_cost += 1 
+        
         return True
     
     # resets counters of production 
     def reset_production(self):
+        self.food_history.append(self.food_consumed)
+        self.medicine_history.append(self.medicine_consumed)
+        self.plumbing_history.append(self.plumbing_provided)
+
+        print('TOTAL FOOD CONSUMED')
+        print(self.food_consumed)
+
         self.food_consumed = 0
         self.food_produced = 0
         self.medicine_consumed = 0
         self.medicine_produced = 0
+        self.plumbing_provided = 0
         
     

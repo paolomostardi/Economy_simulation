@@ -20,10 +20,8 @@ class Worker(QThread):
         while True:
             print('runnig ticks')
             self.society.tick()
-            x = np.linspace(0, 2 * np.pi, 100)
-            y = np.sin(x + 1 * 0.1)  # Update the sine wave based on input_value
             self.data_signal.emit() # Emit the new data
-            time.sleep(0.1)
+            time.sleep(0.8)
 
 class MainWindow(QMainWindow):
     def __init__(self, society : Society) -> None:
@@ -35,7 +33,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(central_widget)
         layout = QVBoxLayout(central_widget)
 
-        self.fig = Figure(figsize=(50, 40), dpi=100)
+        self.fig = Figure(figsize=(70, 40), dpi=100)
         self.canvas = FigureCanvas(self.fig)
         layout.addWidget(self.canvas)
 
@@ -54,10 +52,20 @@ class MainWindow(QMainWindow):
     def plot(self):
         self.fig.clear()
         print('plotting ')
-        ax = self.fig.add_subplot(221)
+        ax = self.fig.add_subplot(241)
 
-        ax.bar(['Medicine Price', 'Food Price'] , [self.society.market.medicine_cost, self.society.market.food_cost] )
+        ax.bar(['Medicine ', 'Food ', 'Plumbing '] , [self.society.market.medicine_cost, self.society.market.food_cost, self.society.market.plumbing_cost], color = (0.2,0.7,0.2) )
         ax.set_title('Market Prices')
+
+        ax = self.fig.add_subplot(442)
+
+        ax.set_title('Market Consumption') 
+
+        ax.plot(range(len(self.society.market.medicine_history)) ,self.society.market.medicine_history, color = 'red')
+        ax.plot(range(len(self.society.market.plumbing_history)) , self.society.market.plumbing_history, color = 'blue')
+
+        ax = self.fig.add_subplot(446)
+        ax.plot(range(len(self.society.market.food_history)) , self.society.market.food_history, color = 'green')
 
 
         ax = self.fig.add_subplot(223)
@@ -68,9 +76,9 @@ class MainWindow(QMainWindow):
 
         ax = self.fig.add_subplot(222)
 
-        ax.plot(range(len(self.society.population_history)) ,self.society.sickness_history)
-        ax.plot(range(len(self.society.population_history)) , self.society.hunger_history)
-        ax.plot(range(len(self.society.population_history)) , self.society.thirst_history)
+        ax.plot(range(len(self.society.population_history)) ,self.society.sickness_history, color = 'red')
+        ax.plot(range(len(self.society.population_history)) , self.society.hunger_history, color = 'green')
+        ax.plot(range(len(self.society.population_history)) , self.society.thirst_history, color = 'blue')
 
         ax.set_title('Population stats')
 
@@ -78,9 +86,9 @@ class MainWindow(QMainWindow):
 
         ax.plot(range(len(self.society.population_history)) ,self.society.population_history )
 
-        ax.set_title('Population history')
+        ax.set_title('Population history ' + str(len(self.society.population)))
 
-
+        print('total population')
         print(len(self.society.population))
 
 
