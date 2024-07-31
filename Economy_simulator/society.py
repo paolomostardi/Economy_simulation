@@ -8,14 +8,8 @@ import pprint
 
 from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed
 
-# farmers one every four 1 / 4 25 % 
-# pharmacist one every 15 1 / 15 * 100 ~ 6 %
-# Plumber one every 15 ~ 7 %
-# Unemployed rest of them = 100 - 25 - 6 - 7 - 5 
-# Student 1 every 20 ~ 5%
-
 class Society: 
-    def __init__(self, avarage_age = 40, total_population = 1200, birth_rate = 10):
+    def __init__(self, avarage_age = 40, total_population = 1250, birth_rate = 10):
         
         self.market = Market()
 
@@ -23,11 +17,12 @@ class Society:
         self.avarage_age = avarage_age
         self.birth_rate = birth_rate
 
+        self.current_id = 0
         self.population_history = []
         self.hunger_history = []
         self.sickness_history = []
         self.thirst_history = []
-
+        self.population = []
         self.population = self.generate_human_population()
 
     def tick(self):
@@ -41,14 +36,21 @@ class Society:
 
 
         for human in self.population:
+
+            # erasing the human from the population if it dies 
             if human.tick(market=self.market):
                 self.population.remove(human)
-        
+                if human.profession.__class__ == Plumber: 
+                    self.market.remove_plumber(human.id)
+
+    def generate_new_id(self):
+        self.current_id += 1
+        return self.current_id
     
     def generate_human_population(self):
         population = []
         for i in generate_age_array(self.total_population, self.avarage_age):
-            population.append(generate_human(i, self.market))
+            population.append(generate_human(i, self.market, id = self.generate_new_id()))
         return population
 
     def count_hungry(self):
@@ -87,11 +89,21 @@ class Society:
     def average_age(self):
         return 15
 
-def generate_human(age, market : Market) -> Person:
-    professions = [Student,Farmer,Pharmacist,Plumber,Unempolyed]
 
-    profession = random.choice(professions)
-    human = Person(age,profession())
+# farmers one every four 1 / 4 25 % 
+# pharmacist one every 15 1 / 15 * 100 ~ 6 %
+# Plumber one every 15 ~ 7 %
+# Unemployed rest of them = 100 - 25 - 6 - 7 - 5 = 57
+# Student 1 every 20 ~ 5%
+
+def generate_human(age, market : Market,id : int) -> Person:
+
+    professions = [Student,Farmer,Pharmacist,Plumber,Unempolyed]
+    professions_probabilities = [5,25,6,7,57]
+    profession = random.choices(professions,professions_probabilities)
+
+
+    human = Person(age=age,profession=profession[0](),id=id)
     if profession is Plumber:
         market.plumbers.append(human)
     return human

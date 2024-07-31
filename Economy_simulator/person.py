@@ -9,6 +9,7 @@ from dataclasses import dataclass
 
 class Person:
     age: int
+    id: int
     profession: Profession = Unempolyed()  
     salary: float = 0
     hunger: int = 0

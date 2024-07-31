@@ -23,7 +23,7 @@ class Worker(QThread):
             x = np.linspace(0, 2 * np.pi, 100)
             y = np.sin(x + 1 * 0.1)  # Update the sine wave based on input_value
             self.data_signal.emit() # Emit the new data
-            time.sleep(0.5)
+            time.sleep(0.1)
 
 class MainWindow(QMainWindow):
     def __init__(self, society : Society) -> None:

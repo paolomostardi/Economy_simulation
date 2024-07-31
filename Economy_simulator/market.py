@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+
 # class that keeps track of all the changes in the market
 # a society could have more markets 
 
@@ -40,11 +41,15 @@ class Market:
         
     def hire_plumber(self, person ):
         if person.money > self.plumbing_cost:
-            plumber = self.plumbers.pop(0)
-            plumber.money += self.plumbing_cost
-            person.money -= self.plumbing_cost
-            person.working_sink = True
-            self.plumbers.append(plumber)
+            try:
+                plumber = self.plumbers.pop(0)
+                plumber.money += self.plumbing_cost
+                person.money -= self.plumbing_cost
+                person.working_sink = True
+                self.plumbers.append(plumber)
+                
+            except IndexError:
+                print(self.plumbers)
 
     def sell_medicine(self, amount : int) -> int: 
         self.medicine_produced += amount
@@ -58,6 +63,16 @@ class Market:
             person.money -= self.medicine_cost
             person.sick = False
             self.total_medicine -= 1
+
+    def remove_plumber(self, id: int):
+        for i in self.plumbers:
+            if i.id == id:
+                self.plumbers.remove(i)
+                return
+
+    def plumber_pay(self):
+        pass
+
 
     # tf fix boiler plate
 
