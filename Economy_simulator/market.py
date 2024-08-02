@@ -93,6 +93,7 @@ class Market:
         print(pay)
         return pay        
 
+        
 
     # tf fix boiler plate
 

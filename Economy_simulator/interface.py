@@ -37,6 +37,12 @@ class MainWindow(QMainWindow):
         self.canvas = FigureCanvas(self.fig)
         layout.addWidget(self.canvas)
 
+
+        self.fig2 = Figure(figsize=(20, 20), dpi=100)
+        self.canvas2 = FigureCanvas(self.fig2)
+        layout.addWidget(self.canvas2)
+
+
         button_plot = QPushButton("Start Worker")
         button_plot.clicked.connect(self.start_game)
         layout.addWidget(button_plot)
@@ -51,10 +57,12 @@ class MainWindow(QMainWindow):
 
     def plot(self):
         self.fig.clear()
+        self.fig2.clear()
         print('plotting ')
         ax = self.fig.add_subplot(241)
 
-        ax.bar(['Medicine ', 'Food ', 'Plumbing '] , [self.society.market.medicine_cost, self.society.market.food_cost, self.society.market.plumbing_cost], color = (0.2,0.7,0.2) )
+        ax.bar(['Medicine ', 'Food ', 'Plumbing '] , [self.society.market.medicine_cost, 
+                                                      self.society.market.food_cost, self.society.market.plumbing_cost], color = (0.2,0.7,0.2) )
         ax.set_title('Market Prices')
 
         ax = self.fig.add_subplot(442)
@@ -69,28 +77,43 @@ class MainWindow(QMainWindow):
 
 
         ax = self.fig.add_subplot(223)
-
-        ax.bar(self.society.count_professions().keys(),  self.society.count_professions().values())
-  
+        ax.bar(self.society.count_professions().keys(),  self.society.count_professions().values())  
         
 
-        ax = self.fig.add_subplot(222)
-
+        ax = self.fig.add_subplot(422)
         ax.plot(range(len(self.society.population_history)) ,self.society.sickness_history, color = 'red')
         ax.plot(range(len(self.society.population_history)) , self.society.hunger_history, color = 'green')
         ax.plot(range(len(self.society.population_history)) , self.society.thirst_history, color = 'blue')
+        ax.set_title('Population history ' + str(len(self.society.population)))
 
-        ax.set_title('Population stats')
-
-        ax = self.fig.add_subplot(224)
+        ax = self.fig.add_subplot(424)
 
         ax.plot(range(len(self.society.population_history)) ,self.society.population_history )
-
-        ax.set_title('Population history ' + str(len(self.society.population)))
 
         print('total population')
         print(len(self.society.population))
 
+
+        ax = self.fig.add_subplot(247)
+
+        money_stats = self.society.profession_money_stats()
+
+        labels = [
+            'Farmers',
+            'Pharmacists',
+            'Plumbers',
+            'Students'
+        ]
+        values = [
+            money_stats['farmer_money'],
+            money_stats['pharmacist_money'],
+            money_stats['plumber_money'],
+            money_stats['student_money']
+        ]
+        
+        # Plotting the pie chart
+        ax.pie(values, labels=labels, startangle=90)        
+        ax.set_title('money distribution')
 
         self.canvas.draw()
 

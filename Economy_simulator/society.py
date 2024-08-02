@@ -34,6 +34,7 @@ class Society:
         self.sickness_history.append(self.count_sick())
         self.thirst_history.append(self.count_thirst())
 
+        print(self.profession_money_stats())
 
         for human in self.population:
 
@@ -88,6 +89,31 @@ class Society:
     
     def average_age(self):
         return 15
+    
+    def profession_money_stats(self):
+        money_stats = {
+            'total_money': 0,
+            'farmer_money': 0,
+            'pharmacist_money': 0,
+            'plumber_money': 0,
+            'unemployed_money': 0,
+            'student_money': 0
+        }
+
+        for human in self.population:
+            money_stats['total_money'] += human.money
+            if isinstance(human.profession, Farmer):
+                money_stats['farmer_money'] += human.money
+            elif isinstance(human.profession, Pharmacist):
+                money_stats['pharmacist_money'] += human.money
+            elif isinstance(human.profession, Plumber):
+                money_stats['plumber_money'] += human.money
+            elif isinstance(human.profession, Unempolyed):
+                money_stats['unemployed_money'] += human.money
+            elif isinstance(human.profession, Student):
+                money_stats['student_money'] += human.money
+
+        return money_stats
 
 
 # farmers one every four 1 / 4 25 % 
