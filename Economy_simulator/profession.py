@@ -27,7 +27,15 @@ class Pharmacist(Profession):
 
     def work(self, market : Market):       
         return market.sell_medicine(1)
-
+    
+class Construction(Profession):
+    housing_counter = 0 
+    def work(self, market: Market):
+        if self.housing_counter == 3:
+            self.housing_counter = 0
+            return market.build_house()
+        
+# unemployed has a job_cance to do become the profession that is most payed
 class Unempolyed(Profession):
 
     def work(self, market: Market):

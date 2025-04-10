@@ -5,17 +5,22 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Market:
+    # total amount of resources
     total_food: int = 100
     total_medicine: int = 20
     plumbers: list = field(default_factory=list)
+    total_housing: int = 100
 
+    # resources produced in a tick
     food_produced : int = 0
     medicine_produced: int = 0
 
+    # resources cosumed in a tick
     food_consumed : int = 0
     medicine_consumed : int = 0
     plumbing_provided : int = 0
 
+    # the history of the resources used to plot the graphs, it rapresent the amount consumed.
     medicine_history = [20]
     food_history = [20]
     plumbing_history = [20]
@@ -23,6 +28,8 @@ class Market:
     food_cost: int = 1
     medicine_cost : int = 10
     plumbing_cost : int = 15
+    renting_cost : int = 10
+    housing_cost : int = 1000
 
     def sell_food(self, amount : int):
         self.food_produced += amount
@@ -80,12 +87,14 @@ class Market:
             self.total_medicine -= 1
             self.medicine_consumed += 1
 
+    # when the plumber dies it must be removed from the list of activly working plumbers 
     def remove_plumber(self, id: int):
         for i in self.plumbers:
             if i.id == id:
                 self.plumbers.remove(i)
                 return
 
+    # formula to calculate how much the plumers should be payed and stuff 
     def plumber_pay(self):
         if self.plumbing_provided == 0:
             return 0
@@ -93,10 +102,7 @@ class Market:
         print(pay)
         return pay        
 
-        
-
-    # tf fix boiler plate
-
+    # prints useful infos about the current state of the market 
     def print_infos(self):
 
         print('--------------------------------')
@@ -115,6 +121,7 @@ class Market:
         print('medicine_cost', self.medicine_cost)
         print('plumbing_cost', self.plumbing_cost)
 
+    # updates the prices based on offer demand 
     def update_prices(self):
 
         if self.food_consumed > self.food_produced:
@@ -134,7 +141,7 @@ class Market:
         elif self.plumbing_provided > len(self.plumbers):   
             self.plumbing_cost += 1 
         
-        return True
+        return True  # ??? 
     
     # resets counters of production 
     def reset_production(self):
@@ -151,4 +158,6 @@ class Market:
         self.medicine_produced = 0
         self.plumbing_provided = 0
         
-    
+    # builds a house 
+    def build_house(self):
+        pass

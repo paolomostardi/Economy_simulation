@@ -4,9 +4,9 @@ from profession import Profession, Unempolyed, Plumber
 
 from dataclasses import dataclass
 
+# single entity withing the society
 
 @dataclass
-
 class Person:
     age: int
     id: int

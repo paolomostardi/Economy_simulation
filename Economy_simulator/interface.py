@@ -7,7 +7,7 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 from society import Society
 
-
+# graphic interface of the game 
 class Worker(QThread):
     data_signal = pyqtSignal()
     progress = pyqtSignal(int)
