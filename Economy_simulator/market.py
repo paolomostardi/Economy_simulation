@@ -1,3 +1,4 @@
+from person import Personz
 from dataclasses import dataclass, field
 
 # class that keeps track of all the changes in the market
@@ -14,11 +15,13 @@ class Market:
     # resources produced in a tick
     food_produced : int = 0
     medicine_produced: int = 0
+    housing_produced: int = 0
 
     # resources cosumed in a tick
     food_consumed : int = 0
     medicine_consumed : int = 0
     plumbing_provided : int = 0
+    housing_bought : int = 0
 
     # the history of the resources used to plot the graphs, it rapresent the amount consumed.
     medicine_history = [20]
@@ -30,6 +33,7 @@ class Market:
     plumbing_cost : int = 15
     renting_cost : int = 10
     housing_cost : int = 1000
+    housing_building_time : int = 10
 
     def sell_food(self, amount : int):
         self.food_produced += amount
@@ -102,6 +106,10 @@ class Market:
         print(pay)
         return pay        
 
+    # how much for tick is a construction according to the current prices 
+    def construction_pay(self):
+        return self.housing_cost / self.housing_building_time
+
     # prints useful infos about the current state of the market 
     def print_infos(self):
 
@@ -121,7 +129,7 @@ class Market:
         print('medicine_cost', self.medicine_cost)
         print('plumbing_cost', self.plumbing_cost)
 
-    # updates the prices based on offer demand 
+    # updates the prices based on offer / demand 
     def update_prices(self):
 
         if self.food_consumed > self.food_produced:
@@ -129,6 +137,7 @@ class Market:
         elif self.food_consumed < self.food_produced:
             if self.food_cost > 1:
                 self.food_cost -=1
+
         if self.medicine_consumed > self.medicine_produced:
             self.medicine_cost += 1 
         elif self.medicine_consumed < self.medicine_produced:
@@ -141,8 +150,13 @@ class Market:
         elif self.plumbing_provided > len(self.plumbers):   
             self.plumbing_cost += 1 
         
-        return True  # ??? 
-    
+        # this is not ideal
+        # housing is produced slowly but the demand might be consistent, this might rise the price in a wrong a way
+        if self.housing_bought > self.housing_produced:
+            self.housing_cost += 1
+        elif self.housing_bought < self.housing_produced:
+            self.housing_cost -= 1
+
     # resets counters of production 
     def reset_production(self):
         self.food_history.append(self.food_consumed)
@@ -154,10 +168,21 @@ class Market:
 
         self.food_consumed = 0
         self.food_produced = 0
+
         self.medicine_consumed = 0
         self.medicine_produced = 0
+        
         self.plumbing_provided = 0
         
+        self.housing_bought = 0
+        self.housing_produced = 0
+        
     # builds a house 
-    def build_house(self):
-        pass
+    def build_house(self) -> int:
+        self.total_housing += 1
+        self.housing_produced += 1
+        print('A house has been built')
+        return self.housing_cost
+
+    def buy_house(self, person):
+        

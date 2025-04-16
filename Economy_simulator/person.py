@@ -1,11 +1,9 @@
 import random
 from profession import Profession, Unempolyed, Plumber
 
-
 from dataclasses import dataclass
 
 # single entity withing the society
-
 @dataclass
 class Person:
     age: int
@@ -19,11 +17,19 @@ class Person:
     thirst: int = 0
     sick: bool = False
     money: float = 20
+    home_owning = False
 
+
+
+    sickness_chance = 20
+    
+
+    # returns true if the person is gonna die 
     def tick(self, market) ->  bool:
         
         self.hunger += 1
         self.thirst += 1
+        self.age += 1
 
         # medicine 
         if self.sick:
@@ -36,9 +42,10 @@ class Person:
 
         else:       
             self.money += self.profession.work(market)
-            
-            if random.choice(range(20)) == 1:
-                self.sick = True
+
+        # can get sick     
+        if random.choice(range(self.sickness_chance)) == 1:
+            self.sick = True
 
         # eat
         if self.food > 0:
@@ -62,11 +69,16 @@ class Person:
             if self.working_sink:
                 self.thirst = 0
         
+        if not self.home_owning:
+            if self.money > market.housing_price:
+                self.home_owning = market.buy_house(self)
+
         # check death
         if self.hunger > 3 or self.thirst > 3:
             return True
         
-
+        
+        
         return False
 
     def is_plumber(self) -> bool:

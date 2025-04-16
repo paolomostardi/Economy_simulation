@@ -6,7 +6,7 @@ from market import Market
 
 import pprint
 
-from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed
+from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed,Construction
 
 class Society: 
     def __init__(self, avarage_age = 40, total_population = 1250, birth_rate = 10):
@@ -78,7 +78,7 @@ class Society:
 
     def count_professions(self):
 
-        professions = {"Student": 0, "Farmer": 0, "Pharmacist": 0, "Plumber": 0, "Unempolyed": 0}
+        professions = {"Student": 0, "Farmer": 0, "Pharmacist": 0, "Plumber": 0,"Construction":0, "Unempolyed": 0}
 
         for person in self.population:
             profession_name = person.profession.__class__.__name__
@@ -124,8 +124,8 @@ class Society:
 
 def generate_human(age, market : Market,id : int) -> Person:
 
-    professions = [Student,Farmer,Pharmacist,Plumber,Unempolyed]
-    professions_probabilities = [5,25,6,7,57]
+    professions = [Student,Farmer,Pharmacist,Plumber,Construction,Unempolyed]
+    professions_probabilities = [5,22,6,7,3,57]
     profession = random.choices(professions,professions_probabilities)
 
 
