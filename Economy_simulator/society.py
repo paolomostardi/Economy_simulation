@@ -43,6 +43,8 @@ class Society:
                 self.population.remove(human)
                 if human.profession.__class__ == Plumber: 
                     self.market.remove_plumber(human.id)
+        
+        self.market.print_infos()
 
     def generate_new_id(self):
         self.current_id += 1
@@ -132,15 +134,14 @@ def generate_human(age, market : Market,id : int) -> Person:
     human = Person(age=age,profession=profession[0](),id=id)
     if human.is_plumber():
         market.plumbers.append(human)
+    
+    human.home_owning = random.choices([True,False], [30,70])
     return human
 
 def generate_age_array(amount, avarage_age):
     mean = avarage_age
     std_dev = 8
-
     array_size = amount  
-
     np.random.seed(42)
-
     return np.random.normal(mean, std_dev, array_size).astype(np.int16)
 

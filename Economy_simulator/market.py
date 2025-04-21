@@ -1,4 +1,3 @@
-from person import Personz
 from dataclasses import dataclass, field
 
 # class that keeps track of all the changes in the market
@@ -31,8 +30,8 @@ class Market:
     food_cost: int = 1
     medicine_cost : int = 10
     plumbing_cost : int = 15
-    renting_cost : int = 10
-    housing_cost : int = 1000
+    renting_cost : int = 1
+    housing_cost : int = 100
     housing_building_time : int = 10
 
     def sell_food(self, amount : int):
@@ -115,19 +114,23 @@ class Market:
 
         print('--------------------------------')
 
-        print( 'total_food: ', self.total_food) 
+        print('total_food: ', self.total_food) 
         print('total_medicine', self.total_medicine)
         print('total plumbers', len(self.plumbers))
+        print('total housing', self.total_housing)
 
         print('food_produced ', self.food_produced)
         print('medicine produced', self.medicine_produced)
+        print('housing made', self.housing_produced)
 
         print('food_consumed', self.food_consumed)
         print('medicine_consumed', self.medicine_consumed)
+        print('housing consumed', self.housing_produced)
         
         print('food_cost', self.food_cost)
         print('medicine_cost', self.medicine_cost)
         print('plumbing_cost', self.plumbing_cost)
+        print('housing cost', self.housing_cost)
 
     # updates the prices based on offer / demand 
     def update_prices(self):
@@ -185,4 +188,10 @@ class Market:
         return self.housing_cost
 
     def buy_house(self, person):
+        if person.money > self.housing_cost:
+            person.money -= self.housing_cost
+            self.total_housing -= 1
+            person.home_owning = True
         
+            
+
