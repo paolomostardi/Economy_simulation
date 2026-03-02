@@ -44,16 +44,27 @@ class MainWindow(QMainWindow):
 
 
         button_plot = QPushButton("Start Worker")
-        button_plot.clicked.connect(self.start_game)
+        button_plot.clicked.connect(self.toggle_worker)
+        self.button_plot = button_plot
         layout.addWidget(button_plot)
 
+        self.worker = None
         self.running = True
         self.plot()
 
-    def start_game(self):
-        self.worker = Worker(self.society)
-        self.worker.data_signal.connect(self.plot)
-        self.worker.start()  # Start the background task
+    def toggle_worker(self):
+        if self.worker is None or not self.worker.isRunning():
+            # Start the worker
+            self.worker = Worker(self.society)
+            self.worker.data_signal.connect(self.plot)
+            self.worker.start()
+            self.button_plot.setText("Stop Worker")
+        else:
+            # Stop the worker
+            self.worker.terminate()
+            self.worker.wait()
+            self.worker = None
+            self.button_plot.setText("Start Worker")
 
     def plot(self):
         self.fig.clear()
