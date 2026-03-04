@@ -23,6 +23,31 @@ class Worker(QThread):
             self.data_signal.emit() # Emit the new data
             time.sleep(0.8)
 
+
+class SecondaryWindow(QMainWindow):
+    def __init__(self, main_window=None):
+        super().__init__()
+        self.main_window = main_window
+        self.setWindowTitle("Secondary Window")
+
+        central_widget = QWidget()
+        self.setCentralWidget(central_widget)
+        layout = QVBoxLayout(central_widget)
+
+        info_label = QLabel("This is the secondary window.")
+        layout.addWidget(info_label)
+
+        back_button = QPushButton("Return to Main Window")
+        back_button.clicked.connect(self.return_to_main)
+        layout.addWidget(back_button)
+
+    def return_to_main(self):
+        if self.main_window is not None:
+            self.hide()
+            self.main_window.show()
+            self.main_window.raise_()
+            self.main_window.activateWindow()
+
 class MainWindow(QMainWindow):
     def __init__(self, society : Society) -> None:
         super().__init__()
@@ -48,7 +73,12 @@ class MainWindow(QMainWindow):
         self.button_plot = button_plot
         layout.addWidget(button_plot)
 
+        switch_button = QPushButton("Open Secondary Window")
+        switch_button.clicked.connect(self.open_secondary_window)
+        layout.addWidget(switch_button)
+
         self.worker = None
+        self.secondary_window = SecondaryWindow(self)
         self.running = True
         self.plot()
 
@@ -65,6 +95,15 @@ class MainWindow(QMainWindow):
             self.worker.wait()
             self.worker = None
             self.button_plot.setText("Start Worker")
+
+    def open_secondary_window(self):
+        if self.secondary_window is None:
+            self.secondary_window = SecondaryWindow(self)
+
+        self.hide()
+        self.secondary_window.show()
+        self.secondary_window.raise_()
+        self.secondary_window.activateWindow()
 
     def plot(self):
         self.fig.clear()
@@ -126,6 +165,8 @@ class MainWindow(QMainWindow):
         ax.pie(values, labels=labels, startangle=90)        
         ax.set_title('money distribution')
 
+        # ensure subplot titles/labels don't overlap
+        self.fig.tight_layout(pad=2.0, h_pad=2.0, w_pad=1.5)
         self.canvas.draw()
 
     def on_button_click(self):

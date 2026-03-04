@@ -17,7 +17,7 @@ class Person:
     thirst: int = 0
     sick: bool = False
     money: float = 20
-    home_owning = False
+    home_owning: bool = False
 
 
 
@@ -70,8 +70,9 @@ class Person:
                 self.thirst = 0
         
         if not self.home_owning:
-            if self.money > market.housing_price:
-                self.home_owning = market.buy_house(self)
+            bought_home = market.buy_house(self)
+            if not bought_home:
+                market.collect_rent(self)
 
         # check death
         if self.hunger > 3 or self.thirst > 3:

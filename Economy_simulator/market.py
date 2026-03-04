@@ -187,11 +187,24 @@ class Market:
         print('A house has been built')
         return self.housing_cost
 
-    def buy_house(self, person):
-        if person.money > self.housing_cost:
+    def collect_rent(self, person):
+        if person.money <= 0:
+            return False
+
+        rent_due = min(self.renting_cost, person.money)
+        person.money -= rent_due
+        return rent_due > 0
+
+    def buy_house(self, person) -> bool:
+        if self.total_housing <= 0:
+            return False
+
+        if person.money >= self.housing_cost:
             person.money -= self.housing_cost
             self.total_housing -= 1
+            self.housing_bought += 1
             person.home_owning = True
-        
-            
+            return True
+
+        return False
 
