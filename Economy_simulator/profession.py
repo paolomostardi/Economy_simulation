@@ -15,7 +15,7 @@ class Student(Profession): # should take money from the taxes
 class Farmer(Profession):
     
     def work(self, market : Market):       
-        return market.sell_food(5)
+        return market.sell_food(3)
     
 class Plumber(Profession):
     def work(self, market: Market) -> int:

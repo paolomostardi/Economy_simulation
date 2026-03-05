@@ -9,7 +9,7 @@ import pprint
 from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed,Construction
 
 class Society: 
-    def __init__(self, avarage_age = 40, total_population = 1250, birth_rate = 10):
+    def __init__(self, avarage_age = 40, total_population = 1250, birth_rate = 0.001):
         
         self.market = Market()
 
@@ -36,7 +36,7 @@ class Society:
 
         print(self.profession_money_stats())
 
-        for human in self.population:
+        for human in self.population[:]:
 
             # erasing the human from the population if it dies 
             if human.tick(market=self.market):
@@ -44,7 +44,25 @@ class Society:
                 if human.profession.__class__ == Plumber: 
                     self.market.remove_plumber(human.id)
         
+        self._handle_births()
         self.market.print_infos()
+
+    def _handle_births(self):
+        population_size = len(self.population)
+        if population_size == 0:
+            births_count = 1
+        else:
+            births_count = max(1, int(population_size * self.birth_rate))
+
+        for _ in range(births_count):
+            newborn = Person(
+                age=0,
+                id=self.generate_new_id(),
+                profession=Student(),
+                home_owning=False
+            )
+            self.population.append(newborn)
+            self.total_population += 1
 
     def generate_new_id(self):
         self.current_id += 1

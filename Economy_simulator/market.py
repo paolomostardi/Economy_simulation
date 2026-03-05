@@ -32,7 +32,7 @@ class Market:
     plumbing_cost : int = 15
     renting_cost : int = 1
     housing_cost : int = 100
-    housing_building_time : int = 10
+    housing_building_time : int = 20
 
     def sell_food(self, amount : int):
         self.food_produced += amount
@@ -70,7 +70,6 @@ class Market:
                 person.working_sink = True
                 self.plumbers.append(plumber)
                 self.plumbing_provided += 1
-                print('plumbing provided')
                 
             except IndexError:
                 print('plumbing error')
@@ -112,25 +111,24 @@ class Market:
     # prints useful infos about the current state of the market 
     def print_infos(self):
 
-        print('--------------------------------')
+        print('\n=== Market Summary ===')
+        header = f"{'THING':<12}{'PRODUCED':>12}{'CONSUMED':>12}{'PRICE':>10}"
+        print(header)
+        print('-' * len(header))
 
-        print('total_food: ', self.total_food) 
-        print('total_medicine', self.total_medicine)
-        print('total plumbers', len(self.plumbers))
-        print('total housing', self.total_housing)
+        rows = [
+            ("Food", self.food_produced, self.food_consumed, self.food_cost),
+            ("Medicine", self.medicine_produced, self.medicine_consumed, self.medicine_cost),
+            ("Plumbing", self.plumbing_provided, self.plumbing_provided, self.plumbing_cost),
+            ("Housing", self.housing_produced, self.housing_bought, self.housing_cost),
+        ]
 
-        print('food_produced ', self.food_produced)
-        print('medicine produced', self.medicine_produced)
-        print('housing made', self.housing_produced)
+        for thing, produced, consumed, price in rows:
+            print(f"{thing:<12}{produced:>12}{consumed:>12}{price:>10}")
 
-        print('food_consumed', self.food_consumed)
-        print('medicine_consumed', self.medicine_consumed)
-        print('housing consumed', self.housing_produced)
-        
-        print('food_cost', self.food_cost)
-        print('medicine_cost', self.medicine_cost)
-        print('plumbing_cost', self.plumbing_cost)
-        print('housing cost', self.housing_cost)
+        print('-' * len(header))
+        print(f"Total housing stock: {self.total_housing}")
+        print(f"Active plumbers: {len(self.plumbers)}")
 
     # updates the prices based on offer / demand 
     def update_prices(self):
@@ -138,18 +136,15 @@ class Market:
         if self.food_consumed > self.food_produced:
             self.food_cost += 1
         elif self.food_consumed < self.food_produced:
-            if self.food_cost > 1:
-                self.food_cost -=1
+            self.food_cost = max(1, self.food_cost - 1)
 
         if self.medicine_consumed > self.medicine_produced:
             self.medicine_cost += 1 
         elif self.medicine_consumed < self.medicine_produced:
-            if self.medicine_cost > 1:
-                self.medicine_cost -=1
+            self.medicine_cost = max(1, self.medicine_cost - 1)
 
         if self.plumbing_provided < len(self.plumbers):
-            if self.plumbing_cost > 1:
-                self.plumbing_cost -= 1
+            self.plumbing_cost = max(1, self.plumbing_cost - 1)
         elif self.plumbing_provided > len(self.plumbers):   
             self.plumbing_cost += 1 
         
@@ -158,7 +153,7 @@ class Market:
         if self.housing_bought > self.housing_produced:
             self.housing_cost += 1
         elif self.housing_bought < self.housing_produced:
-            self.housing_cost -= 1
+            self.housing_cost = max(1, self.housing_cost - 1)
 
     # resets counters of production 
     def reset_production(self):
@@ -184,7 +179,6 @@ class Market:
     def build_house(self) -> int:
         self.total_housing += 1
         self.housing_produced += 1
-        print('A house has been built')
         return self.housing_cost
 
     def collect_rent(self, person):
