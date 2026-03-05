@@ -4,8 +4,6 @@ import numpy as np
 from person import Person
 from market import Market
 
-import pprint
-
 from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed,Construction
 
 class Society: 
@@ -24,6 +22,8 @@ class Society:
         self.thirst_history = []
         self.population = []
         self.population = self.generate_human_population()
+        self.death_history = []
+        self.tick_counter = 0
 
     def tick(self):
         self.market.update_prices()
@@ -33,8 +33,38 @@ class Society:
         self.hunger_history.append(self.count_hungry())
         self.sickness_history.append(self.count_sick())
         self.thirst_history.append(self.count_thirst())
+        deaths_this_tick = 0
 
-        print(self.profession_money_stats())
+        professions = self.count_professions()
+        money_stats = self.profession_money_stats()
+
+        print("\n=== Population & Money Snapshot ===")
+        header = f"{'JOB':<15}{'COUNT':>10}{'MONEY':>15}{'$/PERSON':>12}"
+        print(header)
+        print('-' * len(header))
+        total_population = 0
+        total_money = 0
+
+        job_money_mapping = {
+            'Student': 'student_money',
+            'Farmer': 'farmer_money',
+            'Pharmacist': 'pharmacist_money',
+            'Plumber': 'plumber_money',
+            'Construction': 'unemployed_money',
+            'Unempolyed': 'unemployed_money'
+        }
+
+        for job, count in professions.items():
+            money_key = job_money_mapping.get(job, 'unemployed_money')
+            money_value = money_stats.get(money_key, 0)
+            ratio = money_value / count if count else 0
+            print(f"{job:<15}{count:>10}{money_value:>15}{ratio:>12.2f}")
+            total_population += count
+        total_money = money_stats['total_money']
+        print('-' * len(header))
+        avg_money = total_money / total_population if total_population else 0
+        print(f"{'TOTAL':<15}{total_population:>10}{total_money:>15}{avg_money:>12.2f}")
+        print()
 
         for human in self.population[:]:
 
@@ -43,9 +73,12 @@ class Society:
                 self.population.remove(human)
                 if human.profession.__class__ == Plumber: 
                     self.market.remove_plumber(human.id)
+                deaths_this_tick += 1
         
         self._handle_births()
+        self.death_history.append(deaths_this_tick)
         self.market.print_infos()
+        self._print_death_and_population_change()
 
     def _handle_births(self):
         population_size = len(self.population)
@@ -73,6 +106,17 @@ class Society:
         for i in generate_age_array(self.total_population, self.avarage_age):
             population.append(generate_human(i, self.market, id = self.generate_new_id()))
         return population
+
+    def _print_death_and_population_change(self):
+        death_window = min(100, len(self.death_history))
+        if death_window:
+            deaths_recent = sum(self.death_history[-death_window:])
+            print(f"Deaths in last {death_window} ticks: {deaths_recent}")
+
+        if len(self.population_history) > 1:
+            lookback = min(100, len(self.population_history) - 1)
+            change = self.population_history[-1] - self.population_history[-(lookback + 1)]
+            print(f"Population change last {lookback} ticks: {change}")
 
     def count_hungry(self):
         counter = 0 
@@ -104,7 +148,6 @@ class Society:
             profession_name = person.profession.__class__.__name__
             professions[profession_name] += 1
 
-        pprint.pprint(professions)
         return professions
     
     def average_age(self):

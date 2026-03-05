@@ -101,7 +101,6 @@ class Market:
         if self.plumbing_provided == 0:
             return 0
         pay = (self.plumbing_provided / len(self.plumbers)) * self.plumbing_cost
-        print(pay)
         return pay        
 
     # how much for tick is a construction according to the current prices 
@@ -112,23 +111,25 @@ class Market:
     def print_infos(self):
 
         print('\n=== Market Summary ===')
-        header = f"{'THING':<12}{'PRODUCED':>12}{'CONSUMED':>12}{'PRICE':>10}"
+        header = f"{'THING':<12}{'PRODUCED':>12}{'CONSUMED':>12}{'PRICE':>10}{'STOCK':>12}"
         print(header)
         print('-' * len(header))
 
         rows = [
-            ("Food", self.food_produced, self.food_consumed, self.food_cost),
-            ("Medicine", self.medicine_produced, self.medicine_consumed, self.medicine_cost),
-            ("Plumbing", self.plumbing_provided, self.plumbing_provided, self.plumbing_cost),
-            ("Housing", self.housing_produced, self.housing_bought, self.housing_cost),
+            ("Food", self.food_produced, self.food_consumed, self.food_cost, self.total_food),
+            ("Medicine", self.medicine_produced, self.medicine_consumed, self.medicine_cost, self.total_medicine),
+            ("Plumbing", self.plumbing_provided, self.plumbing_provided, self.plumbing_cost, len(self.plumbers)),
+            ("Housing", self.housing_produced, self.housing_bought, self.housing_cost, self.total_housing),
         ]
 
-        for thing, produced, consumed, price in rows:
-            print(f"{thing:<12}{produced:>12}{consumed:>12}{price:>10}")
+        for thing, produced, consumed, price, stock in rows:
+            print(f"{thing:<12}{produced:>12}{consumed:>12}{price:>10}{stock:>12}")
 
+        total_produced = sum(item[1] for item in rows)
+        total_consumed = sum(item[2] for item in rows)
+        total_stock = sum(item[4] for item in rows[:-1]) + rows[-1][4]
         print('-' * len(header))
-        print(f"Total housing stock: {self.total_housing}")
-        print(f"Active plumbers: {len(self.plumbers)}")
+        print(f"{'TOTAL':<12}{total_produced:>12}{total_consumed:>12}{'':>10}{total_stock:>12}")
 
     # updates the prices based on offer / demand 
     def update_prices(self):
@@ -161,9 +162,6 @@ class Market:
         self.medicine_history.append(self.medicine_consumed)
         self.plumbing_history.append(self.plumbing_provided)
 
-        print('TOTAL FOOD CONSUMED')
-        print(self.food_consumed)
-
         self.food_consumed = 0
         self.food_produced = 0
 
@@ -175,7 +173,6 @@ class Market:
         self.housing_bought = 0
         self.housing_produced = 0
         
-    # builds a house 
     def build_house(self) -> int:
         self.total_housing += 1
         self.housing_produced += 1

@@ -18,7 +18,6 @@ class Worker(QThread):
 
     def run(self):
         while True:
-            print('runnig ticks')
             self.society.tick()
             self.data_signal.emit() # Emit the new data
             time.sleep(0.8)
@@ -133,7 +132,6 @@ class MainWindow(QMainWindow):
 
     def plot(self):
         self.fig.clear()
-        print('plotting ')
 
         ax = self.fig.add_subplot(231)
         ax.bar(self.society.count_professions().keys(),  self.society.count_professions().values())  
@@ -149,8 +147,6 @@ class MainWindow(QMainWindow):
 
         ax.plot(range(len(self.society.population_history)) ,self.society.population_history )
 
-        print('total population')
-        print(len(self.society.population))
 
 
         ax = self.fig.add_subplot(234)
