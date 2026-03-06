@@ -22,8 +22,25 @@ class Plumber(Profession):
         return 0
     
 class Pharmacist(Profession):
-    def work(self, market : Market):       
-        return market.sell_medicine(1)
+    def __init__(self):
+        super().__init__()
+        self._produce_on_tick = True
+
+    def work(self, market : Market):
+        if self._produce_on_tick:
+            self._produce_on_tick = False
+            return market.sell_medicine(1)
+        self._produce_on_tick = True
+        return 0
+    
+class Cook(Profession):
+    def __init__(self):
+        super().__init__()
+        self.previous_sold_meals = 5
+
+    def work(self, market: Market) -> int:
+        # Cook earnings are handled within the Person logic when performing cook-specific work.
+        return 0
     
 class Construction(Profession):
     housing_counter = 0 
@@ -44,8 +61,9 @@ class Unempolyed(Profession):
         pharmacist_pay = market.medicine_cost
         plumber_pay = market.plumber_pay()
         construction_pay = market.construction_pay()
+        cook_pay = market.meal_cost * 5
 
-        pays = [farmer_pay,pharmacist_pay,plumber_pay,construction_pay]
+        pays = [farmer_pay,pharmacist_pay,plumber_pay,construction_pay,cook_pay]
 
         job_cance = 85
         r = random.randrange(0, 100)
@@ -59,10 +77,12 @@ class Unempolyed(Profession):
 
             elif construction_pay == max(pays):
                 return Construction    
-        
+
+            elif cook_pay == max(pays):
+                return Cook
+
             else:
                 r = random.randrange(0, 100)
                 return Plumber
 
         return Unempolyed
-        

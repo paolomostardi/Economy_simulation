@@ -4,7 +4,7 @@ import numpy as np
 from person import Person
 from market import Market
 
-from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed,Construction
+from profession import Student,Farmer,Pharmacist,Plumber,Unempolyed,Construction,Cook
 
 class Society: 
     def __init__(self, avarage_age = 40, total_population = 1250, birth_rate = 0.001):
@@ -35,9 +35,31 @@ class Society:
         self.thirst_history.append(self.count_thirst())
         deaths_this_tick = 0
 
-        professions = self.count_professions()
-        money_stats = self.profession_money_stats()
+        self.tick_counter += 1
+        log_this_tick = self.tick_counter % 10 == 0
 
+        if log_this_tick:
+            professions = self.count_professions()
+            money_stats = self.profession_money_stats()
+            self._print_population_snapshot(professions, money_stats)
+
+        for human in self.population[:]:
+
+            # erasing the human from the population if it dies 
+            if human.tick(market=self.market):
+                self.population.remove(human)
+                if human.profession.__class__ == Plumber: 
+                    self.market.remove_plumber(human.id)
+                deaths_this_tick += 1
+        
+        self._handle_births()
+        self.death_history.append(deaths_this_tick)
+
+        if log_this_tick:
+            self.market.print_infos()
+            self._print_death_and_population_change()
+
+    def _print_population_snapshot(self, professions, money_stats):
         print("\n=== Population & Money Snapshot ===")
         header = f"{'JOB':<15}{'COUNT':>10}{'MONEY':>15}{'$/PERSON':>12}"
         print(header)
@@ -50,6 +72,7 @@ class Society:
             'Farmer': 'farmer_money',
             'Pharmacist': 'pharmacist_money',
             'Plumber': 'plumber_money',
+            'Cook': 'cook_money',
             'Construction': 'unemployed_money',
             'Unempolyed': 'unemployed_money'
         }
@@ -65,20 +88,6 @@ class Society:
         avg_money = total_money / total_population if total_population else 0
         print(f"{'TOTAL':<15}{total_population:>10}{total_money:>15}{avg_money:>12.2f}")
         print()
-
-        for human in self.population[:]:
-
-            # erasing the human from the population if it dies 
-            if human.tick(market=self.market):
-                self.population.remove(human)
-                if human.profession.__class__ == Plumber: 
-                    self.market.remove_plumber(human.id)
-                deaths_this_tick += 1
-        
-        self._handle_births()
-        self.death_history.append(deaths_this_tick)
-        self.market.print_infos()
-        self._print_death_and_population_change()
 
     def _handle_births(self):
         population_size = len(self.population)
@@ -142,7 +151,7 @@ class Society:
 
     def count_professions(self):
 
-        professions = {"Student": 0, "Farmer": 0, "Pharmacist": 0, "Plumber": 0,"Construction":0, "Unempolyed": 0}
+        professions = {"Student": 0, "Farmer": 0, "Pharmacist": 0, "Plumber": 0, "Cook": 0, "Construction":0, "Unempolyed": 0}
 
         for person in self.population:
             profession_name = person.profession.__class__.__name__
@@ -160,7 +169,8 @@ class Society:
             'pharmacist_money': 0,
             'plumber_money': 0,
             'unemployed_money': 0,
-            'student_money': 0
+            'student_money': 0,
+            'cook_money': 0
         }
 
         for human in self.population:
@@ -175,6 +185,8 @@ class Society:
                 money_stats['unemployed_money'] += human.money
             elif isinstance(human.profession, Student):
                 money_stats['student_money'] += human.money
+            elif isinstance(human.profession, Cook):
+                money_stats['cook_money'] += human.money
 
         return money_stats
 
@@ -187,8 +199,8 @@ class Society:
 
 def generate_human(age, market : Market,id : int) -> Person:
 
-    professions = [Student,Farmer,Pharmacist,Plumber,Construction,Unempolyed]
-    professions_probabilities = [5,22,6,7,3,57]
+    professions = [Student,Farmer,Pharmacist,Plumber,Cook,Construction,Unempolyed]
+    professions_probabilities = [5,22,6,7,3,3,54]
     profession = random.choices(professions,professions_probabilities)
 
 

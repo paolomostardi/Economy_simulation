@@ -10,22 +10,26 @@ class Market:
     total_medicine: int = 20
     plumbers: list = field(default_factory=list)
     total_housing: int = 100
+    total_meals: int = 0
 
     # resources produced in a tick
     food_produced : int = 0
     medicine_produced: int = 0
     housing_produced: int = 0
+    meals_produced: int = 0
 
     # resources cosumed in a tick
     food_consumed : int = 0
     medicine_consumed : int = 0
     plumbing_provided : int = 0
     housing_bought : int = 0
+    meals_consumed: int = 0
 
     # the history of the resources used to plot the graphs, it rapresent the amount consumed.
     medicine_history = [20]
     food_history = [20]
     plumbing_history = [20]
+    meal_history = [0]
     
     food_cost: int = 1
     medicine_cost : int = 10
@@ -33,6 +37,10 @@ class Market:
     renting_cost : int = 1
     housing_cost : int = 100
     housing_building_time : int = 20
+    meal_cost: int = 5
+
+    meal_batches: list = field(default_factory=list)
+    meals_demanded_but_missing: int = 0
 
     def sell_food(self, amount : int):
         self.food_produced += amount
@@ -55,6 +63,21 @@ class Market:
             person.food += affordable_food
             self.total_food -= affordable_food
             self.food_consumed += affordable_food
+
+    def buy_food_for_cooking(self, person, desired_amount: int) -> int:
+        if desired_amount <= 0 or self.total_food <= 0 or person.money < self.food_cost:
+            return 0
+
+        max_affordable = int(person.money // self.food_cost)
+        purchasable = min(desired_amount, self.total_food, max_affordable)
+        if purchasable <= 0:
+            return 0
+
+        cost = purchasable * self.food_cost
+        person.money -= cost
+        self.total_food -= purchasable
+        self.food_consumed += purchasable
+        return purchasable
         
     def hire_plumber(self, person ):
         if person.is_plumber():
@@ -120,6 +143,7 @@ class Market:
             ("Medicine", self.medicine_produced, self.medicine_consumed, self.medicine_cost, self.total_medicine),
             ("Plumbing", self.plumbing_provided, self.plumbing_provided, self.plumbing_cost, len(self.plumbers)),
             ("Housing", self.housing_produced, self.housing_bought, self.housing_cost, self.total_housing),
+            ("Meals", self.meals_produced, self.meals_consumed, self.meal_cost, self.total_meals),
         ]
 
         for thing, produced, consumed, price, stock in rows:
@@ -127,7 +151,7 @@ class Market:
 
         total_produced = sum(item[1] for item in rows)
         total_consumed = sum(item[2] for item in rows)
-        total_stock = sum(item[4] for item in rows[:-1]) + rows[-1][4]
+        total_stock = sum(item[4] for item in rows)
         print('-' * len(header))
         print(f"{'TOTAL':<12}{total_produced:>12}{total_consumed:>12}{'':>10}{total_stock:>12}")
 
@@ -156,11 +180,21 @@ class Market:
         elif self.housing_bought < self.housing_produced:
             self.housing_cost = max(1, self.housing_cost - 1)
 
+        if self.meals_consumed > self.meals_produced:
+            self.meal_cost += 1
+        elif self.meals_consumed < self.meals_produced:
+            self.meal_cost = max(1, self.meal_cost - 1)
+
+        if self.meals_demanded_but_missing > 0:
+            self.meal_cost += 1
+        self.meals_demanded_but_missing = 0
+
     # resets counters of production 
     def reset_production(self):
         self.food_history.append(self.food_consumed)
         self.medicine_history.append(self.medicine_consumed)
         self.plumbing_history.append(self.plumbing_provided)
+        self.meal_history.append(self.meals_consumed)
 
         self.food_consumed = 0
         self.food_produced = 0
@@ -172,6 +206,9 @@ class Market:
         
         self.housing_bought = 0
         self.housing_produced = 0
+
+        self.meals_consumed = 0
+        self.meals_produced = 0
         
     def build_house(self) -> int:
         self.total_housing += 1
@@ -185,6 +222,31 @@ class Market:
         rent_due = min(self.renting_cost, person.money)
         person.money -= rent_due
         return rent_due > 0
+
+    def cook_turn(self, cook, cook_profession) -> int:
+        desired = max(1, cook_profession.previous_sold_meals)
+        purchased_food = self.buy_food_for_cooking(cook, desired)
+        if purchased_food <= 0:
+            cook_profession.previous_sold_meals = 0
+            return 0
+
+        meals_to_sell = min(purchased_food, 10)
+        self.total_meals += meals_to_sell
+        self.meals_produced += meals_to_sell
+        cook_profession.previous_sold_meals = meals_to_sell
+        return meals_to_sell * self.meal_cost
+
+    def buy_meal(self, person) -> bool:
+        if self.total_meals <= 0:
+            self.meals_demanded_but_missing += 1
+            return False
+        if person.money < self.meal_cost:
+            return False
+        person.money -= self.meal_cost
+        self.total_meals -= 1
+        self.meals_consumed += 1
+        person.hunger = 0
+        return True
 
     def buy_house(self, person) -> bool:
         if self.total_housing <= 0:

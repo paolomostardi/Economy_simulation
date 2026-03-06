@@ -1,5 +1,5 @@
 import random
-from profession import Profession, Unempolyed, Plumber
+from profession import Profession, Unempolyed, Plumber, Cook, Student, Farmer, Pharmacist, Construction
 
 from dataclasses import dataclass
 
@@ -31,14 +31,21 @@ class Person:
         self.thirst += 1
         self.age += 1
 
+        # graduation chance for students
+        if isinstance(self.profession, Student) and random.random() < 0.001:
+            self.profession = Unempolyed()
+
         # medicine 
         if self.sick:
             if self.money >= market.medicine_cost:
                 market.buy_medicine(self)
 
         # work        
-        elif self.profession.__class__ == Unempolyed:
+        elif isinstance(self.profession, Unempolyed):
             self.profession = self.profession.work(market)()
+
+        elif isinstance(self.profession, Cook):
+            self.money += market.cook_turn(self, self.profession)
 
         else:       
             self.money += self.profession.work(market)
@@ -47,8 +54,14 @@ class Person:
         if random.choice(range(self.sickness_chance)) == 1:
             self.sick = True
 
+        meal_bought = False
+        if random.random() < 0.05 and self.money >= market.meal_cost:
+            meal_bought = market.buy_meal(self)
+
         # eat
-        if self.food > 0:
+        if meal_bought:
+            pass
+        elif self.food > 0:
             self.food -= 1
             self.hunger = 0
 
