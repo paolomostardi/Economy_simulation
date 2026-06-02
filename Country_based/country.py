@@ -1,69 +1,72 @@
 """
-Country class - Main class representing a country in the simulation.
+Country class - main entity in the simulation.
 """
+
 import random
 import math
 from typing import Dict, List
-from population import PopulationManager
-from resources import ResourceManager
-from economy import EconomyManager
-from culture import CultureManager
+from dataclasses import dataclass
+
+from population import Population
+from economy import Economy
+from resources import NaturalResources
+from culture import Culture
+from geography import Geography
+
+
+@dataclass
+class BudgetAllocation:
+    """Budget allocation percentages."""
+    military: float = 0.0
+    healthcare: float = 0.0
+    education: float = 0.0
+    research: float = 0.0
+    infrastructure: float = 0.0
 
 
 class Country:
-    """Represents a country in the economy simulation."""
+    """Represents a country in the simulation."""
     
     def __init__(self, name: str):
         self.name = name
         
         # Basic properties
-        self.population_manager = PopulationManager()
-        self.resource_manager = ResourceManager()
-        self.economy_manager = EconomyManager()
-        self.culture_manager = CultureManager()
+        self.stability: float = self._generate_stability()
+        self.technology: float = random.uniform(20, 80)
+        self.corruption: float = self._generate_corruption()
+        self.democracy_index: float = self._generate_democracy_index()
         
-        # Initialize all systems
-        self._initialize_properties()
-    
-    def _initialize_properties(self):
-        """Initialize all country properties based on requirements."""
-        # Generate population first (affects area and other properties)
-        self.population_manager.generate_population()
+        # Geography
+        self.geography = Geography()
         
-        # Generate area based on population
-        self._generate_area()
+        # Population (generate first to calculate area based on population)
+        self.population = Population(0, self.stability, self.technology)
         
-        # Generate resources based on area
-        self.resource_manager.generate_resources(self.area)
+        # Area (now can be based on population)
+        self.area = self._generate_area()
         
-        # Generate culture
-        self.culture_manager.generate_culture()
-        
-        # Generate economy based on resources, population, and culture
-        self.economy_manager.generate_economy(
-            self.population_manager.total_population,
-            self.resource_manager,
-            self.population_manager.education_technical,
-            self.population_manager.education_cultural
+        # Economy
+        self.economy = Economy(
+            self.population.total,
+            self.stability,
+            self.technology,
+            self.corruption,
+            self.democracy_index
         )
         
-        # Generate stability and technology
-        self.stability = random.uniform(30, 90)
-        self.technology = random.uniform(20, 95)
+        # Resources
+        self.resources = NaturalResources(self.area, self.geography)
         
-        # Generate corruption
-        self.corruption = self._generate_corruption()
+        # Culture
+        self.culture = Culture()
+        
+        # Budget allocation
+        self.budget = BudgetAllocation()
+        self._allocate_budget()
     
-    def _generate_area(self):
-        """Generate land area based on population."""
-        # Area is related to population - larger population tends to have larger area
-        # Base area range influenced by population size
-        pop = self.population_manager.total_population
-        min_area = 1000 + (pop / 500000000) * 50000  # 1,000 to 51,000 km² minimum
-        max_area = 10000 + (pop / 500000000) * 900000  # 10,000 to 910,000 km² maximum
-        
-        # Use logarithmic distribution for area
-        self.area = math.exp(random.uniform(math.log(min_area), math.log(max_area)))
+    def _generate_stability(self) -> float:
+        """Generate initial stability score."""
+        return random.uniform(30, 80)
     
     def _generate_corruption(self) -> float:
         """Generate corruption level using the specified formula."""
@@ -71,7 +74,6 @@ class Country:
             # Uniform distribution between 15 and 30 (40% probability)
             return random.uniform(15, 30)
         else:
-            # Not in normal range (60% probability)
             if random.uniform(0, 1) < 0.4:
                 # Logarithmic distribution from 15 down to 0 (24% probability)
                 return 15 * math.exp(-random.uniform(0, 3))
@@ -79,69 +81,161 @@ class Country:
                 # Logarithmic distribution from 30 up to 100 (36% probability)
                 return 30 + 70 * (1 - math.exp(-random.uniform(0, 3)))
     
-    @property
-    def population(self) -> int:
-        """Total population."""
-        return self.population_manager.total_population
+    def _generate_democracy_index(self) -> float:
+        """Generate democracy index."""
+        return random.uniform(20, 90)
     
-    @property
-    def gdp(self) -> float:
-        """Total GDP."""
-        return self.economy_manager.gdp
+    def _generate_area(self) -> float:
+        """Generate land area based on population."""
+        # Area scales with population but with variation
+        pop_factor = math.log(self.population.total) / math.log(500000000)
+        base_area = 10000 + pop_factor * 1000000
+        return random.uniform(base_area * 0.5, base_area * 2.0)
     
-    @property
-    def tax_rate(self) -> float:
-        """Tax rate percentage."""
-        return self.economy_manager.tax_rate
+    def _allocate_budget(self):
+        """Allocate budget across categories based on country priorities."""
+        # Base allocations
+        self.budget.military = random.uniform(0.05, 0.20)
+        self.budget.healthcare = random.uniform(0.10, 0.25)
+        self.budget.education = random.uniform(0.10, 0.25)
+        self.budget.research = random.uniform(0.02, 0.10)
+        self.budget.infrastructure = random.uniform(0.05, 0.20)
+        
+        # Adjust based on democracy
+        if self.democracy_index > 70:
+            self.budget.healthcare += 0.05
+            self.budget.education += 0.05
+            self.budget.military -= 0.05
+        elif self.democracy_index < 30:
+            self.budget.military += 0.10
+            self.budget.healthcare -= 0.05
+            self.budget.education -= 0.05
+        
+        # Normalize to ensure sum is reasonable
+        total = sum([self.budget.military, self.budget.healthcare, self.budget.education,
+                     self.budget.research, self.budget.infrastructure])
+        if total > 0.8:
+            scale = 0.8 / total
+            self.budget.military *= scale
+            self.budget.healthcare *= scale
+            self.budget.education *= scale
+            self.budget.research *= scale
+            self.budget.infrastructure *= scale
     
-    @property
-    def government_revenue(self) -> float:
-        """Government revenue before corruption."""
-        return self.economy_manager.government_revenue
-    
-    @property
-    def effective_revenue(self) -> float:
-        """Government revenue after corruption."""
-        return self.economy_manager.effective_revenue
-    
-    def simulate_year(self, year: int):
-        """Simulate one year for this country."""
+    def yearly_update(self):
+        """Update all country properties for one year."""
         # Update population
-        self.population_manager.simulate_year(
-            self.economy_manager.gdp,
+        self.population.yearly_update(
+            self.economy.gdp_per_capita,
             self.stability,
+            self.corruption,
+            self.economy.unemployment_rate,
+            self.economy.healthcare_spending,
             self.technology
         )
         
-        # Extract resources
-        self.resource_manager.simulate_year()
-        
         # Update economy
-        self.economy_manager.simulate_year(
-            self.population_manager.total_population,
-            self.resource_manager,
+        self.economy.yearly_update(
+            self.population.total,
             self.stability,
             self.technology,
-            self.corruption
+            self.corruption,
+            self.democracy_index,
+            self.budget,
+            self.resources
         )
         
-        # Update education slowly
-        self.population_manager.update_education(self.economy_manager.gdp, self.technology)
+        # Update stability
+        self._update_stability()
         
-        # Update stability (affected by inequality)
-        inequality_impact = self.population_manager.disparity_factor * 0.5
-        self.stability = max(0, min(100, self.stability - inequality_impact + random.uniform(-2, 2)))
+        # Update democracy
+        self._update_democracy()
         
-        # Technology slowly improves
-        self.technology = max(0, min(100, self.technology + random.uniform(0, 0.5)))
+        # Update corruption
+        self._update_corruption()
+        
+        # Update technology
+        self._update_technology()
+        
+        # Update education
+        self._update_education()
+        
+        # Update resources
+        self.resources.yearly_extract()
+        
+        # Reallocate budget based on new conditions
+        self._allocate_budget()
     
-    def get_summary(self) -> str:
-        """Get a summary of the country's state."""
-        return (
-            f"{self.name}: "
-            f"Pop={self.population:,}, "
-            f"GDP=${self.gdp:,.2f}B, "
-            f"Stability={self.stability:.1f}, "
-            f"Tech={self.technology:.1f}, "
-            f"Corruption={self.corruption:.1f}%"
-        )
+    def _update_stability(self):
+        """Update stability based on various factors."""
+        education_bonus = self.culture.technical_education / 100 * 2
+        healthcare_bonus = (self.economy.healthcare_spending / self.economy.effective_revenue) * 2 if self.economy.effective_revenue > 0 else 0
+        infrastructure_bonus = (self.budget.infrastructure) * 2
+        gdp_growth_bonus = max(0, self.economy.gdp_growth_rate) * 5
+        
+        corruption_penalty = self.corruption / 100 * 3
+        unemployment_penalty = self.economy.unemployment_rate / 40 * 3
+        inequality_penalty = self.economy.inequality_factor * 3
+        
+        stability_change = (
+            education_bonus + healthcare_bonus + infrastructure_bonus + gdp_growth_bonus
+        ) - (corruption_penalty + unemployment_penalty + inequality_penalty)
+        
+        self.stability = max(0, min(100, self.stability + stability_change))
+    
+    def _update_democracy(self):
+        """Update democracy index."""
+        cultural_education = self.culture.cultural_education
+        transparency_bonus = (100 - self.corruption) / 200
+        corruption_penalty = self.corruption / 100
+        instability_penalty = (100 - self.stability) / 200
+        
+        democracy_change = (cultural_education / 100 + transparency_bonus) - (corruption_penalty + instability_penalty)
+        
+        self.democracy_index = max(0, min(100, self.democracy_index + democracy_change))
+    
+    def _update_corruption(self):
+        """Update corruption based on democracy and stability."""
+        # Democracy reduces corruption
+        corruption_modifier = 1 - self.democracy_index / 200
+        
+        # Stability also affects corruption
+        stability_modifier = 1 - self.stability / 300
+        
+        # Small random fluctuation
+        fluctuation = random.uniform(-1, 1)
+        
+        target_corruption = self.corruption * corruption_modifier * stability_modifier + fluctuation
+        self.corruption = max(0, min(100, target_corruption))
+    
+    def _update_technology(self):
+        """Update technology level based on research spending."""
+        research_spending = self.budget.research * self.economy.effective_revenue
+        tech_growth = (research_spending / self.economy.gdp) * 10 if self.economy.gdp > 0 else 0
+        tech_growth += random.uniform(-0.5, 1.0)
+        
+        self.technology = max(0, min(100, self.technology + tech_growth))
+    
+    def _update_education(self):
+        """Update education scores based on spending."""
+        education_spending = self.budget.education * self.economy.effective_revenue
+        tech_ed_growth = (education_spending / self.economy.gdp) * 5 if self.economy.gdp > 0 else 0
+        cultural_ed_growth = tech_ed_growth * 0.8
+        
+        self.culture.technical_education = max(0, min(100, self.culture.technical_education + tech_ed_growth))
+        self.culture.cultural_education = max(0, min(100, self.culture.cultural_education + cultural_ed_growth))
+    
+    def get_summary(self) -> Dict:
+        """Get a summary of country statistics."""
+        return {
+            "name": self.name,
+            "population": self.population.total,
+            "gdp": self.economy.gdp,
+            "gdp_per_capita": self.economy.gdp_per_capita,
+            "stability": self.stability,
+            "democracy": self.democracy_index,
+            "corruption": self.corruption,
+            "technology": self.technology,
+            "inequality": self.economy.inequality_factor,
+            "unemployment": self.economy.unemployment_rate
+        }

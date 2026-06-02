@@ -28,6 +28,7 @@ Each `Country` should contain:
 * Stability
 * Technology level
 * Corruption level
+* Democracy Index
 
 ### Corruption Level
 
@@ -59,6 +60,93 @@ Corruption affects government revenue:
 
 ```
 effective_revenue = government_revenue * (1 - corruption / 100)
+```
+
+### Stability
+
+Stability represents social order, trust in institutions, and political cohesion.
+
+**Range:** 0 - 100
+
+* 0 = failed state
+* 100 = extremely stable state
+
+**Yearly change:**
+
+```
+stability_change = (
+    education_bonus
+    + healthcare_bonus
+    + infrastructure_bonus
+    + gdp_growth_bonus
+) - (
+    corruption_penalty
+    + unemployment_penalty
+    + inequality_penalty
+)
+```
+
+**Effects:**
+
+Higher stability:
+
+* Increases GDP growth
+* Reduces emigration
+* Increases immigration
+* Reduces mortality
+
+Lower stability:
+
+* Reduces economic growth
+* Increases emigration
+* Increases mortality
+
+### Democracy Index
+
+Each country has a Democracy Index from 0 to 100.
+
+**Scale:**
+
+* 0 = Totalitarian dictatorship
+* 25 = Authoritarian state
+* 50 = Hybrid regime
+* 75 = Imperfect democracy
+* 100 = Highly democratic society
+
+**Effects on corruption:**
+
+Higher democracy generally reduces corruption.
+
+```
+corruption_modifier = 1 - democracy_index / 200
+```
+
+**Effects on immigration:**
+
+People generally prefer moving to freer countries when economic conditions are similar.
+
+```
+immigration_attractiveness = GDP_per_capita_score + stability_score + democracy_index * 0.2
+```
+
+**Effects on emigration:**
+
+People are more likely to leave highly restrictive states.
+
+```
+emigration_pressure += (100 - democracy_index) * factor
+```
+
+**Yearly change:**
+
+```
+democracy_change = (
+    cultural_education / 100
+    + transparency_bonus
+) - (
+    corruption / 100
+    + instability_penalty
+)
 ```
 
 
@@ -133,24 +221,97 @@ Each country has:
 **Formula reference:**
 
 ```
-birth_rate = random_uniform(0, 1) * (gdp / max_gdp) * (stability / 100) * (technology / 100) * max_birth_rate
+birth_rate = (
+    random_uniform(0.4, 1.0)
+    * (1 - gdp_per_capita / max_gdp_per_capita)
+    * (stability / 100)
+    * max_birth_rate
+)
 
-immigration_rate = random_uniform(0, 1) * (gdp / max_gdp) * max_immigration_rate
+immigration_rate = (
+    random_uniform(0, 1)
+    * (gdp_per_capita / max_gdp_per_capita)
+    * (stability / 100)
+    * (1 - corruption / 100)
+    * max_immigration_rate
+)
 
-emigration_rate = random_uniform(0, 1) * (1 - gdp / max_gdp) * max_emigration_rate
+immigration_rate *= (1 - unemployment_rate / 100)
+
+emigration_rate = (
+    random_uniform(0, 1)
+    * (1 - gdp_per_capita / max_gdp_per_capita)
+    * (1 - stability / 100)
+    * (corruption / 100)
+    * max_emigration_rate
+)
+
+emigration_rate *= (1 + unemployment_rate / 50)
 
 where:
-- gdp = country's total GDP
-- max_gdp = reference maximum GDP for normalization
+- gdp_per_capita = GDP / Population
+- max_gdp_per_capita = reference maximum GDP per capita for normalization
 - stability = country's stability score (0-100)
-- technology = country's technology level (0-100)
+- corruption = country's corruption level (0-100)
+- unemployment_rate = country's unemployment rate (0-40)
 - max_birth_rate = maximum possible birth rate (e.g., 5%)
 - max_immigration_rate = maximum possible immigration rate (e.g., 3%)
 - max_emigration_rate = maximum possible emigration rate (e.g., 3%)
-- random_uniform(0, 1) returns a random value between 0 and 1
+- random_uniform(a, b) returns a random value between a and b
 ```
 
+Birth rate tends to be:
+
+Higher when:
+* GDP per capita is low
+* Population is young
+
+Lower when:
+* GDP per capita is high
+* Population is older
+* Education is high
+
+Extremely low stability may also reduce birth rates.
+
+Immigration is attracted by:
+* High GDP per capita
+* High stability
+* Low corruption
+* Low unemployment
+
+Emigration becomes higher when:
+* GDP per capita is low
+* Stability is low
+* Corruption is high
+* Unemployment is high
+
 These rates influence population changes over time during simulation.
+
+## Mortality Rate
+
+Each age group has its own yearly mortality rate:
+
+* Children (0-17): 0.05% - 0.50%
+* Young Adults (18-39): 0.05% - 0.30%
+* Older Adults (40-65): 0.20% - 1.50%
+* Elderly (66-90): 2.00% - 12.00%
+
+Mortality is affected by:
+
+* Health care spending
+* Technology
+* Stability
+* Fresh water availability
+
+Higher health care spending and technology reduce mortality.
+
+Lower stability increases mortality.
+
+**Yearly update:**
+
+```
+deaths = age_group_population * mortality_rate
+```
 
 ### Wealth Distribution
 
@@ -271,6 +432,49 @@ Each country has:
 * Government revenue
 * Tax rate (random percentage from 10 to 50)
 
+### GDP Growth Rate
+
+**Initial growth rate:**
+
+Random uniform between -2% and 5%.
+
+**Yearly growth rate update:**
+
+The growth rate is recalculated each year based on multiple factors:
+
+```
+base_growth = random_uniform(-0.01, 0.04)  # -1% to 4%
+
+stability_bonus = (stability / 100 - 0.5) * 0.05
+tech_bonus = (technology / 100) * 0.02
+unemployment_penalty = (unemployment / 40) * 0.03
+corruption_penalty = (corruption / 100) * 0.02
+resource_bonus = 0.005  # 0.5% from resource extraction
+
+new_growth = (base_growth + stability_bonus + tech_bonus + resource_bonus
+             - unemployment_penalty - corruption_penalty)
+
+# Smooth transition to avoid extreme fluctuations
+gdp_growth_rate = gdp_growth_rate * 0.7 + new_growth * 0.3
+gdp_growth_rate = clamp(-0.1, 0.15, gdp_growth_rate)  # -10% to 15%
+
+where:
+- stability = country's stability score (0-100)
+- technology = country's technology level (0-100)
+- unemployment = country's unemployment rate (0-40)
+- corruption = country's corruption level (0-100)
+- random_uniform(a, b) returns a random value between a and b
+- clamp(min, max, value) constrains value between min and max
+```
+
+**Effects:**
+
+- Higher stability increases growth
+- Higher technology increases growth
+- Higher unemployment reduces growth
+- Higher corruption reduces growth
+- Resource extraction provides a small bonus
+
 Government revenue is proportional to tax rate, but reduced by corruption:
 
 ```
@@ -289,6 +493,58 @@ Each country allocates its effective revenue across budget categories:
 * Infrastructure
 
 The sum of all budget allocations cannot exceed effective revenue.
+
+## GDP Per Capita
+
+Each country has:
+
+* GDP per capita
+
+**Formula reference:**
+
+```
+GDP_per_capita = GDP / Population
+```
+
+GDP per capita is used as a proxy for average economic prosperity and influences:
+
+* Immigration
+* Emigration
+* Stability
+* Education quality
+* Birth rate
+
+## Unemployment Rate
+
+Each country has an unemployment rate from 0% to 40%.
+
+Initial unemployment is influenced by:
+
+* Technology
+* Education
+* GDP per capita
+* Stability
+
+**Formula reference:**
+
+```
+unemployment_rate = random_uniform(2, 25)
+
+Adjusted by:
++ low stability
++ low education
++ low GDP per capita
+```
+
+Higher unemployment reduces:
+
+* GDP growth
+* Stability
+
+Higher unemployment increases:
+
+* Emigration
+* Poverty pressure
 
 Initial GDP should depend on:
 
@@ -313,21 +569,111 @@ Each country has:
 
 # Simulation Mechanics
 
-Every year:
+Every year, all variables are recalculated based on the previous year's values.
 
-* Population changes
-* Resources are extracted
-* GDP changes
-* Education slowly evolves
-* Stability changes
-* Resources may become depleted
+## Yearly Update Process
 
-Print yearly statistics such as:
+### Population Changes
+
+Population changes are calculated as:
+
+```
+population_change = (births - deaths) + (immigration - emigration)
+
+where:
+- births = total_population * birth_rate
+- deaths = sum(age_group_population * age_group_mortality_rate)
+- immigration = total_population * immigration_rate
+- emigration = total_population * emigration_rate
+```
+
+**Age distribution updates:**
+
+* Children age into Young Adults
+* Young Adults age into Older Adults
+* Older Adults age into Elderly
+* Elderly who exceed maximum age are removed (deaths)
+* New births are added to Children age group
+
+**Average age changes:**
+
+The average age of the population shifts based on:
+* Birth rate (higher births = younger population)
+* Mortality rates by age group
+* Migration patterns (immigrants/emigrants tend to be specific age groups)
+
+**Birth rate and death rate updates:**
+
+Birth rate and mortality rates are recalculated yearly based on:
+* Updated GDP per capita
+* Updated stability
+* Updated health care spending
+* Updated technology level
+* Updated democracy index
+
+### Economic Updates
+
+* GDP changes based on growth rate
+* GDP per capita recalculated
+* Inflation adjusted
+* Government revenue recalculated based on new GDP and tax rate
+* Effective revenue adjusted for corruption
+* Budget allocations may be adjusted
+* Unemployment rate updated
+
+### Social Updates
+
+* Stability changes based on yearly change formula
+* Democracy index evolves based on cultural education, corruption, and stability
+* Education scores slowly evolve based on budget spending
+* Corruption may change based on democracy index and stability
+* Wealth distribution may shift based on economic changes
+
+### Resource Updates
+
+* Resources are extracted based on extraction capacity
+* Resource reserves decrease
+* Resources may become depleted when reserves reach zero
+* Extraction capacity may decrease as resources deplete
+
+### Migration Updates
+
+* Immigration rate recalculated based on updated GDP per capita, stability, corruption, democracy, and unemployment
+* Emigration rate recalculated based on updated GDP per capita, stability, corruption, democracy, and unemployment
+* Actual migration flows calculated and applied to population
+
+# Output
+
+Instead of printing to console, simulation results are written to a structured text file in the output folder.
+
+## File Structure
+
+The output file is structured as a grid/table format to log changes over time.
+
+## File Header
+
+At the beginning of the file, include metadata:
+
+* **Random seed**: For reproducibility and replication
+* **Software version**: Version number of the simulation software
+* **Creation date**: Date and time when the simulation was created
+* **Number of countries**: Total countries in the simulation
+* **Simulation duration**: Number of years simulated
+* **Other metadata**: Any additional relevant configuration parameters
+
+## Yearly Data Logged
+
+For each year, log:
 
 * Top GDP countries
 * Richest population per capita
 * Most unequal countries
+* Most stable countries
+* Most democratic countries
 * Resource depletion warnings
+* Population growth rates
+* Migration flows
+* Other significant changes or events
 
 ---
 

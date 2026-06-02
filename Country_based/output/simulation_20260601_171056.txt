@@ -1,0 +1,1040 @@
+================================================================================
+ECONOMY SIMULATION RESULTS
+================================================================================
+
+METADATA
+----------------------------------------
+Random Seed: 415009
+Software Version: 1.0.0
+Creation Date: 2026-06-01 17:10:56
+Number of Countries: 50
+Simulation Duration: 10 years
+
+================================================================================
+YEAR 0
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $9,323,487,010,121
+ 2. Eaststan             - GDP: $4,236,799,103,651
+ 3. Country_41           - GDP: $3,387,230,067,951
+ 4. Republicport         - GDP: $1,137,077,377,517
+ 5. Country_42           - GDP: $1,083,732,407,079
+ 6. Country_48           - GDP: $972,630,341,915
+ 7. Country_31           - GDP: $857,782,756,259
+ 8. Country_37           - GDP: $789,610,766,916
+ 9. Northland            - GDP: $727,556,784,408
+10. Westburg             - GDP: $720,375,049,361
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $22,624
+ 2. Country_48           - GDP/Capita: $17,439
+ 3. Federalhaven         - GDP/Capita: $15,197
+ 4. Westburg             - GDP/Capita: $14,610
+ 5. Eaststan             - GDP/Capita: $12,631
+ 6. Country_25           - GDP/Capita: $12,358
+ 7. Greatton             - GDP/Capita: $10,427
+ 8. Country_31           - GDP/Capita: $9,801
+ 9. Country_36           - GDP/Capita: $9,243
+10. Eaststan             - GDP/Capita: $8,659
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Eaststan             - Stability: 78.5
+ 2. Country_31           - Stability: 77.8
+ 3. Country_47           - Stability: 75.3
+ 4. Northland            - Stability: 75.3
+ 5. Country_33           - Stability: 72.4
+ 6. Country_28           - Stability: 69.8
+ 7. Newville             - Stability: 69.6
+ 8. Country_42           - Stability: 68.3
+ 9. Country_25           - Stability: 67.9
+10. Country_45           - Stability: 65.9
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 89.5
+ 2. Republicport         - Democracy Index: 88.6
+ 3. Country_42           - Democracy Index: 86.7
+ 4. Democraticgard       - Democracy Index: 86.2
+ 5. Country_24           - Democracy Index: 83.9
+ 6. Country_32           - Democracy Index: 83.8
+ 7. Country_48           - Democracy Index: 83.3
+ 8. Greatton             - Democracy Index: 82.6
+ 9. Federalhaven         - Democracy Index: 78.7
+10. Country_22           - Democracy Index: 78.4
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.790
+ 2. Republicport         - Inequality: 0.774
+ 3. Federalhaven         - Inequality: 0.774
+ 4. Country_29           - Inequality: 0.754
+ 5. Country_47           - Inequality: 0.753
+ 6. Country_41           - Inequality: 0.741
+ 7. Newville             - Inequality: 0.738
+ 8. Country_26           - Inequality: 0.728
+ 9. Country_30           - Inequality: 0.717
+10. Republicport         - Inequality: 0.713
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,939,810,425
+Average Population per Country: 78,796,208
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $26,394,078,126,570
+Average GDP per Country: $527,881,562,531
+Average GDP per Capita: $5,482
+Average Unemployment Rate: 15.65%
+Average Corruption Level: 39.55
+Average Stability: 52.05
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 0
+Total Emigration: 0
+Net Migration: 0
+
+================================================================================
+YEAR 1
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $9,722,788,867,391
+ 2. Eaststan             - GDP: $4,422,070,995,159
+ 3. Country_41           - GDP: $3,507,181,386,014
+ 4. Republicport         - GDP: $1,143,936,175,587
+ 5. Country_42           - GDP: $1,116,308,103,021
+ 6. Country_48           - GDP: $1,007,986,252,996
+ 7. Country_31           - GDP: $857,331,731,410
+ 8. Country_37           - GDP: $810,242,452,573
+ 9. Northland            - GDP: $740,124,633,316
+10. Westburg             - GDP: $724,168,547,423
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $23,506
+ 2. Country_48           - GDP/Capita: $17,995
+ 3. Federalhaven         - GDP/Capita: $15,723
+ 4. Westburg             - GDP/Capita: $15,119
+ 5. Eaststan             - GDP/Capita: $12,941
+ 6. Country_25           - GDP/Capita: $12,783
+ 7. Greatton             - GDP/Capita: $10,399
+ 8. Country_31           - GDP/Capita: $9,690
+ 9. Country_36           - GDP/Capita: $9,298
+10. Eaststan             - GDP/Capita: $8,574
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_31           - Stability: 77.2
+ 2. Eaststan             - Stability: 77.0
+ 3. Northland            - Stability: 73.6
+ 4. Country_47           - Stability: 72.8
+ 5. Country_33           - Stability: 70.7
+ 6. Country_28           - Stability: 68.1
+ 7. Newville             - Stability: 66.7
+ 8. Country_42           - Stability: 65.6
+ 9. Country_25           - Stability: 65.2
+10. Country_45           - Stability: 64.4
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 89.4
+ 2. Republicport         - Democracy Index: 87.8
+ 3. Democraticgard       - Democracy Index: 87.2
+ 4. Country_42           - Democracy Index: 86.3
+ 5. Country_32           - Democracy Index: 84.0
+ 6. Country_24           - Democracy Index: 84.0
+ 7. Country_48           - Democracy Index: 83.7
+ 8. Greatton             - Democracy Index: 83.5
+ 9. Federalhaven         - Democracy Index: 79.6
+10. Country_22           - Democracy Index: 79.2
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.802
+ 2. Federalhaven         - Inequality: 0.786
+ 3. Republicport         - Inequality: 0.779
+ 4. Country_29           - Inequality: 0.775
+ 5. Country_47           - Inequality: 0.771
+ 6. Country_41           - Inequality: 0.753
+ 7. Newville             - Inequality: 0.753
+ 8. Country_26           - Inequality: 0.748
+ 9. Country_37           - Inequality: 0.733
+10. Country_30           - Inequality: 0.732
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,943,104,769
+Average Population per Country: 78,862,095
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $27,282,999,920,781
+Average GDP per Country: $545,659,998,416
+Average GDP per Capita: $5,591
+Average Unemployment Rate: 15.79%
+Average Corruption Level: 24.22
+Average Stability: 49.71
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 898,496
+Total Emigration: 27,077,759
+Net Migration: -26,179,263
+
+================================================================================
+YEAR 2
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $10,036,919,692,084
+ 2. Eaststan             - GDP: $4,614,303,350,695
+ 3. Country_41           - GDP: $3,594,473,101,676
+ 4. Republicport         - GDP: $1,150,154,140,375
+ 5. Country_42           - GDP: $1,134,824,702,310
+ 6. Country_48           - GDP: $1,036,784,622,465
+ 7. Country_31           - GDP: $872,012,861,510
+ 8. Country_37           - GDP: $821,479,373,193
+ 9. Northland            - GDP: $746,638,589,338
+10. Westburg             - GDP: $727,338,806,171
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $24,299
+ 2. Country_48           - GDP/Capita: $18,504
+ 3. Federalhaven         - GDP/Capita: $16,411
+ 4. Westburg             - GDP/Capita: $15,576
+ 5. Eaststan             - GDP/Capita: $13,289
+ 6. Country_25           - GDP/Capita: $13,061
+ 7. Greatton             - GDP/Capita: $10,438
+ 8. Country_31           - GDP/Capita: $9,978
+ 9. Country_36           - GDP/Capita: $9,460
+10. Eaststan             - GDP/Capita: $8,580
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_31           - Stability: 76.6
+ 2. Eaststan             - Stability: 75.6
+ 3. Northland            - Stability: 72.8
+ 4. Country_47           - Stability: 70.8
+ 5. Country_33           - Stability: 69.1
+ 6. Country_28           - Stability: 66.2
+ 7. Newville             - Stability: 64.4
+ 8. Country_42           - Stability: 64.4
+ 9. Country_48           - Stability: 64.3
+10. Country_45           - Stability: 62.8
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 89.8
+ 2. Democraticgard       - Democracy Index: 88.3
+ 3. Republicport         - Democracy Index: 87.9
+ 4. Country_42           - Democracy Index: 86.7
+ 5. Country_32           - Democracy Index: 84.4
+ 6. Greatton             - Democracy Index: 84.3
+ 7. Country_24           - Democracy Index: 84.3
+ 8. Country_48           - Democracy Index: 84.2
+ 9. Federalhaven         - Democracy Index: 80.4
+10. Country_22           - Democracy Index: 80.0
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.816
+ 2. Federalhaven         - Inequality: 0.808
+ 3. Country_29           - Inequality: 0.793
+ 4. Republicport         - Inequality: 0.788
+ 5. Country_47           - Inequality: 0.782
+ 6. Country_41           - Inequality: 0.771
+ 7. Country_26           - Inequality: 0.769
+ 8. Newville             - Inequality: 0.769
+ 9. Country_30           - Inequality: 0.750
+10. Country_33           - Inequality: 0.745
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,917,342,590
+Average Population per Country: 78,346,852
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $28,029,794,721,953
+Average GDP per Country: $560,595,894,439
+Average GDP per Capita: $5,738
+Average Unemployment Rate: 16.00%
+Average Corruption Level: 15.20
+Average Stability: 47.75
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 2,280,489
+Total Emigration: 13,267,294
+Net Migration: -10,986,805
+
+================================================================================
+YEAR 3
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $10,416,946,379,327
+ 2. Eaststan             - GDP: $4,759,456,147,315
+ 3. Country_41           - GDP: $3,634,327,666,444
+ 4. Republicport         - GDP: $1,152,289,645,523
+ 5. Country_42           - GDP: $1,149,137,832,792
+ 6. Country_48           - GDP: $1,068,228,501,179
+ 7. Country_31           - GDP: $888,606,983,247
+ 8. Country_37           - GDP: $827,176,349,615
+ 9. Northland            - GDP: $749,386,354,659
+10. Westburg             - GDP: $736,318,606,523
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $25,394
+ 2. Country_48           - GDP/Capita: $18,998
+ 3. Federalhaven         - GDP/Capita: $17,213
+ 4. Westburg             - GDP/Capita: $16,111
+ 5. Eaststan             - GDP/Capita: $13,541
+ 6. Country_25           - GDP/Capita: $13,456
+ 7. Greatton             - GDP/Capita: $10,629
+ 8. Country_31           - GDP/Capita: $10,409
+ 9. Country_36           - GDP/Capita: $9,818
+10. Eaststan             - GDP/Capita: $8,814
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_31           - Stability: 76.1
+ 2. Eaststan             - Stability: 74.4
+ 3. Northland            - Stability: 72.9
+ 4. Country_47           - Stability: 69.5
+ 5. Country_33           - Stability: 67.3
+ 6. Country_48           - Stability: 65.4
+ 7. Country_28           - Stability: 64.6
+ 8. Country_42           - Stability: 63.9
+ 9. Newville             - Stability: 62.2
+10. Country_35           - Stability: 61.9
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 90.4
+ 2. Democraticgard       - Democracy Index: 89.3
+ 3. Republicport         - Democracy Index: 88.2
+ 4. Country_42           - Democracy Index: 87.3
+ 5. Greatton             - Democracy Index: 85.2
+ 6. Country_32           - Democracy Index: 84.8
+ 7. Country_48           - Democracy Index: 84.8
+ 8. Country_24           - Democracy Index: 84.6
+ 9. Federalhaven         - Democracy Index: 81.2
+10. Country_22           - Democracy Index: 80.8
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.836
+ 2. Federalhaven         - Inequality: 0.818
+ 3. Country_29           - Inequality: 0.806
+ 4. Republicport         - Inequality: 0.800
+ 5. Country_47           - Inequality: 0.788
+ 6. Country_41           - Inequality: 0.788
+ 7. Country_26           - Inequality: 0.783
+ 8. Country_30           - Inequality: 0.774
+ 9. Newville             - Inequality: 0.771
+10. Country_37           - Inequality: 0.768
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,875,017,389
+Average Population per Country: 77,500,348
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $28,737,285,869,306
+Average GDP per Country: $574,745,717,386
+Average GDP per Capita: $5,926
+Average Unemployment Rate: 16.23%
+Average Corruption Level: 9.99
+Average Stability: 46.01
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,477,749
+Total Emigration: 9,983,054
+Net Migration: -8,505,305
+
+================================================================================
+YEAR 4
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $10,705,335,409,462
+ 2. Eaststan             - GDP: $4,936,306,176,904
+ 3. Country_41           - GDP: $3,639,690,853,242
+ 4. Country_42           - GDP: $1,172,656,102,417
+ 5. Republicport         - GDP: $1,156,056,707,763
+ 6. Country_48           - GDP: $1,107,916,552,131
+ 7. Country_31           - GDP: $904,933,046,584
+ 8. Country_37           - GDP: $834,506,222,128
+ 9. Country_34           - GDP: $752,382,783,575
+10. Northland            - GDP: $748,724,255,775
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $26,149
+ 2. Country_48           - GDP/Capita: $19,587
+ 3. Federalhaven         - GDP/Capita: $18,063
+ 4. Westburg             - GDP/Capita: $16,738
+ 5. Eaststan             - GDP/Capita: $13,921
+ 6. Country_25           - GDP/Capita: $13,693
+ 7. Greatton             - GDP/Capita: $10,940
+ 8. Country_31           - GDP/Capita: $10,831
+ 9. Country_36           - GDP/Capita: $10,193
+10. Eaststan             - GDP/Capita: $9,100
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_31           - Stability: 75.3
+ 2. Northland            - Stability: 73.3
+ 3. Eaststan             - Stability: 73.1
+ 4. Country_47           - Stability: 68.1
+ 5. Country_48           - Stability: 66.7
+ 6. Country_33           - Stability: 65.4
+ 7. Country_42           - Stability: 63.6
+ 8. Country_28           - Stability: 63.2
+ 9. Country_35           - Stability: 61.8
+10. Country_27           - Stability: 61.3
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 91.2
+ 2. Democraticgard       - Democracy Index: 90.3
+ 3. Republicport         - Democracy Index: 88.8
+ 4. Country_42           - Democracy Index: 88.1
+ 5. Greatton             - Democracy Index: 86.1
+ 6. Country_48           - Democracy Index: 85.4
+ 7. Country_32           - Democracy Index: 85.3
+ 8. Country_24           - Democracy Index: 85.0
+ 9. Federalhaven         - Democracy Index: 82.0
+10. Country_22           - Democracy Index: 81.6
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.855
+ 2. Federalhaven         - Inequality: 0.833
+ 3. Country_29           - Inequality: 0.824
+ 4. Republicport         - Inequality: 0.819
+ 5. Country_26           - Inequality: 0.810
+ 6. Country_41           - Inequality: 0.803
+ 7. Country_30           - Inequality: 0.800
+ 8. Country_47           - Inequality: 0.797
+ 9. Country_37           - Inequality: 0.793
+10. Newville             - Inequality: 0.786
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,833,359,807
+Average Population per Country: 76,667,196
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $29,362,349,520,886
+Average GDP per Country: $587,246,990,418
+Average GDP per Capita: $6,119
+Average Unemployment Rate: 16.56%
+Average Corruption Level: 6.75
+Average Stability: 44.37
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,295,078
+Total Emigration: 6,262,734
+Net Migration: -4,967,656
+
+================================================================================
+YEAR 5
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $10,930,252,866,061
+ 2. Eaststan             - GDP: $5,107,654,104,589
+ 3. Country_41           - GDP: $3,616,176,241,815
+ 4. Country_42           - GDP: $1,195,598,095,413
+ 5. Country_48           - GDP: $1,157,041,407,594
+ 6. Republicport         - GDP: $1,157,035,530,903
+ 7. Country_31           - GDP: $920,472,529,391
+ 8. Country_37           - GDP: $844,635,854,980
+ 9. Country_34           - GDP: $777,783,590,559
+10. Westburg             - GDP: $754,703,655,090
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $26,683
+ 2. Country_48           - GDP/Capita: $20,270
+ 3. Federalhaven         - GDP/Capita: $18,813
+ 4. Westburg             - GDP/Capita: $17,144
+ 5. Eaststan             - GDP/Capita: $14,210
+ 6. Country_25           - GDP/Capita: $13,941
+ 7. Greatton             - GDP/Capita: $11,264
+ 8. Country_31           - GDP/Capita: $11,147
+ 9. Country_36           - GDP/Capita: $10,482
+10. Eaststan             - GDP/Capita: $9,343
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_31           - Stability: 74.6
+ 2. Northland            - Stability: 73.9
+ 3. Eaststan             - Stability: 71.8
+ 4. Country_48           - Stability: 67.8
+ 5. Country_47           - Stability: 66.9
+ 6. Country_33           - Stability: 63.6
+ 7. Country_42           - Stability: 63.3
+ 8. Country_28           - Stability: 61.6
+ 9. Country_35           - Stability: 61.6
+10. Country_27           - Stability: 60.9
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 92.0
+ 2. Democraticgard       - Democracy Index: 91.3
+ 3. Republicport         - Democracy Index: 89.4
+ 4. Country_42           - Democracy Index: 89.0
+ 5. Greatton             - Democracy Index: 86.9
+ 6. Country_48           - Democracy Index: 86.0
+ 7. Country_32           - Democracy Index: 85.7
+ 8. Country_24           - Democracy Index: 85.5
+ 9. Federalhaven         - Democracy Index: 82.9
+10. Country_22           - Democracy Index: 82.3
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.872
+ 2. Federalhaven         - Inequality: 0.855
+ 3. Country_29           - Inequality: 0.849
+ 4. Country_26           - Inequality: 0.834
+ 5. Country_41           - Inequality: 0.822
+ 6. Republicport         - Inequality: 0.822
+ 7. Country_37           - Inequality: 0.820
+ 8. Country_30           - Inequality: 0.815
+ 9. Newville             - Inequality: 0.807
+10. Country_47           - Inequality: 0.806
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,813,246,984
+Average Population per Country: 76,264,940
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $29,905,071,341,645
+Average GDP per Country: $598,101,426,833
+Average GDP per Capita: $6,266
+Average Unemployment Rate: 16.89%
+Average Corruption Level: 4.69
+Average Stability: 42.76
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 2,370,320
+Total Emigration: 3,227,044
+Net Migration: -856,724
+
+================================================================================
+YEAR 6
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $11,120,167,869,457
+ 2. Eaststan             - GDP: $5,246,385,941,189
+ 3. Country_41           - GDP: $3,603,551,838,538
+ 4. Country_42           - GDP: $1,214,867,824,997
+ 5. Country_48           - GDP: $1,205,541,165,929
+ 6. Republicport         - GDP: $1,163,157,343,466
+ 7. Country_31           - GDP: $941,649,885,971
+ 8. Country_37           - GDP: $856,637,823,518
+ 9. Country_34           - GDP: $806,134,945,072
+10. Westburg             - GDP: $769,639,409,282
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $27,338
+ 2. Country_48           - GDP/Capita: $21,043
+ 3. Federalhaven         - GDP/Capita: $19,936
+ 4. Westburg             - GDP/Capita: $17,532
+ 5. Eaststan             - GDP/Capita: $14,478
+ 6. Country_25           - GDP/Capita: $14,324
+ 7. Greatton             - GDP/Capita: $11,683
+ 8. Country_31           - GDP/Capita: $11,592
+ 9. Country_36           - GDP/Capita: $10,910
+10. Eaststan             - GDP/Capita: $9,591
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Northland            - Stability: 74.6
+ 2. Country_31           - Stability: 74.0
+ 3. Eaststan             - Stability: 70.7
+ 4. Country_48           - Stability: 69.0
+ 5. Country_47           - Stability: 66.0
+ 6. Country_42           - Stability: 62.9
+ 7. Country_33           - Stability: 61.7
+ 8. Country_35           - Stability: 61.3
+ 9. Country_27           - Stability: 60.8
+10. Country_28           - Stability: 60.0
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 92.8
+ 2. Democraticgard       - Democracy Index: 92.3
+ 3. Republicport         - Democracy Index: 90.1
+ 4. Country_42           - Democracy Index: 89.9
+ 5. Greatton             - Democracy Index: 87.8
+ 6. Country_48           - Democracy Index: 86.7
+ 7. Country_32           - Democracy Index: 86.2
+ 8. Country_24           - Democracy Index: 85.9
+ 9. Federalhaven         - Democracy Index: 83.7
+10. Country_22           - Democracy Index: 83.1
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.899
+ 2. Country_29           - Inequality: 0.879
+ 3. Federalhaven         - Inequality: 0.863
+ 4. Country_26           - Inequality: 0.854
+ 5. Country_41           - Inequality: 0.850
+ 6. Country_37           - Inequality: 0.846
+ 7. Country_30           - Inequality: 0.833
+ 8. Republicport         - Inequality: 0.829
+ 9. Newville             - Inequality: 0.818
+10. Country_47           - Inequality: 0.816
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,776,167,106
+Average Population per Country: 75,523,342
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $30,409,589,123,150
+Average GDP per Country: $608,191,782,463
+Average GDP per Capita: $6,469
+Average Unemployment Rate: 17.32%
+Average Corruption Level: 3.44
+Average Stability: 41.12
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,693,708
+Total Emigration: 1,695,116
+Net Migration: -1,408
+
+================================================================================
+YEAR 7
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $11,386,711,170,894
+ 2. Eaststan             - GDP: $5,417,457,180,384
+ 3. Country_41           - GDP: $3,612,926,530,268
+ 4. Country_48           - GDP: $1,257,923,432,956
+ 5. Country_42           - GDP: $1,226,913,505,819
+ 6. Republicport         - GDP: $1,171,283,628,275
+ 7. Country_31           - GDP: $964,912,000,993
+ 8. Country_37           - GDP: $859,821,600,780
+ 9. Country_34           - GDP: $835,912,236,184
+10. Westburg             - GDP: $783,638,492,121
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $28,139
+ 2. Country_48           - GDP/Capita: $21,722
+ 3. Federalhaven         - GDP/Capita: $21,415
+ 4. Westburg             - GDP/Capita: $17,914
+ 5. Country_25           - GDP/Capita: $14,814
+ 6. Eaststan             - GDP/Capita: $14,786
+ 7. Greatton             - GDP/Capita: $12,225
+ 8. Country_31           - GDP/Capita: $12,059
+ 9. Country_36           - GDP/Capita: $11,467
+10. Eaststan             - GDP/Capita: $9,872
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Northland            - Stability: 75.6
+ 2. Country_31           - Stability: 73.5
+ 3. Country_48           - Stability: 70.2
+ 4. Eaststan             - Stability: 69.5
+ 5. Country_47           - Stability: 65.0
+ 6. Country_42           - Stability: 62.7
+ 7. Country_35           - Stability: 60.9
+ 8. Country_27           - Stability: 60.7
+ 9. Country_33           - Stability: 59.9
+10. Country_28           - Stability: 58.6
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 93.6
+ 2. Democraticgard       - Democracy Index: 93.3
+ 3. Country_42           - Democracy Index: 90.8
+ 4. Republicport         - Democracy Index: 90.8
+ 5. Greatton             - Democracy Index: 88.7
+ 6. Country_48           - Democracy Index: 87.3
+ 7. Country_32           - Democracy Index: 86.6
+ 8. Country_24           - Democracy Index: 86.3
+ 9. Federalhaven         - Democracy Index: 84.5
+10. Country_22           - Democracy Index: 83.9
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.910
+ 2. Country_29           - Inequality: 0.904
+ 3. Federalhaven         - Inequality: 0.885
+ 4. Country_26           - Inequality: 0.882
+ 5. Country_37           - Inequality: 0.875
+ 6. Country_41           - Inequality: 0.866
+ 7. Country_30           - Inequality: 0.852
+ 8. Republicport         - Inequality: 0.837
+ 9. Republicport         - Inequality: 0.836
+10. Newville             - Inequality: 0.827
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,739,170,132
+Average Population per Country: 74,783,403
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $31,029,447,188,974
+Average GDP per Country: $620,588,943,779
+Average GDP per Capita: $6,696
+Average Unemployment Rate: 17.73%
+Average Corruption Level: 2.52
+Average Stability: 39.45
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,683,785
+Total Emigration: 1,662,649
+Net Migration: 21,136
+
+================================================================================
+YEAR 8
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $11,602,337,630,946
+ 2. Eaststan             - GDP: $5,614,238,521,837
+ 3. Country_41           - GDP: $3,624,338,779,807
+ 4. Country_48           - GDP: $1,318,944,862,175
+ 5. Country_42           - GDP: $1,251,766,090,056
+ 6. Republicport         - GDP: $1,168,855,879,091
+ 7. Country_31           - GDP: $999,255,625,287
+ 8. Country_34           - GDP: $861,037,989,757
+ 9. Country_37           - GDP: $857,700,295,922
+10. Westburg             - GDP: $802,789,019,736
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $28,616
+ 2. Country_48           - GDP/Capita: $22,490
+ 3. Federalhaven         - GDP/Capita: $22,441
+ 4. Westburg             - GDP/Capita: $18,233
+ 5. Country_25           - GDP/Capita: $15,269
+ 6. Eaststan             - GDP/Capita: $15,133
+ 7. Greatton             - GDP/Capita: $12,627
+ 8. Country_31           - GDP/Capita: $12,499
+ 9. Country_36           - GDP/Capita: $11,870
+10. Eaststan             - GDP/Capita: $9,933
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Northland            - Stability: 76.4
+ 2. Country_31           - Stability: 73.0
+ 3. Country_48           - Stability: 71.4
+ 4. Eaststan             - Stability: 68.2
+ 5. Country_47           - Stability: 64.2
+ 6. Country_42           - Stability: 62.6
+ 7. Country_35           - Stability: 60.5
+ 8. Country_27           - Stability: 60.4
+ 9. Country_33           - Stability: 58.1
+10. Country_28           - Stability: 57.0
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 94.4
+ 2. Democraticgard       - Democracy Index: 94.2
+ 3. Country_42           - Democracy Index: 91.7
+ 4. Republicport         - Democracy Index: 91.4
+ 5. Greatton             - Democracy Index: 89.5
+ 6. Country_48           - Democracy Index: 88.0
+ 7. Country_32           - Democracy Index: 87.1
+ 8. Country_24           - Democracy Index: 86.7
+ 9. Federalhaven         - Democracy Index: 85.3
+10. Country_22           - Democracy Index: 84.6
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.932
+ 2. Country_29           - Inequality: 0.926
+ 3. Country_26           - Inequality: 0.902
+ 4. Federalhaven         - Inequality: 0.899
+ 5. Country_41           - Inequality: 0.891
+ 6. Country_37           - Inequality: 0.887
+ 7. Country_30           - Inequality: 0.873
+ 8. Republicport         - Inequality: 0.851
+ 9. Newville             - Inequality: 0.848
+10. Country_47           - Inequality: 0.847
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,721,805,554
+Average Population per Country: 74,436,111
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $31,644,074,042,280
+Average GDP per Country: $632,881,480,846
+Average GDP per Capita: $6,868
+Average Unemployment Rate: 18.23%
+Average Corruption Level: 1.87
+Average Stability: 37.71
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 2,275,544
+Total Emigration: 1,029,462
+Net Migration: 1,246,082
+
+================================================================================
+YEAR 9
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $11,856,077,039,199
+ 2. Eaststan             - GDP: $5,826,700,232,845
+ 3. Country_41           - GDP: $3,609,756,538,411
+ 4. Country_48           - GDP: $1,378,396,950,288
+ 5. Country_42           - GDP: $1,282,666,321,031
+ 6. Republicport         - GDP: $1,165,732,256,001
+ 7. Country_31           - GDP: $1,032,712,986,126
+ 8. Country_34           - GDP: $879,172,079,520
+ 9. Country_37           - GDP: $854,650,494,428
+10. Westburg             - GDP: $822,599,142,498
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $29,588
+ 2. Federalhaven         - GDP/Capita: $23,426
+ 3. Country_48           - GDP/Capita: $23,219
+ 4. Westburg             - GDP/Capita: $18,608
+ 5. Eaststan             - GDP/Capita: $15,712
+ 6. Country_25           - GDP/Capita: $15,620
+ 7. Country_31           - GDP/Capita: $13,067
+ 8. Greatton             - GDP/Capita: $13,044
+ 9. Country_36           - GDP/Capita: $12,534
+10. Eaststan             - GDP/Capita: $10,085
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Northland            - Stability: 77.3
+ 2. Country_48           - Stability: 72.8
+ 3. Country_31           - Stability: 72.4
+ 4. Eaststan             - Stability: 67.1
+ 5. Country_47           - Stability: 63.2
+ 6. Country_42           - Stability: 62.4
+ 7. Country_35           - Stability: 60.2
+ 8. Country_27           - Stability: 60.1
+ 9. Country_33           - Stability: 56.1
+10. Country_28           - Stability: 55.4
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_46           - Democracy Index: 95.2
+ 2. Democraticgard       - Democracy Index: 95.2
+ 3. Country_42           - Democracy Index: 92.6
+ 4. Republicport         - Democracy Index: 92.1
+ 5. Greatton             - Democracy Index: 90.3
+ 6. Country_48           - Democracy Index: 88.7
+ 7. Country_32           - Democracy Index: 87.6
+ 8. Country_24           - Democracy Index: 87.1
+ 9. Federalhaven         - Democracy Index: 86.1
+10. Country_22           - Democracy Index: 85.3
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.951
+ 2. Country_29           - Inequality: 0.942
+ 3. Country_26           - Inequality: 0.925
+ 4. Country_37           - Inequality: 0.917
+ 5. Country_41           - Inequality: 0.906
+ 6. Federalhaven         - Inequality: 0.904
+ 7. Country_30           - Inequality: 0.891
+ 8. Republicport         - Inequality: 0.879
+ 9. Country_47           - Inequality: 0.870
+10. Newville             - Inequality: 0.863
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,676,348,813
+Average Population per Country: 73,526,976
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $32,273,104,842,551
+Average GDP per Country: $645,462,096,851
+Average GDP per Capita: $7,091
+Average Unemployment Rate: 18.66%
+Average Corruption Level: 1.53
+Average Stability: 35.93
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,811,875
+Total Emigration: 596,826
+Net Migration: 1,215,049
+
+================================================================================
+YEAR 10
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Newville             - GDP: $12,193,115,099,511
+ 2. Eaststan             - GDP: $6,064,895,328,414
+ 3. Country_41           - GDP: $3,608,440,835,245
+ 4. Country_48           - GDP: $1,446,794,155,242
+ 5. Country_42           - GDP: $1,316,443,466,059
+ 6. Republicport         - GDP: $1,164,095,092,785
+ 7. Country_31           - GDP: $1,063,896,643,520
+ 8. Country_34           - GDP: $898,111,615,146
+ 9. Country_37           - GDP: $852,936,878,163
+10. Westburg             - GDP: $836,735,822,236
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Newville             - GDP/Capita: $30,632
+ 2. Federalhaven         - GDP/Capita: $24,809
+ 3. Country_48           - GDP/Capita: $24,202
+ 4. Westburg             - GDP/Capita: $18,921
+ 5. Eaststan             - GDP/Capita: $16,383
+ 6. Country_25           - GDP/Capita: $16,036
+ 7. Country_31           - GDP/Capita: $13,672
+ 8. Greatton             - GDP/Capita: $13,493
+ 9. Country_36           - GDP/Capita: $13,178
+10. Eaststan             - GDP/Capita: $10,363
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Northland            - Stability: 78.2
+ 2. Country_48           - Stability: 74.1
+ 3. Country_31           - Stability: 71.8
+ 4. Eaststan             - Stability: 66.0
+ 5. Country_47           - Stability: 62.2
+ 6. Country_42           - Stability: 62.1
+ 7. Country_35           - Stability: 59.9
+ 8. Country_27           - Stability: 59.9
+ 9. Country_33           - Stability: 54.2
+10. Westburg             - Stability: 54.0
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Democraticgard       - Democracy Index: 96.2
+ 2. Country_46           - Democracy Index: 96.0
+ 3. Country_42           - Democracy Index: 93.5
+ 4. Republicport         - Democracy Index: 92.8
+ 5. Greatton             - Democracy Index: 91.2
+ 6. Country_48           - Democracy Index: 89.4
+ 7. Country_32           - Democracy Index: 88.0
+ 8. Country_24           - Democracy Index: 87.5
+ 9. Federalhaven         - Democracy Index: 87.0
+10. Country_22           - Democracy Index: 86.0
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_22           - Inequality: 0.979
+ 2. Country_29           - Inequality: 0.969
+ 3. Country_26           - Inequality: 0.945
+ 4. Country_37           - Inequality: 0.940
+ 5. Country_41           - Inequality: 0.923
+ 6. Federalhaven         - Inequality: 0.917
+ 7. Country_30           - Inequality: 0.914
+ 8. Republicport         - Inequality: 0.893
+ 9. Country_47           - Inequality: 0.881
+10. Republicport         - Inequality: 0.874
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 3,627,510,492
+Average Population per Country: 72,550,210
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $33,042,135,824,092
+Average GDP per Country: $660,842,716,482
+Average GDP per Capita: $7,353
+Average Unemployment Rate: 19.18%
+Average Corruption Level: 1.34
+Average Stability: 34.07
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  - Democraticgard: Iron reserves low
+  - Democraticgard: Silicon reserves low
+  - Country_21: Lithium reserves low
+  - Country_31: Iron reserves low
+  - Country_42: Stone reserves low
+  - Country_47: Silicon reserves low
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,447,691
+Total Emigration: 807,196
+Net Migration: 640,495
+

@@ -1,6 +1,7 @@
 """
-Population management - Handles population generation, age distribution, and wealth classes.
+Population system - handles demographics, age distribution, and population dynamics.
 """
+
 import random
 import math
 from typing import Dict
@@ -10,151 +11,254 @@ from dataclasses import dataclass
 @dataclass
 class AgeGroup:
     """Represents an age group in the population."""
-    name: str
-    min_age: int
-    max_age: int
-    population: int
+    children: int = 0      # 0-17 years
+    young_adults: int = 0  # 18-39 years
+    older_adults: int = 0  # 40-65 years
+    elderly: int = 0       # 66-90 years
 
 
 @dataclass
 class EconomicClass:
-    """Represents an economic class in the population."""
-    name: str
-    population_percentage: float
-    wealth_percentage: float
+    """Represents economic class distribution."""
+    lower_class: int = 0
+    middle_class: int = 0
+    upper_class: int = 0
+    elite_class: int = 0
 
 
-class PopulationManager:
-    """Manages population-related properties and calculations."""
+class Population:
+    """Manages population demographics and dynamics."""
     
-    def __init__(self):
-        self.total_population: int = 0
-        self.age_groups: Dict[str, AgeGroup] = {}
-        self.economic_classes: Dict[str, EconomicClass] = {}
-        self.disparity_factor: float = 0.0  # 0.0 to 1.0, inequality level
-        self.education_technical: float = 0.0  # 0 to 100
-        self.education_cultural: float = 0.0  # 0 to 100
+    def __init__(self, area: float, stability: float, technology: float):
+        self.total = self._generate_population()
+        
+        # Wealth distribution (initialize before economic classes)
+        self.inequality_factor = random.uniform(0.2, 0.8)
+        
+        self.age_groups = self._generate_age_distribution(stability, technology)
+        self.economic_classes = self._generate_economic_classes()
+        
+        # Population dynamics
+        self.birth_rate = 0.0
+        self.immigration_rate = 0.0
+        self.emigration_rate = 0.0
+        
+        # Mortality rates (yearly percentages)
+        self.mortality_rates = {
+            "children": random.uniform(0.0005, 0.0050),
+            "young_adults": random.uniform(0.0005, 0.0030),
+            "older_adults": random.uniform(0.0020, 0.0150),
+            "elderly": random.uniform(0.0200, 0.1200)
+        }
     
-    def generate_population(self):
+    def _generate_population(self) -> int:
         """Generate population using logarithmic distribution."""
-        min_pop = 500_000
-        max_pop = 500_000_000
-        
-        # Logarithmic distribution
-        self.total_population = int(math.exp(random.uniform(math.log(min_pop), math.log(max_pop))))
-        
-        # Generate age distribution
-        self._generate_age_distribution()
-        
-        # Generate wealth distribution
-        self._generate_wealth_distribution()
-        
-        # Generate education
-        self.education_technical = random.uniform(20, 80)
-        self.education_cultural = random.uniform(20, 80)
+        min_pop = 500000
+        max_pop = 500000000
+        population = math.exp(random.uniform(math.log(min_pop), math.log(max_pop)))
+        return int(population)
     
-    def _generate_age_distribution(self, gdp: float = 1e9, stability: float = 50, technology: float = 50):
-        """Generate age groups based on demographic factors."""
-        # Calculate age factor based on GDP, stability, and technology
-        max_gdp = 1e12  # Reference maximum GDP
-        age_factor = random.uniform(0, 1) * (gdp / max_gdp) * (stability / 100) * (technology / 100)
-        
-        # Base distribution percentages
+    def _generate_age_distribution(self, stability: float, technology: float) -> AgeGroup:
+        """Generate age distribution based on demographic factors."""
+        # Base distribution (realistic demographics)
         base_children = 0.25
-        base_young_adults = 0.35
-        base_older_adults = 0.25
+        base_young = 0.30
+        base_older = 0.30
         base_elderly = 0.15
         
-        # Adjust based on age factor
-        # Higher age_factor = more elderly, fewer children
-        children_pct = base_children - (age_factor * 0.1)
-        young_adults_pct = base_young_adults - (age_factor * 0.05)
-        older_adults_pct = base_older_adults
-        elderly_pct = base_elderly + (age_factor * 0.15)
+        # Age factor based on GDP proxy (using stability and technology)
+        age_factor = random.uniform(0, 1) * (stability / 100) * (technology / 100)
         
-        # Normalize to ensure sum = 1
-        total = children_pct + young_adults_pct + older_adults_pct + elderly_pct
-        children_pct /= total
-        young_adults_pct /= total
-        older_adults_pct /= total
-        elderly_pct /= total
+        # Adjust distribution based on age_factor
+        if age_factor > 0.5:
+            # Older population
+            base_children -= 0.05
+            base_young -= 0.05
+            base_older += 0.05
+            base_elderly += 0.05
+        else:
+            # Younger population
+            base_children += 0.05
+            base_young += 0.05
+            base_older -= 0.05
+            base_elderly -= 0.05
         
-        # Create age groups
-        self.age_groups = {
-            "children": AgeGroup("Children", 0, 17, int(self.total_population * children_pct)),
-            "young_adults": AgeGroup("Young Adults", 18, 39, int(self.total_population * young_adults_pct)),
-            "older_adults": AgeGroup("Older Adults", 40, 65, int(self.total_population * older_adults_pct)),
-            "elderly": AgeGroup("Elderly", 66, 90, int(self.total_population * elderly_pct))
-        }
+        # Ensure valid distribution
+        total = base_children + base_young + base_older + base_elderly
+        base_children /= total
+        base_young /= total
+        base_older /= total
+        base_elderly /= total
+        
+        return AgeGroup(
+            children=int(self.total * base_children),
+            young_adults=int(self.total * base_young),
+            older_adults=int(self.total * base_older),
+            elderly=int(self.total * base_elderly)
+        )
     
-    def _generate_wealth_distribution(self):
-        """Generate economic classes based on disparity factor."""
-        # Random disparity factor (0.0 = equal, 1.0 = highly unequal)
-        self.disparity_factor = random.uniform(0.1, 0.9)
+    def _generate_economic_classes(self) -> EconomicClass:
+        """Generate economic class distribution based on inequality factor."""
+        # Base distribution for moderate inequality
+        base_lower = 0.40
+        base_middle = 0.45
+        base_upper = 0.12
+        base_elite = 0.03
         
-        # Base distribution (more equal)
-        lower_pop = 0.40
-        middle_pop = 0.45
-        upper_pop = 0.12
-        elite_pop = 0.03
+        # Adjust based on inequality factor
+        if self.inequality_factor > 0.6:
+            # High inequality
+            base_lower += 0.10
+            base_middle -= 0.10
+            base_upper += 0.02
+            base_elite -= 0.02
+        elif self.inequality_factor < 0.4:
+            # Low inequality
+            base_lower -= 0.10
+            base_middle += 0.10
+            base_upper -= 0.02
+            base_elite += 0.02
         
-        # Adjust based on disparity
-        # Higher disparity = more extreme distribution
-        lower_pop += self.disparity_factor * 0.1
-        middle_pop -= self.disparity_factor * 0.15
-        upper_pop += self.disparity_factor * 0.03
-        elite_pop += self.disparity_factor * 0.02
+        # Ensure valid distribution
+        total = base_lower + base_middle + base_upper + base_elite
+        base_lower /= total
+        base_middle /= total
+        base_upper /= total
+        base_elite /= total
         
-        # Normalize
-        total = lower_pop + middle_pop + upper_pop + elite_pop
-        lower_pop /= total
-        middle_pop /= total
-        upper_pop /= total
-        elite_pop /= total
-        
-        # Wealth distribution (more unequal than population)
-        lower_wealth = 0.10 - (self.disparity_factor * 0.05)
-        middle_wealth = 0.40 - (self.disparity_factor * 0.15)
-        upper_wealth = 0.35 + (self.disparity_factor * 0.10)
-        elite_wealth = 0.15 + (self.disparity_factor * 0.10)
-        
-        # Normalize
-        total = lower_wealth + middle_wealth + upper_wealth + elite_wealth
-        lower_wealth /= total
-        middle_wealth /= total
-        upper_wealth /= total
-        elite_wealth /= total
-        
-        self.economic_classes = {
-            "lower": EconomicClass("Lower Class", lower_pop, lower_wealth),
-            "middle": EconomicClass("Middle Class", middle_pop, middle_wealth),
-            "upper": EconomicClass("Upper Class", upper_pop, upper_wealth),
-            "elite": EconomicClass("Elite Class", elite_pop, elite_wealth)
-        }
+        return EconomicClass(
+            lower_class=int(self.total * base_lower),
+            middle_class=int(self.total * base_middle),
+            upper_class=int(self.total * base_upper),
+            elite_class=int(self.total * base_elite)
+        )
     
-    def simulate_year(self, gdp: float, stability: float, technology: float):
-        """Simulate population changes for one year."""
-        # Recalculate age distribution based on current factors
-        self._generate_age_distribution(gdp, stability, technology)
+    def yearly_update(self, gdp_per_capita: float, stability: float, corruption: float,
+                     unemployment_rate: float, healthcare_spending: float, technology: float):
+        """Update population for one year."""
+        # Calculate rates
+        self._calculate_rates(gdp_per_capita, stability, corruption, unemployment_rate)
         
-        # Population growth rate based on stability, technology, and age distribution
-        growth_rate = (stability / 100 - 0.5) * 0.02 + (technology / 100 - 0.5) * 0.01
+        # Calculate population changes
+        births = self.total * self.birth_rate
+        deaths = self._calculate_deaths(healthcare_spending, technology, stability)
+        immigration = self.total * self.immigration_rate
+        emigration = self.total * self.emigration_rate
         
-        # Younger population grows faster
-        youth_ratio = self.age_groups["children"].population / self.total_population
-        growth_rate += (youth_ratio - 0.25) * 0.02
+        # Apply changes
+        population_change = (births - deaths) + (immigration - emigration)
+        self.total = max(100000, int(self.total + population_change))
         
-        # Apply growth
-        self.total_population = int(self.total_population * (1 + growth_rate))
+        # Update age distribution
+        self._update_age_distribution(births, deaths, immigration, emigration)
         
-        # Update age group populations
-        for group in self.age_groups.values():
-            group.population = int(group.population * (1 + growth_rate))
+        # Update economic classes
+        self._update_economic_classes()
     
-    def update_education(self, gdp: float, technology: float):
-        """Slowly evolve education levels."""
-        # Education improves with GDP and technology
-        improvement = (gdp / 1e12) * 0.1 + (technology / 100) * 0.05
+    def _calculate_rates(self, gdp_per_capita: float, stability: float, corruption: float,
+                        unemployment_rate: float):
+        """Calculate birth, immigration, and emigration rates."""
+        max_gdp_per_capita = 100000  # Reference maximum
+        max_birth_rate = 0.05
+        max_immigration_rate = 0.03
+        max_emigration_rate = 0.03
         
-        self.education_technical = min(100, self.education_technical + improvement * random.uniform(0, 1))
-        self.education_cultural = min(100, self.education_cultural + improvement * random.uniform(0, 1))
+        # Birth rate
+        self.birth_rate = (
+            random.uniform(0.4, 1.0)
+            * (1 - min(1, gdp_per_capita / max_gdp_per_capita))
+            * (stability / 100)
+            * max_birth_rate
+        )
+        
+        # Immigration rate
+        self.immigration_rate = (
+            random.uniform(0, 1)
+            * (min(1, gdp_per_capita / max_gdp_per_capita))
+            * (stability / 100)
+            * (1 - corruption / 100)
+            * max_immigration_rate
+        )
+        self.immigration_rate *= (1 - unemployment_rate / 100)
+        
+        # Emigration rate
+        self.emigration_rate = (
+            random.uniform(0, 1)
+            * (1 - min(1, gdp_per_capita / max_gdp_per_capita))
+            * (1 - stability / 100)
+            * (corruption / 100)
+            * max_emigration_rate
+        )
+        self.emigration_rate *= (1 + unemployment_rate / 50)
+    
+    def _calculate_deaths(self, healthcare_spending: float, technology: float, stability: float) -> int:
+        """Calculate total deaths based on mortality rates."""
+        # Adjust mortality rates based on factors
+        health_factor = 1 - (healthcare_spending / 1000000000000) * 0.3  # Reduced by healthcare
+        tech_factor = 1 - (technology / 100) * 0.2  # Reduced by technology
+        stability_factor = 1 + (1 - stability / 100) * 0.3  # Increased by low stability
+        
+        adjustment = health_factor * tech_factor * stability_factor
+        
+        deaths = (
+            self.age_groups.children * self.mortality_rates["children"] * adjustment +
+            self.age_groups.young_adults * self.mortality_rates["young_adults"] * adjustment +
+            self.age_groups.older_adults * self.mortality_rates["older_adults"] * adjustment +
+            self.age_groups.elderly * self.mortality_rates["elderly"] * adjustment
+        )
+        
+        return int(deaths)
+    
+    def _update_age_distribution(self, births: float, deaths: float, 
+                                 immigration: float, emigration: float):
+        """Update age distribution with aging and migration."""
+        # Age progression
+        new_elderly = self.age_groups.older_adults
+        new_older_adults = self.age_groups.young_adults
+        new_young_adults = self.age_groups.children
+        
+        # New births become children
+        new_children = int(births)
+        
+        # Apply deaths (disproportionately from elderly)
+        elderly_deaths = int(deaths * 0.4)
+        other_deaths = int(deaths * 0.6)
+        
+        new_elderly = max(0, new_elderly - elderly_deaths)
+        new_older_adults = max(0, new_older_adults - int(other_deaths * 0.3))
+        new_young_adults = max(0, new_young_adults - int(other_deaths * 0.2))
+        new_children = max(0, new_children - int(other_deaths * 0.1))
+        
+        # Apply migration (immigrants/emigrants tend to be young adults)
+        net_migration = int(immigration - emigration)
+        new_young_adults += net_migration
+        
+        # Update age groups
+        self.age_groups = AgeGroup(
+            children=new_children,
+            young_adults=new_young_adults,
+            older_adults=new_older_adults,
+            elderly=new_elderly
+        )
+        
+        # Recalculate total to match
+        actual_total = sum([self.age_groups.children, self.age_groups.young_adults,
+                           self.age_groups.older_adults, self.age_groups.elderly])
+        
+        # Adjust to match total (distribute difference)
+        if actual_total != self.total:
+            diff = self.total - actual_total
+            self.age_groups.young_adults += diff
+    
+    def _update_economic_classes(self):
+        """Update economic class distribution based on new total."""
+        # Maintain proportions
+        total_classes = sum([self.economic_classes.lower_class, self.economic_classes.middle_class,
+                            self.economic_classes.upper_class, self.economic_classes.elite_class])
+        
+        if total_classes > 0:
+            factor = self.total / total_classes
+            self.economic_classes.lower_class = int(self.economic_classes.lower_class * factor)
+            self.economic_classes.middle_class = int(self.economic_classes.middle_class * factor)
+            self.economic_classes.upper_class = int(self.economic_classes.upper_class * factor)
+            self.economic_classes.elite_class = int(self.economic_classes.elite_class * factor)

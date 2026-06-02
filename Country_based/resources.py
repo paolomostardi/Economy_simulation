@@ -1,8 +1,8 @@
 """
-Resource management - Handles natural resources including minerals, fossil fuels, wood, and geography.
+Natural resources system - handles minerals, fossil fuels, and other resources.
 """
+
 import random
-import math
 from typing import Dict, List
 from dataclasses import dataclass
 
@@ -11,188 +11,178 @@ from dataclasses import dataclass
 class Mineral:
     """Represents a mineral resource."""
     name: str
-    total_reserves: float
-    yearly_extraction_capacity: float
-    current_reserves: float
+    reserves: float
+    extraction_capacity: float
 
 
 @dataclass
 class OilField:
     """Represents an oil field."""
-    total_amount: float  # billion barrels
-    extraction_difficulty: float  # 0 to 1
-    oil_quality: float  # 0 to 1
-    current_amount: float
+    total_amount: float
+    extraction_difficulty: float
+    oil_quality: float
+    current_extraction: float = 0.0
 
 
 @dataclass
 class GasReserve:
     """Represents a natural gas reserve."""
-    total_amount: float  # trillion cubic feet
+    total_amount: float
     extraction_difficulty: float
-    current_amount: float
+    current_extraction: float = 0.0
 
 
 @dataclass
 class Forest:
     """Represents a forest area."""
-    area: float  # square kilometers
-    density: float  # 0 to 1
-    current_area: float
+    area: float
+    density: float
+    wood_reserves: float
 
 
-@dataclass
-class Geography:
-    """Represents geographical characteristics."""
-    temperature: float  # average temperature in Celsius
-    seismic_level: float  # 0 to 100
-    mountain_percentage: float  # 0 to 100
-    farmable_land: float  # square kilometers
-
-
-class ResourceManager:
-    """Manages natural resources and geographical characteristics."""
+class NaturalResources:
+    """Manages natural resources for a country."""
     
-    def __init__(self):
-        self.minerals: Dict[str, Mineral] = {}
-        self.oil_fields: List[OilField] = []
-        self.gas_reserves: List[GasReserve] = []
-        self.forests: List[Forest] = []
-        self.geography: Geography = None
-        self.fresh_water: float = 0.0  # cubic kilometers
-    
-    def generate_resources(self, area: float):
-        """Generate all resources based on country area."""
-        self._generate_minerals(area)
-        self._generate_fossil_fuels(area)
-        self._generate_forests(area)
-        self._generate_geography(area)
-        self._generate_fresh_water()
-    
-    def _generate_minerals(self, area: float):
-        """Generate mineral resources."""
-        base_area = 100_000  # Reference area for normalization
-        mineral_types = ["Stone", "Iron", "Lithium", "Silicon"]
+    def __init__(self, area: float, geography):
+        self.area = area
+        self.geography = geography
         
-        for mineral_type in mineral_types:
-            min_reserve = 5_000
-            max_reserve = 1_000_000
-            
-            total_reserves = random.uniform(min_reserve, max_reserve) * (area / base_area)
-            yearly_capacity = total_reserves * random.uniform(0.01, 0.05)
-            
-            self.minerals[mineral_type] = Mineral(
-                name=mineral_type,
-                total_reserves=total_reserves,
-                yearly_extraction_capacity=yearly_capacity,
-                current_reserves=total_reserves
-            )
+        # Minerals
+        self.minerals: Dict[str, Mineral] = self._generate_minerals()
+        
+        # Fossil fuels
+        self.oil_fields: List[OilField] = self._generate_oil_fields()
+        self.gas_reserves: List[GasReserve] = self._generate_gas_reserves()
+        
+        # Forests
+        self.forests: List[Forest] = self._generate_forests()
     
-    def _generate_fossil_fuels(self, area: float):
-        """Generate oil and natural gas reserves."""
-        # Generate multiple oil fields
-        num_fields = random.randint(1, 5)
+    def _generate_minerals(self) -> Dict[str, Mineral]:
+        """Generate mineral reserves based on area."""
+        minerals = {}
+        mineral_types = ["Stone", "Iron", "Lithium", "Silicon"]
+        base_area = 100000  # Reference area for normalization
+        
+        for mineral in mineral_types:
+            min_reserve = 5000
+            max_reserve = 1000000
+            reserves = random.uniform(min_reserve, max_reserve) * (self.area / base_area)
+            extraction_capacity = reserves * random.uniform(0.01, 0.05)
+            
+            minerals[mineral] = Mineral(
+                name=mineral,
+                reserves=reserves,
+                extraction_capacity=extraction_capacity
+            )
+        
+        return minerals
+    
+    def _generate_oil_fields(self) -> List[OilField]:
+        """Generate oil fields."""
+        num_fields = random.randint(0, 5)
+        fields = []
+        
         for _ in range(num_fields):
-            total_amount = random.uniform(0, 100)  # billion barrels
-            extraction_difficulty = random.uniform(0, 1)
+            total_amount = random.uniform(0, 100) * 1e9  # 0-100 billion barrels
+            extraction_difficulty = random.uniform(0.1, 1.0)
             oil_quality = random.uniform(0.5, 1.0)
             
-            self.oil_fields.append(OilField(
+            fields.append(OilField(
                 total_amount=total_amount,
                 extraction_difficulty=extraction_difficulty,
-                oil_quality=oil_quality,
-                current_amount=total_amount
+                oil_quality=oil_quality
             ))
         
-        # Generate gas reserves
-        num_reserves = random.randint(1, 4)
-        for _ in range(num_reserves):
-            total_amount = random.uniform(0, 50)  # trillion cubic feet
-            extraction_difficulty = random.uniform(0, 1)
-            
-            self.gas_reserves.append(GasReserve(
-                total_amount=total_amount,
-                extraction_difficulty=extraction_difficulty,
-                current_amount=total_amount
-            ))
+        return fields
     
-    def _generate_forests(self, area: float):
-        """Generate forest resources."""
-        num_forests = random.randint(2, 8)
-        total_forest_area = area * random.uniform(0.1, 0.4)
+    def _generate_gas_reserves(self) -> List[GasReserve]:
+        """Generate natural gas reserves."""
+        num_reserves = random.randint(0, 4)
+        reserves = []
+        
+        for _ in range(num_reserves):
+            total_amount = random.uniform(0, 50) * 1e12  # 0-50 trillion cubic meters
+            extraction_difficulty = random.uniform(0.1, 1.0)
+            
+            reserves.append(GasReserve(
+                total_amount=total_amount,
+                extraction_difficulty=extraction_difficulty
+            ))
+        
+        return reserves
+    
+    def _generate_forests(self) -> List[Forest]:
+        """Generate forest areas based on geography."""
+        num_forests = random.randint(1, 4)
+        forests = []
+        
+        total_forest_area = self.area * random.uniform(0.1, 0.5)
         
         for _ in range(num_forests):
-            forest_area = total_forest_area / num_forests * random.uniform(0.5, 1.5)
+            area = total_forest_area / num_forests * random.uniform(0.5, 1.5)
             density = random.uniform(0.3, 0.9)
+            wood_reserves = area * density * 1000  # Arbitrary units
             
-            self.forests.append(Forest(
-                area=forest_area,
+            forests.append(Forest(
+                area=area,
                 density=density,
-                current_area=forest_area
+                wood_reserves=wood_reserves
             ))
-    
-    def _generate_geography(self, area: float):
-        """Generate geographical characteristics."""
-        temperature = random.uniform(-10, 35)  # Celsius
-        seismic_level = random.uniform(0, 100)
-        mountain_percentage = random.uniform(0, 80)
         
-        # Farmable land reduced by forest area
-        total_forest_area = sum(f.area for f in self.forests)
-        farmable_land = (area - total_forest_area) * random.uniform(0.3, 0.7)
-        farmable_land = max(0, farmable_land)
-        
-        self.geography = Geography(
-            temperature=temperature,
-            seismic_level=seismic_level,
-            mountain_percentage=mountain_percentage,
-            farmable_land=farmable_land
-        )
+        return forests
     
-    def _generate_fresh_water(self):
-        """Generate fresh water access based on geography."""
-        # More water with moderate temperature and lower seismic activity
-        temp_factor = 1.0 - abs(self.geography.temperature - 15) / 50
-        seismic_factor = 1.0 - (self.geography.seismic_level / 200)
-        
-        base_water = random.uniform(10, 500)  # cubic kilometers
-        self.fresh_water = base_water * temp_factor * seismic_factor
-    
-    def simulate_year(self):
-        """Simulate resource extraction for one year."""
+    def yearly_extract(self):
+        """Extract resources for one year."""
         # Extract minerals
         for mineral in self.minerals.values():
-            extraction = min(mineral.yearly_extraction_capacity, mineral.current_reserves)
-            mineral.current_reserves -= extraction
+            extracted = min(mineral.reserves, mineral.extraction_capacity)
+            mineral.reserves -= extracted
+            # Extraction capacity decreases as reserves deplete
+            mineral.extraction_capacity = mineral.extraction_capacity * 0.99 + (mineral.reserves * 0.01)
         
         # Extract oil
         for field in self.oil_fields:
-            extraction_rate = 0.02 * (1 - field.extraction_difficulty)
-            extraction = field.current_amount * extraction_rate
-            field.current_amount -= extraction
+            if field.total_amount > 0:
+                extraction_rate = 0.02 / field.extraction_difficulty
+                extracted = min(field.total_amount, field.total_amount * extraction_rate)
+                field.total_amount -= extracted
+                field.current_extraction = extracted
         
         # Extract gas
         for reserve in self.gas_reserves:
-            extraction_rate = 0.03 * (1 - reserve.extraction_difficulty)
-            extraction = reserve.current_amount * extraction_rate
-            reserve.current_amount -= extraction
+            if reserve.total_amount > 0:
+                extraction_rate = 0.03 / reserve.extraction_difficulty
+                extracted = min(reserve.total_amount, reserve.total_amount * extraction_rate)
+                reserve.total_amount -= extracted
+                reserve.current_extraction = extracted
         
-        # Forest regeneration/depletion
+        # Extract wood (renewable)
         for forest in self.forests:
-            # Small regeneration
-            regeneration = forest.area * 0.001
-            # Depletion from logging
-            depletion = forest.current_area * random.uniform(0, 0.02)
-            forest.current_area = max(0, min(forest.area, forest.current_area + regeneration - depletion))
+            extraction = forest.wood_reserves * 0.01  # 1% annual extraction
+            forest.wood_reserves -= extraction
+            # Regrowth
+            regrowth = forest.area * forest.density * 50  # Regrowth rate
+            forest.wood_reserves = min(forest.area * forest.density * 1000, 
+                                       forest.wood_reserves + regrowth)
     
-    def get_total_oil(self) -> float:
-        """Get total remaining oil reserves."""
-        return sum(field.current_amount for field in self.oil_fields)
-    
-    def get_total_gas(self) -> float:
-        """Get total remaining gas reserves."""
-        return sum(reserve.current_amount for reserve in self.gas_reserves)
-    
-    def get_total_forest_area(self) -> float:
-        """Get total current forest area."""
-        return sum(forest.current_area for forest in self.forests)
+    def get_total_resource_value(self) -> float:
+        """Calculate total estimated value of all resources."""
+        value = 0.0
+        
+        # Mineral value
+        for mineral in self.minerals.values():
+            value += mineral.reserves * 100  # Arbitrary valuation
+        
+        # Oil value
+        for field in self.oil_fields:
+            value += field.total_amount * field.oil_quality * 50
+        
+        # Gas value
+        for reserve in self.gas_reserves:
+            value += reserve.total_amount * 10
+        
+        # Wood value
+        for forest in self.forests:
+            value += forest.wood_reserves * 5
+        
+        return value
