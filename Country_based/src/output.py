@@ -18,8 +18,8 @@ class OutputManager:
         self.version = "1.0.0"
         self.creation_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
-        # Create output directory if it doesn't exist
-        self.output_dir = "output"
+        # Create output directory if it doesn't exist (in parent directory)
+        self.output_dir = os.path.join("..", "output")
         os.makedirs(self.output_dir, exist_ok=True)
         
         # Create output file

@@ -585,13 +585,192 @@ Countries evolve economically over time.
 
 Industry output generates jobs and GDP.
 
-Initial GDP should depend on:
+The total GDP of a country is the sum of all industry outputs.
 
-* resource extraction
-* education
-* technology
-* population
-* stability
+### Industry Distribution
+
+Each country has four industry shares:
+
+* Resource Extraction Share
+* Agriculture Share
+* Manufacturing Share
+* Technology Share
+
+The shares must sum to 100%.
+
+**Industry Weights:**
+
+Compute raw weights first.
+
+```
+Resource Extraction:
+resource_weight = (
+    mineral_abundance
+    + oil_abundance
+    + gas_abundance
+    + forest_abundance
+)
+
+Agriculture:
+agriculture_weight = (
+    farmable_land_percent
+    * fresh_water_factor
+)
+
+Manufacturing:
+manufacturing_weight = (
+    technology_level
+    + technical_education
+    + infrastructure
+)
+
+Technology:
+technology_weight = (
+    technology_level * 2
+    + technical_education
+    + GDP_per_capita_factor
+)
+
+total_weight = (
+    resource_weight
+    + agriculture_weight
+    + manufacturing_weight
+    + technology_weight
+)
+
+resource_share = resource_weight / total_weight
+agriculture_share = agriculture_weight / total_weight
+manufacturing_share = manufacturing_weight / total_weight
+technology_share = technology_weight / total_weight
+```
+
+**Worker Distribution:**
+
+```
+resource_workers = working_population * resource_share
+agriculture_workers = working_population * agriculture_share
+manufacturing_workers = working_population * manufacturing_share
+technology_workers = working_population * technology_share
+```
+
+### Productivity
+
+All industries use a common productivity multiplier.
+
+```
+productivity = (
+    0.30 * technology_level
+    + 0.25 * technical_education
+    + 0.20 * infrastructure
+    + 0.15 * stability
+    + 0.10 * cultural_education
+) / 100
+```
+
+This gives a value roughly between 0 and 1.
+
+### Industry Profits
+
+**Resource Extraction Profit:**
+
+Extraction depends heavily on available resources.
+
+```
+resource_output = (
+    extracted_resources
+    * resource_market_price
+)
+
+resource_cost = (
+    resource_workers * worker_cost
+) + (
+    extraction_difficulty
+    * difficulty_cost
+)
+
+resource_profit = resource_output - resource_cost
+```
+
+**Agriculture Profit:**
+
+Agriculture depends on land and water.
+
+```
+agriculture_output = (
+    agriculture_workers
+    * productivity
+    * farmable_land_factor
+    * fresh_water_factor
+)
+
+agriculture_profit = (
+    agriculture_output
+    * food_price
+) - (
+    agriculture_workers
+    * worker_cost
+)
+```
+
+**Manufacturing Profit:**
+
+Manufacturing converts labor and technology into value.
+
+```
+manufacturing_output = (
+    manufacturing_workers
+    * productivity
+    * (1 + technology_level / 100)
+)
+
+manufacturing_profit = (
+    manufacturing_output
+    * manufactured_goods_price
+) - (
+    manufacturing_workers
+    * worker_cost
+)
+```
+
+**Technology Profit:**
+
+Technology scales hardest with education and technology.
+
+```
+technology_output = (
+    technology_workers
+    * productivity
+    * (1 + technology_level / 50)
+    * (1 + technical_education / 100)
+)
+
+technology_profit = (
+    technology_output
+    * technology_price
+) - (
+    technology_workers
+    * worker_cost
+)
+```
+
+**Total GDP and Profit:**
+
+```
+GDP = (
+    resource_output
+    + agriculture_output
+    + manufacturing_output
+    + technology_output
+)
+
+total_corporate_profit = (
+    resource_profit
+    + agriculture_profit
+    + manufacturing_profit
+    + technology_profit
+)
+``` 
+
 
 ---
 

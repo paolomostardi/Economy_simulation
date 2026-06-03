@@ -1,0 +1,1044 @@
+================================================================================
+ECONOMY SIMULATION RESULTS
+================================================================================
+
+METADATA
+----------------------------------------
+Random Seed: 260180
+Software Version: 1.0.0
+Creation Date: 2026-06-03 23:09:05
+Number of Countries: 50
+Simulation Duration: 10 years
+
+================================================================================
+YEAR 0
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,240,706,007,587
+ 2. Country_35           - GDP: $3,101,057,522,701
+ 3. Country_30           - GDP: $1,418,687,718,909
+ 4. Southia              - GDP: $1,161,515,558,007
+ 5. Country_32           - GDP: $1,089,253,278,430
+ 6. Newville             - GDP: $798,715,377,424
+ 7. Southia              - GDP: $612,644,843,350
+ 8. Country_45           - GDP: $529,125,225,299
+ 9. Country_29           - GDP: $424,015,142,751
+10. Country_37           - GDP: $377,856,440,242
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Country_24           - GDP/Capita: $19,040
+ 2. Eaststan             - GDP/Capita: $17,275
+ 3. Country_39           - GDP/Capita: $15,258
+ 4. Eaststan             - GDP/Capita: $15,228
+ 5. Country_29           - GDP/Capita: $14,238
+ 6. Westburg             - GDP/Capita: $13,377
+ 7. Country_40           - GDP/Capita: $13,049
+ 8. Country_23           - GDP/Capita: $12,685
+ 9. Democraticgard       - GDP/Capita: $11,542
+10. Country_30           - GDP/Capita: $11,307
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_36           - Stability: 76.3
+ 2. Southia              - Stability: 74.9
+ 3. Westburg             - Stability: 72.9
+ 4. Country_29           - Stability: 72.2
+ 5. Country_41           - Stability: 72.0
+ 6. Country_24           - Stability: 70.3
+ 7. Republicport         - Stability: 69.7
+ 8. Southia              - Stability: 67.2
+ 9. Country_23           - Stability: 66.7
+10. Republicport         - Stability: 66.7
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 89.9
+ 2. Unitedfield          - Democracy Index: 89.2
+ 3. Greatton             - Democracy Index: 87.5
+ 4. Country_33           - Democracy Index: 86.9
+ 5. Northland            - Democracy Index: 86.8
+ 6. Westburg             - Democracy Index: 85.1
+ 7. Country_25           - Democracy Index: 82.3
+ 8. Country_43           - Democracy Index: 81.8
+ 9. Country_38           - Democracy Index: 81.8
+10. Southia              - Democracy Index: 80.0
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.779
+ 2. Country_31           - Inequality: 0.776
+ 3. Country_23           - Inequality: 0.749
+ 4. Democraticgard       - Inequality: 0.743
+ 5. Country_25           - Inequality: 0.740
+ 6. Westburg             - Inequality: 0.732
+ 7. Northland            - Inequality: 0.714
+ 8. Country_37           - Inequality: 0.705
+ 9. Country_29           - Inequality: 0.705
+10. Country_44           - Inequality: 0.668
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,451,026,631
+Average Population per Country: 49,020,533
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $17,744,503,364,107
+Average GDP per Country: $354,890,067,282
+Average GDP per Capita: $7,294
+Average Unemployment Rate: 15.04%
+Average Corruption Level: 40.89
+Average Stability: 52.00
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 0
+Total Emigration: 0
+Net Migration: 0
+
+================================================================================
+YEAR 1
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,367,439,725,228
+ 2. Country_35           - GDP: $3,219,294,155,738
+ 3. Country_30           - GDP: $1,468,517,051,139
+ 4. Southia              - GDP: $1,189,322,453,338
+ 5. Country_32           - GDP: $1,102,041,610,023
+ 6. Newville             - GDP: $818,100,589,104
+ 7. Southia              - GDP: $629,863,461,689
+ 8. Country_45           - GDP: $529,170,883,358
+ 9. Country_29           - GDP: $427,543,461,759
+10. Country_37           - GDP: $378,555,341,076
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Country_24           - GDP/Capita: $19,048
+ 2. Eaststan             - GDP/Capita: $17,775
+ 3. Country_39           - GDP/Capita: $15,366
+ 4. Eaststan             - GDP/Capita: $14,878
+ 5. Country_29           - GDP/Capita: $14,149
+ 6. Westburg             - GDP/Capita: $13,203
+ 7. Country_23           - GDP/Capita: $12,971
+ 8. Country_40           - GDP/Capita: $12,742
+ 9. Country_30           - GDP/Capita: $11,686
+10. Democraticgard       - GDP/Capita: $11,495
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_36           - Stability: 72.7
+ 2. Southia              - Stability: 72.5
+ 3. Westburg             - Stability: 71.0
+ 4. Country_41           - Stability: 70.8
+ 5. Country_29           - Stability: 70.6
+ 6. Country_24           - Stability: 70.3
+ 7. Republicport         - Stability: 68.9
+ 8. Country_23           - Stability: 64.7
+ 9. Southia              - Stability: 64.3
+10. Newville             - Stability: 63.8
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 89.6
+ 2. Unitedfield          - Democracy Index: 89.4
+ 3. Greatton             - Democracy Index: 88.3
+ 4. Northland            - Democracy Index: 87.0
+ 5. Country_33           - Democracy Index: 86.1
+ 6. Westburg             - Democracy Index: 85.8
+ 7. Country_25           - Democracy Index: 82.8
+ 8. Country_38           - Democracy Index: 82.7
+ 9. Country_43           - Democracy Index: 80.9
+10. Southia              - Democracy Index: 79.5
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.801
+ 2. Country_31           - Inequality: 0.797
+ 3. Country_23           - Inequality: 0.759
+ 4. Country_25           - Inequality: 0.755
+ 5. Democraticgard       - Inequality: 0.750
+ 6. Westburg             - Inequality: 0.739
+ 7. Northland            - Inequality: 0.722
+ 8. Country_37           - Inequality: 0.715
+ 9. Country_29           - Inequality: 0.715
+10. Country_44           - Inequality: 0.694
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,457,618,524
+Average Population per Country: 49,152,370
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $18,150,110,390,826
+Average GDP per Country: $363,002,207,817
+Average GDP per Capita: $7,336
+Average Unemployment Rate: 15.24%
+Average Corruption Level: 23.66
+Average Stability: 49.77
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 748,322
+Total Emigration: 7,770,826
+Net Migration: -7,022,504
+
+================================================================================
+YEAR 2
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,433,478,166,569
+ 2. Country_35           - GDP: $3,316,343,667,749
+ 3. Country_30           - GDP: $1,516,307,503,088
+ 4. Southia              - GDP: $1,219,175,424,485
+ 5. Country_32           - GDP: $1,121,163,501,285
+ 6. Newville             - GDP: $836,200,135,724
+ 7. Southia              - GDP: $648,076,551,173
+ 8. Country_45           - GDP: $526,169,052,980
+ 9. Country_29           - GDP: $437,702,350,434
+10. Country_24           - GDP: $382,666,330,675
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Country_24           - GDP/Capita: $19,130
+ 2. Eaststan             - GDP/Capita: $18,215
+ 3. Country_39           - GDP/Capita: $15,782
+ 4. Eaststan             - GDP/Capita: $14,929
+ 5. Country_29           - GDP/Capita: $14,152
+ 6. Country_23           - GDP/Capita: $13,349
+ 7. Westburg             - GDP/Capita: $13,072
+ 8. Country_40           - GDP/Capita: $12,584
+ 9. Country_30           - GDP/Capita: $12,138
+10. Democraticgard       - GDP/Capita: $11,553
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Southia              - Stability: 71.1
+ 2. Country_24           - Stability: 70.6
+ 3. Country_36           - Stability: 70.6
+ 4. Country_41           - Stability: 70.0
+ 5. Country_29           - Stability: 69.3
+ 6. Westburg             - Stability: 69.2
+ 7. Republicport         - Stability: 68.7
+ 8. Greatton             - Stability: 62.6
+ 9. Country_23           - Stability: 62.5
+10. Newville             - Stability: 62.5
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 90.0
+ 2. Unitedfield          - Democracy Index: 89.8
+ 3. Greatton             - Democracy Index: 89.2
+ 4. Northland            - Democracy Index: 87.5
+ 5. Westburg             - Democracy Index: 86.6
+ 6. Country_33           - Democracy Index: 85.9
+ 7. Country_25           - Democracy Index: 83.6
+ 8. Country_38           - Democracy Index: 83.5
+ 9. Country_43           - Democracy Index: 80.6
+10. Southia              - Democracy Index: 79.7
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.818
+ 2. Country_31           - Inequality: 0.802
+ 3. Democraticgard       - Inequality: 0.776
+ 4. Country_25           - Inequality: 0.775
+ 5. Country_23           - Inequality: 0.761
+ 6. Westburg             - Inequality: 0.743
+ 7. Northland            - Inequality: 0.729
+ 8. Country_37           - Inequality: 0.724
+ 9. Country_29           - Inequality: 0.722
+10. Country_44           - Inequality: 0.719
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,440,060,157
+Average Population per Country: 48,801,203
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $18,493,211,408,636
+Average GDP per Country: $369,864,228,173
+Average GDP per Capita: $7,444
+Average Unemployment Rate: 15.56%
+Average Corruption Level: 13.94
+Average Stability: 48.00
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 827,603
+Total Emigration: 4,524,405
+Net Migration: -3,696,802
+
+================================================================================
+YEAR 3
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,516,677,986,949
+ 2. Country_35           - GDP: $3,406,974,066,943
+ 3. Country_30           - GDP: $1,552,820,708,725
+ 4. Southia              - GDP: $1,245,005,920,103
+ 5. Country_32           - GDP: $1,137,403,762,341
+ 6. Newville             - GDP: $854,645,036,387
+ 7. Southia              - GDP: $661,059,837,887
+ 8. Country_45           - GDP: $528,383,890,967
+ 9. Country_29           - GDP: $447,541,917,887
+10. Country_24           - GDP: $390,517,200,233
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Country_24           - GDP/Capita: $19,312
+ 2. Eaststan             - GDP/Capita: $18,816
+ 3. Country_39           - GDP/Capita: $16,170
+ 4. Eaststan             - GDP/Capita: $14,948
+ 5. Country_29           - GDP/Capita: $14,372
+ 6. Country_23           - GDP/Capita: $13,914
+ 7. Westburg             - GDP/Capita: $13,418
+ 8. Country_30           - GDP/Capita: $12,613
+ 9. Country_40           - GDP/Capita: $12,543
+10. Greatton             - GDP/Capita: $11,793
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_24           - Stability: 71.0
+ 2. Southia              - Stability: 70.5
+ 3. Country_41           - Stability: 69.6
+ 4. Country_36           - Stability: 69.2
+ 5. Republicport         - Stability: 68.4
+ 6. Country_29           - Stability: 68.0
+ 7. Westburg             - Stability: 67.5
+ 8. Greatton             - Stability: 61.7
+ 9. Newville             - Stability: 61.3
+10. Southia              - Stability: 61.1
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 90.8
+ 2. Unitedfield          - Democracy Index: 90.4
+ 3. Greatton             - Democracy Index: 90.2
+ 4. Northland            - Democracy Index: 88.1
+ 5. Westburg             - Democracy Index: 87.6
+ 6. Country_33           - Democracy Index: 86.0
+ 7. Country_25           - Democracy Index: 84.5
+ 8. Country_38           - Democracy Index: 84.4
+ 9. Country_43           - Democracy Index: 80.7
+10. Southia              - Democracy Index: 80.1
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.836
+ 2. Country_31           - Inequality: 0.821
+ 3. Democraticgard       - Inequality: 0.788
+ 4. Country_25           - Inequality: 0.786
+ 5. Country_23           - Inequality: 0.781
+ 6. Westburg             - Inequality: 0.760
+ 7. Country_44           - Inequality: 0.744
+ 8. Northland            - Inequality: 0.737
+ 9. Country_37           - Inequality: 0.736
+10. Country_29           - Inequality: 0.729
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,408,747,454
+Average Population per Country: 48,174,949
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $18,833,553,846,239
+Average GDP per Country: $376,671,076,925
+Average GDP per Capita: $7,623
+Average Unemployment Rate: 15.84%
+Average Corruption Level: 8.59
+Average Stability: 46.46
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,322,479
+Total Emigration: 2,328,037
+Net Migration: -1,005,558
+
+================================================================================
+YEAR 4
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,616,002,120,671
+ 2. Country_35           - GDP: $3,485,996,815,264
+ 3. Country_30           - GDP: $1,580,797,738,440
+ 4. Southia              - GDP: $1,280,685,760,814
+ 5. Country_32           - GDP: $1,150,017,846,380
+ 6. Newville             - GDP: $878,144,973,134
+ 7. Southia              - GDP: $678,081,622,343
+ 8. Country_45           - GDP: $527,979,205,887
+ 9. Country_29           - GDP: $462,244,156,035
+10. Country_24           - GDP: $399,423,472,773
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Eaststan             - GDP/Capita: $19,699
+ 2. Country_24           - GDP/Capita: $19,689
+ 3. Country_39           - GDP/Capita: $16,704
+ 4. Eaststan             - GDP/Capita: $15,081
+ 5. Country_29           - GDP/Capita: $14,762
+ 6. Country_23           - GDP/Capita: $14,487
+ 7. Westburg             - GDP/Capita: $13,790
+ 8. Country_30           - GDP/Capita: $13,016
+ 9. Greatton             - GDP/Capita: $12,566
+10. Country_40           - GDP/Capita: $12,467
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_24           - Stability: 71.7
+ 2. Southia              - Stability: 70.3
+ 3. Country_41           - Stability: 69.1
+ 4. Country_36           - Stability: 68.3
+ 5. Republicport         - Stability: 68.3
+ 6. Country_29           - Stability: 66.9
+ 7. Westburg             - Stability: 66.1
+ 8. Greatton             - Stability: 60.8
+ 9. Newville             - Stability: 60.3
+10. Southia              - Stability: 60.1
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 91.7
+ 2. Greatton             - Democracy Index: 91.2
+ 3. Unitedfield          - Democracy Index: 90.9
+ 4. Northland            - Democracy Index: 88.7
+ 5. Westburg             - Democracy Index: 88.6
+ 6. Country_33           - Democracy Index: 86.2
+ 7. Country_25           - Democracy Index: 85.4
+ 8. Country_38           - Democracy Index: 85.3
+ 9. Country_43           - Democracy Index: 81.0
+10. Southia              - Democracy Index: 80.6
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.845
+ 2. Country_31           - Inequality: 0.828
+ 3. Democraticgard       - Inequality: 0.813
+ 4. Country_25           - Inequality: 0.806
+ 5. Country_23           - Inequality: 0.791
+ 6. Westburg             - Inequality: 0.776
+ 7. Northland            - Inequality: 0.757
+ 8. Country_44           - Inequality: 0.756
+ 9. Country_37           - Inequality: 0.743
+10. Country_29           - Inequality: 0.733
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,367,794,619
+Average Population per Country: 47,355,892
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $19,194,460,861,088
+Average GDP per Country: $383,889,217,222
+Average GDP per Capita: $7,846
+Average Unemployment Rate: 16.17%
+Average Corruption Level: 5.47
+Average Stability: 45.05
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 968,724
+Total Emigration: 1,705,089
+Net Migration: -736,365
+
+================================================================================
+YEAR 5
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,704,809,337,313
+ 2. Country_35           - GDP: $3,545,098,431,578
+ 3. Country_30           - GDP: $1,596,076,488,321
+ 4. Southia              - GDP: $1,316,317,604,367
+ 5. Country_32           - GDP: $1,160,403,020,024
+ 6. Newville             - GDP: $903,648,565,782
+ 7. Southia              - GDP: $693,432,482,743
+ 8. Country_45           - GDP: $531,492,511,677
+ 9. Country_29           - GDP: $479,446,200,438
+10. Country_24           - GDP: $412,252,868,957
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Eaststan             - GDP/Capita: $20,300
+ 2. Country_24           - GDP/Capita: $20,033
+ 3. Country_39           - GDP/Capita: $16,922
+ 4. Eaststan             - GDP/Capita: $15,288
+ 5. Country_29           - GDP/Capita: $15,164
+ 6. Country_23           - GDP/Capita: $14,840
+ 7. Westburg             - GDP/Capita: $14,200
+ 8. Country_30           - GDP/Capita: $13,317
+ 9. Greatton             - GDP/Capita: $13,074
+10. Country_40           - GDP/Capita: $12,476
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_24           - Stability: 72.3
+ 2. Southia              - Stability: 70.0
+ 3. Country_41           - Stability: 68.8
+ 4. Republicport         - Stability: 68.3
+ 5. Country_36           - Stability: 67.5
+ 6. Country_29           - Stability: 66.0
+ 7. Westburg             - Stability: 64.7
+ 8. Greatton             - Stability: 59.9
+ 9. Eaststan             - Stability: 59.6
+10. Newville             - Stability: 59.3
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 92.7
+ 2. Greatton             - Democracy Index: 92.2
+ 3. Unitedfield          - Democracy Index: 91.5
+ 4. Westburg             - Democracy Index: 89.5
+ 5. Northland            - Democracy Index: 89.3
+ 6. Country_33           - Democracy Index: 86.5
+ 7. Country_25           - Democracy Index: 86.4
+ 8. Country_38           - Democracy Index: 86.1
+ 9. Country_43           - Democracy Index: 81.3
+10. Southia              - Democracy Index: 81.2
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.870
+ 2. Country_31           - Inequality: 0.841
+ 3. Democraticgard       - Inequality: 0.835
+ 4. Country_25           - Inequality: 0.818
+ 5. Country_23           - Inequality: 0.804
+ 6. Westburg             - Inequality: 0.789
+ 7. Country_44           - Inequality: 0.765
+ 8. Northland            - Inequality: 0.764
+ 9. Country_37           - Inequality: 0.751
+10. Country_45           - Inequality: 0.745
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,348,428,769
+Average Population per Country: 46,968,575
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $19,526,669,433,836
+Average GDP per Country: $390,533,388,677
+Average GDP per Capita: $8,018
+Average Unemployment Rate: 16.47%
+Average Corruption Level: 3.53
+Average Stability: 43.66
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 990,560
+Total Emigration: 1,705,896
+Net Migration: -715,336
+
+================================================================================
+YEAR 6
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,773,276,080,456
+ 2. Country_35           - GDP: $3,589,339,650,598
+ 3. Country_30           - GDP: $1,606,541,616,061
+ 4. Southia              - GDP: $1,351,851,513,472
+ 5. Country_32           - GDP: $1,174,248,166,390
+ 6. Newville             - GDP: $929,235,883,912
+ 7. Southia              - GDP: $709,952,750,037
+ 8. Country_45           - GDP: $535,189,814,898
+ 9. Country_29           - GDP: $500,030,623,118
+10. Country_24           - GDP: $424,786,293,041
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Eaststan             - GDP/Capita: $21,149
+ 2. Country_24           - GDP/Capita: $20,613
+ 3. Country_39           - GDP/Capita: $17,392
+ 4. Country_29           - GDP/Capita: $15,636
+ 5. Eaststan             - GDP/Capita: $15,556
+ 6. Country_23           - GDP/Capita: $15,432
+ 7. Westburg             - GDP/Capita: $14,750
+ 8. Greatton             - GDP/Capita: $13,779
+ 9. Country_30           - GDP/Capita: $13,650
+10. Country_40           - GDP/Capita: $12,582
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_24           - Stability: 72.7
+ 2. Southia              - Stability: 70.1
+ 3. Country_41           - Stability: 68.6
+ 4. Republicport         - Stability: 68.2
+ 5. Country_36           - Stability: 66.6
+ 6. Country_29           - Stability: 65.0
+ 7. Westburg             - Stability: 63.1
+ 8. Eaststan             - Stability: 59.5
+ 9. Greatton             - Stability: 59.3
+10. Southia              - Stability: 58.3
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 93.7
+ 2. Greatton             - Democracy Index: 93.2
+ 3. Unitedfield          - Democracy Index: 92.1
+ 4. Westburg             - Democracy Index: 90.5
+ 5. Northland            - Democracy Index: 89.9
+ 6. Country_25           - Democracy Index: 87.3
+ 7. Country_38           - Democracy Index: 87.0
+ 8. Country_33           - Democracy Index: 86.8
+ 9. Southia              - Democracy Index: 81.9
+10. Country_43           - Democracy Index: 81.8
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.897
+ 2. Democraticgard       - Inequality: 0.862
+ 3. Country_31           - Inequality: 0.855
+ 4. Country_25           - Inequality: 0.841
+ 5. Country_23           - Inequality: 0.826
+ 6. Westburg             - Inequality: 0.794
+ 7. Northland            - Inequality: 0.783
+ 8. Country_44           - Inequality: 0.778
+ 9. Country_45           - Inequality: 0.769
+10. Country_37           - Inequality: 0.759
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,310,866,741
+Average Population per Country: 46,217,335
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $19,821,316,653,383
+Average GDP per Country: $396,426,333,068
+Average GDP per Capita: $8,259
+Average Unemployment Rate: 16.85%
+Average Corruption Level: 2.33
+Average Stability: 42.22
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 773,985
+Total Emigration: 871,619
+Net Migration: -97,634
+
+================================================================================
+YEAR 7
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,867,926,381,419
+ 2. Country_35           - GDP: $3,610,664,880,323
+ 3. Country_30           - GDP: $1,612,743,151,534
+ 4. Southia              - GDP: $1,387,665,198,973
+ 5. Country_32           - GDP: $1,184,458,186,009
+ 6. Newville             - GDP: $958,177,606,295
+ 7. Southia              - GDP: $728,787,781,960
+ 8. Country_45           - GDP: $535,474,739,899
+ 9. Country_29           - GDP: $520,594,136,328
+10. Country_24           - GDP: $437,895,908,723
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Eaststan             - GDP/Capita: $22,239
+ 2. Country_24           - GDP/Capita: $21,232
+ 3. Country_39           - GDP/Capita: $18,014
+ 4. Country_29           - GDP/Capita: $16,184
+ 5. Country_23           - GDP/Capita: $15,942
+ 6. Eaststan             - GDP/Capita: $15,752
+ 7. Westburg             - GDP/Capita: $15,271
+ 8. Greatton             - GDP/Capita: $14,507
+ 9. Country_30           - GDP/Capita: $13,900
+10. Country_40           - GDP/Capita: $12,814
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_24           - Stability: 73.2
+ 2. Southia              - Stability: 70.2
+ 3. Country_41           - Stability: 68.5
+ 4. Republicport         - Stability: 68.2
+ 5. Country_36           - Stability: 65.7
+ 6. Country_29           - Stability: 64.3
+ 7. Westburg             - Stability: 61.4
+ 8. Eaststan             - Stability: 59.6
+ 9. Greatton             - Stability: 58.5
+10. Southia              - Stability: 57.2
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 94.8
+ 2. Greatton             - Democracy Index: 94.3
+ 3. Unitedfield          - Democracy Index: 92.7
+ 4. Westburg             - Democracy Index: 91.5
+ 5. Northland            - Democracy Index: 90.6
+ 6. Country_25           - Democracy Index: 88.3
+ 7. Country_38           - Democracy Index: 87.8
+ 8. Country_33           - Democracy Index: 87.1
+ 9. Southia              - Democracy Index: 82.6
+10. Country_43           - Democracy Index: 82.2
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.915
+ 2. Democraticgard       - Inequality: 0.883
+ 3. Country_31           - Inequality: 0.880
+ 4. Country_25           - Inequality: 0.848
+ 5. Country_23           - Inequality: 0.841
+ 6. Westburg             - Inequality: 0.808
+ 7. Northland            - Inequality: 0.796
+ 8. Country_44           - Inequality: 0.793
+ 9. Country_37           - Inequality: 0.783
+10. Country_45           - Inequality: 0.779
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,266,864,215
+Average Population per Country: 45,337,284
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $20,117,411,249,723
+Average GDP per Country: $402,348,224,994
+Average GDP per Capita: $8,526
+Average Unemployment Rate: 17.30%
+Average Corruption Level: 1.52
+Average Stability: 40.75
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 721,064
+Total Emigration: 832,569
+Net Migration: -111,504
+
+================================================================================
+YEAR 8
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $5,982,536,160,965
+ 2. Country_35           - GDP: $3,645,342,672,151
+ 3. Country_30           - GDP: $1,611,189,500,825
+ 4. Southia              - GDP: $1,431,845,021,533
+ 5. Country_32           - GDP: $1,202,004,944,886
+ 6. Newville             - GDP: $990,776,176,257
+ 7. Southia              - GDP: $743,671,014,781
+ 8. Country_29           - GDP: $539,735,407,056
+ 9. Country_45           - GDP: $537,219,786,287
+10. Country_24           - GDP: $455,506,263,639
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Eaststan             - GDP/Capita: $22,894
+ 2. Country_24           - GDP/Capita: $21,868
+ 3. Country_39           - GDP/Capita: $18,421
+ 4. Country_29           - GDP/Capita: $16,507
+ 5. Country_23           - GDP/Capita: $16,291
+ 6. Eaststan             - GDP/Capita: $15,909
+ 7. Westburg             - GDP/Capita: $15,745
+ 8. Greatton             - GDP/Capita: $15,085
+ 9. Country_30           - GDP/Capita: $14,058
+10. Country_40           - GDP/Capita: $13,003
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_24           - Stability: 73.7
+ 2. Southia              - Stability: 70.3
+ 3. Country_41           - Stability: 68.3
+ 4. Republicport         - Stability: 68.1
+ 5. Country_36           - Stability: 64.8
+ 6. Country_29           - Stability: 63.4
+ 7. Westburg             - Stability: 60.0
+ 8. Eaststan             - Stability: 59.7
+ 9. Greatton             - Stability: 57.7
+10. Southia              - Stability: 56.4
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 95.8
+ 2. Greatton             - Democracy Index: 95.3
+ 3. Unitedfield          - Democracy Index: 93.3
+ 4. Westburg             - Democracy Index: 92.4
+ 5. Northland            - Democracy Index: 91.2
+ 6. Country_25           - Democracy Index: 89.2
+ 7. Country_38           - Democracy Index: 88.7
+ 8. Country_33           - Democracy Index: 87.4
+ 9. Southia              - Democracy Index: 83.3
+10. Country_43           - Democracy Index: 82.7
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.938
+ 2. Country_31           - Inequality: 0.901
+ 3. Democraticgard       - Inequality: 0.894
+ 4. Country_23           - Inequality: 0.856
+ 5. Country_25           - Inequality: 0.855
+ 6. Westburg             - Inequality: 0.829
+ 7. Country_44           - Inequality: 0.808
+ 8. Northland            - Inequality: 0.807
+ 9. Country_45           - Inequality: 0.803
+10. Country_37           - Inequality: 0.797
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,253,103,190
+Average Population per Country: 45,062,064
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $20,460,667,511,592
+Average GDP per Country: $409,213,350,232
+Average GDP per Capita: $8,723
+Average Unemployment Rate: 17.82%
+Average Corruption Level: 1.14
+Average Stability: 39.24
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,252,924
+Total Emigration: 238,116
+Net Migration: 1,014,808
+
+================================================================================
+YEAR 9
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $6,042,657,795,066
+ 2. Country_35           - GDP: $3,671,074,440,678
+ 3. Country_30           - GDP: $1,622,927,203,583
+ 4. Southia              - GDP: $1,486,586,453,969
+ 5. Country_32           - GDP: $1,224,507,798,268
+ 6. Newville             - GDP: $1,017,278,551,361
+ 7. Southia              - GDP: $762,185,777,506
+ 8. Country_29           - GDP: $563,268,548,015
+ 9. Country_45           - GDP: $536,857,826,363
+10. Country_24           - GDP: $473,002,500,063
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Eaststan             - GDP/Capita: $23,651
+ 2. Country_24           - GDP/Capita: $22,557
+ 3. Country_39           - GDP/Capita: $18,874
+ 4. Country_29           - GDP/Capita: $17,101
+ 5. Country_23           - GDP/Capita: $16,897
+ 6. Westburg             - GDP/Capita: $16,393
+ 7. Eaststan             - GDP/Capita: $15,997
+ 8. Greatton             - GDP/Capita: $15,831
+ 9. Country_30           - GDP/Capita: $14,393
+10. Country_21           - GDP/Capita: $13,443
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_24           - Stability: 74.2
+ 2. Southia              - Stability: 70.5
+ 3. Republicport         - Stability: 68.4
+ 4. Country_41           - Stability: 68.2
+ 5. Country_36           - Stability: 63.6
+ 6. Country_29           - Stability: 62.6
+ 7. Eaststan             - Stability: 59.7
+ 8. Westburg             - Stability: 58.6
+ 9. Greatton             - Stability: 57.0
+10. Southia              - Stability: 55.5
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 96.8
+ 2. Greatton             - Democracy Index: 96.3
+ 3. Unitedfield          - Democracy Index: 93.8
+ 4. Westburg             - Democracy Index: 93.4
+ 5. Northland            - Democracy Index: 91.9
+ 6. Country_25           - Democracy Index: 90.2
+ 7. Country_38           - Democracy Index: 89.5
+ 8. Country_33           - Democracy Index: 87.7
+ 9. Southia              - Democracy Index: 84.0
+10. Country_43           - Democracy Index: 83.1
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.958
+ 2. Democraticgard       - Inequality: 0.916
+ 3. Country_31           - Inequality: 0.916
+ 4. Country_23           - Inequality: 0.875
+ 5. Country_25           - Inequality: 0.863
+ 6. Westburg             - Inequality: 0.834
+ 7. Country_45           - Inequality: 0.829
+ 8. Northland            - Inequality: 0.825
+ 9. Country_37           - Inequality: 0.823
+10. Country_44           - Inequality: 0.820
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,214,445,140
+Average Population per Country: 44,288,903
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $20,769,221,783,215
+Average GDP per Country: $415,384,435,664
+Average GDP per Capita: $8,999
+Average Unemployment Rate: 18.28%
+Average Corruption Level: 1.04
+Average Stability: 37.66
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  No significant resource depletion detected.
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 842,105
+Total Emigration: 422,693
+Net Migration: 419,412
+
+================================================================================
+YEAR 10
+================================================================================
+
+TOP 10 COUNTRIES BY GDP
+----------------------------------------
+ 1. Eaststan             - GDP: $6,093,462,304,063
+ 2. Country_35           - GDP: $3,661,216,290,424
+ 3. Country_30           - GDP: $1,634,154,093,681
+ 4. Southia              - GDP: $1,546,236,762,237
+ 5. Country_32           - GDP: $1,245,560,902,524
+ 6. Newville             - GDP: $1,037,106,615,999
+ 7. Southia              - GDP: $785,466,430,680
+ 8. Country_29           - GDP: $582,986,634,497
+ 9. Country_45           - GDP: $536,266,649,402
+10. Country_24           - GDP: $491,838,045,930
+
+TOP 10 COUNTRIES BY GDP PER CAPITA
+----------------------------------------
+ 1. Eaststan             - GDP/Capita: $24,394
+ 2. Country_24           - GDP/Capita: $23,399
+ 3. Country_39           - GDP/Capita: $19,586
+ 4. Country_29           - GDP/Capita: $17,544
+ 5. Country_23           - GDP/Capita: $17,409
+ 6. Westburg             - GDP/Capita: $17,173
+ 7. Greatton             - GDP/Capita: $16,880
+ 8. Eaststan             - GDP/Capita: $16,191
+ 9. Country_30           - GDP/Capita: $14,749
+10. Country_21           - GDP/Capita: $14,327
+
+TOP 10 MOST STABLE COUNTRIES
+----------------------------------------
+ 1. Country_24           - Stability: 74.8
+ 2. Southia              - Stability: 70.5
+ 3. Republicport         - Stability: 68.5
+ 4. Country_41           - Stability: 68.2
+ 5. Country_36           - Stability: 62.8
+ 6. Country_29           - Stability: 61.5
+ 7. Eaststan             - Stability: 59.7
+ 8. Westburg             - Stability: 57.0
+ 9. Greatton             - Stability: 56.0
+10. Southia              - Stability: 54.6
+
+TOP 10 MOST DEMOCRATIC COUNTRIES
+----------------------------------------
+ 1. Country_36           - Democracy Index: 97.8
+ 2. Greatton             - Democracy Index: 97.3
+ 3. Unitedfield          - Democracy Index: 94.4
+ 4. Westburg             - Democracy Index: 94.3
+ 5. Northland            - Democracy Index: 92.5
+ 6. Country_25           - Democracy Index: 91.2
+ 7. Country_38           - Democracy Index: 90.3
+ 8. Country_33           - Democracy Index: 88.0
+ 9. Southia              - Democracy Index: 84.7
+10. Country_37           - Democracy Index: 83.8
+
+TOP 10 MOST UNEQUAL COUNTRIES
+----------------------------------------
+ 1. Country_33           - Inequality: 0.972
+ 2. Democraticgard       - Inequality: 0.942
+ 3. Country_31           - Inequality: 0.928
+ 4. Country_23           - Inequality: 0.892
+ 5. Country_25           - Inequality: 0.868
+ 6. Westburg             - Inequality: 0.853
+ 7. Country_44           - Inequality: 0.848
+ 8. Country_45           - Inequality: 0.847
+ 9. Country_37           - Inequality: 0.846
+10. Northland            - Inequality: 0.837
+
+POPULATION STATISTICS
+----------------------------------------
+Total World Population: 2,171,495,921
+Average Population per Country: 43,429,918
+
+ECONOMIC STATISTICS
+----------------------------------------
+Total World GDP: $21,031,119,408,483
+Average GDP per Country: $420,622,388,170
+Average GDP per Capita: $9,305
+Average Unemployment Rate: 18.76%
+Average Corruption Level: 0.84
+Average Stability: 36.02
+
+RESOURCE DEPLETION WARNINGS
+----------------------------------------
+  - Westburg: Iron reserves low
+  - Newville: Lithium reserves low
+  - Country_23: Iron reserves low
+  - Country_24: Stone reserves low
+  - Country_25: Stone reserves low
+  - Country_26: Lithium reserves low
+  - Country_28: Stone reserves low
+  - Country_28: Iron reserves low
+  - Country_30: Silicon reserves low
+  - Country_35: Silicon reserves low
+
+MIGRATION FLOWS
+----------------------------------------
+Total Immigration: 1,152,913
+Total Emigration: 211,895
+Net Migration: 941,018
+
