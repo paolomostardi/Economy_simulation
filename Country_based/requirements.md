@@ -546,6 +546,45 @@ Higher unemployment increases:
 * Emigration
 * Poverty pressure
 
+## Industries
+
+Each country contains companies operating in multiple industries.
+
+**Industries:**
+
+* Natural Resource Extraction
+* Agriculture
+* Manufacturing
+* Technology
+
+The percentage of companies in each industry is determined by:
+
+* Resource availability
+* Farmable land
+* Technology level
+* GDP per capita
+
+Countries evolve economically over time.
+
+**Low-technology countries tend to have:**
+
+* More extraction companies
+* More agricultural companies
+
+**High-technology countries tend to have:**
+
+* More manufacturing companies
+* More technology companies
+
+**Industry productivity depends on:**
+
+* Technology
+* Education
+* Infrastructure
+* Stability
+
+Industry output generates jobs and GDP.
+
 Initial GDP should depend on:
 
 * resource extraction
