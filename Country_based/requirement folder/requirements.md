@@ -438,42 +438,24 @@ Each country has:
 
 Random uniform between -2% and 5%.
 
-**Yearly growth rate update:**
+**Yearly growth rate calculation:**
 
-The growth rate is recalculated each year based on multiple factors:
+The growth rate is calculated after GDP is updated based on industry outputs and other factors.
 
 ```
-base_growth = random_uniform(-0.01, 0.04)  # -1% to 4%
-
-stability_bonus = (stability / 100 - 0.5) * 0.05
-tech_bonus = (technology / 100) * 0.02
-unemployment_penalty = (unemployment / 40) * 0.03
-corruption_penalty = (corruption / 100) * 0.02
-resource_bonus = 0.005  # 0.5% from resource extraction
-
-new_growth = (base_growth + stability_bonus + tech_bonus + resource_bonus
-             - unemployment_penalty - corruption_penalty)
-
-# Smooth transition to avoid extreme fluctuations
-gdp_growth_rate = gdp_growth_rate * 0.7 + new_growth * 0.3
-gdp_growth_rate = clamp(-0.1, 0.15, gdp_growth_rate)  # -10% to 15%
-
-where:
-- stability = country's stability score (0-100)
-- technology = country's technology level (0-100)
-- unemployment = country's unemployment rate (0-40)
-- corruption = country's corruption level (0-100)
-- random_uniform(a, b) returns a random value between a and b
-- clamp(min, max, value) constrains value between min and max
+gdp_growth_rate = (current_gdp - previous_gdp) / previous_gdp
 ```
 
-**Effects:**
+This represents the actual percentage change in GDP from the previous year to the current year.
 
-- Higher stability increases growth
-- Higher technology increases growth
-- Higher unemployment reduces growth
-- Higher corruption reduces growth
-- Resource extraction provides a small bonus
+**GDP is updated yearly based on:**
+
+* Industry outputs (resource extraction, agriculture, manufacturing, technology)
+* Productivity factors
+* Worker distribution
+* Market prices
+
+The growth rate is then calculated from the resulting GDP change.
 
 Government revenue is proportional to tax rate, but reduced by corruption:
 
@@ -645,6 +627,15 @@ technology_share = technology_weight / total_weight
 ```
 
 **Worker Distribution:**
+
+The working population is determined by the total working-age population and unemployment rate.
+
+```
+working_age_population = young_adults + older_adults
+working_population = working_age_population * (1 - unemployment_rate / 100)
+```
+
+Workers are then distributed across industries:
 
 ```
 resource_workers = working_population * resource_share
@@ -862,36 +853,114 @@ Birth rate and mortality rates are recalculated yearly based on:
 
 # Output
 
-Instead of printing to console, simulation results are written to a structured text file in the output folder.
+## Improved Output Specification (Summary)
 
-## File Structure
+### Goals of the Output System
 
-The output file is structured as a grid/table format to log changes over time.
+- Provide clear, readable, and traceable yearly simulation logs.
+- Offer both human‑readable summaries and machine‑readable data.
+- Highlight major events, trends, and anomalies in a concise format.
 
-## File Header
+### Output Files
 
-At the beginning of the file, include metadata:
+- Human Summary: `output/world_summary.txt`
+- Machine Logs: `output/yearly_data.csv`, `output/yearly_data.json`
+- Event Log: `output/events.log`
+- Metadata: `output/metadata.json`
 
-* **Random seed**: For reproducibility and replication
-* **Software version**: Version number of the simulation software
-* **Creation date**: Date and time when the simulation was created
-* **Number of countries**: Total countries in the simulation
-* **Simulation duration**: Number of years simulated
-* **Other metadata**: Any additional relevant configuration parameters
+### Metadata Header
 
-## Yearly Data Logged
+```
+Random seed: <value>
+Software version: <value>
+Creation date: <timestamp>
+Number of countries: <N>
+Simulation duration: <years>
+Configuration: <key parameters>
+```
 
-For each year, log:
+### Yearly Summary Structure
 
-* Top GDP countries
-* Richest population per capita
-* Most unequal countries
-* Most stable countries
-* Most democratic countries
-* Resource depletion warnings
-* Population growth rates
-* Migration flows
-* Other significant changes or events
+#### 1. Year Header
+
+```
+Year <N> | World GDP: <value> | World Population: <value> | Avg Stability: <value>
+```
+
+#### 2. Top 5 Highlights
+
+Short, cause‑and‑effect statements summarizing the most important events of the year.
+
+#### 3. Ranked Lists
+
+- Top GDP countries
+- Richest per capita
+- Most stable
+- Most democratic
+- Most unequal
+
+#### 4. Notable Events (Tagged)
+
+```
+[CRITICAL] Country A: Oil reserves depleted → GDP -11%, unemployment +3.2pp
+```
+
+#### 5. Migration Summary
+
+- Net global flows
+- Largest migration corridors
+- Countries with highest immigration/emigration pressure
+
+#### 6. Resource Warnings
+
+List resources nearing depletion with estimated years remaining.
+
+#### 7. Appendix Links
+
+Pointers to:
+- yearly CSV/JSON
+- event log
+- per‑country snapshots
+
+### Machine Log Schema
+
+#### CSV Columns
+
+```
+year,country_id,country_name,population,gdp,gdp_per_capita,
+stability,democracy,corruption,unemployment,net_migration,
+birth_rate,death_rate,inflation,resource_reserve_index
+```
+
+#### JSON Structure
+
+```
+{
+  "year": <N>,
+  "countries": [
+    {
+      "id": <id>,
+      "name": "<name>",
+      "population": <value>,
+      "gdp": <value>,
+      ...
+    }
+  ]
+}
+```
+
+### Event Log Format
+
+```
+[YYYY-MM-DD] [Year N] [SEVERITY] Country X: <event description>
+```
+
+### Optional Enhancements
+
+- ASCII sparklines for trends
+- One‑line country snapshots
+- Configurable verbosity levels (`SUMMARY`, `DETAILED`, `DEBUG`)
+- Short narrative paragraphs explaining major shifts
 
 ---
 
