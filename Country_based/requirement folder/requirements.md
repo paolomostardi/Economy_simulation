@@ -21,7 +21,7 @@ Each `Country` should contain:
 
 ## Basic Information
 
-* Name
+* Name (randomly selected from names.txt file)
 * Population
 * Area
 * GDP
@@ -29,6 +29,12 @@ Each `Country` should contain:
 * Technology level
 * Corruption level
 * Democracy Index
+
+### Country Names
+
+Each country is assigned a unique random name from the `names.txt` file. This file contains a list of fantasy/realistic country names that are used to give each country a distinct identity in the simulation.
+
+The names are selected randomly without replacement to ensure each country has a unique name during a simulation run.
 
 ### Corruption Level
 
@@ -760,6 +766,81 @@ total_corporate_profit = (
     + manufacturing_profit
     + technology_profit
 )
+```
+
+### Resource Shortage Penalties
+
+Industries should not only generate output — they should also unlock each other's efficiency. Resource shortages apply penalties to productivity and stability.
+
+**Minimum Structural Needs:**
+
+Each country has baseline consumption needs proportional to population.
+
+```
+food_demand = population * food_per_capita
+resource_demand = population * resource_intensity
+
+resource_intensity = depends on tech level (higher tech → more input demand)
+
+food_supply = agriculture_output
+resource_supply = extraction_output
+
+food_ratio = food_supply / food_demand
+resource_ratio = resource_supply / resource_demand
+
+ratio = min(1.0, food_supply / demand)
+```
+
+**Nonlinear Shortage Penalty:**
+
+Instead of linear punishment, use a nonlinear curve so collapse becomes possible.
+
+```
+def shortage_penalty(ratio):
+    return max(0.0, (1.0 - ratio) ** 2)
+
+agriculture_penalty = shortage_penalty(food_ratio)
+resource_penalty = shortage_penalty(resource_ratio)
+```
+
+**Effects on Productivity:**
+
+```
+effective_productivity = (
+    productivity
+    * (1 - 0.4 * agriculture_penalty)
+    * (1 - 0.4 * resource_penalty)
+)
+```
+
+**Effects on Stability:**
+
+```
+stability -= (
+    20 * agriculture_penalty
+    + 10 * resource_penalty
+)
+```
+
+**Effects on Emigration:**
+
+```
+emigration_pressure += (
+    30 * agriculture_penalty
+    + 15 * resource_penalty
+)
+```
+
+**Effects on Inflation:**
+
+```
+inflation += 10 * (1 - food_ratio)
+```
+
+**Overall Dependency:**
+
+```
+dependency = max(food_penalty, resource_penalty)
 ``` 
 
 
@@ -863,10 +944,28 @@ Birth rate and mortality rates are recalculated yearly based on:
 
 ### Output Files
 
-- Human Summary: `output/world_summary.txt`
-- Machine Logs: `output/yearly_data.csv`, `output/yearly_data.json`
-- Event Log: `output/events.log`
-- Metadata: `output/metadata.json`
+Each simulation run creates a timestamped folder to keep results organized.
+
+**Folder Structure:**
+
+```
+output/
+└── YYYYMMDD_HHMMSS/          # Timestamped folder for each run
+    ├── metadata.json
+    ├── world_summary.txt
+    ├── yearly_data.csv
+    ├── yearly_data.json
+    └── events.log
+```
+
+The folder name uses the format `YYYYMMDD_HHMMSS` (e.g., `20260604_202130`) representing the date and time when the simulation started.
+
+**Files in each run folder:**
+
+- Human Summary: `world_summary.txt`
+- Machine Logs: `yearly_data.csv`, `yearly_data.json`
+- Event Log: `events.log`
+- Metadata: `metadata.json`
 
 ### Metadata Header
 

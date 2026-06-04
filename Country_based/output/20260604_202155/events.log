@@ -1,0 +1,780 @@
+[2026-06-04] [Year 1] [CRITICAL] Country_1: GDP collapsed by -62.2%
+[2026-06-04] [Year 1] [WARNING] Country_1: Food shortage (1.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_2: GDP collapsed by -50.6%
+[2026-06-04] [Year 1] [WARNING] Country_2: Food shortage (16.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_3: GDP collapsed by -64.0%
+[2026-06-04] [Year 1] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 1] [CRITICAL] Country_4: GDP collapsed by -51.0%
+[2026-06-04] [Year 1] [WARNING] Country_4: Food shortage (15.8% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_5: GDP collapsed by -58.8%
+[2026-06-04] [Year 1] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_6: GDP collapsed by -56.8%
+[2026-06-04] [Year 1] [WARNING] Country_6: Food shortage (7.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_7: GDP collapsed by -56.5%
+[2026-06-04] [Year 1] [WARNING] Country_7: Food shortage (7.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_8: GDP collapsed by -61.4%
+[2026-06-04] [Year 1] [WARNING] Country_8: Food shortage (2.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_9: GDP collapsed by -63.6%
+[2026-06-04] [Year 1] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_10: GDP collapsed by -57.4%
+[2026-06-04] [Year 1] [WARNING] Country_10: Food shortage (6.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_11: GDP collapsed by -63.8%
+[2026-06-04] [Year 1] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_12: GDP collapsed by -64.0%
+[2026-06-04] [Year 1] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_13: GDP collapsed by -61.3%
+[2026-06-04] [Year 1] [WARNING] Country_13: Food shortage (2.2% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_14: GDP collapsed by -62.2%
+[2026-06-04] [Year 1] [WARNING] Country_14: Food shortage (1.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_15: GDP collapsed by -63.1%
+[2026-06-04] [Year 1] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_16: GDP collapsed by -63.9%
+[2026-06-04] [Year 1] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_17: GDP collapsed by -62.0%
+[2026-06-04] [Year 1] [WARNING] Country_17: Food shortage (1.6% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_18: GDP collapsed by -55.9%
+[2026-06-04] [Year 1] [WARNING] Country_18: Food shortage (7.9% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_19: GDP collapsed by -63.8%
+[2026-06-04] [Year 1] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_20: GDP collapsed by -60.6%
+[2026-06-04] [Year 1] [WARNING] Country_20: Food shortage (2.8% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_21: GDP collapsed by -61.1%
+[2026-06-04] [Year 1] [WARNING] Country_21: Food shortage (2.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_22: GDP collapsed by -61.7%
+[2026-06-04] [Year 1] [WARNING] Country_22: Food shortage (1.8% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_23: GDP collapsed by -57.4%
+[2026-06-04] [Year 1] [WARNING] Country_23: Food shortage (6.2% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_24: GDP collapsed by -62.3%
+[2026-06-04] [Year 1] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_25: GDP collapsed by -61.8%
+[2026-06-04] [Year 1] [WARNING] Country_25: Food shortage (1.8% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_26: GDP collapsed by -60.8%
+[2026-06-04] [Year 1] [WARNING] Country_26: Food shortage (2.3% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_27: GDP collapsed by -53.2%
+[2026-06-04] [Year 1] [WARNING] Country_27: Food shortage (11.6% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_28: GDP collapsed by -63.2%
+[2026-06-04] [Year 1] [WARNING] Country_28: Food shortage (0.6% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_29: GDP collapsed by -63.3%
+[2026-06-04] [Year 1] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_30: GDP collapsed by -63.8%
+[2026-06-04] [Year 1] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_31: GDP collapsed by -64.0%
+[2026-06-04] [Year 1] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_32: GDP collapsed by -61.1%
+[2026-06-04] [Year 1] [WARNING] Country_32: Food shortage (2.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_33: GDP collapsed by -60.8%
+[2026-06-04] [Year 1] [WARNING] Country_33: Food shortage (2.7% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_34: GDP collapsed by -63.2%
+[2026-06-04] [Year 1] [WARNING] Country_34: Food shortage (0.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_35: GDP collapsed by -58.9%
+[2026-06-04] [Year 1] [WARNING] Country_35: Food shortage (4.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_36: GDP collapsed by -63.9%
+[2026-06-04] [Year 1] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_37: GDP collapsed by -62.7%
+[2026-06-04] [Year 1] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_38: GDP collapsed by -61.6%
+[2026-06-04] [Year 1] [WARNING] Country_38: Food shortage (1.6% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_39: GDP collapsed by -57.3%
+[2026-06-04] [Year 1] [WARNING] Country_39: Food shortage (6.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_40: GDP collapsed by -62.1%
+[2026-06-04] [Year 1] [WARNING] Country_40: Food shortage (1.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_41: GDP collapsed by -62.8%
+[2026-06-04] [Year 1] [WARNING] Country_41: Food shortage (0.9% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_42: GDP collapsed by -60.1%
+[2026-06-04] [Year 1] [WARNING] Country_42: Food shortage (3.3% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_43: GDP collapsed by -63.0%
+[2026-06-04] [Year 1] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_44: GDP collapsed by -57.2%
+[2026-06-04] [Year 1] [WARNING] Country_44: Food shortage (6.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_45: GDP collapsed by -63.4%
+[2026-06-04] [Year 1] [WARNING] Country_45: Food shortage (0.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_46: GDP collapsed by -63.9%
+[2026-06-04] [Year 1] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_47: GDP collapsed by -62.5%
+[2026-06-04] [Year 1] [WARNING] Country_47: Food shortage (1.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_48: GDP collapsed by -63.9%
+[2026-06-04] [Year 1] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_49: GDP collapsed by -62.2%
+[2026-06-04] [Year 1] [WARNING] Country_49: Food shortage (1.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_50: GDP collapsed by -63.3%
+[2026-06-04] [Year 1] [WARNING] Country_50: Food shortage (0.5% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_1: Food shortage (1.4% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_2: GDP collapsed by -16.1%
+[2026-06-04] [Year 2] [WARNING] Country_2: Food shortage (14.5% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 2] [CRITICAL] Country_4: GDP collapsed by -16.2%
+[2026-06-04] [Year 2] [WARNING] Country_4: Food shortage (14.2% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_5: Food shortage (4.1% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_6: GDP collapsed by -14.5%
+[2026-06-04] [Year 2] [WARNING] Country_6: Food shortage (6.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_7: GDP collapsed by -12.0%
+[2026-06-04] [Year 2] [WARNING] Country_7: Food shortage (6.7% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_8: Food shortage (2.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_10: GDP collapsed by -15.0%
+[2026-06-04] [Year 2] [WARNING] Country_10: Food shortage (5.5% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_13: Food shortage (2.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_14: Food shortage (1.3% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_16: Stability crisis at 13.9
+[2026-06-04] [Year 2] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_17: Food shortage (1.6% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_18: GDP collapsed by -14.7%
+[2026-06-04] [Year 2] [WARNING] Country_18: Food shortage (7.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_19: Stability crisis at 12.1
+[2026-06-04] [Year 2] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_20: Food shortage (2.7% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_21: Stability crisis at 14.0
+[2026-06-04] [Year 2] [CRITICAL] Country_21: GDP collapsed by -11.3%
+[2026-06-04] [Year 2] [WARNING] Country_21: Food shortage (2.2% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_22: Food shortage (1.8% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_23: GDP collapsed by -13.4%
+[2026-06-04] [Year 2] [WARNING] Country_23: Food shortage (5.8% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_24: Food shortage (1.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_25: Stability crisis at 19.7
+[2026-06-04] [Year 2] [CRITICAL] Country_25: GDP collapsed by -10.4%
+[2026-06-04] [Year 2] [WARNING] Country_25: Food shortage (1.7% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_26: Food shortage (2.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_27: GDP collapsed by -16.9%
+[2026-06-04] [Year 2] [WARNING] Country_27: Food shortage (11.3% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_28: Food shortage (0.6% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_32: GDP collapsed by -10.7%
+[2026-06-04] [Year 2] [WARNING] Country_32: Food shortage (2.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_33: GDP collapsed by -11.2%
+[2026-06-04] [Year 2] [WARNING] Country_33: Food shortage (2.5% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_34: Stability crisis at 17.2
+[2026-06-04] [Year 2] [WARNING] Country_34: Food shortage (0.5% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_35: GDP collapsed by -11.6%
+[2026-06-04] [Year 2] [WARNING] Country_35: Food shortage (4.3% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_38: Food shortage (1.6% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_39: GDP collapsed by -10.7%
+[2026-06-04] [Year 2] [WARNING] Country_39: Food shortage (5.9% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_40: GDP collapsed by -12.9%
+[2026-06-04] [Year 2] [WARNING] Country_40: Food shortage (1.4% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_41: Food shortage (0.9% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_42: GDP collapsed by -10.2%
+[2026-06-04] [Year 2] [WARNING] Country_42: Food shortage (3.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_44: GDP collapsed by -11.8%
+[2026-06-04] [Year 2] [WARNING] Country_44: Food shortage (5.8% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_45: Food shortage (0.5% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_47: Food shortage (1.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_49: Food shortage (1.4% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_50: Food shortage (0.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_1: Food shortage (1.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_2: Food shortage (13.9% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 3] [WARNING] Country_4: Food shortage (13.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_6: Food shortage (6.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_7: Food shortage (6.9% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_8: Food shortage (2.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_10: Food shortage (5.1% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_11: Stability crisis at 12.9
+[2026-06-04] [Year 3] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_13: Food shortage (2.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_14: Food shortage (1.3% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_16: Stability crisis at 3.7
+[2026-06-04] [Year 3] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_17: Food shortage (1.6% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_18: Stability crisis at 17.0
+[2026-06-04] [Year 3] [WARNING] Country_18: Food shortage (7.1% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_19: Stability crisis at 1.8
+[2026-06-04] [Year 3] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_20: Food shortage (2.7% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_21: Stability crisis at 5.7
+[2026-06-04] [Year 3] [WARNING] Country_21: Food shortage (2.2% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_22: Food shortage (1.7% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_23: Food shortage (5.6% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_25: Stability crisis at 10.3
+[2026-06-04] [Year 3] [WARNING] Country_25: Food shortage (1.7% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_26: Food shortage (2.2% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_27: Food shortage (10.9% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_28: Food shortage (0.6% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_32: Stability crisis at 18.6
+[2026-06-04] [Year 3] [WARNING] Country_32: Food shortage (2.2% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_33: Food shortage (2.7% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_34: Stability crisis at 6.5
+[2026-06-04] [Year 3] [WARNING] Country_34: Food shortage (0.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_35: Food shortage (4.2% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_38: Food shortage (1.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_39: Food shortage (6.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_40: Food shortage (1.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_41: Food shortage (0.9% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_42: Food shortage (3.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_44: Food shortage (5.6% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_45: Food shortage (0.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_47: Food shortage (1.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_49: Stability crisis at 15.3
+[2026-06-04] [Year 3] [WARNING] Country_49: Food shortage (1.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_50: Food shortage (0.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_1: Food shortage (1.3% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_2: Food shortage (13.6% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 4] [WARNING] Country_4: Food shortage (13.2% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_5: Food shortage (4.9% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_6: Food shortage (5.6% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_7: Food shortage (7.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_8: Food shortage (1.9% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_10: Stability crisis at 14.3
+[2026-06-04] [Year 4] [WARNING] Country_10: Food shortage (4.8% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_11: Stability crisis at 5.1
+[2026-06-04] [Year 4] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_13: Food shortage (2.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_14: Food shortage (1.2% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 4] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_17: Food shortage (1.6% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_18: Stability crisis at 11.4
+[2026-06-04] [Year 4] [WARNING] Country_18: Food shortage (6.8% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 4] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_20: Food shortage (2.7% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 4] [WARNING] Country_21: Food shortage (2.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_22: Food shortage (1.7% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_23: Stability crisis at 15.1
+[2026-06-04] [Year 4] [WARNING] Country_23: Food shortage (5.4% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_25: Stability crisis at 0.8
+[2026-06-04] [Year 4] [WARNING] Country_25: Food shortage (1.6% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_26: Food shortage (2.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_27: Food shortage (10.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_32: Stability crisis at 10.3
+[2026-06-04] [Year 4] [WARNING] Country_32: Food shortage (2.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_33: Food shortage (2.7% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 4] [WARNING] Country_34: Food shortage (0.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_35: Food shortage (4.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_38: Food shortage (1.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_39: Food shortage (6.7% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_40: Food shortage (1.4% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_41: Food shortage (0.9% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_42: Food shortage (2.9% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_43: Stability crisis at 14.1
+[2026-06-04] [Year 4] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_44: Food shortage (5.5% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_45: Stability crisis at 19.5
+[2026-06-04] [Year 4] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_47: Food shortage (1.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_49: Stability crisis at 7.3
+[2026-06-04] [Year 4] [WARNING] Country_49: Food shortage (1.3% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_50: Food shortage (0.5% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_1: Food shortage (1.3% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_2: Food shortage (13.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 5] [WARNING] Country_4: Food shortage (12.9% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_5: Food shortage (4.8% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_6: Stability crisis at 10.2
+[2026-06-04] [Year 5] [WARNING] Country_6: Food shortage (5.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_7: Food shortage (7.2% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_8: Food shortage (1.9% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_10: Stability crisis at 3.3
+[2026-06-04] [Year 5] [WARNING] Country_10: Food shortage (4.5% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_12: Stability crisis at 16.8
+[2026-06-04] [Year 5] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_13: Food shortage (2.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_14: Food shortage (1.2% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_17: Food shortage (1.5% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_18: Stability crisis at 5.8
+[2026-06-04] [Year 5] [WARNING] Country_18: Food shortage (6.6% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_20: Food shortage (2.7% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_21: Food shortage (2.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_22: Food shortage (1.7% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_23: Stability crisis at 8.1
+[2026-06-04] [Year 5] [WARNING] Country_23: Food shortage (5.2% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_25: Food shortage (1.5% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_26: Stability crisis at 17.1
+[2026-06-04] [Year 5] [WARNING] Country_26: Food shortage (2.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_27: Food shortage (10.3% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_32: Stability crisis at 2.0
+[2026-06-04] [Year 5] [WARNING] Country_32: Food shortage (2.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_33: Food shortage (2.8% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_35: Food shortage (4.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_38: Stability crisis at 14.8
+[2026-06-04] [Year 5] [WARNING] Country_38: Food shortage (1.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_39: Food shortage (7.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_40: Food shortage (1.4% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_41: Stability crisis at 17.1
+[2026-06-04] [Year 5] [WARNING] Country_41: Food shortage (0.8% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_42: Stability crisis at 19.1
+[2026-06-04] [Year 5] [WARNING] Country_42: Food shortage (2.8% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_43: Stability crisis at 3.0
+[2026-06-04] [Year 5] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_44: Stability crisis at 17.0
+[2026-06-04] [Year 5] [WARNING] Country_44: Food shortage (5.3% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_45: Stability crisis at 13.6
+[2026-06-04] [Year 5] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_47: Food shortage (1.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_49: Food shortage (1.3% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_50: Food shortage (0.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_1: Food shortage (1.3% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_2: Food shortage (12.8% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 6] [WARNING] Country_4: Food shortage (12.5% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_5: Food shortage (4.8% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_6: Food shortage (5.1% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_7: Food shortage (7.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_8: Food shortage (1.8% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 6] [CRITICAL] Country_10: GDP collapsed by -10.6%
+[2026-06-04] [Year 6] [WARNING] Country_10: Food shortage (4.1% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_12: Stability crisis at 8.5
+[2026-06-04] [Year 6] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_13: Food shortage (2.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_14: Food shortage (1.2% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_17: Food shortage (1.5% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_18: Food shortage (6.4% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_20: Food shortage (2.6% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_21: Food shortage (2.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_22: Food shortage (1.6% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_23: Stability crisis at 1.0
+[2026-06-04] [Year 6] [WARNING] Country_23: Food shortage (4.9% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_25: Food shortage (1.5% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_26: Stability crisis at 8.9
+[2026-06-04] [Year 6] [WARNING] Country_26: Food shortage (1.9% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_27: Food shortage (10.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_30: Stability crisis at 19.2
+[2026-06-04] [Year 6] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_32: Food shortage (1.9% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_35: Food shortage (3.9% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_38: Stability crisis at 5.1
+[2026-06-04] [Year 6] [WARNING] Country_38: Food shortage (1.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_39: Food shortage (7.2% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_40: Food shortage (1.3% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_41: Stability crisis at 8.6
+[2026-06-04] [Year 6] [WARNING] Country_41: Food shortage (0.8% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_42: Stability crisis at 11.1
+[2026-06-04] [Year 6] [WARNING] Country_42: Food shortage (2.7% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_44: Stability crisis at 9.0
+[2026-06-04] [Year 6] [WARNING] Country_44: Food shortage (5.1% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_45: Stability crisis at 7.6
+[2026-06-04] [Year 6] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_47: Food shortage (1.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_49: Food shortage (1.2% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_50: Stability crisis at 19.4
+[2026-06-04] [Year 6] [WARNING] Country_50: Food shortage (0.4% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_1: Food shortage (1.3% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_2: Food shortage (12.5% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 7] [WARNING] Country_4: Food shortage (12.0% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 7] [CRITICAL] Country_6: GDP collapsed by -10.5%
+[2026-06-04] [Year 7] [WARNING] Country_6: Food shortage (4.7% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_7: Food shortage (7.5% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_8: Stability crisis at 10.6
+[2026-06-04] [Year 7] [WARNING] Country_8: Food shortage (1.7% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_10: Food shortage (3.9% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_12: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_13: Stability crisis at 19.9
+[2026-06-04] [Year 7] [WARNING] Country_13: Food shortage (1.9% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_14: Stability crisis at 13.6
+[2026-06-04] [Year 7] [WARNING] Country_14: Food shortage (1.1% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_17: Stability crisis at 15.2
+[2026-06-04] [Year 7] [WARNING] Country_17: Food shortage (1.5% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_18: Food shortage (6.2% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_20: Food shortage (2.6% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_21: Food shortage (1.9% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_22: Food shortage (1.6% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_23: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_23: Food shortage (4.8% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_24: Stability crisis at 14.9
+[2026-06-04] [Year 7] [WARNING] Country_24: Food shortage (1.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_25: Food shortage (1.5% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_26: Stability crisis at 0.6
+[2026-06-04] [Year 7] [WARNING] Country_26: Food shortage (1.8% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_27: Food shortage (9.6% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_30: Stability crisis at 11.2
+[2026-06-04] [Year 7] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_32: Food shortage (1.9% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_35: Food shortage (3.8% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_37: Food shortage (1.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_38: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_38: Food shortage (1.3% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_39: Food shortage (7.3% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_40: Food shortage (1.3% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_41: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_41: Food shortage (0.8% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_42: Stability crisis at 3.0
+[2026-06-04] [Year 7] [WARNING] Country_42: Food shortage (2.6% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_44: Stability crisis at 0.9
+[2026-06-04] [Year 7] [WARNING] Country_44: Food shortage (4.9% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_45: Stability crisis at 1.5
+[2026-06-04] [Year 7] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_47: Stability crisis at 11.9
+[2026-06-04] [Year 7] [WARNING] Country_47: Food shortage (0.9% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_49: Food shortage (1.2% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_50: Stability crisis at 11.1
+[2026-06-04] [Year 7] [WARNING] Country_50: Food shortage (0.4% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_1: Food shortage (1.2% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_2: Food shortage (12.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_3: Stability crisis at 15.1
+[2026-06-04] [Year 8] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_4: Stability crisis at 19.8
+[2026-06-04] [Year 8] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 8] [WARNING] Country_4: Food shortage (11.6% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_6: Food shortage (4.6% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_7: Food shortage (7.8% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_8: Stability crisis at 0.8
+[2026-06-04] [Year 8] [WARNING] Country_8: Food shortage (1.7% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_10: Food shortage (3.9% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_12: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_13: Stability crisis at 13.0
+[2026-06-04] [Year 8] [WARNING] Country_13: Food shortage (1.8% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_14: Stability crisis at 5.6
+[2026-06-04] [Year 8] [WARNING] Country_14: Food shortage (1.1% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_17: Stability crisis at 7.9
+[2026-06-04] [Year 8] [WARNING] Country_17: Food shortage (1.4% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_18: Food shortage (6.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_20: Food shortage (2.6% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_21: Food shortage (1.9% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_22: Food shortage (1.5% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_23: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_23: Food shortage (4.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_24: Stability crisis at 9.0
+[2026-06-04] [Year 8] [WARNING] Country_24: Food shortage (1.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_25: Food shortage (1.4% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_26: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_26: Food shortage (1.7% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_27: Food shortage (9.3% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_30: Stability crisis at 3.1
+[2026-06-04] [Year 8] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_32: Food shortage (1.8% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_35: Stability crisis at 16.5
+[2026-06-04] [Year 8] [WARNING] Country_35: Food shortage (3.7% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_37: Food shortage (1.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_38: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_38: Food shortage (1.3% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_39: Food shortage (7.5% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_40: Food shortage (1.3% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_41: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_41: Food shortage (0.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_42: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_42: Food shortage (2.5% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_44: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_44: Food shortage (4.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_45: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_47: Stability crisis at 2.7
+[2026-06-04] [Year 8] [WARNING] Country_47: Food shortage (0.9% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_49: Food shortage (1.2% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_50: Stability crisis at 2.7
+[2026-06-04] [Year 8] [WARNING] Country_50: Food shortage (0.4% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_1: Food shortage (1.2% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_2: Food shortage (11.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_3: Stability crisis at 6.8
+[2026-06-04] [Year 9] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_4: Stability crisis at 13.1
+[2026-06-04] [Year 9] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 9] [WARNING] Country_4: Food shortage (11.1% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_6: Food shortage (4.5% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_7: Food shortage (8.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_8: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_8: Food shortage (1.6% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_10: Food shortage (3.8% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_12: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_13: Stability crisis at 5.9
+[2026-06-04] [Year 9] [WARNING] Country_13: Food shortage (1.8% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_14: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_14: Food shortage (1.1% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_17: Stability crisis at 0.5
+[2026-06-04] [Year 9] [WARNING] Country_17: Food shortage (1.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_18: Food shortage (6.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_20: Food shortage (2.5% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_21: Food shortage (1.8% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_22: Stability crisis at 16.0
+[2026-06-04] [Year 9] [WARNING] Country_22: Food shortage (1.5% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_23: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_23: Food shortage (4.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_24: Stability crisis at 3.1
+[2026-06-04] [Year 9] [WARNING] Country_24: Food shortage (1.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_25: Food shortage (1.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_26: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_26: Food shortage (1.7% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_27: Stability crisis at 15.3
+[2026-06-04] [Year 9] [WARNING] Country_27: Food shortage (9.0% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_29: Stability crisis at 18.9
+[2026-06-04] [Year 9] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_30: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_32: Food shortage (1.8% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_35: Stability crisis at 9.6
+[2026-06-04] [Year 9] [WARNING] Country_35: Food shortage (3.6% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_37: Food shortage (1.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_38: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_38: Food shortage (1.2% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_39: Food shortage (7.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_40: Stability crisis at 13.6
+[2026-06-04] [Year 9] [WARNING] Country_40: Food shortage (1.2% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_41: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_41: Food shortage (0.7% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_42: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_42: Food shortage (2.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_44: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_44: Food shortage (4.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_45: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_46: Stability crisis at 14.7
+[2026-06-04] [Year 9] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_47: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_47: Food shortage (0.8% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_49: Food shortage (1.2% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_50: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_50: Food shortage (0.4% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_1: Food shortage (1.2% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_2: Stability crisis at 15.0
+[2026-06-04] [Year 10] [WARNING] Country_2: Food shortage (11.2% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_3: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_4: Stability crisis at 6.2
+[2026-06-04] [Year 10] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 10] [WARNING] Country_4: Food shortage (10.7% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_5: Food shortage (4.6% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_6: Food shortage (4.4% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_7: Food shortage (8.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_8: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_8: Food shortage (1.6% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_10: Food shortage (3.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_12: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_13: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_13: Food shortage (1.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_14: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_14: Food shortage (1.0% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_17: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_17: Food shortage (1.3% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_18: Food shortage (6.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_20: Food shortage (2.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_21: Food shortage (1.8% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_22: Stability crisis at 10.8
+[2026-06-04] [Year 10] [WARNING] Country_22: Food shortage (1.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_23: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_23: Food shortage (4.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_24: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_24: Food shortage (1.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_25: Food shortage (1.4% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_26: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_26: Food shortage (1.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_27: Stability crisis at 8.3
+[2026-06-04] [Year 10] [WARNING] Country_27: Food shortage (8.6% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_29: Stability crisis at 12.1
+[2026-06-04] [Year 10] [WARNING] Country_29: Food shortage (0.3% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_30: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_32: Food shortage (1.8% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_35: Stability crisis at 2.6
+[2026-06-04] [Year 10] [WARNING] Country_35: Food shortage (3.5% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_37: Food shortage (1.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_38: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_38: Food shortage (1.2% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_39: Food shortage (7.6% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_40: Stability crisis at 7.0
+[2026-06-04] [Year 10] [WARNING] Country_40: Food shortage (1.2% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_41: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_41: Food shortage (0.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_42: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_42: Food shortage (2.3% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_44: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_44: Food shortage (4.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_45: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_46: Stability crisis at 7.8
+[2026-06-04] [Year 10] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_47: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_47: Food shortage (0.8% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_49: Food shortage (1.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_50: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_50: Food shortage (0.4% of demand)

@@ -1,55 +1,51 @@
 """
-Geography system - handles geographical characteristics.
+Geography system - handles geographical characteristics of a country.
 """
-
 import random
+from dataclasses import dataclass
 
 
+@dataclass
 class Geography:
-    """Manages geographical characteristics of a country."""
+    """Represents geographical characteristics of a country."""
+    temperature: float  # Average temperature in Celsius
+    seismic_level: float  # 0 to 100
+    mountain_percentage: float  # 0 to 100
+    farmable_land: float  # Square kilometers
+    fresh_water: float  # Cubic kilometers
     
-    def __init__(self):
-        # Temperature (Celsius, average annual)
-        self.temperature = random.uniform(-5, 35)
+    def __init__(self, area: float, forest_area: float = 0):
+        """
+        Initialize geography based on country area.
         
-        # Seismic level (0-10 scale)
-        self.seismic_level = random.uniform(0, 8)
+        Args:
+            area: Total land area in square kilometers
+            forest_area: Total forest area in square kilometers
+        """
+        self.temperature = random.uniform(-10, 35)
+        self.seismic_level = random.uniform(0, 100)
+        self.mountain_percentage = random.uniform(0, 80)
         
-        # Mountain percentage (0-100% of land area)
-        self.mountain_percentage = random.uniform(0, 60)
+        # Farmable land reduced by forest area
+        available_land = area - forest_area
+        self.farmable_land = max(0, available_land * random.uniform(0.3, 0.7))
         
-        # Farmable land (percentage of total area)
-        self.farmable_land = self._calculate_farmable_land()
-        
-        # Fresh water availability (cubic meters per capita per year)
-        self.fresh_water = self._calculate_fresh_water()
+        # Fresh water influenced by geography
+        self._generate_fresh_water()
     
-    def _calculate_farmable_land(self) -> float:
-        """Calculate farmable land based on geography."""
-        base_farmable = random.uniform(20, 70)
+    def _generate_fresh_water(self):
+        """Generate fresh water access based on geographical characteristics."""
+        # More water with moderate temperature and lower seismic activity
+        temp_factor = 1.0 - abs(self.temperature - 15) / 50
+        seismic_factor = 1.0 - (self.seismic_level / 200)
         
-        # Mountains reduce farmable land
-        mountain_penalty = self.mountain_percentage * 0.5
-        
-        # Extreme temperatures reduce farmable land
-        if self.temperature < 0 or self.temperature > 30:
-            temp_penalty = 10
-        else:
-            temp_penalty = 0
-        
-        farmable = base_farmable - mountain_penalty - temp_penalty
-        return max(5, min(80, farmable))
+        base_water = random.uniform(10, 500)  # cubic kilometers
+        self.fresh_water = base_water * temp_factor * seismic_factor
     
-    def _calculate_fresh_water(self) -> float:
-        """Calculate fresh water availability based on geography."""
-        # Base water availability
-        base_water = random.uniform(1000, 10000)
-        
-        # Temperature affects water (hotter = less water due to evaporation)
-        temp_factor = 1 - (max(0, self.temperature) / 50)
-        
-        # Mountains can increase water (snow melt, rivers)
-        mountain_bonus = self.mountain_percentage * 20
-        
-        water = base_water * temp_factor + mountain_bonus
-        return max(100, water)
+    def get_farmable_land_percent(self) -> float:
+        """Get farmable land as percentage of total area."""
+        return (self.farmable_land / (self.farmable_land + 1000)) * 100  # Normalized
+    
+    def get_fresh_water_factor(self) -> float:
+        """Get fresh water availability factor (0 to 1)."""
+        return min(1.0, self.fresh_water / 500)

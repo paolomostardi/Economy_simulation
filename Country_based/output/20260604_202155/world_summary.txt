@@ -1,0 +1,1608 @@
+
+================================================================================
+Year 1 | World GDP: $608.07B | World Population: 2,538,707,600 | Avg Stability: 50.2
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_40 leads with $104.47B GDP
+2. 9 countries in stability crisis
+3. 1 countries facing oil depletion
+4. World population: 2,538,707,600
+
+--- Top 10 Countries by GDP ---
+1. Country_40: Pop=442,388,754, GDP=$104.47B, Stability=75.8, Tech=56.1, Corruption=94.6%
+2. Country_5: Pop=440,035,200, GDP=$95.48B, Stability=63.3, Tech=49.2, Corruption=2.6%
+3. Country_21: Pop=177,011,849, GDP=$47.42B, Stability=21.8, Tech=85.5, Corruption=67.9%
+4. Country_31: Pop=123,555,403, GDP=$32.96B, Stability=60.2, Tech=72.8, Corruption=8.8%
+5. Country_37: Pop=95,588,853, GDP=$31.24B, Stability=30.8, Tech=78.1, Corruption=15.4%
+6. Country_48: Pop=77,103,590, GDP=$29.76B, Stability=37.8, Tech=86.0, Corruption=25.9%
+7. Country_39: Pop=135,008,367, GDP=$27.39B, Stability=30.1, Tech=78.4, Corruption=0.7%
+8. Country_20: Pop=84,389,888, GDP=$27.02B, Stability=46.3, Tech=69.8, Corruption=25.8%
+9. Country_7: Pop=83,748,671, GDP=$24.67B, Stability=24.1, Tech=63.2, Corruption=24.3%
+10. Country_33: Pop=81,143,395, GDP=$23.66B, Stability=46.1, Tech=93.7, Corruption=6.3%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_15: $455.73 per person
+2. Country_13: $441.17 per person
+3. Country_35: $433.92 per person
+4. Country_16: $429.63 per person
+5. Country_42: $421.75 per person
+6. Country_44: $387.92 per person
+7. Country_48: $385.93 per person
+8. Country_43: $381.03 per person
+9. Country_3: $374.04 per person
+10. Country_24: $359.29 per person
+
+--- Top 10 Most Stable ---
+1. Country_2: 78.6
+2. Country_29: 78.4
+3. Country_40: 75.8
+4. Country_3: 75.5
+5. Country_8: 74.4
+6. Country_27: 73.5
+7. Country_46: 73.2
+8. Country_47: 69.0
+9. Country_4: 65.6
+10. Country_35: 64.4
+
+--- Top 10 Most Democratic ---
+1. Country_7: 80.1
+2. Country_37: 78.7
+3. Country_42: 77.9
+4. Country_27: 77.9
+5. Country_39: 77.4
+6. Country_24: 76.5
+7. Country_14: 74.0
+8. Country_33: 70.1
+9. Country_45: 68.7
+10. Country_30: 67.1
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 1] [CRITICAL] Country_1: GDP collapsed by -62.2%
+[2026-06-04] [Year 1] [WARNING] Country_1: Food shortage (1.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_2: GDP collapsed by -50.6%
+[2026-06-04] [Year 1] [WARNING] Country_2: Food shortage (16.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_3: GDP collapsed by -64.0%
+[2026-06-04] [Year 1] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 1] [CRITICAL] Country_4: GDP collapsed by -51.0%
+[2026-06-04] [Year 1] [WARNING] Country_4: Food shortage (15.8% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_5: GDP collapsed by -58.8%
+[2026-06-04] [Year 1] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_6: GDP collapsed by -56.8%
+[2026-06-04] [Year 1] [WARNING] Country_6: Food shortage (7.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_7: GDP collapsed by -56.5%
+[2026-06-04] [Year 1] [WARNING] Country_7: Food shortage (7.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_8: GDP collapsed by -61.4%
+[2026-06-04] [Year 1] [WARNING] Country_8: Food shortage (2.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_9: GDP collapsed by -63.6%
+[2026-06-04] [Year 1] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_10: GDP collapsed by -57.4%
+[2026-06-04] [Year 1] [WARNING] Country_10: Food shortage (6.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_11: GDP collapsed by -63.8%
+[2026-06-04] [Year 1] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_12: GDP collapsed by -64.0%
+[2026-06-04] [Year 1] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_13: GDP collapsed by -61.3%
+[2026-06-04] [Year 1] [WARNING] Country_13: Food shortage (2.2% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_14: GDP collapsed by -62.2%
+[2026-06-04] [Year 1] [WARNING] Country_14: Food shortage (1.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_15: GDP collapsed by -63.1%
+[2026-06-04] [Year 1] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_16: GDP collapsed by -63.9%
+[2026-06-04] [Year 1] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_17: GDP collapsed by -62.0%
+[2026-06-04] [Year 1] [WARNING] Country_17: Food shortage (1.6% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_18: GDP collapsed by -55.9%
+[2026-06-04] [Year 1] [WARNING] Country_18: Food shortage (7.9% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_19: GDP collapsed by -63.8%
+[2026-06-04] [Year 1] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_20: GDP collapsed by -60.6%
+[2026-06-04] [Year 1] [WARNING] Country_20: Food shortage (2.8% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_21: GDP collapsed by -61.1%
+[2026-06-04] [Year 1] [WARNING] Country_21: Food shortage (2.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_22: GDP collapsed by -61.7%
+[2026-06-04] [Year 1] [WARNING] Country_22: Food shortage (1.8% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_23: GDP collapsed by -57.4%
+[2026-06-04] [Year 1] [WARNING] Country_23: Food shortage (6.2% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_24: GDP collapsed by -62.3%
+[2026-06-04] [Year 1] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_25: GDP collapsed by -61.8%
+[2026-06-04] [Year 1] [WARNING] Country_25: Food shortage (1.8% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_26: GDP collapsed by -60.8%
+[2026-06-04] [Year 1] [WARNING] Country_26: Food shortage (2.3% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_27: GDP collapsed by -53.2%
+[2026-06-04] [Year 1] [WARNING] Country_27: Food shortage (11.6% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_28: GDP collapsed by -63.2%
+[2026-06-04] [Year 1] [WARNING] Country_28: Food shortage (0.6% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_29: GDP collapsed by -63.3%
+[2026-06-04] [Year 1] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_30: GDP collapsed by -63.8%
+[2026-06-04] [Year 1] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_31: GDP collapsed by -64.0%
+[2026-06-04] [Year 1] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_32: GDP collapsed by -61.1%
+[2026-06-04] [Year 1] [WARNING] Country_32: Food shortage (2.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_33: GDP collapsed by -60.8%
+[2026-06-04] [Year 1] [WARNING] Country_33: Food shortage (2.7% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_34: GDP collapsed by -63.2%
+[2026-06-04] [Year 1] [WARNING] Country_34: Food shortage (0.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_35: GDP collapsed by -58.9%
+[2026-06-04] [Year 1] [WARNING] Country_35: Food shortage (4.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_36: GDP collapsed by -63.9%
+[2026-06-04] [Year 1] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_37: GDP collapsed by -62.7%
+[2026-06-04] [Year 1] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_38: GDP collapsed by -61.6%
+[2026-06-04] [Year 1] [WARNING] Country_38: Food shortage (1.6% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_39: GDP collapsed by -57.3%
+[2026-06-04] [Year 1] [WARNING] Country_39: Food shortage (6.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_40: GDP collapsed by -62.1%
+[2026-06-04] [Year 1] [WARNING] Country_40: Food shortage (1.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_41: GDP collapsed by -62.8%
+[2026-06-04] [Year 1] [WARNING] Country_41: Food shortage (0.9% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_42: GDP collapsed by -60.1%
+[2026-06-04] [Year 1] [WARNING] Country_42: Food shortage (3.3% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_43: GDP collapsed by -63.0%
+[2026-06-04] [Year 1] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_44: GDP collapsed by -57.2%
+[2026-06-04] [Year 1] [WARNING] Country_44: Food shortage (6.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_45: GDP collapsed by -63.4%
+[2026-06-04] [Year 1] [WARNING] Country_45: Food shortage (0.5% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_46: GDP collapsed by -63.9%
+[2026-06-04] [Year 1] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_47: GDP collapsed by -62.5%
+[2026-06-04] [Year 1] [WARNING] Country_47: Food shortage (1.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_48: GDP collapsed by -63.9%
+[2026-06-04] [Year 1] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_49: GDP collapsed by -62.2%
+[2026-06-04] [Year 1] [WARNING] Country_49: Food shortage (1.4% of demand)
+[2026-06-04] [Year 1] [CRITICAL] Country_50: GDP collapsed by -63.3%
+[2026-06-04] [Year 1] [WARNING] Country_50: Food shortage (0.5% of demand)
+
+--- Migration Summary ---
+Net global immigration: 568
+Net global emigration: 20,313,397
+Highest immigration: Country_27 (568), Country_30 (-1,149), Country_24 (-1,357)
+Highest emigration: Country_40 (-5,253,196), Country_21 (-2,927,816), Country_5 (-1,472,839)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.7B barrels)
+
+================================================================================
+Year 2 | World GDP: $562.26B | World Population: 2,542,287,621 | Avg Stability: 45.6
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $91.33B GDP
+2. 11 countries in stability crisis
+3. 1 countries facing oil depletion
+4. World population: 2,542,287,621
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=447,356,423, GDP=$91.33B, Stability=100.0, Tech=54.7, Corruption=2.6%
+2. Country_40: Pop=444,844,062, GDP=$91.00B, Stability=65.7, Tech=56.8, Corruption=94.0%
+3. Country_21: Pop=171,095,813, GDP=$42.05B, Stability=14.0, Tech=86.2, Corruption=67.5%
+4. Country_31: Pop=123,916,800, GDP=$32.19B, Stability=62.8, Tech=74.5, Corruption=8.8%
+5. Country_37: Pop=96,673,151, GDP=$31.36B, Stability=43.2, Tech=82.7, Corruption=15.1%
+6. Country_48: Pop=77,775,049, GDP=$29.88B, Stability=50.1, Tech=89.0, Corruption=25.5%
+7. Country_20: Pop=83,838,692, GDP=$24.80B, Stability=44.6, Tech=70.9, Corruption=25.6%
+8. Country_39: Pop=136,487,869, GDP=$24.46B, Stability=51.0, Tech=81.6, Corruption=0.7%
+9. Country_7: Pop=83,701,542, GDP=$21.71B, Stability=32.1, Tech=65.5, Corruption=23.8%
+10. Country_36: Pop=110,407,219, GDP=$21.55B, Stability=25.1, Tech=56.4, Corruption=2.8%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_15: $432.19 per person
+2. Country_16: $407.25 per person
+3. Country_13: $404.59 per person
+4. Country_35: $385.54 per person
+5. Country_48: $384.17 per person
+6. Country_42: $378.95 per person
+7. Country_43: $353.30 per person
+8. Country_3: $351.65 per person
+9. Country_44: $346.22 per person
+10. Country_24: $330.44 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_2: 70.4
+3. Country_29: 69.7
+4. Country_40: 65.7
+5. Country_3: 65.4
+6. Country_27: 64.8
+7. Country_46: 64.4
+8. Country_31: 62.8
+9. Country_8: 62.2
+10. Country_28: 58.5
+
+--- Top 10 Most Democratic ---
+1. Country_7: 80.3
+2. Country_37: 79.3
+3. Country_27: 78.3
+4. Country_39: 77.9
+5. Country_42: 77.9
+6. Country_24: 77.0
+7. Country_14: 74.1
+8. Country_33: 70.8
+9. Country_45: 68.6
+10. Country_30: 67.3
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 2] [WARNING] Country_1: Food shortage (1.4% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_2: GDP collapsed by -16.1%
+[2026-06-04] [Year 2] [WARNING] Country_2: Food shortage (14.5% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 2] [CRITICAL] Country_4: GDP collapsed by -16.2%
+[2026-06-04] [Year 2] [WARNING] Country_4: Food shortage (14.2% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_5: Food shortage (4.1% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_6: GDP collapsed by -14.5%
+[2026-06-04] [Year 2] [WARNING] Country_6: Food shortage (6.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_7: GDP collapsed by -12.0%
+[2026-06-04] [Year 2] [WARNING] Country_7: Food shortage (6.7% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_8: Food shortage (2.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_10: GDP collapsed by -15.0%
+[2026-06-04] [Year 2] [WARNING] Country_10: Food shortage (5.5% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_13: Food shortage (2.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_14: Food shortage (1.3% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_16: Stability crisis at 13.9
+[2026-06-04] [Year 2] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_17: Food shortage (1.6% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_18: GDP collapsed by -14.7%
+[2026-06-04] [Year 2] [WARNING] Country_18: Food shortage (7.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_19: Stability crisis at 12.1
+[2026-06-04] [Year 2] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_20: Food shortage (2.7% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_21: Stability crisis at 14.0
+[2026-06-04] [Year 2] [CRITICAL] Country_21: GDP collapsed by -11.3%
+[2026-06-04] [Year 2] [WARNING] Country_21: Food shortage (2.2% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_22: Food shortage (1.8% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_23: GDP collapsed by -13.4%
+[2026-06-04] [Year 2] [WARNING] Country_23: Food shortage (5.8% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_24: Food shortage (1.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_25: Stability crisis at 19.7
+[2026-06-04] [Year 2] [CRITICAL] Country_25: GDP collapsed by -10.4%
+[2026-06-04] [Year 2] [WARNING] Country_25: Food shortage (1.7% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_26: Food shortage (2.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_27: GDP collapsed by -16.9%
+[2026-06-04] [Year 2] [WARNING] Country_27: Food shortage (11.3% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_28: Food shortage (0.6% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_32: GDP collapsed by -10.7%
+[2026-06-04] [Year 2] [WARNING] Country_32: Food shortage (2.3% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_33: GDP collapsed by -11.2%
+[2026-06-04] [Year 2] [WARNING] Country_33: Food shortage (2.5% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_34: Stability crisis at 17.2
+[2026-06-04] [Year 2] [WARNING] Country_34: Food shortage (0.5% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_35: GDP collapsed by -11.6%
+[2026-06-04] [Year 2] [WARNING] Country_35: Food shortage (4.3% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_38: Food shortage (1.6% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_39: GDP collapsed by -10.7%
+[2026-06-04] [Year 2] [WARNING] Country_39: Food shortage (5.9% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_40: GDP collapsed by -12.9%
+[2026-06-04] [Year 2] [WARNING] Country_40: Food shortage (1.4% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_41: Food shortage (0.9% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_42: GDP collapsed by -10.2%
+[2026-06-04] [Year 2] [WARNING] Country_42: Food shortage (3.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 2] [CRITICAL] Country_44: GDP collapsed by -11.8%
+[2026-06-04] [Year 2] [WARNING] Country_44: Food shortage (5.8% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_45: Food shortage (0.5% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_47: Food shortage (1.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_49: Food shortage (1.4% of demand)
+[2026-06-04] [Year 2] [WARNING] Country_50: Food shortage (0.5% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 21,465,612
+Highest immigration: Country_27 (-2,838), Country_30 (-3,558), Country_24 (-6,188)
+Highest emigration: Country_21 (-3,904,086), Country_40 (-3,756,106), Country_5 (-1,903,482)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.6B barrels)
+
+================================================================================
+Year 3 | World GDP: $618.07B | World Population: 2,555,170,907 | Avg Stability: 40.4
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $119.44B GDP
+2. Country_5 grew by 30.8%
+3. 14 countries in stability crisis
+4. 1 countries facing oil depletion
+5. World population: 2,555,170,907
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=466,428,812, GDP=$119.44B, Stability=100.0, Tech=61.8, Corruption=2.5%
+2. Country_40: Pop=442,611,028, GDP=$96.73B, Stability=56.3, Tech=57.5, Corruption=93.4%
+3. Country_21: Pop=167,801,024, GDP=$40.05B, Stability=5.7, Tech=86.9, Corruption=67.1%
+4. Country_37: Pop=97,670,329, GDP=$36.99B, Stability=55.2, Tech=88.0, Corruption=14.8%
+5. Country_31: Pop=125,704,003, GDP=$34.54B, Stability=65.8, Tech=76.5, Corruption=8.7%
+6. Country_48: Pop=79,158,863, GDP=$33.66B, Stability=61.8, Tech=92.3, Corruption=25.1%
+7. Country_39: Pop=138,191,093, GDP=$28.29B, Stability=68.8, Tech=85.2, Corruption=0.7%
+8. Country_33: Pop=83,227,635, GDP=$25.61B, Stability=68.9, Tech=96.4, Corruption=6.1%
+9. Country_7: Pop=84,318,916, GDP=$25.41B, Stability=40.3, Tech=68.5, Corruption=23.3%
+10. Country_20: Pop=83,695,582, GDP=$24.80B, Stability=42.6, Tech=71.8, Corruption=25.3%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_15: $453.05 per person
+2. Country_48: $425.22 per person
+3. Country_13: $407.81 per person
+4. Country_16: $404.91 per person
+5. Country_35: $380.29 per person
+6. Country_37: $378.77 per person
+7. Country_42: $375.37 per person
+8. Country_3: $353.09 per person
+9. Country_43: $344.72 per person
+10. Country_44: $342.51 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_33: 68.9
+3. Country_39: 68.8
+4. Country_31: 65.8
+5. Country_2: 62.1
+6. Country_48: 61.8
+7. Country_29: 61.0
+8. Country_40: 56.3
+9. Country_28: 56.2
+10. Country_27: 56.1
+
+--- Top 10 Most Democratic ---
+1. Country_7: 80.6
+2. Country_37: 80.0
+3. Country_27: 78.8
+4. Country_39: 78.4
+5. Country_42: 77.8
+6. Country_24: 77.5
+7. Country_14: 74.1
+8. Country_33: 71.5
+9. Country_45: 68.6
+10. Country_30: 67.5
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 3] [WARNING] Country_1: Food shortage (1.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_2: Food shortage (13.9% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 3] [WARNING] Country_4: Food shortage (13.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_6: Food shortage (6.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_7: Food shortage (6.9% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_8: Food shortage (2.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_10: Food shortage (5.1% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_11: Stability crisis at 12.9
+[2026-06-04] [Year 3] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_13: Food shortage (2.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_14: Food shortage (1.3% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_16: Stability crisis at 3.7
+[2026-06-04] [Year 3] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_17: Food shortage (1.6% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_18: Stability crisis at 17.0
+[2026-06-04] [Year 3] [WARNING] Country_18: Food shortage (7.1% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_19: Stability crisis at 1.8
+[2026-06-04] [Year 3] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_20: Food shortage (2.7% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_21: Stability crisis at 5.7
+[2026-06-04] [Year 3] [WARNING] Country_21: Food shortage (2.2% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_22: Food shortage (1.7% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_23: Food shortage (5.6% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_25: Stability crisis at 10.3
+[2026-06-04] [Year 3] [WARNING] Country_25: Food shortage (1.7% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_26: Food shortage (2.2% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_27: Food shortage (10.9% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_28: Food shortage (0.6% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_32: Stability crisis at 18.6
+[2026-06-04] [Year 3] [WARNING] Country_32: Food shortage (2.2% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_33: Food shortage (2.7% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_34: Stability crisis at 6.5
+[2026-06-04] [Year 3] [WARNING] Country_34: Food shortage (0.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_35: Food shortage (4.2% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_38: Food shortage (1.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_39: Food shortage (6.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_40: Food shortage (1.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_41: Food shortage (0.9% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_42: Food shortage (3.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_44: Food shortage (5.6% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_45: Food shortage (0.5% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_47: Food shortage (1.1% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 3] [CRITICAL] Country_49: Stability crisis at 15.3
+[2026-06-04] [Year 3] [WARNING] Country_49: Food shortage (1.4% of demand)
+[2026-06-04] [Year 3] [WARNING] Country_50: Food shortage (0.5% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 21,468,010
+Highest immigration: Country_27 (-2,177), Country_30 (-3,158), Country_29 (-4,757)
+Highest emigration: Country_40 (-5,511,542), Country_21 (-2,177,029), Country_5 (-1,885,750)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.5B barrels)
+
+================================================================================
+Year 4 | World GDP: $672.43B | World Population: 2,550,286,846 | Avg Stability: 36.2
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $155.08B GDP
+2. Country_5 grew by 29.8%
+3. 21 countries in stability crisis
+4. 1 countries facing oil depletion
+5. World population: 2,550,286,846
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=476,879,097, GDP=$155.08B, Stability=100.0, Tech=70.9, Corruption=2.5%
+2. Country_40: Pop=437,785,300, GDP=$94.99B, Stability=48.7, Tech=58.4, Corruption=92.8%
+3. Country_37: Pop=99,476,347, GDP=$41.38B, Stability=70.0, Tech=94.1, Corruption=14.5%
+4. Country_21: Pop=158,966,229, GDP=$38.44B, Stability=0.0, Tech=87.7, Corruption=66.7%
+5. Country_48: Pop=80,731,764, GDP=$37.93B, Stability=75.9, Tech=95.8, Corruption=24.7%
+6. Country_31: Pop=126,408,137, GDP=$36.50B, Stability=69.8, Tech=78.5, Corruption=8.6%
+7. Country_39: Pop=140,658,344, GDP=$34.02B, Stability=90.4, Tech=89.9, Corruption=0.7%
+8. Country_33: Pop=86,057,787, GDP=$29.49B, Stability=82.3, Tech=98.1, Corruption=6.0%
+9. Country_7: Pop=85,272,235, GDP=$27.98B, Stability=50.1, Tech=71.4, Corruption=22.8%
+10. Country_20: Pop=83,216,972, GDP=$25.06B, Stability=40.6, Tech=73.1, Corruption=25.1%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_15: $472.97 per person
+2. Country_48: $469.81 per person
+3. Country_37: $416.00 per person
+4. Country_13: $397.48 per person
+5. Country_16: $390.82 per person
+6. Country_35: $369.99 per person
+7. Country_42: $369.73 per person
+8. Country_33: $342.64 per person
+9. Country_3: $340.27 per person
+10. Country_43: $333.51 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_39: 90.4
+3. Country_33: 82.3
+4. Country_48: 75.9
+5. Country_37: 70.0
+6. Country_31: 69.8
+7. Country_15: 55.7
+8. Country_28: 54.0
+9. Country_2: 53.9
+10. Country_29: 52.3
+
+--- Top 10 Most Democratic ---
+1. Country_7: 81.0
+2. Country_37: 80.8
+3. Country_27: 79.3
+4. Country_39: 79.0
+5. Country_24: 77.9
+6. Country_42: 77.8
+7. Country_14: 74.1
+8. Country_33: 72.3
+9. Country_45: 68.5
+10. Country_29: 67.8
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 4] [WARNING] Country_1: Food shortage (1.3% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_2: Food shortage (13.6% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 4] [WARNING] Country_4: Food shortage (13.2% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_5: Food shortage (4.9% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_6: Food shortage (5.6% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_7: Food shortage (7.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_8: Food shortage (1.9% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_10: Stability crisis at 14.3
+[2026-06-04] [Year 4] [WARNING] Country_10: Food shortage (4.8% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_11: Stability crisis at 5.1
+[2026-06-04] [Year 4] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_13: Food shortage (2.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_14: Food shortage (1.2% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 4] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_17: Food shortage (1.6% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_18: Stability crisis at 11.4
+[2026-06-04] [Year 4] [WARNING] Country_18: Food shortage (6.8% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 4] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_20: Food shortage (2.7% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 4] [WARNING] Country_21: Food shortage (2.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_22: Food shortage (1.7% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_23: Stability crisis at 15.1
+[2026-06-04] [Year 4] [WARNING] Country_23: Food shortage (5.4% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_25: Stability crisis at 0.8
+[2026-06-04] [Year 4] [WARNING] Country_25: Food shortage (1.6% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_26: Food shortage (2.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_27: Food shortage (10.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_32: Stability crisis at 10.3
+[2026-06-04] [Year 4] [WARNING] Country_32: Food shortage (2.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_33: Food shortage (2.7% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 4] [WARNING] Country_34: Food shortage (0.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_35: Food shortage (4.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_38: Food shortage (1.5% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_39: Food shortage (6.7% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_40: Food shortage (1.4% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_41: Food shortage (0.9% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_42: Food shortage (2.9% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_43: Stability crisis at 14.1
+[2026-06-04] [Year 4] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_44: Food shortage (5.5% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_45: Stability crisis at 19.5
+[2026-06-04] [Year 4] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_47: Food shortage (1.0% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 4] [CRITICAL] Country_49: Stability crisis at 7.3
+[2026-06-04] [Year 4] [WARNING] Country_49: Food shortage (1.3% of demand)
+[2026-06-04] [Year 4] [WARNING] Country_50: Food shortage (0.5% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 32,236,294
+Highest immigration: Country_27 (-3,100), Country_29 (-5,046), Country_44 (-5,243)
+Highest emigration: Country_40 (-9,829,713), Country_21 (-6,248,479), Country_45 (-2,560,039)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.5B barrels)
+
+================================================================================
+Year 5 | World GDP: $778.12B | World Population: 2,561,756,154 | Avg Stability: 32.6
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $236.32B GDP
+2. Country_5 grew by 52.4%
+3. 26 countries in stability crisis
+4. 1 countries facing oil depletion
+5. World population: 2,561,756,154
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=494,779,585, GDP=$236.32B, Stability=100.0, Tech=84.0, Corruption=2.5%
+2. Country_40: Pop=435,701,430, GDP=$93.32B, Stability=41.4, Tech=59.2, Corruption=92.3%
+3. Country_37: Pop=103,284,001, GDP=$49.18B, Stability=88.0, Tech=100.0, Corruption=14.2%
+4. Country_48: Pop=82,345,868, GDP=$43.49B, Stability=92.8, Tech=99.6, Corruption=24.3%
+5. Country_39: Pop=143,291,641, GDP=$39.89B, Stability=100.0, Tech=95.3, Corruption=0.7%
+6. Country_31: Pop=129,706,477, GDP=$38.44B, Stability=74.0, Tech=80.7, Corruption=8.6%
+7. Country_21: Pop=150,951,556, GDP=$35.41B, Stability=0.0, Tech=88.2, Corruption=66.3%
+8. Country_33: Pop=89,256,188, GDP=$34.16B, Stability=99.8, Tech=99.8, Corruption=5.9%
+9. Country_7: Pop=86,316,936, GDP=$31.81B, Stability=59.9, Tech=74.8, Corruption=22.4%
+10. Country_20: Pop=82,937,464, GDP=$25.86B, Stability=39.3, Tech=73.9, Corruption=24.9%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_48: $528.15 per person
+2. Country_15: $492.26 per person
+3. Country_5: $477.64 per person
+4. Country_37: $476.19 per person
+5. Country_13: $394.59 per person
+6. Country_33: $382.77 per person
+7. Country_16: $372.33 per person
+8. Country_7: $368.53 per person
+9. Country_35: $367.80 per person
+10. Country_42: $363.15 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_39: 100.0
+3. Country_33: 99.8
+4. Country_48: 92.8
+5. Country_37: 88.0
+6. Country_31: 74.0
+7. Country_7: 59.9
+8. Country_15: 55.6
+9. Country_28: 52.0
+10. Country_2: 47.6
+
+--- Top 10 Most Democratic ---
+1. Country_37: 81.6
+2. Country_7: 81.3
+3. Country_27: 79.7
+4. Country_39: 79.6
+5. Country_24: 78.4
+6. Country_42: 77.7
+7. Country_14: 74.2
+8. Country_33: 73.2
+9. Country_45: 68.5
+10. Country_29: 68.2
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 5] [WARNING] Country_1: Food shortage (1.3% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_2: Food shortage (13.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 5] [WARNING] Country_4: Food shortage (12.9% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_5: Food shortage (4.8% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_6: Stability crisis at 10.2
+[2026-06-04] [Year 5] [WARNING] Country_6: Food shortage (5.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_7: Food shortage (7.2% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_8: Food shortage (1.9% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_10: Stability crisis at 3.3
+[2026-06-04] [Year 5] [WARNING] Country_10: Food shortage (4.5% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_12: Stability crisis at 16.8
+[2026-06-04] [Year 5] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_13: Food shortage (2.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_14: Food shortage (1.2% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_17: Food shortage (1.5% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_18: Stability crisis at 5.8
+[2026-06-04] [Year 5] [WARNING] Country_18: Food shortage (6.6% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_20: Food shortage (2.7% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_21: Food shortage (2.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_22: Food shortage (1.7% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_23: Stability crisis at 8.1
+[2026-06-04] [Year 5] [WARNING] Country_23: Food shortage (5.2% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_25: Food shortage (1.5% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_26: Stability crisis at 17.1
+[2026-06-04] [Year 5] [WARNING] Country_26: Food shortage (2.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_27: Food shortage (10.3% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_32: Stability crisis at 2.0
+[2026-06-04] [Year 5] [WARNING] Country_32: Food shortage (2.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_33: Food shortage (2.8% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_35: Food shortage (4.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_38: Stability crisis at 14.8
+[2026-06-04] [Year 5] [WARNING] Country_38: Food shortage (1.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_39: Food shortage (7.1% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_40: Food shortage (1.4% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_41: Stability crisis at 17.1
+[2026-06-04] [Year 5] [WARNING] Country_41: Food shortage (0.8% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_42: Stability crisis at 19.1
+[2026-06-04] [Year 5] [WARNING] Country_42: Food shortage (2.8% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_43: Stability crisis at 3.0
+[2026-06-04] [Year 5] [WARNING] Country_43: Food shortage (0.7% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_44: Stability crisis at 17.0
+[2026-06-04] [Year 5] [WARNING] Country_44: Food shortage (5.3% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_45: Stability crisis at 13.6
+[2026-06-04] [Year 5] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_47: Food shortage (1.0% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 5] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 5] [WARNING] Country_49: Food shortage (1.3% of demand)
+[2026-06-04] [Year 5] [WARNING] Country_50: Food shortage (0.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 26,644,438
+Highest immigration: Country_27 (-2,119), Country_29 (-5,328), Country_19 (-5,447)
+Highest emigration: Country_40 (-6,278,639), Country_21 (-5,448,188), Country_45 (-2,754,887)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.4B barrels)
+
+================================================================================
+Year 6 | World GDP: $870.63B | World Population: 2,574,631,953 | Avg Stability: 29.0
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $293.39B GDP
+2. Country_5 grew by 24.1%
+3. 29 countries in stability crisis
+4. 1 countries facing oil depletion
+5. World population: 2,574,631,953
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=515,322,488, GDP=$293.39B, Stability=100.0, Tech=99.7, Corruption=2.4%
+2. Country_40: Pop=430,555,198, GDP=$92.96B, Stability=34.2, Tech=59.8, Corruption=91.7%
+3. Country_37: Pop=107,638,333, GDP=$57.42B, Stability=100.0, Tech=100.0, Corruption=13.9%
+4. Country_48: Pop=85,345,899, GDP=$48.88B, Stability=100.0, Tech=100.0, Corruption=23.9%
+5. Country_39: Pop=146,165,321, GDP=$48.08B, Stability=100.0, Tech=100.0, Corruption=0.7%
+6. Country_31: Pop=131,048,200, GDP=$42.92B, Stability=79.7, Tech=82.8, Corruption=8.5%
+7. Country_33: Pop=91,923,232, GDP=$40.82B, Stability=100.0, Tech=100.0, Corruption=5.7%
+8. Country_7: Pop=88,650,527, GDP=$36.30B, Stability=72.4, Tech=78.7, Corruption=21.9%
+9. Country_21: Pop=145,873,153, GDP=$33.12B, Stability=0.0, Tech=88.9, Corruption=65.9%
+10. Country_20: Pop=82,922,586, GDP=$26.66B, Stability=38.0, Tech=75.3, Corruption=24.6%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_48: $572.73 per person
+2. Country_5: $569.34 per person
+3. Country_37: $533.41 per person
+4. Country_15: $519.35 per person
+5. Country_33: $444.09 per person
+6. Country_7: $409.47 per person
+7. Country_13: $392.11 per person
+8. Country_16: $385.30 per person
+9. Country_35: $367.83 per person
+10. Country_42: $344.18 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_33: 100.0
+3. Country_37: 100.0
+4. Country_39: 100.0
+5. Country_48: 100.0
+6. Country_31: 79.7
+7. Country_7: 72.4
+8. Country_15: 56.2
+9. Country_28: 50.1
+10. Country_1: 41.3
+
+--- Top 10 Most Democratic ---
+1. Country_37: 82.5
+2. Country_7: 81.8
+3. Country_39: 80.3
+4. Country_27: 80.2
+5. Country_24: 78.9
+6. Country_42: 77.7
+7. Country_14: 74.3
+8. Country_33: 74.1
+9. Country_45: 68.5
+10. Country_29: 68.5
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 6] [WARNING] Country_1: Food shortage (1.3% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_2: Food shortage (12.8% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 6] [WARNING] Country_4: Food shortage (12.5% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_5: Food shortage (4.8% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_6: Food shortage (5.1% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_7: Food shortage (7.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_8: Food shortage (1.8% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 6] [CRITICAL] Country_10: GDP collapsed by -10.6%
+[2026-06-04] [Year 6] [WARNING] Country_10: Food shortage (4.1% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_12: Stability crisis at 8.5
+[2026-06-04] [Year 6] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_13: Food shortage (2.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_14: Food shortage (1.2% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_17: Food shortage (1.5% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_18: Food shortage (6.4% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_20: Food shortage (2.6% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_21: Food shortage (2.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_22: Food shortage (1.6% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_23: Stability crisis at 1.0
+[2026-06-04] [Year 6] [WARNING] Country_23: Food shortage (4.9% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_24: Food shortage (1.2% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_25: Food shortage (1.5% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_26: Stability crisis at 8.9
+[2026-06-04] [Year 6] [WARNING] Country_26: Food shortage (1.9% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_27: Food shortage (10.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_30: Stability crisis at 19.2
+[2026-06-04] [Year 6] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_32: Food shortage (1.9% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_35: Food shortage (3.9% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_37: Food shortage (1.0% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_38: Stability crisis at 5.1
+[2026-06-04] [Year 6] [WARNING] Country_38: Food shortage (1.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_39: Food shortage (7.2% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_40: Food shortage (1.3% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_41: Stability crisis at 8.6
+[2026-06-04] [Year 6] [WARNING] Country_41: Food shortage (0.8% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_42: Stability crisis at 11.1
+[2026-06-04] [Year 6] [WARNING] Country_42: Food shortage (2.7% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_44: Stability crisis at 9.0
+[2026-06-04] [Year 6] [WARNING] Country_44: Food shortage (5.1% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_45: Stability crisis at 7.6
+[2026-06-04] [Year 6] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_47: Food shortage (1.0% of demand)
+[2026-06-04] [Year 6] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 6] [WARNING] Country_49: Food shortage (1.2% of demand)
+[2026-06-04] [Year 6] [CRITICAL] Country_50: Stability crisis at 19.4
+[2026-06-04] [Year 6] [WARNING] Country_50: Food shortage (0.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 25,920,424
+Highest immigration: Country_27 (-2,647), Country_44 (-5,046), Country_11 (-5,685)
+Highest emigration: Country_40 (-7,678,757), Country_21 (-2,422,732), Country_45 (-2,109,577)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.4B barrels)
+
+================================================================================
+Year 7 | World GDP: $978.35B | World Population: 2,574,584,303 | Avg Stability: 25.9
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $365.16B GDP
+2. Country_5 grew by 24.5%
+3. 35 countries in stability crisis
+4. 1 countries facing oil depletion
+5. World population: 2,574,584,303
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=527,187,626, GDP=$365.16B, Stability=100.0, Tech=100.0, Corruption=2.4%
+2. Country_40: Pop=417,936,719, GDP=$91.88B, Stability=27.2, Tech=60.8, Corruption=91.2%
+3. Country_37: Pop=110,930,057, GDP=$62.02B, Stability=100.0, Tech=100.0, Corruption=13.6%
+4. Country_39: Pop=150,435,916, GDP=$58.25B, Stability=100.0, Tech=100.0, Corruption=0.7%
+5. Country_48: Pop=87,218,717, GDP=$53.16B, Stability=100.0, Tech=100.0, Corruption=23.5%
+6. Country_31: Pop=133,516,241, GDP=$46.97B, Stability=85.9, Tech=85.4, Corruption=8.4%
+7. Country_33: Pop=93,851,570, GDP=$46.74B, Stability=100.0, Tech=100.0, Corruption=5.6%
+8. Country_7: Pop=91,005,428, GDP=$44.41B, Stability=87.8, Tech=83.8, Corruption=21.4%
+9. Country_21: Pop=142,281,144, GDP=$31.86B, Stability=0.0, Tech=89.3, Corruption=65.6%
+10. Country_36: Pop=108,430,997, GDP=$28.24B, Stability=33.8, Tech=62.2, Corruption=2.7%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_5: $692.65 per person
+2. Country_48: $609.45 per person
+3. Country_37: $559.11 per person
+4. Country_15: $538.95 per person
+5. Country_33: $497.98 per person
+6. Country_7: $488.00 per person
+7. Country_39: $387.18 per person
+8. Country_13: $385.29 per person
+9. Country_16: $379.64 per person
+10. Country_35: $358.36 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_33: 100.0
+3. Country_37: 100.0
+4. Country_39: 100.0
+5. Country_48: 100.0
+6. Country_7: 87.8
+7. Country_31: 85.9
+8. Country_15: 57.4
+9. Country_28: 50.5
+10. Country_1: 38.7
+
+--- Top 10 Most Democratic ---
+1. Country_37: 83.3
+2. Country_7: 82.4
+3. Country_39: 81.2
+4. Country_27: 80.7
+5. Country_24: 79.4
+6. Country_42: 77.7
+7. Country_33: 75.1
+8. Country_14: 74.3
+9. Country_29: 68.9
+10. Country_45: 68.5
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 7] [WARNING] Country_1: Food shortage (1.3% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_2: Food shortage (12.5% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 7] [WARNING] Country_4: Food shortage (12.0% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 7] [CRITICAL] Country_6: GDP collapsed by -10.5%
+[2026-06-04] [Year 7] [WARNING] Country_6: Food shortage (4.7% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_7: Food shortage (7.5% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_8: Stability crisis at 10.6
+[2026-06-04] [Year 7] [WARNING] Country_8: Food shortage (1.7% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_10: Food shortage (3.9% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_12: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_13: Stability crisis at 19.9
+[2026-06-04] [Year 7] [WARNING] Country_13: Food shortage (1.9% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_14: Stability crisis at 13.6
+[2026-06-04] [Year 7] [WARNING] Country_14: Food shortage (1.1% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_17: Stability crisis at 15.2
+[2026-06-04] [Year 7] [WARNING] Country_17: Food shortage (1.5% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_18: Food shortage (6.2% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_20: Food shortage (2.6% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_21: Food shortage (1.9% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_22: Food shortage (1.6% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_23: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_23: Food shortage (4.8% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_24: Stability crisis at 14.9
+[2026-06-04] [Year 7] [WARNING] Country_24: Food shortage (1.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_25: Food shortage (1.5% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_26: Stability crisis at 0.6
+[2026-06-04] [Year 7] [WARNING] Country_26: Food shortage (1.8% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_27: Food shortage (9.6% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_30: Stability crisis at 11.2
+[2026-06-04] [Year 7] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_32: Food shortage (1.9% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_35: Food shortage (3.8% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_37: Food shortage (1.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_38: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_38: Food shortage (1.3% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_39: Food shortage (7.3% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_40: Food shortage (1.3% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_41: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_41: Food shortage (0.8% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_42: Stability crisis at 3.0
+[2026-06-04] [Year 7] [WARNING] Country_42: Food shortage (2.6% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_44: Stability crisis at 0.9
+[2026-06-04] [Year 7] [WARNING] Country_44: Food shortage (4.9% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_45: Stability crisis at 1.5
+[2026-06-04] [Year 7] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_47: Stability crisis at 11.9
+[2026-06-04] [Year 7] [WARNING] Country_47: Food shortage (0.9% of demand)
+[2026-06-04] [Year 7] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 7] [WARNING] Country_49: Food shortage (1.2% of demand)
+[2026-06-04] [Year 7] [CRITICAL] Country_50: Stability crisis at 11.1
+[2026-06-04] [Year 7] [WARNING] Country_50: Food shortage (0.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 25,882,119
+Highest immigration: Country_27 (-1,674), Country_29 (-6,776), Country_30 (-7,316)
+Highest emigration: Country_40 (-12,194,618), Country_5 (-1,950,917), Country_21 (-1,304,046)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.3B barrels)
+
+================================================================================
+Year 8 | World GDP: $1,017.60B | World Population: 2,587,457,769 | Avg Stability: 23.7
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $374.99B GDP
+2. Country_7 grew by 22.8%
+3. 37 countries in stability crisis
+4. 1 countries facing oil depletion
+5. World population: 2,587,457,769
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=547,410,487, GDP=$374.99B, Stability=100.0, Tech=100.0, Corruption=2.4%
+2. Country_40: Pop=412,255,546, GDP=$88.32B, Stability=20.3, Tech=61.5, Corruption=90.7%
+3. Country_37: Pop=113,260,445, GDP=$67.65B, Stability=100.0, Tech=100.0, Corruption=13.4%
+4. Country_39: Pop=157,333,948, GDP=$66.23B, Stability=100.0, Tech=100.0, Corruption=0.6%
+5. Country_48: Pop=90,139,529, GDP=$55.12B, Stability=100.0, Tech=100.0, Corruption=23.1%
+6. Country_7: Pop=93,403,158, GDP=$54.52B, Stability=100.0, Tech=90.0, Corruption=21.0%
+7. Country_31: Pop=135,815,543, GDP=$52.92B, Stability=94.7, Tech=88.4, Corruption=8.3%
+8. Country_33: Pop=97,232,669, GDP=$48.51B, Stability=100.0, Tech=100.0, Corruption=5.5%
+9. Country_21: Pop=136,102,713, GDP=$30.42B, Stability=0.0, Tech=89.9, Corruption=65.2%
+10. Country_36: Pop=108,011,654, GDP=$29.53B, Stability=36.9, Tech=63.4, Corruption=2.6%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_5: $685.03 per person
+2. Country_48: $611.46 per person
+3. Country_37: $597.29 per person
+4. Country_7: $583.71 per person
+5. Country_15: $577.27 per person
+6. Country_33: $498.87 per person
+7. Country_39: $420.98 per person
+8. Country_31: $389.63 per person
+9. Country_16: $376.74 per person
+10. Country_13: $372.28 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_7: 100.0
+3. Country_33: 100.0
+4. Country_37: 100.0
+5. Country_39: 100.0
+6. Country_48: 100.0
+7. Country_31: 94.7
+8. Country_15: 59.5
+9. Country_28: 51.3
+10. Country_20: 37.2
+
+--- Top 10 Most Democratic ---
+1. Country_37: 84.2
+2. Country_7: 83.0
+3. Country_39: 82.1
+4. Country_27: 81.1
+5. Country_24: 79.9
+6. Country_42: 77.7
+7. Country_33: 76.0
+8. Country_14: 74.4
+9. Country_29: 69.2
+10. Country_45: 68.5
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 8] [WARNING] Country_1: Food shortage (1.2% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_2: Food shortage (12.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_3: Stability crisis at 15.1
+[2026-06-04] [Year 8] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_4: Stability crisis at 19.8
+[2026-06-04] [Year 8] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 8] [WARNING] Country_4: Food shortage (11.6% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_6: Food shortage (4.6% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_7: Food shortage (7.8% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_8: Stability crisis at 0.8
+[2026-06-04] [Year 8] [WARNING] Country_8: Food shortage (1.7% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_10: Food shortage (3.9% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_12: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_13: Stability crisis at 13.0
+[2026-06-04] [Year 8] [WARNING] Country_13: Food shortage (1.8% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_14: Stability crisis at 5.6
+[2026-06-04] [Year 8] [WARNING] Country_14: Food shortage (1.1% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_17: Stability crisis at 7.9
+[2026-06-04] [Year 8] [WARNING] Country_17: Food shortage (1.4% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_18: Food shortage (6.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_20: Food shortage (2.6% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_21: Food shortage (1.9% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_22: Food shortage (1.5% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_23: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_23: Food shortage (4.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_24: Stability crisis at 9.0
+[2026-06-04] [Year 8] [WARNING] Country_24: Food shortage (1.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_25: Food shortage (1.4% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_26: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_26: Food shortage (1.7% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_27: Food shortage (9.3% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_30: Stability crisis at 3.1
+[2026-06-04] [Year 8] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_32: Food shortage (1.8% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_35: Stability crisis at 16.5
+[2026-06-04] [Year 8] [WARNING] Country_35: Food shortage (3.7% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_37: Food shortage (1.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_38: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_38: Food shortage (1.3% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_39: Food shortage (7.5% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_40: Food shortage (1.3% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_41: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_41: Food shortage (0.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_42: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_42: Food shortage (2.5% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_44: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_44: Food shortage (4.7% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_45: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_47: Stability crisis at 2.7
+[2026-06-04] [Year 8] [WARNING] Country_47: Food shortage (0.9% of demand)
+[2026-06-04] [Year 8] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 8] [WARNING] Country_49: Food shortage (1.2% of demand)
+[2026-06-04] [Year 8] [CRITICAL] Country_50: Stability crisis at 2.7
+[2026-06-04] [Year 8] [WARNING] Country_50: Food shortage (0.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 26,917,414
+Highest immigration: Country_30 (-2,938), Country_27 (-3,473), Country_11 (-4,340)
+Highest emigration: Country_40 (-6,314,440), Country_21 (-3,953,021), Country_45 (-3,298,449)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.2B barrels)
+
+================================================================================
+Year 9 | World GDP: $1,067.47B | World Population: 2,595,616,378 | Avg Stability: 21.9
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $392.34B GDP
+2. Country_33 grew by 19.0%
+3. 38 countries in stability crisis
+4. 1 countries facing oil depletion
+5. World population: 2,595,616,378
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=570,381,484, GDP=$392.34B, Stability=100.0, Tech=100.0, Corruption=2.3%
+2. Country_40: Pop=394,887,983, GDP=$87.44B, Stability=13.6, Tech=62.3, Corruption=90.2%
+3. Country_39: Pop=163,095,986, GDP=$72.82B, Stability=100.0, Tech=100.0, Corruption=0.6%
+4. Country_37: Pop=115,321,589, GDP=$69.57B, Stability=100.0, Tech=100.0, Corruption=13.1%
+5. Country_7: Pop=96,499,764, GDP=$62.39B, Stability=100.0, Tech=97.2, Corruption=20.6%
+6. Country_31: Pop=138,732,156, GDP=$58.69B, Stability=100.0, Tech=91.6, Corruption=8.3%
+7. Country_33: Pop=99,302,539, GDP=$57.74B, Stability=100.0, Tech=100.0, Corruption=5.4%
+8. Country_48: Pop=92,825,337, GDP=$57.39B, Stability=100.0, Tech=100.0, Corruption=22.7%
+9. Country_36: Pop=108,356,629, GDP=$30.96B, Stability=40.3, Tech=64.6, Corruption=2.6%
+10. Country_20: Pop=80,874,020, GDP=$29.86B, Stability=37.4, Tech=78.8, Corruption=23.9%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_5: $687.85 per person
+2. Country_7: $646.49 per person
+3. Country_48: $618.29 per person
+4. Country_15: $607.30 per person
+5. Country_37: $603.25 per person
+6. Country_33: $581.42 per person
+7. Country_39: $446.46 per person
+8. Country_31: $423.03 per person
+9. Country_28: $377.65 per person
+10. Country_20: $369.19 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_7: 100.0
+3. Country_31: 100.0
+4. Country_33: 100.0
+5. Country_37: 100.0
+6. Country_39: 100.0
+7. Country_48: 100.0
+8. Country_15: 62.6
+9. Country_28: 50.7
+10. Country_36: 40.3
+
+--- Top 10 Most Democratic ---
+1. Country_37: 85.1
+2. Country_7: 83.8
+3. Country_39: 83.1
+4. Country_27: 81.6
+5. Country_24: 80.5
+6. Country_42: 77.7
+7. Country_33: 77.0
+8. Country_14: 74.4
+9. Country_29: 69.6
+10. Country_30: 68.6
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 9] [WARNING] Country_1: Food shortage (1.2% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_2: Food shortage (11.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_3: Stability crisis at 6.8
+[2026-06-04] [Year 9] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_4: Stability crisis at 13.1
+[2026-06-04] [Year 9] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 9] [WARNING] Country_4: Food shortage (11.1% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_5: Food shortage (4.7% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_6: Food shortage (4.5% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_7: Food shortage (8.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_8: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_8: Food shortage (1.6% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_10: Food shortage (3.8% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_12: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_13: Stability crisis at 5.9
+[2026-06-04] [Year 9] [WARNING] Country_13: Food shortage (1.8% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_14: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_14: Food shortage (1.1% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_17: Stability crisis at 0.5
+[2026-06-04] [Year 9] [WARNING] Country_17: Food shortage (1.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_18: Food shortage (6.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_20: Food shortage (2.5% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_21: Food shortage (1.8% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_22: Stability crisis at 16.0
+[2026-06-04] [Year 9] [WARNING] Country_22: Food shortage (1.5% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_23: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_23: Food shortage (4.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_24: Stability crisis at 3.1
+[2026-06-04] [Year 9] [WARNING] Country_24: Food shortage (1.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_25: Food shortage (1.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_26: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_26: Food shortage (1.7% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_27: Stability crisis at 15.3
+[2026-06-04] [Year 9] [WARNING] Country_27: Food shortage (9.0% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_29: Stability crisis at 18.9
+[2026-06-04] [Year 9] [WARNING] Country_29: Food shortage (0.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_30: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_32: Food shortage (1.8% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_35: Stability crisis at 9.6
+[2026-06-04] [Year 9] [WARNING] Country_35: Food shortage (3.6% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_37: Food shortage (1.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_38: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_38: Food shortage (1.2% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_39: Food shortage (7.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_40: Stability crisis at 13.6
+[2026-06-04] [Year 9] [WARNING] Country_40: Food shortage (1.2% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_41: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_41: Food shortage (0.7% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_42: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_42: Food shortage (2.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_44: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_44: Food shortage (4.6% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_45: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_46: Stability crisis at 14.7
+[2026-06-04] [Year 9] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_47: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_47: Food shortage (0.8% of demand)
+[2026-06-04] [Year 9] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_49: Food shortage (1.2% of demand)
+[2026-06-04] [Year 9] [CRITICAL] Country_50: Stability crisis at 0.0
+[2026-06-04] [Year 9] [WARNING] Country_50: Food shortage (0.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 29,539,937
+Highest immigration: Country_27 (-2,104), Country_30 (-4,813), Country_11 (-4,901)
+Highest emigration: Country_40 (-13,700,860), Country_21 (-2,072,879), Country_5 (-1,856,463)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.2B barrels)
+
+================================================================================
+Year 10 | World GDP: $1,099.13B | World Population: 2,593,497,492 | Avg Stability: 20.5
+================================================================================
+
+--- Top 5 Highlights ---
+1. Country_5 leads with $398.15B GDP
+2. Country_7 grew by 14.7%
+3. 38 countries in stability crisis
+4. 1 countries facing oil depletion
+5. World population: 2,593,497,492
+
+--- Top 10 Countries by GDP ---
+1. Country_5: Pop=582,340,476, GDP=$398.15B, Stability=100.0, Tech=100.0, Corruption=2.3%
+2. Country_40: Pop=378,716,796, GDP=$82.62B, Stability=7.0, Tech=63.0, Corruption=89.7%
+3. Country_39: Pop=168,721,141, GDP=$80.64B, Stability=100.0, Tech=100.0, Corruption=0.6%
+4. Country_7: Pop=100,864,312, GDP=$71.54B, Stability=100.0, Tech=100.0, Corruption=20.1%
+5. Country_37: Pop=118,531,458, GDP=$71.28B, Stability=100.0, Tech=100.0, Corruption=12.8%
+6. Country_31: Pop=142,348,576, GDP=$63.72B, Stability=100.0, Tech=95.0, Corruption=8.2%
+7. Country_33: Pop=101,549,271, GDP=$60.92B, Stability=100.0, Tech=100.0, Corruption=5.3%
+8. Country_48: Pop=94,824,677, GDP=$59.62B, Stability=100.0, Tech=100.0, Corruption=22.3%
+9. Country_36: Pop=109,027,556, GDP=$32.25B, Stability=43.6, Tech=65.8, Corruption=2.6%
+10. Country_20: Pop=80,528,489, GDP=$31.63B, Stability=38.0, Tech=80.3, Corruption=23.7%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Country_7: $709.26 per person
+2. Country_5: $683.71 per person
+3. Country_15: $640.04 per person
+4. Country_48: $628.70 per person
+5. Country_37: $601.36 per person
+6. Country_33: $599.90 per person
+7. Country_39: $477.97 per person
+8. Country_31: $447.67 per person
+9. Country_20: $392.78 per person
+10. Country_28: $380.94 per person
+
+--- Top 10 Most Stable ---
+1. Country_5: 100.0
+2. Country_7: 100.0
+3. Country_31: 100.0
+4. Country_33: 100.0
+5. Country_37: 100.0
+6. Country_39: 100.0
+7. Country_48: 100.0
+8. Country_15: 66.8
+9. Country_28: 50.2
+10. Country_36: 43.6
+
+--- Top 10 Most Democratic ---
+1. Country_37: 86.0
+2. Country_7: 84.6
+3. Country_39: 84.2
+4. Country_27: 82.1
+5. Country_24: 81.0
+6. Country_33: 78.0
+7. Country_42: 77.7
+8. Country_14: 74.5
+9. Country_29: 69.9
+10. Country_30: 68.9
+
+--- Top 10 Most Unequal ---
+1. Country_43: 89.95% inequality
+2. Country_27: 89.48% inequality
+3. Country_28: 88.51% inequality
+4. Country_5: 85.60% inequality
+5. Country_38: 85.01% inequality
+6. Country_20: 83.94% inequality
+7. Country_1: 81.37% inequality
+8. Country_40: 80.93% inequality
+9. Country_36: 80.91% inequality
+10. Country_34: 80.57% inequality
+
+--- Notable Events ---
+[2026-06-04] [Year 10] [WARNING] Country_1: Food shortage (1.2% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_2: Stability crisis at 15.0
+[2026-06-04] [Year 10] [WARNING] Country_2: Food shortage (11.2% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_3: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_3: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_4: Stability crisis at 6.2
+[2026-06-04] [Year 10] [WARNING] Country_4: Oil reserves depleted (0.9B barrels)
+[2026-06-04] [Year 10] [WARNING] Country_4: Food shortage (10.7% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_5: Food shortage (4.6% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_6: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_6: Food shortage (4.4% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_7: Food shortage (8.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_8: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_8: Food shortage (1.6% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_9: Food shortage (0.3% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_10: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_10: Food shortage (3.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_11: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_11: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_12: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_12: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_13: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_13: Food shortage (1.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_14: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_14: Food shortage (1.0% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_15: Food shortage (0.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_16: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_16: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_17: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_17: Food shortage (1.3% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_18: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_18: Food shortage (6.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_19: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_19: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_20: Food shortage (2.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_21: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_21: Food shortage (1.8% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_22: Stability crisis at 10.8
+[2026-06-04] [Year 10] [WARNING] Country_22: Food shortage (1.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_23: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_23: Food shortage (4.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_24: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_24: Food shortage (1.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_25: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_25: Food shortage (1.4% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_26: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_26: Food shortage (1.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_27: Stability crisis at 8.3
+[2026-06-04] [Year 10] [WARNING] Country_27: Food shortage (8.6% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_28: Food shortage (0.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_29: Stability crisis at 12.1
+[2026-06-04] [Year 10] [WARNING] Country_29: Food shortage (0.3% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_30: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_30: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_31: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_32: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_32: Food shortage (1.8% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_33: Food shortage (3.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_34: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_34: Food shortage (0.4% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_35: Stability crisis at 2.6
+[2026-06-04] [Year 10] [WARNING] Country_35: Food shortage (3.5% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_36: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_37: Food shortage (1.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_38: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_38: Food shortage (1.2% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_39: Food shortage (7.6% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_40: Stability crisis at 7.0
+[2026-06-04] [Year 10] [WARNING] Country_40: Food shortage (1.2% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_41: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_41: Food shortage (0.7% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_42: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_42: Food shortage (2.3% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_43: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_43: Food shortage (0.6% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_44: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_44: Food shortage (4.5% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_45: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_45: Food shortage (0.4% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_46: Stability crisis at 7.8
+[2026-06-04] [Year 10] [WARNING] Country_46: Food shortage (0.0% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_47: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_47: Food shortage (0.8% of demand)
+[2026-06-04] [Year 10] [WARNING] Country_48: Food shortage (0.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_49: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_49: Food shortage (1.1% of demand)
+[2026-06-04] [Year 10] [CRITICAL] Country_50: Stability crisis at 0.0
+[2026-06-04] [Year 10] [WARNING] Country_50: Food shortage (0.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 30,209,652
+Highest immigration: Country_19 (-3,132), Country_27 (-5,911), Country_30 (-5,916)
+Highest emigration: Country_40 (-12,795,685), Country_21 (-4,826,956), Country_5 (-1,906,419)
+
+--- Resource Warnings ---
+[WARNING] Country_4: Oil reserves low (0.9B barrels)
+[WARNING] Country_47: Oil reserves low (9.1B barrels)
