@@ -20,11 +20,47 @@ class BudgetAllocation:
     infrastructure: float
 
 
+@dataclass
+class SpendingPolicy:
+    """Represents spending policy as array of 4 values summing to 100."""
+    military: float
+    healthcare: float
+    education: float
+    research_and_infrastructure: float
+    
+    def __post_init__(self):
+        """Ensure values sum to 100."""
+        total = self.military + self.healthcare + self.education + self.research_and_infrastructure
+        if total > 0:
+            self.military = (self.military / total) * 100
+            self.healthcare = (self.healthcare / total) * 100
+            self.education = (self.education / total) * 100
+            self.research_and_infrastructure = (self.research_and_infrastructure / total) * 100
+    
+    def to_budget_allocation(self, research_ratio: float = 0.5) -> BudgetAllocation:
+        """Convert spending policy to detailed budget allocation.
+        
+        Args:
+            research_ratio: How much of research_and_infrastructure goes to research (0-1).
+                           Rest goes to infrastructure.
+        """
+        research_ratio = max(0, min(1, research_ratio))
+        research_and_infra_total = self.research_and_infrastructure / 100
+        
+        return BudgetAllocation(
+            military=self.military / 100,
+            healthcare=self.healthcare / 100,
+            education=self.education / 100,
+            research=research_and_infra_total * research_ratio,
+            infrastructure=research_and_infra_total * (1 - research_ratio)
+        )
+
+
 class Economy:
     """Manages economic indicators and budget."""
     
     def __init__(self, population: int, stability: float, technology: float,
-                 corruption: float, democracy_index: float):
+                 corruption: float, democracy_index: float, age_groups: dict = None):
         self.gdp = self._generate_gdp(population, stability, technology)
         self.previous_gdp = self.gdp
         self.gdp_per_capita = self.gdp / population if population > 0 else 0
@@ -38,23 +74,11 @@ class Economy:
         self.unemployment_rate = self._generate_unemployment(stability, technology)
         self.inequality_factor = random.uniform(0.2, 0.8)
         
-        # Budget allocation (percentages)
-        self.budget = BudgetAllocation(
-            military=random.uniform(0.1, 0.3),
-            healthcare=random.uniform(0.15, 0.35),
-            education=random.uniform(0.1, 0.25),
-            research=random.uniform(0.05, 0.15),
-            infrastructure=random.uniform(0.1, 0.25)
+        # Calculate spending policy and budget allocation
+        self.spending_policy = self.calculate_spending_policy(
+            democracy_index, age_groups
         )
-        
-        # Normalize budget to sum to 1
-        total = (self.budget.military + self.budget.healthcare + self.budget.education +
-                self.budget.research + self.budget.infrastructure)
-        self.budget.military /= total
-        self.budget.healthcare /= total
-        self.budget.education /= total
-        self.budget.research /= total
-        self.budget.infrastructure /= total
+        self.budget = self.spending_policy.to_budget_allocation()
         
         # Budget spending (absolute values)
         self.healthcare_spending = 0.0
@@ -62,6 +86,61 @@ class Economy:
         self.research_spending = 0.0
         self.military_spending = 0.0
         self.infrastructure_spending = 0.0
+    
+    def calculate_spending_policy(self, democracy_index: float, age_groups: dict = None) -> SpendingPolicy:
+        """Calculate spending policy based on democracy index and age distribution.
+        
+        Args:
+            democracy_index: Country's democracy index (0-100)
+            age_groups: Dictionary of age groups with population counts
+        
+        Returns:
+            SpendingPolicy with 4 categories summing to 100
+        """
+        # Start with base allocation (25% each)
+        base_military = 25.0
+        base_healthcare = 25.0
+        base_education = 25.0
+        base_research_and_infra = 25.0
+        
+        # Random factor for each country (±10% variation)
+        random_military = random.uniform(-10, 10)
+        random_healthcare = random.uniform(-10, 10)
+        random_education = random.uniform(-10, 10)
+        random_research = random.uniform(-10, 10)
+        
+        # Democracy effect: more democratic countries spend less on military
+        democracy_factor = (100 - democracy_index) / 100
+        military_adjustment = democracy_factor * 15  # Up to 15% more for authoritarian states
+        
+        # Age distribution effect: older populations need more healthcare
+        elderly_percentage = 0.0
+        if age_groups:
+            total_pop = sum(group.population for group in age_groups.values())
+            if total_pop > 0:
+                elderly_pop = age_groups.get("elderly", type('obj', (object,), {'population': 0})()).population
+                elderly_percentage = elderly_pop / total_pop
+        
+        healthcare_adjustment = elderly_percentage * 20  # Up to 20% more for aging populations
+        
+        # Apply adjustments
+        military = base_military + random_military + military_adjustment
+        healthcare = base_healthcare + random_healthcare + healthcare_adjustment
+        education = base_education + random_education
+        research_and_infra = base_research_and_infra + random_research
+        
+        # Ensure all values are positive
+        military = max(5, military)
+        healthcare = max(5, healthcare)
+        education = max(5, education)
+        research_and_infra = max(5, research_and_infra)
+        
+        return SpendingPolicy(
+            military=military,
+            healthcare=healthcare,
+            education=education,
+            research_and_infrastructure=research_and_infra
+        )
     
     def _generate_gdp(self, population: int, stability: float, technology: float) -> float:
         """Generate initial GDP based on population, stability, and technology."""
@@ -93,8 +172,8 @@ class Economy:
             self.gdp_growth_rate = 0.0
     
     def yearly_update(self, population: int, stability: float, technology: float,
-                     corruption: float, democracy_index: float, budget: BudgetAllocation,
-                     agriculture_penalty: float, resource_penalty: float):
+                     corruption: float, democracy_index: float, age_groups: dict = None,
+                     agriculture_penalty: float = 0, resource_penalty: float = 0):
         """Update economy for one year."""
         # Recalculate GDP per capita
         self.gdp_per_capita = self.gdp / population if population > 0 else 0
@@ -108,8 +187,9 @@ class Economy:
         self.government_revenue = self.gdp * (self.tax_rate / 100)
         self.effective_revenue = self.government_revenue * (1 - corruption / 100)
         
-        # Update budget allocation
-        self.budget = budget
+        # Recalculate spending policy based on current conditions
+        self.spending_policy = self.calculate_spending_policy(democracy_index, age_groups)
+        self.budget = self.spending_policy.to_budget_allocation()
         
         # Calculate absolute spending
         self.healthcare_spending = self.effective_revenue * self.budget.healthcare

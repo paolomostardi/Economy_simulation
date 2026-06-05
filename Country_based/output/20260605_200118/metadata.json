@@ -1,0 +1,11 @@
+{
+  "random_seed": 42,
+  "software_version": "1.0.0",
+  "creation_date": "2026-06-05T20:01:18.307363",
+  "number_of_countries": 50,
+  "simulation_duration": 10,
+  "configuration": {
+    "num_countries": 50,
+    "duration_years": 10
+  }
+}

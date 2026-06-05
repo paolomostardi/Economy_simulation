@@ -1,0 +1,1637 @@
+
+================================================================================
+Year 1 | World GDP: $944.21B | World Population: 3,607,958,784 | Avg Stability: 52.3
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $220.04B GDP
+2. 5 countries in stability crisis
+3. 2 countries facing oil depletion
+4. World population: 3,607,958,784
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=456,214,686, GDP=$220.04B, Stability=37.0, Tech=100.0, Corruption=18.0%
+2. Dunland: Pop=436,460,412, GDP=$122.10B, Stability=26.4, Tech=85.6, Corruption=93.5%
+3. Pandora: Pop=423,478,826, GDP=$116.89B, Stability=72.9, Tech=86.6, Corruption=78.9%
+4. Gondolin: Pop=234,344,488, GDP=$86.77B, Stability=36.9, Tech=91.5, Corruption=91.6%
+5. Quartermaster: Pop=153,308,802, GDP=$55.05B, Stability=48.2, Tech=59.0, Corruption=20.9%
+6. Zul'Gurub: Pop=338,837,713, GDP=$50.12B, Stability=51.8, Tech=71.2, Corruption=72.9%
+7. Krynn: Pop=187,436,525, GDP=$50.08B, Stability=48.6, Tech=76.7, Corruption=77.5%
+8. Meridia: Pop=389,969,573, GDP=$44.77B, Stability=48.0, Tech=29.5, Corruption=88.6%
+9. Fjordland: Pop=324,050,304, GDP=$35.70B, Stability=29.1, Tech=21.2, Corruption=70.9%
+10. Lorien: Pop=56,773,786, GDP=$14.33B, Stability=45.8, Tech=57.7, Corruption=1.2%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Jadestone: $532.55 per person
+2. Ironhold: $505.82 per person
+3. Kingdom of Light: $482.32 per person
+4. Skara Brae: $426.83 per person
+5. Emberfall: $414.17 per person
+6. Phoenix Rise: $389.21 per person
+7. Kestrel: $386.89 per person
+8. Freeport: $380.54 per person
+9. Gondolin: $370.26 per person
+10. Praetoria: $365.57 per person
+
+--- Top 10 Most Stable ---
+1. Kestrel: 81.3
+2. Quartz Valley: 78.4
+3. Arboria: 78.3
+4. Valoria: 77.2
+5. Narnia: 77.0
+6. Olympus: 75.7
+7. Pandora: 72.9
+8. Phoenix Rise: 72.6
+9. El Dorado: 69.2
+10. Etherea: 68.9
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 78.7
+2. Ys: 78.4
+3. Yonderland: 78.1
+4. Arboria: 77.5
+5. Karn: 76.2
+6. Midgard: 75.0
+7. Thunder Bay: 74.7
+8. Freeport: 72.5
+9. Zul'Gurub: 71.7
+10. Xylos: 71.2
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 1] [CRITICAL] Narnia: GDP collapsed by -54.4%
+[2026-06-05] [Year 1] [WARNING] Narnia: Food shortage (10.2% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Quartz Valley: GDP collapsed by -62.6%
+[2026-06-05] [Year 1] [WARNING] Quartz Valley: Food shortage (1.0% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Praetoria: GDP collapsed by -63.0%
+[2026-06-05] [Year 1] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Jadestone: GDP collapsed by -56.0%
+[2026-06-05] [Year 1] [WARNING] Jadestone: Food shortage (8.1% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Underdark: GDP collapsed by -60.8%
+[2026-06-05] [Year 1] [WARNING] Underdark: Food shortage (2.6% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Gondolin: GDP collapsed by -63.3%
+[2026-06-05] [Year 1] [WARNING] Gondolin: Food shortage (0.5% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Borealis: GDP collapsed by -63.3%
+[2026-06-05] [Year 1] [WARNING] Borealis: Food shortage (0.4% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Valhalla: GDP collapsed by -63.9%
+[2026-06-05] [Year 1] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Midgard: GDP collapsed by -62.5%
+[2026-06-05] [Year 1] [WARNING] Midgard: Food shortage (1.1% of demand)
+[2026-06-05] [Year 1] [WARNING] Zul'Gurub: Oil reserves depleted (2.9B barrels)
+[2026-06-05] [Year 1] [CRITICAL] Zul'Gurub: GDP collapsed by -62.0%
+[2026-06-05] [Year 1] [WARNING] Zul'Gurub: Food shortage (1.5% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Blackrock: GDP collapsed by -60.8%
+[2026-06-05] [Year 1] [WARNING] Blackrock: Food shortage (2.6% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Ys: GDP collapsed by -60.8%
+[2026-06-05] [Year 1] [WARNING] Ys: Food shortage (2.7% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Kestrel: GDP collapsed by -62.0%
+[2026-06-05] [Year 1] [WARNING] Kestrel: Food shortage (1.6% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Phoenix Rise: GDP collapsed by -59.7%
+[2026-06-05] [Year 1] [WARNING] Phoenix Rise: Food shortage (3.8% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Pandora: GDP collapsed by -58.6%
+[2026-06-05] [Year 1] [WARNING] Pandora: Food shortage (5.0% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Oz: GDP collapsed by -62.4%
+[2026-06-05] [Year 1] [WARNING] Oz: Food shortage (1.2% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Abyssinia: GDP collapsed by -63.5%
+[2026-06-05] [Year 1] [WARNING] Abyssinia: Food shortage (0.2% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Etherea: GDP collapsed by -63.7%
+[2026-06-05] [Year 1] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Hearthfire: GDP collapsed by -63.4%
+[2026-06-05] [Year 1] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Emberfall: GDP collapsed by -63.9%
+[2026-06-05] [Year 1] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Quartermaster: GDP collapsed by -47.6%
+[2026-06-05] [Year 1] [WARNING] Quartermaster: Food shortage (22.9% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Icelandia: GDP collapsed by -63.1%
+[2026-06-05] [Year 1] [WARNING] Icelandia: Food shortage (0.4% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Utopia: GDP collapsed by -62.8%
+[2026-06-05] [Year 1] [WARNING] Utopia: Food shortage (1.0% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Aurum: GDP collapsed by -63.9%
+[2026-06-05] [Year 1] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Highlands: GDP collapsed by -61.6%
+[2026-06-05] [Year 1] [WARNING] Highlands: Food shortage (1.9% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Ironhold: GDP collapsed by -52.5%
+[2026-06-05] [Year 1] [WARNING] Ironhold: Food shortage (12.9% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Valoria: GDP collapsed by -56.8%
+[2026-06-05] [Year 1] [WARNING] Valoria: Food shortage (7.0% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Lorien: GDP collapsed by -55.9%
+[2026-06-05] [Year 1] [WARNING] Lorien: Food shortage (8.1% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Glimmerhold: GDP collapsed by -63.7%
+[2026-06-05] [Year 1] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Freeport: GDP collapsed by -60.2%
+[2026-06-05] [Year 1] [WARNING] Freeport: Food shortage (3.3% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Lunar Isle: GDP collapsed by -63.7%
+[2026-06-05] [Year 1] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Silverleaf: GDP collapsed by -51.5%
+[2026-06-05] [Year 1] [WARNING] Silverleaf: Food shortage (14.9% of demand)
+[2026-06-05] [Year 1] [CRITICAL] El Dorado: GDP collapsed by -52.6%
+[2026-06-05] [Year 1] [WARNING] El Dorado: Food shortage (11.5% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Skara Brae: GDP collapsed by -62.4%
+[2026-06-05] [Year 1] [WARNING] Skara Brae: Food shortage (1.3% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Yonderland: GDP collapsed by -63.6%
+[2026-06-05] [Year 1] [WARNING] Yonderland: Food shortage (0.3% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Krynn: GDP collapsed by -56.8%
+[2026-06-05] [Year 1] [WARNING] Krynn: Food shortage (7.1% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Thunder Bay: GDP collapsed by -61.8%
+[2026-06-05] [Year 1] [WARNING] Thunder Bay: Food shortage (1.8% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Xenon: GDP collapsed by -45.9%
+[2026-06-05] [Year 1] [WARNING] Xenon: Food shortage (27.1% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Verdant Plains: GDP collapsed by -63.4%
+[2026-06-05] [Year 1] [WARNING] Verdant Plains: Food shortage (0.4% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Yggdrasil's Root: GDP collapsed by -62.7%
+[2026-06-05] [Year 1] [WARNING] Yggdrasil's Root: Food shortage (0.3% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Dunland: GDP collapsed by -63.1%
+[2026-06-05] [Year 1] [WARNING] Dunland: Food shortage (0.7% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Karn: GDP collapsed by -60.2%
+[2026-06-05] [Year 1] [WARNING] Karn: Food shortage (3.2% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Meridia: GDP collapsed by -60.2%
+[2026-06-05] [Year 1] [WARNING] Meridia: Food shortage (3.3% of demand)
+[2026-06-05] [Year 1] [WARNING] Kingdom of Light: Oil reserves depleted (3.7B barrels)
+[2026-06-05] [Year 1] [CRITICAL] Kingdom of Light: GDP collapsed by -47.0%
+[2026-06-05] [Year 1] [WARNING] Kingdom of Light: Food shortage (24.3% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Xylos: GDP collapsed by -63.9%
+[2026-06-05] [Year 1] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Northwind: GDP collapsed by -63.0%
+[2026-06-05] [Year 1] [WARNING] Northwind: Food shortage (0.6% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Olympus: GDP collapsed by -61.2%
+[2026-06-05] [Year 1] [WARNING] Olympus: Food shortage (2.3% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Stormhold: GDP collapsed by -63.0%
+[2026-06-05] [Year 1] [WARNING] Stormhold: Food shortage (0.7% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Arboria: GDP collapsed by -63.6%
+[2026-06-05] [Year 1] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 1] [CRITICAL] Fjordland: GDP collapsed by -61.9%
+[2026-06-05] [Year 1] [WARNING] Fjordland: Food shortage (1.7% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 37,652,011
+Highest immigration: Arboria (-2,893), El Dorado (-4,481), Hearthfire (-5,450)
+Highest emigration: Dunland (-8,412,157), Fjordland (-7,045,681), Meridia (-6,266,163)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.9B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.7B barrels)
+
+================================================================================
+Year 2 | World GDP: $831.87B | World Population: 3,601,288,254 | Avg Stability: 47.3
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $188.71B GDP
+2. 12 countries in stability crisis
+3. 2 countries facing oil depletion
+4. World population: 3,601,288,254
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=472,930,328, GDP=$188.71B, Stability=100.0, Tech=100.0, Corruption=17.7%
+2. Dunland: Pop=417,987,541, GDP=$112.24B, Stability=19.2, Tech=86.3, Corruption=92.9%
+3. Pandora: Pop=433,580,311, GDP=$99.18B, Stability=76.0, Tech=88.6, Corruption=77.9%
+4. Gondolin: Pop=227,130,736, GDP=$82.25B, Stability=28.4, Tech=91.9, Corruption=90.5%
+5. Quartermaster: Pop=156,294,248, GDP=$49.94B, Stability=65.7, Tech=61.9, Corruption=20.6%
+6. Krynn: Pop=185,145,210, GDP=$41.73B, Stability=42.0, Tech=77.1, Corruption=76.4%
+7. Meridia: Pop=388,076,884, GDP=$39.38B, Stability=41.1, Tech=30.0, Corruption=88.1%
+8. Zul'Gurub: Pop=334,491,401, GDP=$39.15B, Stability=50.3, Tech=72.4, Corruption=71.5%
+9. Fjordland: Pop=322,879,450, GDP=$32.82B, Stability=26.0, Tech=22.3, Corruption=70.0%
+10. Lorien: Pop=57,447,844, GDP=$12.67B, Stability=50.0, Tech=59.8, Corruption=1.2%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Jadestone: $452.94 per person
+2. Ironhold: $424.52 per person
+3. Kingdom of Light: $399.03 per person
+4. Emberfall: $398.01 per person
+5. Skara Brae: $393.42 per person
+6. Gondolin: $362.11 per person
+7. Kestrel: $360.86 per person
+8. Phoenix Rise: $357.34 per person
+9. Freeport: $344.18 per person
+10. Aurum: $334.24 per person
+
+--- Top 10 Most Stable ---
+1. Kingdom of Light: 100.0
+2. Pandora: 76.0
+3. Kestrel: 74.6
+4. Valoria: 73.1
+5. Arboria: 69.8
+6. Quartz Valley: 67.6
+7. Narnia: 67.2
+8. Quartermaster: 65.7
+9. Phoenix Rise: 64.1
+10. Olympus: 63.4
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 79.2
+2. Ys: 78.0
+3. Yonderland: 77.6
+4. Arboria: 77.6
+5. Karn: 75.8
+6. Midgard: 75.1
+7. Thunder Bay: 74.8
+8. Freeport: 72.9
+9. Zul'Gurub: 71.5
+10. Xylos: 71.4
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 2] [CRITICAL] Narnia: GDP collapsed by -15.5%
+[2026-06-05] [Year 2] [WARNING] Narnia: Food shortage (9.4% of demand)
+[2026-06-05] [Year 2] [WARNING] Quartz Valley: Food shortage (1.0% of demand)
+[2026-06-05] [Year 2] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Jadestone: GDP collapsed by -15.3%
+[2026-06-05] [Year 2] [WARNING] Jadestone: Food shortage (7.5% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Underdark: GDP collapsed by -11.8%
+[2026-06-05] [Year 2] [WARNING] Underdark: Food shortage (2.6% of demand)
+[2026-06-05] [Year 2] [WARNING] Gondolin: Food shortage (0.5% of demand)
+[2026-06-05] [Year 2] [WARNING] Borealis: Food shortage (0.4% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Valhalla: Stability crisis at 19.9
+[2026-06-05] [Year 2] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 2] [WARNING] Midgard: Food shortage (1.2% of demand)
+[2026-06-05] [Year 2] [WARNING] Zul'Gurub: Oil reserves depleted (2.8B barrels)
+[2026-06-05] [Year 2] [CRITICAL] Zul'Gurub: GDP collapsed by -21.9%
+[2026-06-05] [Year 2] [WARNING] Zul'Gurub: Food shortage (1.3% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Blackrock: GDP collapsed by -11.2%
+[2026-06-05] [Year 2] [WARNING] Blackrock: Food shortage (2.4% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Ys: GDP collapsed by -12.6%
+[2026-06-05] [Year 2] [WARNING] Ys: Food shortage (2.7% of demand)
+[2026-06-05] [Year 2] [WARNING] Kestrel: Food shortage (1.5% of demand)
+[2026-06-05] [Year 2] [WARNING] Phoenix Rise: Food shortage (3.6% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Pandora: GDP collapsed by -15.2%
+[2026-06-05] [Year 2] [WARNING] Pandora: Food shortage (4.2% of demand)
+[2026-06-05] [Year 2] [WARNING] Oz: Food shortage (1.2% of demand)
+[2026-06-05] [Year 2] [WARNING] Abyssinia: Food shortage (0.2% of demand)
+[2026-06-05] [Year 2] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 2] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 2] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 2] [WARNING] Quartermaster: Food shortage (20.0% of demand)
+[2026-06-05] [Year 2] [WARNING] Icelandia: Food shortage (0.4% of demand)
+[2026-06-05] [Year 2] [WARNING] Utopia: Food shortage (0.9% of demand)
+[2026-06-05] [Year 2] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 2] [WARNING] Highlands: Food shortage (1.8% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Ironhold: GDP collapsed by -17.5%
+[2026-06-05] [Year 2] [WARNING] Ironhold: Food shortage (11.7% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Valoria: GDP collapsed by -11.0%
+[2026-06-05] [Year 2] [WARNING] Valoria: Food shortage (6.4% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Lorien: GDP collapsed by -11.6%
+[2026-06-05] [Year 2] [WARNING] Lorien: Food shortage (7.4% of demand)
+[2026-06-05] [Year 2] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 2] [WARNING] Freeport: Food shortage (3.3% of demand)
+[2026-06-05] [Year 2] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Silverleaf: GDP collapsed by -16.2%
+[2026-06-05] [Year 2] [WARNING] Silverleaf: Food shortage (12.9% of demand)
+[2026-06-05] [Year 2] [CRITICAL] El Dorado: GDP collapsed by -16.2%
+[2026-06-05] [Year 2] [WARNING] El Dorado: Food shortage (11.2% of demand)
+[2026-06-05] [Year 2] [WARNING] Skara Brae: Food shortage (1.3% of demand)
+[2026-06-05] [Year 2] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Krynn: GDP collapsed by -16.7%
+[2026-06-05] [Year 2] [WARNING] Krynn: Food shortage (6.5% of demand)
+[2026-06-05] [Year 2] [WARNING] Thunder Bay: Food shortage (1.7% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Xenon: GDP collapsed by -14.2%
+[2026-06-05] [Year 2] [WARNING] Xenon: Food shortage (23.4% of demand)
+[2026-06-05] [Year 2] [WARNING] Verdant Plains: Food shortage (0.4% of demand)
+[2026-06-05] [Year 2] [WARNING] Yggdrasil's Root: Food shortage (0.3% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Dunland: Stability crisis at 19.2
+[2026-06-05] [Year 2] [WARNING] Dunland: Food shortage (0.6% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Karn: GDP collapsed by -13.9%
+[2026-06-05] [Year 2] [WARNING] Karn: Food shortage (3.1% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Meridia: GDP collapsed by -12.0%
+[2026-06-05] [Year 2] [WARNING] Meridia: Food shortage (3.0% of demand)
+[2026-06-05] [Year 2] [WARNING] Kingdom of Light: Oil reserves depleted (3.7B barrels)
+[2026-06-05] [Year 2] [CRITICAL] Kingdom of Light: GDP collapsed by -14.2%
+[2026-06-05] [Year 2] [WARNING] Kingdom of Light: Food shortage (19.6% of demand)
+[2026-06-05] [Year 2] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 2] [WARNING] Northwind: Food shortage (0.6% of demand)
+[2026-06-05] [Year 2] [WARNING] Olympus: Food shortage (2.2% of demand)
+[2026-06-05] [Year 2] [CRITICAL] Stormhold: GDP collapsed by -11.5%
+[2026-06-05] [Year 2] [WARNING] Stormhold: Food shortage (0.8% of demand)
+[2026-06-05] [Year 2] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 2] [WARNING] Fjordland: Food shortage (1.6% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 47,641,049
+Highest immigration: Arboria (-3,334), Yggdrasil's Root (-5,327), Hearthfire (-6,024)
+Highest emigration: Dunland (-13,786,560), Gondolin (-7,938,009), Meridia (-5,784,533)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.8B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.7B barrels)
+
+================================================================================
+Year 3 | World GDP: $934.92B | World Population: 3,587,107,612 | Avg Stability: 41.3
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $260.48B GDP
+2. Kingdom of Light grew by 38.0%
+3. 14 countries in stability crisis
+4. 2 countries facing oil depletion
+5. World population: 3,587,107,612
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=494,883,371, GDP=$260.48B, Stability=100.0, Tech=100.0, Corruption=17.4%
+2. Pandora: Pop=439,382,894, GDP=$117.73B, Stability=81.6, Tech=91.6, Corruption=76.8%
+3. Dunland: Pop=402,999,735, GDP=$107.38B, Stability=11.4, Tech=86.8, Corruption=92.3%
+4. Gondolin: Pop=218,155,893, GDP=$77.65B, Stability=20.1, Tech=92.6, Corruption=89.5%
+5. Quartermaster: Pop=159,105,603, GDP=$60.86B, Stability=88.0, Tech=66.4, Corruption=20.3%
+6. Zul'Gurub: Pop=332,871,062, GDP=$48.23B, Stability=49.3, Tech=73.7, Corruption=70.3%
+7. Krynn: Pop=183,323,275, GDP=$42.49B, Stability=35.7, Tech=77.4, Corruption=75.4%
+8. Meridia: Pop=377,788,673, GDP=$38.73B, Stability=33.3, Tech=30.7, Corruption=87.7%
+9. Fjordland: Pop=321,833,732, GDP=$34.19B, Stability=22.2, Tech=23.5, Corruption=69.0%
+10. Lorien: Pop=57,736,421, GDP=$14.02B, Stability=53.7, Tech=61.5, Corruption=1.1%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Kingdom of Light: $526.35 per person
+2. Jadestone: $461.14 per person
+3. Ironhold: $408.54 per person
+4. Emberfall: $394.82 per person
+5. Skara Brae: $392.77 per person
+6. Quartermaster: $382.54 per person
+7. Kestrel: $364.66 per person
+8. Gondolin: $355.94 per person
+9. Freeport: $355.34 per person
+10. Praetoria: $349.64 per person
+
+--- Top 10 Most Stable ---
+1. Kingdom of Light: 100.0
+2. Quartermaster: 88.0
+3. Pandora: 81.6
+4. Valoria: 69.4
+5. Kestrel: 68.1
+6. Arboria: 61.3
+7. Narnia: 57.4
+8. Quartz Valley: 57.0
+9. Phoenix Rise: 55.4
+10. Lorien: 53.7
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 79.8
+2. Arboria: 77.7
+3. Ys: 77.6
+4. Yonderland: 77.2
+5. Karn: 75.4
+6. Midgard: 75.1
+7. Thunder Bay: 75.0
+8. Freeport: 73.3
+9. Xylos: 71.6
+10. Zul'Gurub: 71.3
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 3] [WARNING] Narnia: Food shortage (9.0% of demand)
+[2026-06-05] [Year 3] [WARNING] Quartz Valley: Food shortage (1.0% of demand)
+[2026-06-05] [Year 3] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 3] [WARNING] Jadestone: Food shortage (7.4% of demand)
+[2026-06-05] [Year 3] [WARNING] Underdark: Food shortage (2.5% of demand)
+[2026-06-05] [Year 3] [WARNING] Gondolin: Food shortage (0.5% of demand)
+[2026-06-05] [Year 3] [WARNING] Borealis: Food shortage (0.4% of demand)
+[2026-06-05] [Year 3] [CRITICAL] Valhalla: Stability crisis at 13.9
+[2026-06-05] [Year 3] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 3] [WARNING] Midgard: Food shortage (1.1% of demand)
+[2026-06-05] [Year 3] [WARNING] Zul'Gurub: Oil reserves depleted (2.8B barrels)
+[2026-06-05] [Year 3] [WARNING] Zul'Gurub: Food shortage (1.5% of demand)
+[2026-06-05] [Year 3] [CRITICAL] Blackrock: Stability crisis at 16.2
+[2026-06-05] [Year 3] [WARNING] Blackrock: Food shortage (2.3% of demand)
+[2026-06-05] [Year 3] [WARNING] Ys: Food shortage (2.6% of demand)
+[2026-06-05] [Year 3] [WARNING] Kestrel: Food shortage (1.5% of demand)
+[2026-06-05] [Year 3] [WARNING] Phoenix Rise: Food shortage (3.5% of demand)
+[2026-06-05] [Year 3] [WARNING] Pandora: Food shortage (4.6% of demand)
+[2026-06-05] [Year 3] [WARNING] Oz: Food shortage (1.2% of demand)
+[2026-06-05] [Year 3] [WARNING] Abyssinia: Food shortage (0.2% of demand)
+[2026-06-05] [Year 3] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 3] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 3] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 3] [WARNING] Quartermaster: Food shortage (20.5% of demand)
+[2026-06-05] [Year 3] [WARNING] Icelandia: Food shortage (0.4% of demand)
+[2026-06-05] [Year 3] [WARNING] Utopia: Food shortage (0.9% of demand)
+[2026-06-05] [Year 3] [CRITICAL] Aurum: Stability crisis at 12.5
+[2026-06-05] [Year 3] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 3] [WARNING] Highlands: Food shortage (1.8% of demand)
+[2026-06-05] [Year 3] [WARNING] Ironhold: Food shortage (11.3% of demand)
+[2026-06-05] [Year 3] [WARNING] Valoria: Food shortage (6.3% of demand)
+[2026-06-05] [Year 3] [WARNING] Lorien: Food shortage (7.4% of demand)
+[2026-06-05] [Year 3] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 3] [WARNING] Freeport: Food shortage (3.3% of demand)
+[2026-06-05] [Year 3] [CRITICAL] Lunar Isle: Stability crisis at 19.4
+[2026-06-05] [Year 3] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 3] [WARNING] Silverleaf: Food shortage (12.2% of demand)
+[2026-06-05] [Year 3] [WARNING] El Dorado: Food shortage (10.9% of demand)
+[2026-06-05] [Year 3] [WARNING] Skara Brae: Food shortage (1.3% of demand)
+[2026-06-05] [Year 3] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 3] [WARNING] Krynn: Food shortage (6.4% of demand)
+[2026-06-05] [Year 3] [WARNING] Thunder Bay: Food shortage (1.6% of demand)
+[2026-06-05] [Year 3] [WARNING] Xenon: Food shortage (22.2% of demand)
+[2026-06-05] [Year 3] [WARNING] Verdant Plains: Food shortage (0.4% of demand)
+[2026-06-05] [Year 3] [CRITICAL] Yggdrasil's Root: Stability crisis at 19.6
+[2026-06-05] [Year 3] [WARNING] Yggdrasil's Root: Food shortage (0.3% of demand)
+[2026-06-05] [Year 3] [CRITICAL] Dunland: Stability crisis at 11.4
+[2026-06-05] [Year 3] [WARNING] Dunland: Food shortage (0.6% of demand)
+[2026-06-05] [Year 3] [CRITICAL] Karn: Stability crisis at 14.0
+[2026-06-05] [Year 3] [WARNING] Karn: Food shortage (3.0% of demand)
+[2026-06-05] [Year 3] [WARNING] Meridia: Food shortage (3.0% of demand)
+[2026-06-05] [Year 3] [WARNING] Kingdom of Light: Oil reserves depleted (3.6B barrels)
+[2026-06-05] [Year 3] [WARNING] Kingdom of Light: Food shortage (24.6% of demand)
+[2026-06-05] [Year 3] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 3] [CRITICAL] Northwind: Stability crisis at 14.6
+[2026-06-05] [Year 3] [WARNING] Northwind: Food shortage (0.6% of demand)
+[2026-06-05] [Year 3] [WARNING] Olympus: Food shortage (2.1% of demand)
+[2026-06-05] [Year 3] [WARNING] Stormhold: Food shortage (0.8% of demand)
+[2026-06-05] [Year 3] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 3] [WARNING] Fjordland: Food shortage (1.6% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 48,866,481
+Highest immigration: Arboria (-3,933), Yggdrasil's Root (-5,787), Hearthfire (-5,823)
+Highest emigration: Dunland (-11,413,607), Meridia (-9,203,581), Gondolin (-7,419,594)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.8B barrels)
+[WARNING] Skara Brae: Oil reserves low (9.9B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.6B barrels)
+
+================================================================================
+Year 4 | World GDP: $1,005.56B | World Population: 3,553,321,839 | Avg Stability: 35.4
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $317.96B GDP
+2. Kingdom of Light grew by 22.1%
+3. 19 countries in stability crisis
+4. 2 countries facing oil depletion
+5. World population: 3,553,321,839
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=506,560,220, GDP=$317.96B, Stability=100.0, Tech=100.0, Corruption=17.1%
+2. Pandora: Pop=445,609,890, GDP=$129.53B, Stability=86.9, Tech=94.3, Corruption=75.8%
+3. Dunland: Pop=382,897,891, GDP=$102.51B, Stability=4.2, Tech=87.2, Corruption=91.7%
+4. Gondolin: Pop=214,704,567, GDP=$73.00B, Stability=11.7, Tech=93.2, Corruption=88.5%
+5. Quartermaster: Pop=164,881,886, GDP=$72.70B, Stability=100.0, Tech=72.3, Corruption=19.9%
+6. Zul'Gurub: Pop=331,783,780, GDP=$50.10B, Stability=47.4, Tech=74.9, Corruption=69.0%
+7. Krynn: Pop=180,424,422, GDP=$41.41B, Stability=29.6, Tech=77.9, Corruption=74.4%
+8. Meridia: Pop=365,372,571, GDP=$37.63B, Stability=25.6, Tech=31.5, Corruption=87.2%
+9. Fjordland: Pop=312,009,479, GDP=$34.98B, Stability=18.1, Tech=24.4, Corruption=68.0%
+10. Lorien: Pop=57,855,029, GDP=$14.99B, Stability=56.1, Tech=63.4, Corruption=1.1%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Kingdom of Light: $627.68 per person
+2. Jadestone: $461.15 per person
+3. Quartermaster: $440.91 per person
+4. Ironhold: $397.43 per person
+5. Emberfall: $386.21 per person
+6. Skara Brae: $384.74 per person
+7. Freeport: $363.29 per person
+8. Kestrel: $359.05 per person
+9. Praetoria: $356.07 per person
+10. Phoenix Rise: $344.32 per person
+
+--- Top 10 Most Stable ---
+1. Quartermaster: 100.0
+2. Kingdom of Light: 100.0
+3. Pandora: 86.9
+4. Valoria: 65.6
+5. Kestrel: 61.4
+6. Lorien: 56.1
+7. Arboria: 52.8
+8. Praetoria: 50.0
+9. Freeport: 49.7
+10. Narnia: 49.6
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 80.4
+2. Arboria: 77.8
+3. Ys: 77.3
+4. Yonderland: 76.8
+5. Thunder Bay: 75.2
+6. Midgard: 75.2
+7. Karn: 75.0
+8. Freeport: 73.7
+9. Xylos: 71.8
+10. Kingdom of Light: 71.8
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 4] [WARNING] Narnia: Food shortage (8.6% of demand)
+[2026-06-05] [Year 4] [WARNING] Quartz Valley: Food shortage (1.0% of demand)
+[2026-06-05] [Year 4] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 4] [WARNING] Jadestone: Food shortage (7.3% of demand)
+[2026-06-05] [Year 4] [WARNING] Underdark: Food shortage (2.4% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Gondolin: Stability crisis at 11.7
+[2026-06-05] [Year 4] [WARNING] Gondolin: Food shortage (0.4% of demand)
+[2026-06-05] [Year 4] [WARNING] Borealis: Food shortage (0.4% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Valhalla: Stability crisis at 7.6
+[2026-06-05] [Year 4] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 4] [WARNING] Midgard: Food shortage (1.1% of demand)
+[2026-06-05] [Year 4] [WARNING] Zul'Gurub: Oil reserves depleted (2.8B barrels)
+[2026-06-05] [Year 4] [WARNING] Zul'Gurub: Food shortage (1.5% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Blackrock: Stability crisis at 6.5
+[2026-06-05] [Year 4] [WARNING] Blackrock: Food shortage (2.2% of demand)
+[2026-06-05] [Year 4] [WARNING] Ys: Food shortage (2.5% of demand)
+[2026-06-05] [Year 4] [WARNING] Kestrel: Food shortage (1.5% of demand)
+[2026-06-05] [Year 4] [WARNING] Phoenix Rise: Food shortage (3.4% of demand)
+[2026-06-05] [Year 4] [WARNING] Pandora: Food shortage (4.8% of demand)
+[2026-06-05] [Year 4] [WARNING] Oz: Food shortage (1.2% of demand)
+[2026-06-05] [Year 4] [WARNING] Abyssinia: Food shortage (0.2% of demand)
+[2026-06-05] [Year 4] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 4] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Emberfall: Stability crisis at 14.6
+[2026-06-05] [Year 4] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 4] [WARNING] Quartermaster: Food shortage (21.8% of demand)
+[2026-06-05] [Year 4] [WARNING] Icelandia: Food shortage (0.4% of demand)
+[2026-06-05] [Year 4] [WARNING] Utopia: Food shortage (0.8% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Aurum: Stability crisis at 3.0
+[2026-06-05] [Year 4] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 4] [WARNING] Highlands: Food shortage (1.7% of demand)
+[2026-06-05] [Year 4] [WARNING] Ironhold: Food shortage (10.9% of demand)
+[2026-06-05] [Year 4] [WARNING] Valoria: Food shortage (6.2% of demand)
+[2026-06-05] [Year 4] [WARNING] Lorien: Food shortage (7.5% of demand)
+[2026-06-05] [Year 4] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 4] [WARNING] Freeport: Food shortage (3.2% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Lunar Isle: Stability crisis at 12.0
+[2026-06-05] [Year 4] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 4] [WARNING] Silverleaf: Food shortage (11.7% of demand)
+[2026-06-05] [Year 4] [WARNING] El Dorado: Food shortage (10.6% of demand)
+[2026-06-05] [Year 4] [WARNING] Skara Brae: Food shortage (1.3% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Yonderland: Stability crisis at 17.5
+[2026-06-05] [Year 4] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 4] [WARNING] Krynn: Food shortage (6.3% of demand)
+[2026-06-05] [Year 4] [WARNING] Thunder Bay: Food shortage (1.6% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Xenon: Stability crisis at 18.1
+[2026-06-05] [Year 4] [WARNING] Xenon: Food shortage (21.7% of demand)
+[2026-06-05] [Year 4] [WARNING] Verdant Plains: Food shortage (0.3% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Yggdrasil's Root: Stability crisis at 11.6
+[2026-06-05] [Year 4] [WARNING] Yggdrasil's Root: Food shortage (0.3% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Dunland: Stability crisis at 4.2
+[2026-06-05] [Year 4] [WARNING] Dunland: Food shortage (0.6% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Karn: Stability crisis at 4.3
+[2026-06-05] [Year 4] [WARNING] Karn: Food shortage (2.8% of demand)
+[2026-06-05] [Year 4] [WARNING] Meridia: Food shortage (2.9% of demand)
+[2026-06-05] [Year 4] [WARNING] Kingdom of Light: Oil reserves depleted (3.5B barrels)
+[2026-06-05] [Year 4] [WARNING] Kingdom of Light: Food shortage (26.0% of demand)
+[2026-06-05] [Year 4] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Northwind: Stability crisis at 7.9
+[2026-06-05] [Year 4] [WARNING] Northwind: Food shortage (0.6% of demand)
+[2026-06-05] [Year 4] [WARNING] Olympus: Food shortage (2.1% of demand)
+[2026-06-05] [Year 4] [WARNING] Stormhold: Food shortage (0.8% of demand)
+[2026-06-05] [Year 4] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 4] [CRITICAL] Fjordland: Stability crisis at 18.1
+[2026-06-05] [Year 4] [WARNING] Fjordland: Food shortage (1.5% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 58,272,587
+Highest immigration: Arboria (-4,372), Hearthfire (-5,863), Verdant Plains (-8,161)
+Highest emigration: Dunland (-15,569,843), Meridia (-12,194,178), Fjordland (-7,623,434)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.8B barrels)
+[WARNING] Skara Brae: Oil reserves low (9.8B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.5B barrels)
+
+================================================================================
+Year 5 | World GDP: $1,182.33B | World Population: 3,539,105,139 | Avg Stability: 29.9
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $455.69B GDP
+2. Kingdom of Light grew by 43.3%
+3. 31 countries in stability crisis
+4. 2 countries facing oil depletion
+5. World population: 3,539,105,139
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=518,440,882, GDP=$455.69B, Stability=100.0, Tech=100.0, Corruption=16.8%
+2. Pandora: Pop=456,613,759, GDP=$152.05B, Stability=97.3, Tech=98.8, Corruption=74.8%
+3. Dunland: Pop=374,065,189, GDP=$96.61B, Stability=0.0, Tech=87.8, Corruption=91.1%
+4. Quartermaster: Pop=169,532,089, GDP=$95.88B, Stability=100.0, Tech=80.2, Corruption=19.6%
+5. Gondolin: Pop=209,597,401, GDP=$70.14B, Stability=3.4, Tech=93.7, Corruption=87.6%
+6. Zul'Gurub: Pop=329,489,851, GDP=$54.19B, Stability=47.2, Tech=76.6, Corruption=67.8%
+7. Krynn: Pop=176,631,346, GDP=$40.44B, Stability=23.0, Tech=78.3, Corruption=73.3%
+8. Meridia: Pop=357,065,012, GDP=$36.28B, Stability=18.5, Tech=32.2, Corruption=86.7%
+9. Fjordland: Pop=305,416,389, GDP=$35.59B, Stability=15.7, Tech=25.1, Corruption=67.1%
+10. Lorien: Pop=58,919,823, GDP=$16.71B, Stability=59.8, Tech=65.5, Corruption=1.1%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Kingdom of Light: $878.97 per person
+2. Quartermaster: $565.57 per person
+3. Jadestone: $458.00 per person
+4. Ironhold: $397.37 per person
+5. Skara Brae: $386.06 per person
+6. Emberfall: $376.24 per person
+7. Freeport: $370.55 per person
+8. Praetoria: $365.48 per person
+9. Kestrel: $358.42 per person
+10. Phoenix Rise: $339.71 per person
+
+--- Top 10 Most Stable ---
+1. Quartermaster: 100.0
+2. Kingdom of Light: 100.0
+3. Pandora: 97.3
+4. Valoria: 62.3
+5. Lorien: 59.8
+6. Kestrel: 54.8
+7. Praetoria: 49.7
+8. Freeport: 48.6
+9. Zul'Gurub: 47.2
+10. Arboria: 46.4
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 81.0
+2. Arboria: 77.9
+3. Ys: 76.9
+4. Yonderland: 76.4
+5. Thunder Bay: 75.3
+6. Midgard: 75.2
+7. Karn: 74.7
+8. Freeport: 74.1
+9. Kingdom of Light: 72.6
+10. Xylos: 72.0
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 5] [WARNING] Narnia: Food shortage (8.3% of demand)
+[2026-06-05] [Year 5] [WARNING] Quartz Valley: Food shortage (0.9% of demand)
+[2026-06-05] [Year 5] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 5] [WARNING] Jadestone: Food shortage (7.1% of demand)
+[2026-06-05] [Year 5] [WARNING] Underdark: Food shortage (2.3% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Gondolin: Stability crisis at 3.4
+[2026-06-05] [Year 5] [WARNING] Gondolin: Food shortage (0.4% of demand)
+[2026-06-05] [Year 5] [WARNING] Borealis: Food shortage (0.4% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Valhalla: Stability crisis at 1.1
+[2026-06-05] [Year 5] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 5] [WARNING] Midgard: Food shortage (1.1% of demand)
+[2026-06-05] [Year 5] [WARNING] Zul'Gurub: Oil reserves depleted (2.8B barrels)
+[2026-06-05] [Year 5] [WARNING] Zul'Gurub: Food shortage (1.6% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Blackrock: Stability crisis at 0.0
+[2026-06-05] [Year 5] [WARNING] Blackrock: Food shortage (2.1% of demand)
+[2026-06-05] [Year 5] [WARNING] Ys: Food shortage (2.5% of demand)
+[2026-06-05] [Year 5] [WARNING] Kestrel: Food shortage (1.5% of demand)
+[2026-06-05] [Year 5] [WARNING] Phoenix Rise: Food shortage (3.3% of demand)
+[2026-06-05] [Year 5] [WARNING] Pandora: Food shortage (4.9% of demand)
+[2026-06-05] [Year 5] [WARNING] Oz: Food shortage (1.2% of demand)
+[2026-06-05] [Year 5] [WARNING] Abyssinia: Food shortage (0.2% of demand)
+[2026-06-05] [Year 5] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 5] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Emberfall: Stability crisis at 8.6
+[2026-06-05] [Year 5] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 5] [WARNING] Quartermaster: Food shortage (22.5% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Icelandia: Stability crisis at 18.1
+[2026-06-05] [Year 5] [WARNING] Icelandia: Food shortage (0.4% of demand)
+[2026-06-05] [Year 5] [WARNING] Utopia: Food shortage (0.8% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Aurum: Stability crisis at 0.0
+[2026-06-05] [Year 5] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 5] [WARNING] Highlands: Food shortage (1.7% of demand)
+[2026-06-05] [Year 5] [WARNING] Ironhold: Food shortage (10.5% of demand)
+[2026-06-05] [Year 5] [WARNING] Valoria: Food shortage (6.2% of demand)
+[2026-06-05] [Year 5] [WARNING] Lorien: Food shortage (7.7% of demand)
+[2026-06-05] [Year 5] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 5] [WARNING] Freeport: Food shortage (3.2% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Lunar Isle: Stability crisis at 4.6
+[2026-06-05] [Year 5] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Silverleaf: Stability crisis at 15.4
+[2026-06-05] [Year 5] [WARNING] Silverleaf: Food shortage (11.3% of demand)
+[2026-06-05] [Year 5] [WARNING] El Dorado: Food shortage (10.4% of demand)
+[2026-06-05] [Year 5] [WARNING] Skara Brae: Food shortage (1.2% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Yonderland: Stability crisis at 6.6
+[2026-06-05] [Year 5] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 5] [WARNING] Krynn: Food shortage (6.1% of demand)
+[2026-06-05] [Year 5] [WARNING] Thunder Bay: Food shortage (1.6% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Xenon: Stability crisis at 14.2
+[2026-06-05] [Year 5] [WARNING] Xenon: Food shortage (21.1% of demand)
+[2026-06-05] [Year 5] [WARNING] Verdant Plains: Food shortage (0.3% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Yggdrasil's Root: Stability crisis at 3.5
+[2026-06-05] [Year 5] [WARNING] Yggdrasil's Root: Food shortage (0.3% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Dunland: Stability crisis at 0.0
+[2026-06-05] [Year 5] [WARNING] Dunland: Food shortage (0.6% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Karn: Stability crisis at 0.0
+[2026-06-05] [Year 5] [WARNING] Karn: Food shortage (2.7% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Meridia: Stability crisis at 18.5
+[2026-06-05] [Year 5] [WARNING] Meridia: Food shortage (2.8% of demand)
+[2026-06-05] [Year 5] [WARNING] Kingdom of Light: Oil reserves depleted (3.5B barrels)
+[2026-06-05] [Year 5] [WARNING] Kingdom of Light: Food shortage (26.0% of demand)
+[2026-06-05] [Year 5] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Northwind: Stability crisis at 1.0
+[2026-06-05] [Year 5] [WARNING] Northwind: Food shortage (0.5% of demand)
+[2026-06-05] [Year 5] [WARNING] Olympus: Food shortage (2.0% of demand)
+[2026-06-05] [Year 5] [WARNING] Stormhold: Food shortage (0.7% of demand)
+[2026-06-05] [Year 5] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 5] [CRITICAL] Fjordland: Stability crisis at 15.7
+[2026-06-05] [Year 5] [WARNING] Fjordland: Food shortage (1.5% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 33,996,623
+Highest immigration: Arboria (-2,867), Hearthfire (-6,156), El Dorado (-7,165)
+Highest emigration: Meridia (-5,905,530), Dunland (-4,356,521), Fjordland (-4,304,979)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.8B barrels)
+[WARNING] Skara Brae: Oil reserves low (9.7B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.5B barrels)
+
+================================================================================
+Year 6 | World GDP: $1,217.75B | World Population: 3,532,466,781 | Avg Stability: 25.3
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $463.29B GDP
+2. Quartermaster grew by 16.3%
+3. 33 countries in stability crisis
+4. 2 countries facing oil depletion
+5. World population: 3,532,466,781
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=541,821,386, GDP=$463.29B, Stability=100.0, Tech=100.0, Corruption=16.5%
+2. Pandora: Pop=468,170,173, GDP=$172.23B, Stability=100.0, Tech=100.0, Corruption=73.8%
+3. Quartermaster: Pop=172,967,475, GDP=$111.48B, Stability=100.0, Tech=90.6, Corruption=19.3%
+4. Dunland: Pop=362,095,238, GDP=$93.67B, Stability=0.0, Tech=88.4, Corruption=90.6%
+5. Gondolin: Pop=206,308,555, GDP=$65.99B, Stability=0.0, Tech=94.4, Corruption=86.6%
+6. Zul'Gurub: Pop=329,768,452, GDP=$55.98B, Stability=50.2, Tech=78.4, Corruption=66.6%
+7. Krynn: Pop=173,550,105, GDP=$39.06B, Stability=17.1, Tech=78.8, Corruption=72.3%
+8. Fjordland: Pop=296,972,184, GDP=$35.69B, Stability=11.7, Tech=26.1, Corruption=66.2%
+9. Meridia: Pop=349,575,841, GDP=$34.86B, Stability=10.6, Tech=32.7, Corruption=86.3%
+10. Lorien: Pop=59,476,615, GDP=$19.28B, Stability=66.6, Tech=67.4, Corruption=1.1%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Kingdom of Light: $855.07 per person
+2. Quartermaster: $644.52 per person
+3. Jadestone: $467.71 per person
+4. Ironhold: $380.20 per person
+5. Freeport: $375.18 per person
+6. Skara Brae: $374.30 per person
+7. Praetoria: $370.23 per person
+8. Pandora: $367.88 per person
+9. Emberfall: $366.43 per person
+10. Kestrel: $354.01 per person
+
+--- Top 10 Most Stable ---
+1. Pandora: 100.0
+2. Quartermaster: 100.0
+3. Kingdom of Light: 100.0
+4. Lorien: 66.6
+5. Valoria: 60.2
+6. Kestrel: 50.2
+7. Zul'Gurub: 50.2
+8. Freeport: 48.9
+9. Praetoria: 48.1
+10. Arboria: 40.0
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 81.5
+2. Arboria: 78.0
+3. Ys: 76.6
+4. Yonderland: 76.0
+5. Thunder Bay: 75.5
+6. Midgard: 75.3
+7. Freeport: 74.5
+8. Karn: 74.3
+9. Kingdom of Light: 73.5
+10. Xylos: 72.2
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 6] [WARNING] Narnia: Food shortage (8.0% of demand)
+[2026-06-05] [Year 6] [WARNING] Quartz Valley: Food shortage (0.9% of demand)
+[2026-06-05] [Year 6] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Jadestone: Stability crisis at 16.9
+[2026-06-05] [Year 6] [WARNING] Jadestone: Food shortage (6.9% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Underdark: Stability crisis at 13.3
+[2026-06-05] [Year 6] [WARNING] Underdark: Food shortage (2.2% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Gondolin: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Gondolin: Food shortage (0.4% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Borealis: Stability crisis at 14.2
+[2026-06-05] [Year 6] [WARNING] Borealis: Food shortage (0.4% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Valhalla: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Midgard: Stability crisis at 16.0
+[2026-06-05] [Year 6] [WARNING] Midgard: Food shortage (1.0% of demand)
+[2026-06-05] [Year 6] [WARNING] Zul'Gurub: Oil reserves depleted (2.8B barrels)
+[2026-06-05] [Year 6] [WARNING] Zul'Gurub: Food shortage (1.6% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Blackrock: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Blackrock: Food shortage (2.0% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Ys: Stability crisis at 15.9
+[2026-06-05] [Year 6] [WARNING] Ys: Food shortage (2.4% of demand)
+[2026-06-05] [Year 6] [WARNING] Kestrel: Food shortage (1.4% of demand)
+[2026-06-05] [Year 6] [WARNING] Phoenix Rise: Food shortage (3.2% of demand)
+[2026-06-05] [Year 6] [WARNING] Pandora: Food shortage (5.0% of demand)
+[2026-06-05] [Year 6] [WARNING] Oz: Food shortage (1.1% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Abyssinia: Stability crisis at 15.1
+[2026-06-05] [Year 6] [WARNING] Abyssinia: Food shortage (0.2% of demand)
+[2026-06-05] [Year 6] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 6] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Emberfall: Stability crisis at 2.5
+[2026-06-05] [Year 6] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 6] [WARNING] Quartermaster: Food shortage (22.7% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Icelandia: Stability crisis at 9.4
+[2026-06-05] [Year 6] [WARNING] Icelandia: Food shortage (0.4% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Utopia: Stability crisis at 13.1
+[2026-06-05] [Year 6] [WARNING] Utopia: Food shortage (0.8% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Aurum: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 6] [WARNING] Highlands: Food shortage (1.6% of demand)
+[2026-06-05] [Year 6] [WARNING] Ironhold: Food shortage (10.1% of demand)
+[2026-06-05] [Year 6] [WARNING] Valoria: Food shortage (6.2% of demand)
+[2026-06-05] [Year 6] [WARNING] Lorien: Food shortage (7.7% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Glimmerhold: Stability crisis at 15.4
+[2026-06-05] [Year 6] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 6] [WARNING] Freeport: Food shortage (3.2% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Lunar Isle: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Silverleaf: Stability crisis at 7.1
+[2026-06-05] [Year 6] [WARNING] Silverleaf: Food shortage (10.9% of demand)
+[2026-06-05] [Year 6] [WARNING] El Dorado: Food shortage (10.2% of demand)
+[2026-06-05] [Year 6] [WARNING] Skara Brae: Food shortage (1.2% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Yonderland: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Krynn: Stability crisis at 17.1
+[2026-06-05] [Year 6] [WARNING] Krynn: Food shortage (5.9% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Thunder Bay: Stability crisis at 18.6
+[2026-06-05] [Year 6] [WARNING] Thunder Bay: Food shortage (1.5% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Xenon: Stability crisis at 11.0
+[2026-06-05] [Year 6] [WARNING] Xenon: Food shortage (20.6% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Verdant Plains: Stability crisis at 19.6
+[2026-06-05] [Year 6] [WARNING] Verdant Plains: Food shortage (0.3% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Yggdrasil's Root: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Yggdrasil's Root: Food shortage (0.2% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Dunland: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Dunland: Food shortage (0.6% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Karn: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Karn: Food shortage (2.6% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Meridia: Stability crisis at 10.6
+[2026-06-05] [Year 6] [WARNING] Meridia: Food shortage (2.7% of demand)
+[2026-06-05] [Year 6] [WARNING] Kingdom of Light: Oil reserves depleted (3.4B barrels)
+[2026-06-05] [Year 6] [WARNING] Kingdom of Light: Food shortage (25.8% of demand)
+[2026-06-05] [Year 6] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Northwind: Stability crisis at 0.0
+[2026-06-05] [Year 6] [WARNING] Northwind: Food shortage (0.5% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Olympus: Stability crisis at 19.9
+[2026-06-05] [Year 6] [WARNING] Olympus: Food shortage (1.9% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Stormhold: Stability crisis at 18.1
+[2026-06-05] [Year 6] [WARNING] Stormhold: Food shortage (0.7% of demand)
+[2026-06-05] [Year 6] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 6] [CRITICAL] Fjordland: Stability crisis at 11.7
+[2026-06-05] [Year 6] [WARNING] Fjordland: Food shortage (1.5% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 34,669,134
+Highest immigration: Arboria (-3,606), Yggdrasil's Root (-4,788), Hearthfire (-5,853)
+Highest emigration: Dunland (-5,805,128), Fjordland (-4,966,999), Meridia (-3,967,176)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.8B barrels)
+[WARNING] Skara Brae: Oil reserves low (9.6B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.4B barrels)
+
+================================================================================
+Year 7 | World GDP: $1,277.42B | World Population: 3,494,847,250 | Avg Stability: 21.3
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $487.84B GDP
+2. Zul'Gurub grew by 16.1%
+3. 37 countries in stability crisis
+4. 2 countries facing oil depletion
+5. World population: 3,494,847,250
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=553,497,605, GDP=$487.84B, Stability=100.0, Tech=100.0, Corruption=16.2%
+2. Pandora: Pop=479,054,631, GDP=$187.70B, Stability=100.0, Tech=100.0, Corruption=72.9%
+3. Quartermaster: Pop=178,367,562, GDP=$129.02B, Stability=100.0, Tech=100.0, Corruption=19.0%
+4. Dunland: Pop=343,085,793, GDP=$90.37B, Stability=0.0, Tech=89.0, Corruption=90.1%
+5. Zul'Gurub: Pop=328,976,013, GDP=$65.00B, Stability=55.3, Tech=80.2, Corruption=65.4%
+6. Gondolin: Pop=196,907,525, GDP=$64.74B, Stability=0.0, Tech=94.8, Corruption=85.6%
+7. Krynn: Pop=168,938,589, GDP=$37.84B, Stability=10.8, Tech=79.6, Corruption=71.4%
+8. Fjordland: Pop=289,114,305, GDP=$36.26B, Stability=9.7, Tech=27.2, Corruption=65.3%
+9. Meridia: Pop=335,740,123, GDP=$33.77B, Stability=2.9, Tech=33.3, Corruption=85.9%
+10. Lorien: Pop=61,477,651, GDP=$21.23B, Stability=77.2, Tech=69.6, Corruption=1.1%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Kingdom of Light: $881.37 per person
+2. Quartermaster: $723.34 per person
+3. Jadestone: $467.71 per person
+4. Pandora: $391.80 per person
+5. Freeport: $387.66 per person
+6. Praetoria: $378.04 per person
+7. Skara Brae: $365.30 per person
+8. Ironhold: $364.61 per person
+9. Emberfall: $361.65 per person
+10. Kestrel: $348.54 per person
+
+--- Top 10 Most Stable ---
+1. Pandora: 100.0
+2. Quartermaster: 100.0
+3. Kingdom of Light: 100.0
+4. Lorien: 77.2
+5. Valoria: 59.3
+6. Zul'Gurub: 55.3
+7. Freeport: 48.5
+8. Praetoria: 47.0
+9. Kestrel: 45.6
+10. Oz: 38.2
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 82.1
+2. Arboria: 78.1
+3. Ys: 76.2
+4. Thunder Bay: 75.7
+5. Yonderland: 75.6
+6. Midgard: 75.3
+7. Freeport: 75.0
+8. Kingdom of Light: 74.3
+9. Karn: 74.0
+10. Xylos: 72.5
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 7] [WARNING] Narnia: Food shortage (7.7% of demand)
+[2026-06-05] [Year 7] [WARNING] Quartz Valley: Food shortage (0.9% of demand)
+[2026-06-05] [Year 7] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Jadestone: Stability crisis at 13.3
+[2026-06-05] [Year 7] [WARNING] Jadestone: Food shortage (6.8% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Underdark: Stability crisis at 3.5
+[2026-06-05] [Year 7] [WARNING] Underdark: Food shortage (2.1% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Gondolin: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Gondolin: Food shortage (0.4% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Borealis: Stability crisis at 8.1
+[2026-06-05] [Year 7] [WARNING] Borealis: Food shortage (0.4% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Valhalla: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Midgard: Stability crisis at 8.9
+[2026-06-05] [Year 7] [WARNING] Midgard: Food shortage (1.0% of demand)
+[2026-06-05] [Year 7] [WARNING] Zul'Gurub: Oil reserves depleted (2.7B barrels)
+[2026-06-05] [Year 7] [WARNING] Zul'Gurub: Food shortage (1.6% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Blackrock: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Blackrock: Food shortage (2.0% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Ys: Stability crisis at 5.7
+[2026-06-05] [Year 7] [WARNING] Ys: Food shortage (2.3% of demand)
+[2026-06-05] [Year 7] [WARNING] Kestrel: Food shortage (1.4% of demand)
+[2026-06-05] [Year 7] [WARNING] Phoenix Rise: Food shortage (3.1% of demand)
+[2026-06-05] [Year 7] [WARNING] Pandora: Food shortage (5.2% of demand)
+[2026-06-05] [Year 7] [WARNING] Oz: Food shortage (1.1% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Abyssinia: Stability crisis at 6.1
+[2026-06-05] [Year 7] [WARNING] Abyssinia: Food shortage (0.2% of demand)
+[2026-06-05] [Year 7] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Hearthfire: Stability crisis at 13.2
+[2026-06-05] [Year 7] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Emberfall: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 7] [WARNING] Quartermaster: Food shortage (22.4% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Icelandia: Stability crisis at 0.6
+[2026-06-05] [Year 7] [WARNING] Icelandia: Food shortage (0.4% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Utopia: Stability crisis at 3.8
+[2026-06-05] [Year 7] [WARNING] Utopia: Food shortage (0.7% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Aurum: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Highlands: Stability crisis at 19.0
+[2026-06-05] [Year 7] [WARNING] Highlands: Food shortage (1.6% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Ironhold: Stability crisis at 12.5
+[2026-06-05] [Year 7] [WARNING] Ironhold: Food shortage (9.7% of demand)
+[2026-06-05] [Year 7] [WARNING] Valoria: Food shortage (6.1% of demand)
+[2026-06-05] [Year 7] [WARNING] Lorien: Food shortage (7.9% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Glimmerhold: Stability crisis at 7.5
+[2026-06-05] [Year 7] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 7] [WARNING] Freeport: Food shortage (3.2% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Lunar Isle: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Silverleaf: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Silverleaf: Food shortage (10.3% of demand)
+[2026-06-05] [Year 7] [WARNING] El Dorado: Food shortage (9.9% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Skara Brae: Stability crisis at 15.4
+[2026-06-05] [Year 7] [WARNING] Skara Brae: Food shortage (1.1% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Yonderland: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Krynn: Stability crisis at 10.8
+[2026-06-05] [Year 7] [WARNING] Krynn: Food shortage (5.7% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Thunder Bay: Stability crisis at 12.4
+[2026-06-05] [Year 7] [WARNING] Thunder Bay: Food shortage (1.5% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Xenon: Stability crisis at 6.9
+[2026-06-05] [Year 7] [WARNING] Xenon: Food shortage (20.0% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Verdant Plains: Stability crisis at 11.2
+[2026-06-05] [Year 7] [WARNING] Verdant Plains: Food shortage (0.3% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Yggdrasil's Root: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Yggdrasil's Root: Food shortage (0.2% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Dunland: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Dunland: Food shortage (0.5% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Karn: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Karn: Food shortage (2.5% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Meridia: Stability crisis at 2.9
+[2026-06-05] [Year 7] [WARNING] Meridia: Food shortage (2.5% of demand)
+[2026-06-05] [Year 7] [WARNING] Kingdom of Light: Oil reserves depleted (3.4B barrels)
+[2026-06-05] [Year 7] [WARNING] Kingdom of Light: Food shortage (26.0% of demand)
+[2026-06-05] [Year 7] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Northwind: Stability crisis at 0.0
+[2026-06-05] [Year 7] [WARNING] Northwind: Food shortage (0.5% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Olympus: Stability crisis at 9.5
+[2026-06-05] [Year 7] [WARNING] Olympus: Food shortage (1.8% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Stormhold: Stability crisis at 10.2
+[2026-06-05] [Year 7] [WARNING] Stormhold: Food shortage (0.7% of demand)
+[2026-06-05] [Year 7] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 7] [CRITICAL] Fjordland: Stability crisis at 9.7
+[2026-06-05] [Year 7] [WARNING] Fjordland: Food shortage (1.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 59,874,020
+Highest immigration: Arboria (-3,059), Hearthfire (-5,525), Kestrel (-7,994)
+Highest emigration: Dunland (-14,328,931), Meridia (-12,260,578), Gondolin (-6,358,568)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.7B barrels)
+[WARNING] Skara Brae: Oil reserves low (9.4B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.4B barrels)
+
+================================================================================
+Year 8 | World GDP: $1,355.88B | World Population: 3,488,253,583 | Avg Stability: 18.0
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $496.97B GDP
+2. Pandora grew by 26.1%
+3. 40 countries in stability crisis
+4. 2 countries facing oil depletion
+5. World population: 3,488,253,583
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=570,754,385, GDP=$496.97B, Stability=100.0, Tech=100.0, Corruption=15.9%
+2. Pandora: Pop=499,711,844, GDP=$236.61B, Stability=100.0, Tech=100.0, Corruption=71.9%
+3. Quartermaster: Pop=183,327,057, GDP=$151.71B, Stability=100.0, Tech=100.0, Corruption=18.7%
+4. Dunland: Pop=334,546,675, GDP=$85.37B, Stability=0.0, Tech=89.8, Corruption=89.5%
+5. Zul'Gurub: Pop=334,404,826, GDP=$73.19B, Stability=60.1, Tech=82.2, Corruption=64.2%
+6. Gondolin: Pop=192,103,083, GDP=$60.87B, Stability=0.0, Tech=95.6, Corruption=84.7%
+7. Krynn: Pop=163,411,954, GDP=$36.79B, Stability=4.1, Tech=80.3, Corruption=70.4%
+8. Fjordland: Pop=278,227,853, GDP=$36.38B, Stability=5.8, Tech=28.2, Corruption=64.4%
+9. Meridia: Pop=323,539,798, GDP=$32.49B, Stability=0.0, Tech=33.9, Corruption=85.5%
+10. Lorien: Pop=62,530,410, GDP=$23.98B, Stability=85.7, Tech=72.6, Corruption=1.1%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Kingdom of Light: $870.72 per person
+2. Quartermaster: $827.52 per person
+3. Pandora: $473.49 per person
+4. Jadestone: $472.26 per person
+5. Freeport: $399.36 per person
+6. Praetoria: $390.11 per person
+7. Lorien: $383.56 per person
+8. Skara Brae: $359.75 per person
+9. Oz: $358.96 per person
+10. Ironhold: $356.95 per person
+
+--- Top 10 Most Stable ---
+1. Pandora: 100.0
+2. Quartermaster: 100.0
+3. Kingdom of Light: 100.0
+4. Lorien: 85.7
+5. Zul'Gurub: 60.1
+6. Valoria: 56.9
+7. Freeport: 48.6
+8. Praetoria: 47.3
+9. Kestrel: 41.0
+10. Oz: 36.5
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 82.7
+2. Arboria: 78.2
+3. Ys: 75.9
+4. Thunder Bay: 75.9
+5. Freeport: 75.5
+6. Midgard: 75.4
+7. Yonderland: 75.3
+8. Kingdom of Light: 75.2
+9. Karn: 73.7
+10. Xylos: 72.7
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 8] [CRITICAL] Narnia: Stability crisis at 17.6
+[2026-06-05] [Year 8] [WARNING] Narnia: Food shortage (7.3% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Quartz Valley: Stability crisis at 14.2
+[2026-06-05] [Year 8] [WARNING] Quartz Valley: Food shortage (0.8% of demand)
+[2026-06-05] [Year 8] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Jadestone: Stability crisis at 10.2
+[2026-06-05] [Year 8] [WARNING] Jadestone: Food shortage (6.7% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Underdark: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Underdark: Food shortage (2.0% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Gondolin: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Gondolin: Food shortage (0.4% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Borealis: Stability crisis at 1.9
+[2026-06-05] [Year 8] [WARNING] Borealis: Food shortage (0.3% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Valhalla: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Midgard: Stability crisis at 1.7
+[2026-06-05] [Year 8] [WARNING] Midgard: Food shortage (1.0% of demand)
+[2026-06-05] [Year 8] [WARNING] Zul'Gurub: Oil reserves depleted (2.7B barrels)
+[2026-06-05] [Year 8] [WARNING] Zul'Gurub: Food shortage (1.7% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Blackrock: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Blackrock: Food shortage (2.0% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Ys: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Ys: Food shortage (2.2% of demand)
+[2026-06-05] [Year 8] [WARNING] Kestrel: Food shortage (1.4% of demand)
+[2026-06-05] [Year 8] [WARNING] Phoenix Rise: Food shortage (3.1% of demand)
+[2026-06-05] [Year 8] [WARNING] Pandora: Food shortage (5.3% of demand)
+[2026-06-05] [Year 8] [WARNING] Oz: Food shortage (1.1% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Abyssinia: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Abyssinia: Food shortage (0.2% of demand)
+[2026-06-05] [Year 8] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Hearthfire: Stability crisis at 6.3
+[2026-06-05] [Year 8] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Emberfall: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 8] [WARNING] Quartermaster: Food shortage (22.7% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Icelandia: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Icelandia: Food shortage (0.3% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Utopia: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Utopia: Food shortage (0.7% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Aurum: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Highlands: Stability crisis at 12.7
+[2026-06-05] [Year 8] [WARNING] Highlands: Food shortage (1.5% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Ironhold: Stability crisis at 3.6
+[2026-06-05] [Year 8] [WARNING] Ironhold: Food shortage (9.4% of demand)
+[2026-06-05] [Year 8] [WARNING] Valoria: Food shortage (6.1% of demand)
+[2026-06-05] [Year 8] [WARNING] Lorien: Food shortage (8.0% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Glimmerhold: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 8] [WARNING] Freeport: Food shortage (3.2% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Lunar Isle: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Silverleaf: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Silverleaf: Food shortage (9.8% of demand)
+[2026-06-05] [Year 8] [WARNING] El Dorado: Food shortage (9.6% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Skara Brae: Stability crisis at 8.2
+[2026-06-05] [Year 8] [WARNING] Skara Brae: Food shortage (1.1% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Yonderland: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Krynn: Stability crisis at 4.1
+[2026-06-05] [Year 8] [WARNING] Krynn: Food shortage (5.5% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Thunder Bay: Stability crisis at 6.3
+[2026-06-05] [Year 8] [WARNING] Thunder Bay: Food shortage (1.4% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Xenon: Stability crisis at 2.9
+[2026-06-05] [Year 8] [WARNING] Xenon: Food shortage (19.5% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Verdant Plains: Stability crisis at 2.8
+[2026-06-05] [Year 8] [WARNING] Verdant Plains: Food shortage (0.3% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Yggdrasil's Root: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Yggdrasil's Root: Food shortage (0.2% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Dunland: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Dunland: Food shortage (0.5% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Karn: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Karn: Food shortage (2.5% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Meridia: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Meridia: Food shortage (2.5% of demand)
+[2026-06-05] [Year 8] [WARNING] Kingdom of Light: Oil reserves depleted (3.3B barrels)
+[2026-06-05] [Year 8] [WARNING] Kingdom of Light: Food shortage (25.9% of demand)
+[2026-06-05] [Year 8] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Northwind: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Northwind: Food shortage (0.5% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Olympus: Stability crisis at 0.0
+[2026-06-05] [Year 8] [WARNING] Olympus: Food shortage (1.8% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Stormhold: Stability crisis at 2.0
+[2026-06-05] [Year 8] [WARNING] Stormhold: Food shortage (0.7% of demand)
+[2026-06-05] [Year 8] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 8] [CRITICAL] Fjordland: Stability crisis at 5.8
+[2026-06-05] [Year 8] [WARNING] Fjordland: Food shortage (1.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 39,978,449
+Highest immigration: Arboria (-3,683), Hearthfire (-5,704), Abyssinia (-8,481)
+Highest emigration: Meridia (-7,181,707), Fjordland (-6,233,411), Dunland (-4,573,163)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.7B barrels)
+[WARNING] Skara Brae: Oil reserves low (9.3B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.3B barrels)
+
+================================================================================
+Year 9 | World GDP: $1,443.05B | World Population: 3,461,127,634 | Avg Stability: 16.2
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $522.71B GDP
+2. Zul'Gurub grew by 22.5%
+3. 40 countries in stability crisis
+4. 2 countries facing oil depletion
+5. World population: 3,461,127,634
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=581,119,622, GDP=$522.71B, Stability=100.0, Tech=100.0, Corruption=15.6%
+2. Pandora: Pop=509,579,059, GDP=$283.35B, Stability=100.0, Tech=100.0, Corruption=70.9%
+3. Quartermaster: Pop=191,480,224, GDP=$157.11B, Stability=100.0, Tech=100.0, Corruption=18.4%
+4. Zul'Gurub: Pop=339,202,500, GDP=$89.64B, Stability=68.5, Tech=84.4, Corruption=63.1%
+5. Dunland: Pop=316,631,916, GDP=$84.57B, Stability=0.0, Tech=90.4, Corruption=89.1%
+6. Gondolin: Pop=185,493,667, GDP=$58.99B, Stability=0.0, Tech=96.1, Corruption=83.8%
+7. Fjordland: Pop=270,046,431, GDP=$35.28B, Stability=3.8, Tech=28.8, Corruption=63.5%
+8. Krynn: Pop=157,902,287, GDP=$34.99B, Stability=0.0, Tech=80.9, Corruption=69.4%
+9. Meridia: Pop=311,467,368, GDP=$31.20B, Stability=0.0, Tech=34.2, Corruption=85.1%
+10. Lorien: Pop=63,867,554, GDP=$26.26B, Stability=93.5, Tech=77.1, Corruption=1.0%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Kingdom of Light: $899.49 per person
+2. Quartermaster: $820.51 per person
+3. Pandora: $556.05 per person
+4. Jadestone: $475.18 per person
+5. Freeport: $415.02 per person
+6. Lorien: $411.21 per person
+7. Praetoria: $396.75 per person
+8. Oz: $363.22 per person
+9. Emberfall: $354.36 per person
+10. Skara Brae: $348.13 per person
+
+--- Top 10 Most Stable ---
+1. Pandora: 100.0
+2. Quartermaster: 100.0
+3. Kingdom of Light: 100.0
+4. Lorien: 93.5
+5. Zul'Gurub: 68.5
+6. Valoria: 54.7
+7. Freeport: 48.3
+8. Praetoria: 47.4
+9. Kestrel: 36.3
+10. Oz: 34.1
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 83.3
+2. Arboria: 78.3
+3. Thunder Bay: 76.1
+4. Kingdom of Light: 76.0
+5. Freeport: 76.0
+6. Ys: 75.6
+7. Midgard: 75.5
+8. Yonderland: 75.0
+9. Karn: 73.4
+10. Xylos: 73.0
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 9] [CRITICAL] Narnia: Stability crisis at 9.4
+[2026-06-05] [Year 9] [WARNING] Narnia: Food shortage (7.0% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Quartz Valley: Stability crisis at 5.7
+[2026-06-05] [Year 9] [WARNING] Quartz Valley: Food shortage (0.8% of demand)
+[2026-06-05] [Year 9] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Jadestone: Stability crisis at 6.9
+[2026-06-05] [Year 9] [WARNING] Jadestone: Food shortage (6.5% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Underdark: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Underdark: Food shortage (1.9% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Gondolin: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Gondolin: Food shortage (0.4% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Borealis: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Borealis: Food shortage (0.3% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Valhalla: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Midgard: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Midgard: Food shortage (0.9% of demand)
+[2026-06-05] [Year 9] [WARNING] Zul'Gurub: Oil reserves depleted (2.7B barrels)
+[2026-06-05] [Year 9] [WARNING] Zul'Gurub: Food shortage (1.7% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Blackrock: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Blackrock: Food shortage (1.9% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Ys: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Ys: Food shortage (2.1% of demand)
+[2026-06-05] [Year 9] [WARNING] Kestrel: Food shortage (1.4% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Phoenix Rise: Stability crisis at 15.0
+[2026-06-05] [Year 9] [WARNING] Phoenix Rise: Food shortage (3.0% of demand)
+[2026-06-05] [Year 9] [WARNING] Pandora: Food shortage (5.4% of demand)
+[2026-06-05] [Year 9] [WARNING] Oz: Food shortage (1.1% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Abyssinia: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Abyssinia: Food shortage (0.1% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Etherea: Stability crisis at 15.6
+[2026-06-05] [Year 9] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Hearthfire: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Emberfall: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 9] [WARNING] Quartermaster: Food shortage (22.8% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Icelandia: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Icelandia: Food shortage (0.3% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Utopia: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Utopia: Food shortage (0.7% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Aurum: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Highlands: Stability crisis at 6.4
+[2026-06-05] [Year 9] [WARNING] Highlands: Food shortage (1.5% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Ironhold: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Ironhold: Food shortage (8.9% of demand)
+[2026-06-05] [Year 9] [WARNING] Valoria: Food shortage (6.1% of demand)
+[2026-06-05] [Year 9] [WARNING] Lorien: Food shortage (8.3% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Glimmerhold: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 9] [WARNING] Freeport: Food shortage (3.2% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Lunar Isle: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Silverleaf: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Silverleaf: Food shortage (9.5% of demand)
+[2026-06-05] [Year 9] [CRITICAL] El Dorado: Stability crisis at 18.3
+[2026-06-05] [Year 9] [WARNING] El Dorado: Food shortage (9.3% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Skara Brae: Stability crisis at 0.9
+[2026-06-05] [Year 9] [WARNING] Skara Brae: Food shortage (1.1% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Yonderland: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Krynn: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Krynn: Food shortage (5.3% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Thunder Bay: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Thunder Bay: Food shortage (1.4% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Xenon: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Xenon: Food shortage (18.9% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Verdant Plains: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Verdant Plains: Food shortage (0.3% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Yggdrasil's Root: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Yggdrasil's Root: Food shortage (0.2% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Dunland: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Dunland: Food shortage (0.5% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Karn: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Karn: Food shortage (2.4% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Meridia: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Meridia: Food shortage (2.4% of demand)
+[2026-06-05] [Year 9] [WARNING] Kingdom of Light: Oil reserves depleted (3.3B barrels)
+[2026-06-05] [Year 9] [WARNING] Kingdom of Light: Food shortage (26.4% of demand)
+[2026-06-05] [Year 9] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Northwind: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Northwind: Food shortage (0.5% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Olympus: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Olympus: Food shortage (1.7% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Stormhold: Stability crisis at 0.0
+[2026-06-05] [Year 9] [WARNING] Stormhold: Food shortage (0.6% of demand)
+[2026-06-05] [Year 9] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 9] [CRITICAL] Fjordland: Stability crisis at 3.8
+[2026-06-05] [Year 9] [WARNING] Fjordland: Food shortage (1.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 47,993,224
+Highest immigration: Arboria (-3,999), Hearthfire (-5,502), Icelandia (-6,978)
+Highest emigration: Dunland (-13,596,102), Meridia (-8,790,782), Fjordland (-5,588,193)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.7B barrels)
+[WARNING] Skara Brae: Oil reserves low (9.2B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.3B barrels)
+
+================================================================================
+Year 10 | World GDP: $1,495.25B | World Population: 3,440,951,432 | Avg Stability: 15.3
+================================================================================
+
+--- Top 5 Highlights ---
+1. Kingdom of Light leads with $528.30B GDP
+2. Pandora grew by 14.3%
+3. 40 countries in stability crisis
+4. 2 countries facing oil depletion
+5. World population: 3,440,951,432
+
+--- Top 10 Countries by GDP ---
+1. Kingdom of Light: Pop=593,725,927, GDP=$528.30B, Stability=100.0, Tech=100.0, Corruption=15.3%
+2. Pandora: Pop=519,339,598, GDP=$323.78B, Stability=100.0, Tech=100.0, Corruption=70.0%
+3. Quartermaster: Pop=199,932,549, GDP=$163.97B, Stability=100.0, Tech=100.0, Corruption=18.1%
+4. Zul'Gurub: Pop=345,086,230, GDP=$97.21B, Stability=79.4, Tech=87.6, Corruption=62.0%
+5. Dunland: Pop=303,092,756, GDP=$80.32B, Stability=0.0, Tech=90.8, Corruption=88.6%
+6. Gondolin: Pop=182,393,889, GDP=$56.45B, Stability=0.0, Tech=96.7, Corruption=82.9%
+7. Fjordland: Pop=257,516,314, GDP=$34.77B, Stability=0.0, Tech=29.6, Corruption=62.7%
+8. Krynn: Pop=152,607,457, GDP=$33.20B, Stability=0.0, Tech=81.7, Corruption=68.5%
+9. Meridia: Pop=298,308,880, GDP=$30.22B, Stability=0.0, Tech=35.0, Corruption=84.7%
+10. Lorien: Pop=66,102,270, GDP=$29.48B, Stability=100.0, Tech=80.0, Corruption=1.0%
+
+--- Top 10 Richest by GDP per Capita ---
+1. Kingdom of Light: $889.80 per person
+2. Quartermaster: $820.14 per person
+3. Pandora: $623.45 per person
+4. Jadestone: $465.08 per person
+5. Lorien: $446.01 per person
+6. Freeport: $432.63 per person
+7. Praetoria: $406.18 per person
+8. Oz: $385.45 per person
+9. Emberfall: $350.89 per person
+10. Ironhold: $340.32 per person
+
+--- Top 10 Most Stable ---
+1. Pandora: 100.0
+2. Quartermaster: 100.0
+3. Lorien: 100.0
+4. Kingdom of Light: 100.0
+5. Zul'Gurub: 79.4
+6. Valoria: 52.2
+7. Freeport: 50.0
+8. Praetoria: 47.7
+9. Oz: 32.7
+10. Kestrel: 31.7
+
+--- Top 10 Most Democratic ---
+1. Phoenix Rise: 83.9
+2. Arboria: 78.4
+3. Kingdom of Light: 76.9
+4. Freeport: 76.6
+5. Thunder Bay: 76.3
+6. Midgard: 75.6
+7. Ys: 75.4
+8. Yonderland: 74.7
+9. Xylos: 73.3
+10. Oz: 73.3
+
+--- Top 10 Most Unequal ---
+1. Ys: 88.24% inequality
+2. Zul'Gurub: 87.61% inequality
+3. Krynn: 86.83% inequality
+4. Icelandia: 85.63% inequality
+5. Aurum: 84.64% inequality
+6. Narnia: 83.16% inequality
+7. Karn: 80.35% inequality
+8. Quartermaster: 79.46% inequality
+9. Yonderland: 78.87% inequality
+10. Pandora: 76.36% inequality
+
+--- Notable Events ---
+[2026-06-05] [Year 10] [CRITICAL] Narnia: Stability crisis at 1.1
+[2026-06-05] [Year 10] [WARNING] Narnia: Food shortage (6.6% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Quartz Valley: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Quartz Valley: Food shortage (0.8% of demand)
+[2026-06-05] [Year 10] [WARNING] Praetoria: Food shortage (0.8% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Jadestone: Stability crisis at 4.1
+[2026-06-05] [Year 10] [WARNING] Jadestone: Food shortage (6.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Underdark: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Underdark: Food shortage (1.9% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Gondolin: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Gondolin: Food shortage (0.4% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Borealis: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Borealis: Food shortage (0.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Valhalla: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Valhalla: Food shortage (0.1% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Midgard: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Midgard: Food shortage (0.9% of demand)
+[2026-06-05] [Year 10] [WARNING] Zul'Gurub: Oil reserves depleted (2.7B barrels)
+[2026-06-05] [Year 10] [WARNING] Zul'Gurub: Food shortage (1.8% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Blackrock: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Blackrock: Food shortage (1.9% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Ys: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Ys: Food shortage (2.0% of demand)
+[2026-06-05] [Year 10] [WARNING] Kestrel: Food shortage (1.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Phoenix Rise: Stability crisis at 8.0
+[2026-06-05] [Year 10] [WARNING] Phoenix Rise: Food shortage (2.9% of demand)
+[2026-06-05] [Year 10] [WARNING] Pandora: Food shortage (5.5% of demand)
+[2026-06-05] [Year 10] [WARNING] Oz: Food shortage (1.1% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Abyssinia: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Abyssinia: Food shortage (0.1% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Etherea: Stability crisis at 9.2
+[2026-06-05] [Year 10] [WARNING] Etherea: Food shortage (0.2% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Hearthfire: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Hearthfire: Food shortage (0.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Emberfall: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Emberfall: Food shortage (0.0% of demand)
+[2026-06-05] [Year 10] [WARNING] Quartermaster: Food shortage (22.8% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Icelandia: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Icelandia: Food shortage (0.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Utopia: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Utopia: Food shortage (0.7% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Aurum: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Aurum: Food shortage (0.1% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Highlands: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Highlands: Food shortage (1.4% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Ironhold: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Ironhold: Food shortage (8.6% of demand)
+[2026-06-05] [Year 10] [WARNING] Valoria: Food shortage (6.1% of demand)
+[2026-06-05] [Year 10] [WARNING] Lorien: Food shortage (8.5% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Glimmerhold: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Glimmerhold: Food shortage (0.2% of demand)
+[2026-06-05] [Year 10] [WARNING] Freeport: Food shortage (3.1% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Lunar Isle: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Lunar Isle: Food shortage (0.2% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Silverleaf: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Silverleaf: Food shortage (9.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] El Dorado: Stability crisis at 12.1
+[2026-06-05] [Year 10] [WARNING] El Dorado: Food shortage (9.0% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Skara Brae: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Skara Brae: Food shortage (1.0% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Yonderland: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Yonderland: Food shortage (0.2% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Krynn: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Krynn: Food shortage (5.2% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Thunder Bay: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Thunder Bay: Food shortage (1.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Xenon: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Xenon: Food shortage (18.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Verdant Plains: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Verdant Plains: Food shortage (0.3% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Yggdrasil's Root: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Yggdrasil's Root: Food shortage (0.2% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Dunland: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Dunland: Food shortage (0.5% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Karn: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Karn: Food shortage (2.4% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Meridia: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Meridia: Food shortage (2.4% of demand)
+[2026-06-05] [Year 10] [WARNING] Kingdom of Light: Oil reserves depleted (3.2B barrels)
+[2026-06-05] [Year 10] [WARNING] Kingdom of Light: Food shortage (26.2% of demand)
+[2026-06-05] [Year 10] [WARNING] Xylos: Food shortage (0.0% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Northwind: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Northwind: Food shortage (0.5% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Olympus: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Olympus: Food shortage (1.6% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Stormhold: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Stormhold: Food shortage (0.6% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Arboria: Stability crisis at 14.0
+[2026-06-05] [Year 10] [WARNING] Arboria: Food shortage (0.1% of demand)
+[2026-06-05] [Year 10] [CRITICAL] Fjordland: Stability crisis at 0.0
+[2026-06-05] [Year 10] [WARNING] Fjordland: Food shortage (1.4% of demand)
+
+--- Migration Summary ---
+Net global immigration: 0
+Net global emigration: 48,969,302
+Highest immigration: Yggdrasil's Root (-3,752), Hearthfire (-5,545), Arboria (-5,653)
+Highest emigration: Meridia (-10,885,238), Dunland (-9,345,328), Fjordland (-7,719,477)
+
+--- Resource Warnings ---
+[WARNING] Zul'Gurub: Oil reserves low (2.7B barrels)
+[WARNING] Skara Brae: Oil reserves low (9.1B barrels)
+[WARNING] Kingdom of Light: Oil reserves low (3.2B barrels)

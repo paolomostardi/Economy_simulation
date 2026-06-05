@@ -470,17 +470,291 @@ government_revenue = GDP * (tax_rate / 100)
 effective_revenue = government_revenue * (1 - corruption / 100)
 ```
 
-**Budget Spending:**
+### Budget Allocation
 
-Each country allocates its effective revenue across budget categories:
+Each country allocates its effective revenue across five budget categories:
 
 * Military
-* Health care
+* Healthcare
 * Education
 * Research
 * Infrastructure
 
-The sum of all budget allocations cannot exceed effective revenue.
+**Spending Policy (4 Categories):**
+
+Budget allocation is determined by a `SpendingPolicy` that represents spending as 5 categories summing to 100%:
+
+```
+spending_policy = {
+    military: percentage,
+    healthcare: percentage,
+    education: percentage,
+    research: percentage,
+    infrastructure: percentage
+}
+```
+
+**Calculation Formula:**
+
+Each category starts with a 25% base allocation, then adjustments are applied:
+
+```
+military = 25 + random(-10, 10) + military_adjustment
+healthcare = 25 + random(-10, 10) + healthcare_adjustment
+education = 25 + random(-10, 10)
+research_and_infrastructure = 25 + random(-10, 10)
+```
+
+Then all values are normalized to sum to exactly 100%.
+
+**Democracy Index Effect (Military):**
+
+More democratic countries spend less on military; authoritarian states spend more.
+
+```
+democracy_factor = (100 - democracy_index) / 100
+military_adjustment = democracy_factor * 15
+
+where:
+- democracy_index ranges from 0 (totalitarian) to 100 (highly democratic)
+- military_adjustment ranges from -15 to +15 percentage points
+```
+
+**Age Distribution Effect (Healthcare):**
+
+Countries with older populations spend more on healthcare.
+
+```
+elderly_percentage = elderly_population / total_population
+healthcare_adjustment = elderly_percentage * 20
+
+where:
+- elderly_percentage ranges from 0.0 to 1.0
+- healthcare_adjustment ranges from 0 to +20 percentage points
+```
+
+**Random Factors:**
+
+Each country receives unique random variation (±10%) per category, creating natural diversity in spending priorities.
+
+**Absolute Spending:**
+
+Once the spending policy is determined, absolute spending amounts are calculated:
+
+```
+military_spending = effective_revenue * military_budget
+healthcare_spending = effective_revenue * healthcare_budget
+education_spending = effective_revenue * education_budget
+research_spending = effective_revenue * research_budget
+infrastructure_spending = effective_revenue * infrastructure_budget
+```
+
+**Yearly Updates:**
+
+The spending policy is recalculated each year based on current democracy index and age distribution, allowing spending priorities to shift as the country evolves.
+
+### Effects of Government Spending
+
+Government spending directly impacts multiple aspects of the country's development and stability. Effects are scaled relative to population and maximum GDP per capita to ensure fairness across countries of different sizes.
+
+**Normalization Constants:**
+
+```
+max_gdp_per_capita = 50,000 (reference maximum)
+spending_per_capita = spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+
+where:
+- spending_per_capita represents how much is spent per person
+- spending_efficiency normalizes spending relative to world reference
+- Larger countries need proportionally more spending for same effect
+```
+
+#### Healthcare Spending Effects
+
+Healthcare spending reduces mortality rates and increases life expectancy.
+
+**Mortality Rate Reduction:**
+
+```
+spending_per_capita = healthcare_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+healthcare_factor = 1.0 - (spending_efficiency * 0.3)
+
+where:
+- spending_efficiency ranges from 0 (no spending) to 1.0+ (high spending)
+- Each unit of spending_efficiency reduces mortality by up to 30%
+- healthcare_factor ranges from 0.7 (high spending) to 1.0 (no spending)
+
+adjusted_mortality_rate = base_mortality_rate * healthcare_factor
+```
+
+**Life Expectancy Improvement:**
+
+```
+life_expectancy_bonus = spending_efficiency * 2.5
+
+where:
+- Each unit of spending_efficiency adds up to 2.5 years to life expectancy
+```
+
+#### Education Spending Effects
+
+Education spending improves both cultural and technical education scores.
+
+**Education Score Improvement:**
+
+```
+spending_per_capita = education_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+education_improvement = (spending_efficiency * 5) + (technology_level / 100) * 0.5
+
+where:
+- Each unit of spending_efficiency improves education by 5 points
+- Technology level provides additional synergy (up to 0.5 bonus)
+- Both cultural_education and technical_education improve equally
+- Scores are capped at 100
+```
+
+#### Military Spending Effects
+
+Military spending improves national stability by increasing security and reducing internal unrest.
+
+**Stability Bonus:**
+
+```
+spending_per_capita = military_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+military_stability_bonus = spending_efficiency * 3
+
+where:
+- Each unit of spending_efficiency provides +3 stability points per year
+- This bonus is added to the stability change calculation
+```
+
+#### Infrastructure Spending Effects
+
+Infrastructure spending improves the efficiency of resource harvesting and industrial productivity across all sectors.
+
+**Resource Extraction Efficiency:**
+
+```
+spending_per_capita = infrastructure_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+infrastructure_efficiency = 1.0 + (spending_efficiency * 0.15)
+
+where:
+- Each unit of spending_efficiency increases extraction efficiency by 15%
+- Applies to all resource extraction (minerals, oil, gas, wood)
+- Extracted_resources *= infrastructure_efficiency
+```
+
+**Industry Productivity Multiplier:**
+
+```
+spending_per_capita = infrastructure_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+infrastructure_productivity_bonus = spending_efficiency * 0.10
+
+where:
+- Each unit of spending_efficiency adds 10% to base productivity
+- Applies to all industries: extraction, agriculture, manufacturing, technology
+- Affects the productivity multiplier used in industry output calculations
+```
+
+**Stability Bonus:**
+
+```
+spending_per_capita = infrastructure_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+infrastructure_stability_bonus = spending_efficiency * 3
+
+where:
+- Each unit of spending_efficiency provides +3 stability points per year
+- Infrastructure improves quality of life and public satisfaction
+```
+
+#### Research Spending Effects
+
+Research spending improves technology education and boosts productivity in technology-intensive sectors.
+
+**Technology Education Improvement:**
+
+```
+spending_per_capita = research_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+tech_education_improvement = spending_efficiency * 4
+
+where:
+- Each unit of spending_efficiency improves technical_education by 4 points
+- Capped at 100
+```
+
+**Technology Level Improvement:**
+
+```
+spending_per_capita = research_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+technology_improvement = (spending_efficiency * 2) + random(0, 0.5)
+
+where:
+- Each unit of spending_efficiency improves technology level by 2 points
+- Random variation (0-0.5) adds unpredictability to research outcomes
+- Capped at 100
+```
+
+**Sector Productivity Bonuses:**
+
+Research spending provides varying productivity boosts to different sectors:
+
+```
+spending_per_capita = research_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+
+technology_sector_bonus = spending_efficiency * 0.20
+agriculture_sector_bonus = spending_efficiency * 0.10
+manufacturing_sector_bonus = spending_efficiency * 0.05
+extraction_sector_bonus = spending_efficiency * 0.03
+
+where:
+- Technology sector receives the strongest boost (20% per unit efficiency)
+- Agriculture receives moderate boost (10% per unit efficiency)
+- Manufacturing receives smaller boost (5% per unit efficiency)
+- Extraction receives minimal boost (3% per unit efficiency)
+- These bonuses are applied to industry output calculations
+```
+
+#### Combined Spending Effects on Stability
+
+Multiple spending categories contribute to overall stability:
+
+```
+spending_per_capita_health = healthcare_spending / population
+spending_per_capita_edu = education_spending / population
+spending_per_capita_mil = military_spending / population
+spending_per_capita_infra = infrastructure_spending / population
+spending_per_capita_res = research_spending / population
+
+efficiency_health = spending_per_capita_health / max_gdp_per_capita
+efficiency_edu = spending_per_capita_edu / max_gdp_per_capita
+efficiency_mil = spending_per_capita_mil / max_gdp_per_capita
+efficiency_infra = spending_per_capita_infra / max_gdp_per_capita
+efficiency_res = spending_per_capita_res / max_gdp_per_capita
+
+total_spending_stability_bonus = (
+    efficiency_health * 5
+    + efficiency_edu * 2
+    + efficiency_mil * 3
+    + efficiency_infra * 3
+    + efficiency_res * 1
+)
+
+where:
+- Healthcare has the strongest stability impact (5 points per unit efficiency)
+- Military and infrastructure tied (3 points per unit efficiency)
+- Education provides moderate boost (2 points per unit efficiency)
+- Research provides minimal stability boost (1 point per unit efficiency)
+```
 
 ## GDP Per Capita
 

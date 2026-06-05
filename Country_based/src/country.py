@@ -73,7 +73,8 @@ class Country:
             self.stability,
             self.technology,
             self.corruption,
-            self.democracy_index
+            self.democracy_index,
+            self.population.age_groups
         )
         
         # Initial industry calculation
@@ -193,7 +194,7 @@ class Country:
             self.technology,
             self.corruption,
             self.democracy_index,
-            self.economy.budget,
+            self.population.age_groups,
             self.industries.agriculture_penalty,
             self.industries.resource_penalty
         )
