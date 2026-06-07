@@ -480,7 +480,7 @@ Each country allocates its effective revenue across five budget categories:
 * Research
 * Infrastructure
 
-**Spending Policy (4 Categories):**
+**Spending Policy (5 Categories):**
 
 Budget allocation is determined by a `SpendingPolicy` that represents spending as 5 categories summing to 100%:
 
@@ -499,13 +499,53 @@ spending_policy = {
 Each category starts with a 25% base allocation, then adjustments are applied:
 
 ```
-military = 25 + random(-10, 10) + military_adjustment
-healthcare = 25 + random(-10, 10) + healthcare_adjustment
-education = 25 + random(-10, 10)
-research_and_infrastructure = 25 + random(-10, 10)
+base_military = 25.0
+base_healthcare = 25.0
+base_education = 25.0
+base_research = 25.0
+base_infrastructure = 25.0
+
+random_military = uniform(-5, 5)
+random_healthcare = uniform(-5, 5)
+random_education = uniform(-5, 5)
+random_research = uniform(-5, 5)
+random_infrastructure = uniform(-5, 5)
+
+desired_military = base_military + random_military + military_adjustment
+desired_healthcare = base_healthcare + random_healthcare + healthcare_adjustment
+desired_education = base_education + random_education
+desired_research = base_research + random_research
+desired_infrastructure = base_infrastructure + random_infrastructure
 ```
 
-Then all values are normalized to sum to exactly 100%.
+Then normalize to sum to exactly 100%:
+
+```
+total = desired_military + desired_healthcare + desired_education + desired_research + desired_infrastructure
+
+normalized_military = (desired_military / total) * 100
+normalized_healthcare = (desired_healthcare / total) * 100
+normalized_education = (desired_education / total) * 100
+normalized_research = (desired_research / total) * 100
+normalized_infrastructure = (desired_infrastructure / total) * 100
+```
+
+**Policy Inertia (Gradual Changes):**
+
+To prevent spending priorities from changing too drastically year-to-year, apply inertia to smooth transitions:
+
+```
+new_military = 0.8 * old_military + 0.2 * normalized_military
+new_healthcare = 0.8 * old_healthcare + 0.2 * normalized_healthcare
+new_education = 0.8 * old_education + 0.2 * normalized_education
+new_research = 0.8 * old_research + 0.2 * normalized_research
+new_infrastructure = 0.8 * old_infrastructure + 0.2 * normalized_infrastructure
+
+where:
+- 0.8 weight on old policy maintains continuity
+- 0.2 weight on desired policy allows gradual adaptation
+- Real governments change spending priorities slowly, not abruptly
+```
 
 **Democracy Index Effect (Military):**
 
@@ -572,19 +612,23 @@ where:
 
 #### Healthcare Spending Effects
 
-Healthcare spending reduces mortality rates and increases life expectancy.
+Healthcare spending reduces mortality rates and increases life expectancy using diminishing returns.
 
 **Mortality Rate Reduction:**
 
 ```
 spending_per_capita = healthcare_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
-healthcare_factor = 1.0 - (spending_efficiency * 0.3)
+
+healthcare_factor = 1.0 - (0.35 * (1 - exp(-2.0 * spending_efficiency)))
 
 where:
 - spending_efficiency ranges from 0 (no spending) to 1.0+ (high spending)
-- Each unit of spending_efficiency reduces mortality by up to 30%
-- healthcare_factor ranges from 0.7 (high spending) to 1.0 (no spending)
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: healthcare_factor = 1.0 (no reduction)
+- At spending_efficiency = 0.5: healthcare_factor ≈ 0.72 (28% reduction)
+- At spending_efficiency = 1.0: healthcare_factor ≈ 0.65 (35% reduction, asymptotic)
+- At spending_efficiency = 2.0: healthcare_factor ≈ 0.65 (35% reduction, asymptotic)
 
 adjusted_mortality_rate = base_mortality_rate * healthcare_factor
 ```
@@ -592,25 +636,37 @@ adjusted_mortality_rate = base_mortality_rate * healthcare_factor
 **Life Expectancy Improvement:**
 
 ```
-life_expectancy_bonus = spending_efficiency * 2.5
+spending_per_capita = healthcare_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+
+life_expectancy_bonus = 5.0 * (1 - exp(-1.5 * spending_efficiency))
 
 where:
-- Each unit of spending_efficiency adds up to 2.5 years to life expectancy
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: bonus = 0 years
+- At spending_efficiency = 0.5: bonus ≈ 2.4 years
+- At spending_efficiency = 1.0: bonus ≈ 3.8 years
+- At spending_efficiency = 2.0: bonus ≈ 4.8 years (asymptotic to 5 years)
 ```
 
 #### Education Spending Effects
 
-Education spending improves both cultural and technical education scores.
+Education spending improves both cultural and technical education scores using diminishing returns.
 
 **Education Score Improvement:**
 
 ```
 spending_per_capita = education_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
-education_improvement = (spending_efficiency * 5) + (technology_level / 100) * 0.5
+
+education_improvement = (8.0 * (1 - exp(-1.2 * spending_efficiency))) + (technology_level / 100) * 0.5
 
 where:
-- Each unit of spending_efficiency improves education by 5 points
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: improvement = 0 points
+- At spending_efficiency = 0.5: improvement ≈ 3.2 points
+- At spending_efficiency = 1.0: improvement ≈ 5.1 points
+- At spending_efficiency = 2.0: improvement ≈ 7.2 points (asymptotic to 8)
 - Technology level provides additional synergy (up to 0.5 bonus)
 - Both cultural_education and technical_education improve equally
 - Scores are capped at 100
@@ -618,33 +674,43 @@ where:
 
 #### Military Spending Effects
 
-Military spending improves national stability by increasing security and reducing internal unrest.
+Military spending improves national stability by increasing security and reducing internal unrest using diminishing returns.
 
 **Stability Bonus:**
 
 ```
 spending_per_capita = military_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
-military_stability_bonus = spending_efficiency * 3
+
+military_stability_bonus = 5.0 * (1 - exp(-1.0 * spending_efficiency))
 
 where:
-- Each unit of spending_efficiency provides +3 stability points per year
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: bonus = 0 points
+- At spending_efficiency = 0.5: bonus ≈ 2.1 points
+- At spending_efficiency = 1.0: bonus ≈ 3.2 points
+- At spending_efficiency = 2.0: bonus ≈ 4.3 points (asymptotic to 5)
 - This bonus is added to the stability change calculation
 ```
 
 #### Infrastructure Spending Effects
 
-Infrastructure spending improves the efficiency of resource harvesting and industrial productivity across all sectors.
+Infrastructure spending improves the efficiency of resource harvesting and industrial productivity across all sectors using diminishing returns.
 
 **Resource Extraction Efficiency:**
 
 ```
 spending_per_capita = infrastructure_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
-infrastructure_efficiency = 1.0 + (spending_efficiency * 0.15)
+
+infrastructure_efficiency = 1.0 + (0.25 * (1 - exp(-1.5 * spending_efficiency)))
 
 where:
-- Each unit of spending_efficiency increases extraction efficiency by 15%
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: efficiency = 1.0 (no boost)
+- At spending_efficiency = 0.5: efficiency ≈ 1.08 (8% boost)
+- At spending_efficiency = 1.0: efficiency ≈ 1.14 (14% boost)
+- At spending_efficiency = 2.0: efficiency ≈ 1.22 (22% boost, asymptotic to 25%)
 - Applies to all resource extraction (minerals, oil, gas, wood)
 - Extracted_resources *= infrastructure_efficiency
 ```
@@ -654,10 +720,15 @@ where:
 ```
 spending_per_capita = infrastructure_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
-infrastructure_productivity_bonus = spending_efficiency * 0.10
+
+infrastructure_productivity_bonus = 0.20 * (1 - exp(-1.2 * spending_efficiency))
 
 where:
-- Each unit of spending_efficiency adds 10% to base productivity
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: bonus = 0
+- At spending_efficiency = 0.5: bonus ≈ 0.06 (6% boost)
+- At spending_efficiency = 1.0: bonus ≈ 0.11 (11% boost)
+- At spending_efficiency = 2.0: bonus ≈ 0.18 (18% boost, asymptotic to 20%)
 - Applies to all industries: extraction, agriculture, manufacturing, technology
 - Affects the productivity multiplier used in industry output calculations
 ```
@@ -667,26 +738,36 @@ where:
 ```
 spending_per_capita = infrastructure_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
-infrastructure_stability_bonus = spending_efficiency * 3
+
+infrastructure_stability_bonus = 5.0 * (1 - exp(-1.0 * spending_efficiency))
 
 where:
-- Each unit of spending_efficiency provides +3 stability points per year
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: bonus = 0 points
+- At spending_efficiency = 0.5: bonus ≈ 2.1 points
+- At spending_efficiency = 1.0: bonus ≈ 3.2 points
+- At spending_efficiency = 2.0: bonus ≈ 4.3 points (asymptotic to 5)
 - Infrastructure improves quality of life and public satisfaction
 ```
 
 #### Research Spending Effects
 
-Research spending improves technology education and boosts productivity in technology-intensive sectors.
+Research spending improves technology education and boosts productivity in technology-intensive sectors using diminishing returns.
 
 **Technology Education Improvement:**
 
 ```
 spending_per_capita = research_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
-tech_education_improvement = spending_efficiency * 4
+
+tech_education_improvement = 7.0 * (1 - exp(-1.3 * spending_efficiency))
 
 where:
-- Each unit of spending_efficiency improves technical_education by 4 points
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: improvement = 0 points
+- At spending_efficiency = 0.5: improvement ≈ 2.8 points
+- At spending_efficiency = 1.0: improvement ≈ 4.4 points
+- At spending_efficiency = 2.0: improvement ≈ 6.3 points (asymptotic to 7)
 - Capped at 100
 ```
 
@@ -695,38 +776,44 @@ where:
 ```
 spending_per_capita = research_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
-technology_improvement = (spending_efficiency * 2) + random(0, 0.5)
+
+technology_improvement = (5.0 * (1 - exp(-1.0 * spending_efficiency))) + random(0, 0.5)
 
 where:
-- Each unit of spending_efficiency improves technology level by 2 points
+- Uses exponential function for diminishing returns
+- At spending_efficiency = 0: improvement = 0 points
+- At spending_efficiency = 0.5: improvement ≈ 2.1 points
+- At spending_efficiency = 1.0: improvement ≈ 3.2 points
+- At spending_efficiency = 2.0: improvement ≈ 4.3 points (asymptotic to 5)
 - Random variation (0-0.5) adds unpredictability to research outcomes
 - Capped at 100
 ```
 
 **Sector Productivity Bonuses:**
 
-Research spending provides varying productivity boosts to different sectors:
+Research spending provides varying productivity boosts to different sectors with diminishing returns:
 
 ```
 spending_per_capita = research_spending / population
 spending_efficiency = spending_per_capita / max_gdp_per_capita
 
-technology_sector_bonus = spending_efficiency * 0.20
-agriculture_sector_bonus = spending_efficiency * 0.10
-manufacturing_sector_bonus = spending_efficiency * 0.05
-extraction_sector_bonus = spending_efficiency * 0.03
+technology_sector_bonus = 0.30 * (1 - exp(-1.2 * spending_efficiency))
+agriculture_sector_bonus = 0.15 * (1 - exp(-1.2 * spending_efficiency))
+manufacturing_sector_bonus = 0.08 * (1 - exp(-1.2 * spending_efficiency))
+extraction_sector_bonus = 0.05 * (1 - exp(-1.2 * spending_efficiency))
 
 where:
-- Technology sector receives the strongest boost (20% per unit efficiency)
-- Agriculture receives moderate boost (10% per unit efficiency)
-- Manufacturing receives smaller boost (5% per unit efficiency)
-- Extraction receives minimal boost (3% per unit efficiency)
+- Technology sector receives the strongest boost (asymptotic to 30%)
+- Agriculture receives moderate boost (asymptotic to 15%)
+- Manufacturing receives smaller boost (asymptotic to 8%)
+- Extraction receives minimal boost (asymptotic to 5%)
+- All use exponential diminishing returns
 - These bonuses are applied to industry output calculations
 ```
 
 #### Combined Spending Effects on Stability
 
-Multiple spending categories contribute to overall stability:
+Multiple spending categories contribute to overall stability using diminishing returns:
 
 ```
 spending_per_capita_health = healthcare_spending / population
@@ -742,18 +829,19 @@ efficiency_infra = spending_per_capita_infra / max_gdp_per_capita
 efficiency_res = spending_per_capita_res / max_gdp_per_capita
 
 total_spending_stability_bonus = (
-    efficiency_health * 5
-    + efficiency_edu * 2
-    + efficiency_mil * 3
-    + efficiency_infra * 3
-    + efficiency_res * 1
+    6.0 * (1 - exp(-1.0 * efficiency_health))
+    + 3.0 * (1 - exp(-1.0 * efficiency_edu))
+    + 5.0 * (1 - exp(-1.0 * efficiency_mil))
+    + 5.0 * (1 - exp(-1.0 * efficiency_infra))
+    + 2.0 * (1 - exp(-1.0 * efficiency_res))
 )
 
 where:
-- Healthcare has the strongest stability impact (5 points per unit efficiency)
-- Military and infrastructure tied (3 points per unit efficiency)
-- Education provides moderate boost (2 points per unit efficiency)
-- Research provides minimal stability boost (1 point per unit efficiency)
+- Healthcare has the strongest stability impact (asymptotic to 6 points)
+- Military and infrastructure tied (asymptotic to 5 points each)
+- Education provides moderate boost (asymptotic to 3 points)
+- Research provides minimal stability boost (asymptotic to 2 points)
+- All use exponential diminishing returns for realistic scaling
 ```
 
 ## GDP Per Capita
@@ -1346,3 +1434,5 @@ birth_rate,death_rate,inflation,resource_reserve_index
 * Include comments explaining major systems.
 
 The goal is not realism, but an interesting emergent simulation with believable economic behavior.
+
+
