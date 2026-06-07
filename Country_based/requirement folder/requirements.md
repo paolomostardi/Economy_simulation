@@ -436,7 +436,7 @@ Each country has:
 * GDP growth rate
 * Inflation
 * Government revenue
-* Tax rate (random percentage from 10 to 50)
+* Tax rate
 
 ### GDP Growth Rate
 
@@ -462,6 +462,67 @@ This represents the actual percentage change in GDP from the previous year to th
 * Market prices
 
 The growth rate is then calculated from the resulting GDP change.
+
+### Tax Rate
+
+**Tax Rate Distribution:**
+
+Tax rate is a random number from 0 to 1 (0% to 100%) with a normal distribution where:
+- 0.20 (20%) is the most likely
+- 0.40 (40%) is as likely as 0.00 (0%)
+- 0.60 (60%) is half as likely as 0.40 (40%)
+
+**Tax Society Characteristics:**
+
+**Low Tax Society:**
+- Strong private investment
+- Fast business growth
+- Weaker public services
+
+**High Tax Society:**
+- Strong public services
+- Better education
+- Better healthcare
+- Less private investment
+
+**Tax Calculations:**
+
+```
+government_revenue = GDP * tax_rate
+
+private_capital = GDP * (1 - tax_rate)
+
+tax_compliance = 1 - (tax_rate / 100) ** 2
+
+actual_revenue = expected_revenue * tax_compliance
+
+private_investment = GDP * (1 - tax_rate / 100)
+```
+
+**Effects on Productivity and Growth:**
+
+```
+private_capital_factor = private_capital / GDP
+
+productivity *= (0.8 + private_capital_factor)
+
+technology_growth += private_capital_factor
+
+happiness -= tax_rate * 0.1
+```
+
+**Impact on Industries:**
+
+Private capital affects:
+- Manufacturing productivity
+- Technology productivity
+- GDP growth
+
+Tax revenue affects:
+- Healthcare spending
+- Education spending
+- Research spending
+- Infrastructure spending
 
 Government revenue is proportional to tax rate, but reduced by corruption:
 
