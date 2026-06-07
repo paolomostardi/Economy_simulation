@@ -19,6 +19,7 @@ Rivendell
 Stormhold
 Terranova
 Umberia
+PAESE DI IDIOTI
 Valoria
 Westmarch
 Xylos
@@ -47,6 +48,7 @@ Thunder Bay
 Undermountain
 Verdant Plains
 Winterfell
+NOMEBELLO
 Xenon
 Yonderland
 Zenith
@@ -97,8 +99,14 @@ Rapture
 Skara Brae
 Terra
 Underdark
+SUCUSU
 Vanaheim
 Wyrmrest
 Xerxes
 Yggdrasil's Root
 Zul'Gurub
+PAOLOINO
+PAOLONE
+CIAONE
+CULETTO
+MACROIDIOT
