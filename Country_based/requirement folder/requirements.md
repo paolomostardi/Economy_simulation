@@ -220,9 +220,9 @@ Lower age_factor results in:
 
 Each country has:
 
-* Birth rate (random percentage)
-* Immigration rate (random percentage)
-* Emigration rate (random percentage)
+* Birth rate 
+* Immigration rate 
+* Emigration rate 
 
 **Formula reference:**
 
@@ -313,6 +313,29 @@ Higher health care spending and technology reduce mortality.
 
 Lower stability increases mortality.
 
+**Mortality Rate Calculation:**
+
+```
+spending_per_capita = healthcare_spending / population
+spending_efficiency = spending_per_capita / max_gdp_per_capita
+
+healthcare_factor = 1.0 - (0.35 * (1 - exp(-2.0 * spending_efficiency)))
+technology_factor = 1.0 - (technology / 100) * 0.2
+stability_factor = 1.0 + ((100 - stability) / 100) * 0.3
+water_factor = 1.0 + (1 - fresh_water_availability) * 0.15
+
+mortality_rate = base_mortality_rate * healthcare_factor * technology_factor * stability_factor * water_factor
+
+where:
+- base_mortality_rate is the age-specific base rate (see above ranges)
+- healthcare_factor ranges from 0.65 (high spending) to 1.0 (no spending)
+- technology_factor ranges from 0.8 (high tech) to 1.0 (no tech)
+- stability_factor ranges from 1.0 (high stability) to 1.3 (low stability)
+- water_factor ranges from 1.0 (abundant water) to 1.15 (scarce water)
+- fresh_water_availability ranges from 0.0 (none) to 1.0 (abundant)
+- Final mortality_rate is clamped to realistic bounds
+```
+
 **Yearly update:**
 
 ```
@@ -335,7 +358,28 @@ The disparity factor determines:
 * percentage of population in each class
 * percentage of wealth owned by each class
 
-Higher inequality should increase instability over time.
+**Inequality Instability Effect (Cumulative):**
+
+Higher inequality increases instability over time. This effect is cumulative, meaning inequality builds up instability pressure that persists even if inequality improves.
+
+```
+inequality_instability_pressure = inequality_factor * 8.0
+
+cumulative_inequality_pressure = (
+    0.9 * previous_cumulative_pressure
+    + 0.1 * inequality_instability_pressure
+)
+
+stability_penalty_from_inequality = cumulative_inequality_pressure * 0.5
+
+where:
+- inequality_factor ranges from 0.0 (perfect equality) to 1.0 (extreme inequality)
+- inequality_instability_pressure ranges from 0 to 8 points
+- cumulative_inequality_pressure builds up over time (90% retained, 10% new)
+- stability_penalty_from_inequality reduces stability change each year
+- High inequality (0.8+) can cause significant instability pressure over time
+- Reducing inequality slowly reduces cumulative pressure (0.9 retention factor)
+```
 
 ### Education
 
@@ -357,7 +401,31 @@ The education system type influences the cost and accessibility of education.
 
 ## Area
 
-Generate a total land area in square kilometers. The area should be related to total population, so a country with higher population is also more likely to be larger. The population shoould define a range of size. 
+Generate a total land area in square kilometers. The area should be related to total population, so a country with higher population is also more likely to be larger. The population should define a range of size.
+
+**Formula reference:**
+
+```
+population_density_factor = population / 1,000,000
+
+min_area = 10,000 + (population_density_factor * 5,000)
+max_area = 50,000 + (population_density_factor * 50,000)
+
+area = random_uniform(min_area, max_area)
+
+where:
+- population is the total population count
+- population_density_factor scales with population size
+- min_area provides a baseline minimum size (10,000 km² for small countries)
+- max_area scales with population (up to 500,000+ km² for large countries)
+- random_uniform(a, b) returns a random value between a and b
+- Result is in square kilometers
+
+Examples:
+- Population 1M: area = random(15,000 to 100,000) km²
+- Population 10M: area = random(60,000 to 550,000) km²
+- Population 100M: area = random(510,000 to 5,050,000) km²
+``` 
 
 ---
 
@@ -939,12 +1007,22 @@ Initial unemployment is influenced by:
 **Formula reference:**
 
 ```
-unemployment_rate = random_uniform(2, 25)
+base_unemployment = random_uniform(2, 25)
 
-Adjusted by:
-+ low stability
-+ low education
-+ low GDP per capita
+stability_penalty = (100 - stability) / 100 * 5
+education_penalty = (100 - education_score) / 100 * 3
+gdp_penalty = (1 - gdp_per_capita / max_gdp_per_capita) * 4
+tech_benefit = technology / 100 * 3
+
+unemployment_rate = base_unemployment + stability_penalty + education_penalty + gdp_penalty - tech_benefit
+
+where:
+- stability ranges from 0 to 100
+- education_score is the average of technical and cultural education (0-100)
+- gdp_per_capita = GDP / Population
+- max_gdp_per_capita = reference maximum (e.g., 50,000)
+- technology ranges from 0 to 100
+- Final unemployment_rate is clamped between 0 and 40
 ```
 
 Higher unemployment reduces:
