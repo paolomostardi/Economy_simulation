@@ -973,6 +973,99 @@ where:
 - All use exponential diminishing returns for realistic scaling
 ```
 
+## Happiness
+
+Each country has a happiness score from 0 to 100, representing the overall well-being and satisfaction of its population.
+
+Happiness is determined by:
+
+* GDP per capita (economic prosperity)
+* Healthcare spending (health outcomes)
+* Education spending (quality of life)
+* Stability (security and order)
+* Unemployment rate (job security)
+* Inequality (fairness and opportunity)
+* Infrastructure (quality of life)
+* Fresh water availability (basic needs)
+* Democracy index (freedom and rights)
+
+**Formula reference:**
+
+```
+# Economic prosperity factor
+gdp_factor = 15.0 * (1 - exp(-1.5 * (gdp_per_capita / max_gdp_per_capita)))
+
+# Healthcare factor (from spending effects)
+spending_per_capita_health = healthcare_spending / population
+efficiency_health = spending_per_capita_health / max_gdp_per_capita
+healthcare_factor = 10.0 * (1 - exp(-2.0 * efficiency_health))
+
+# Education factor (from spending effects)
+spending_per_capita_edu = education_spending / population
+efficiency_edu = spending_per_capita_edu / max_gdp_per_capita
+education_factor = 8.0 * (1 - exp(-1.2 * efficiency_edu))
+
+# Stability factor
+stability_factor = (stability / 100) * 12.0
+
+# Unemployment penalty
+unemployment_penalty = (unemployment_rate / 40) * 10.0
+
+# Inequality penalty
+inequality_penalty = inequality_factor * 15.0
+
+# Infrastructure factor
+spending_per_capita_infra = infrastructure_spending / population
+efficiency_infra = spending_per_capita_infra / max_gdp_per_capita
+infrastructure_factor = 8.0 * (1 - exp(-1.2 * efficiency_infra))
+
+# Water availability factor
+water_factor = fresh_water_availability * 6.0
+
+# Democracy factor
+democracy_factor = (democracy_index / 100) * 8.0
+
+# Base happiness
+base_happiness = 50.0
+
+# Calculate total happiness
+happiness = base_happiness
+    + gdp_factor
+    + healthcare_factor
+    + education_factor
+    + stability_factor
+    - unemployment_penalty
+    - inequality_penalty
+    + infrastructure_factor
+    + water_factor
+    + democracy_factor
+
+where:
+- gdp_per_capita = GDP / Population
+- max_gdp_per_capita = reference maximum (e.g., 50,000)
+- All spending factors use diminishing returns
+- unemployment_rate ranges from 0 to 40
+- inequality_factor ranges from 0.0 to 1.0
+- fresh_water_availability ranges from 0.0 to 1.0
+- democracy_index ranges from 0 to 100
+- Final happiness is clamped between 0 and 100
+```
+
+**Happiness Ranges:**
+
+* 0-20: Extremely unhappy (potential for revolution)
+* 20-40: Very unhappy (high emigration, instability)
+* 40-60: Moderately happy (stable but discontent)
+* 60-80: Happy (stable, moderate immigration)
+* 80-100: Very happy (high immigration, strong stability)
+
+**Effects of Happiness:**
+
+* High happiness increases immigration and stability
+* Low happiness increases emigration and instability
+* Happiness affects birth rates (happy populations tend to have more children)
+* Happiness influences productivity (happy workers are more productive)
+
 ## GDP Per Capita
 
 Each country has:
